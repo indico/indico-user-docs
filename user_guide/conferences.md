@@ -35,7 +35,7 @@ The creator of this conference will by default have modification rights to it an
 
 Remember that the category in which you want to create your conference must be public or you must have access rights to it.
 
-To access the Management Area of a conference you need to click on the modification icon ![image7](UserGuidePics/conf2.png) in the top bar of the event home page.
+To access the Management Area of a conference you need to click on the modification icon ![image7](img/conf2.png) in the top bar of the event home page.
 
 ------------------------------------------------------------------------
 
@@ -68,7 +68,7 @@ Clicking on the link *Switch to event page* to the top right of the page will ta
 
 From the option General Settings in the left menu you can:
 
-![image10](UserGuidePics/confm3.png)
+![image10](img/confm3.png)
 
 -   **Title**: Title of the conference .
 -   **Description** : The description that will appear on the event page .
@@ -78,7 +78,7 @@ From the option General Settings in the left menu you can:
 -   **Additional info** : Additional information that will appear on the event page overview.
 -   **Support** : Modify the support email along with the caption. This will change the support email link located at the bottom of the menu that is displayed on the home page of the conference [(see Conference Display)](#conference-display-area). You can specify more than one email address for the support. Just make sure of separating each of the addresses by a comma (",").
 
-![image11](UserGuidePics/confm4.png)
+![image11](img/confm4.png)
 
 -   **Default style** : Choose the default layout style for the timetable.
 -   **Visibility**: This changes the visibility of the event in the events overview. If you choose everywhere, the event will be visible eveywhere. Choosing a category will make it visible only in the category's events overview. Choosing nowhere means that the event won't be visible in any events overview, see category\_overview .
@@ -95,11 +95,11 @@ From the option General Settings in the left menu you can:
 
 You can organise your conference from the Timetable tab in the conferece management area. When you start with a timetable it will look like this:
 
-![image38](UserGuidePics/confm20.png)
+![image38](img/confm20.png)
 
 You can modify the start and end dates of the timetable, and you can start adding sessions, breaks, and contributions to your timetable.
 
-![image39](UserGuidePics/confm21.png)
+![image39](img/confm21.png)
 
 In order to edit the entries in the timetable, you just need to click on the entry box and edition balloon will show up.
 
@@ -116,11 +116,11 @@ To create a new session, click on *Add new* and *Session* at the top right of th
 
 -   Create a new session: You will need to give it a title, choose the duration and a date and time. You can then complete the following criteria (optional): you can add a description, change the location, add conveners etc.
 
-![image116](UserGuidePics/addNewSession.png)
+![image116](img/addNewSession.png)
 
 -   Add another block to: You can choose to add another block to an already existing session. You will first need to choose to what session you want to add a block. You can then choose the time, date, location, add a convener, etc. This means the same session will be happening in different time intervals. For example, you can have a morning interval, then a break, then an afternoon interval within the same session. Another example is having a session on a particular subject one day, and on another subject a few days later.
 
-![image117](UserGuidePics/addBlockSession.png)
+![image117](img/addBlockSession.png)
 
 ##### Session Blocks
 
@@ -134,7 +134,7 @@ However, this is optional, blocks can be used when the session takes place over 
 
 To add a break to your timetable, use the menu *Add new* -&gt; *Break* at the top right of the timetable. You will be presented with a form where you can modify the name, description, date and time of the break. You can also modify the address where the break will take place and the color in which it will appear in the timetable. Once the break is created it will appear in your timetable.
 
-![image40](UserGuidePics/sessform.png)
+![image40](img/sessform.png)
 
 In order to modify your breaks, you need to click on the entry and an edition balloon will be displayed. Click on Edit to access the edit menu. By doing so, you can edit all the informations entered in the form when you created the break. If you quickly want to modify the duration or location of the break, click on the pencil to the right of **Duration**, **Room** and **Location**. You can also click on *Move* in the edition balloon. From this option, you can choose to move the break, inside a session or to another day.
 
@@ -148,11 +148,11 @@ To add a contribution to your timetable use the option *Add new* &gt; *Contribut
 
 1. If there are already some unscheduled contributions [(see Contributions Management)](#contributions-management), Indico will show a list of the contributions in which you select the one(s) you want to add. You can also choose to create a new one.
 
-![image41](UserGuidePics/confm22.png)
+![image41](img/confm22.png)
 
 2. If there are no unscheduled contributions, a form for the creation of a new contribution will appear.
 
-![image42](UserGuidePics/confm23.png)
+![image42](img/confm23.png)
 
 If you choose to delete a contribution and this contribution has been created/added from the *Contributions* option on the left menu, then it will be deleted from the timetable, but will remain in the contributions list under the *Contributions* option.
 
@@ -166,7 +166,7 @@ Click on the entry in the timetable, an edition balloon will show up. You then n
 
 You can access the Management area for a session from the edition balloon (this is the balloon that appears when clicking on the entry), by clicking *Edit* &gt; *Session properties*.
 
-![image97](UserGuidePics/confsm01.png)
+![image97](img/confsm01.png)
 
 This new page will allow to modify everything within that Session. You will see different tabs from which you can:
 
@@ -177,7 +177,7 @@ This new page will allow to modify everything within that Session. You will see 
 -   Attach files.
 -   Set its protection and the coordinators (people with rights to schedule talks).
 
-![image98](UserGuidePics/confsm02.png)
+![image98](img/confsm02.png)
 
 To edit a session, click on its entry in the timetable and an edition balloon will show up. From this, you can add a new block to the session (which you can also do by clicking on *Add new* -&gt; *session* -&gt; *Add another block to*). You can delete the session, but please note that if you do so, it will not remain anywhere else, unlike contributions. You will however be asked to confirm deletion first. From the edition balloon still, you can change the color of the entry in the timetable, or change the duration and location of the session by clicking on the pencil to the right of **Duration**, **Room**, **Location**. By clicking on *Edit* in the edition balloon, you have three options that appear.
 
@@ -231,15 +231,15 @@ Inside sessions, you can create new contributions from the timetable or add unsc
 
 To add contributions to a session you first need to import them from the main conference. To do so, use the *Contribution* tab inside the session:
 
-![image46](UserGuidePics/confm26.png)
+![image46](img/confm26.png)
 
 Click on *import contributions*, this will take you to a screen where you can select the contributions you want to include in your session.
 
-![image47](UserGuidePics/confm27.png)
+![image47](img/confm27.png)
 
 Once you have selected the contributions they will appear inside the Contributions tab in the session. You can then use the option *Add new* &gt; *Contribution* from the Session timetable and select from the contributions you imported. When you have added a contribution to your session timetable you can edit the times, duration, room and location by clicking on the contribution box.
 
-![image48](UserGuidePics/confm28.png)
+![image48](img/confm28.png)
 
 ------------------------------------------------------------------------
 
@@ -247,7 +247,7 @@ Once you have selected the contributions they will appear inside the Contributio
 
 If there are rooms booked for the conference they will be shown at the top of a selection list during creating/editing sessions, slots, breaks and contributions. If the name of the booked room is green, it means it is not used in any other event in the current conference. Otherwise the name will turn red and information about event using this room will be shown while pointing this name.
 
-![image101](UserGuidePics/confrb1.png)
+![image101](img/confrb1.png)
 
 ------------------------------------------------------------------------
 
@@ -259,11 +259,11 @@ Step 1: Choose the type of rescheduling you want
 
 -   Adjust time of all entries will move all the entries in the specific days by changing their **starting times**. The first entry will start when the event starts and the other will follow consecutively after it. The durations will not be changed.
 
-![image114](UserGuidePics/adjustStartTime.png)
+![image114](img/adjustStartTime.png)
 
 -   Adjust **duration** of all entries will adjust the duration of the entries of the selected day to fill the gaps between them, so that their starting times don’t change. If a gap time is specifies, the duration will be extended up to the value of this time gap before the starting time of the next entry.
 
-![image115](UserGuidePics/adjustDuration.png)
+![image115](img/adjustDuration.png)
 
 Step 2: Choose the time gap between entries
 
@@ -283,7 +283,7 @@ You may also manipulate existing entries in the timetable by interacting with th
 
 By clicking on the desired contribution, break or session slot and dragging it around the timetable area, you will notice that the selected item moves with your pointer whilst showing where the new start time will be once the movement ends.
 
-![image151](UserGuidePics/tt_changetime.png)
+![image151](img/tt_changetime.png)
 
 *The proposed new start time of the item item is displayed to the left whilst dragging it.*
 
@@ -301,13 +301,13 @@ For example, if you were to drag an contribution starting at 10:00 to start an h
 
 Positioning your pointer at the lower edge of any contribution, break or session item will display the resizing cursor, clicking here and dragging the line in an upward or downward direction will alter the end time by decreasing or increasing the item's duration respectively.
 
-![image152](UserGuidePics/tt_changeend.png)
+![image152](img/tt_changeend.png)
 
 ##### Moving a Contribution or Break into a Session
 
 It is possible to move a contribution or a break into a session slot by simply dragging the contribution/break in question over the session slow into which it is desired to go.
 
-![image153](UserGuidePics/tt_contribintosession.png)
+![image153](img/tt_contribintosession.png)
 
 Once the contribution/break is over the session slot, the contribution's (break's) size will change to indicate that it may be moved into the session slot designated. Simply releasing the mouse button will commit the action and perform the move.
 
@@ -315,7 +315,7 @@ Once the contribution/break is over the session slot, the contribution's (break'
 
 As all interactions performed via the drag and drop interface are instantly written to Indico, the facility exists to Undo any incorrect action simply by pressing the Undo last operation button which appears at the top of the timetable following any such action.
 
-![image154](UserGuidePics/tt_undo.png)
+![image154](img/tt_undo.png)
 
 Upon clicking this button, the previous action will be totally reversed and you may proceed to continue with the originally intended action.
 
@@ -327,7 +327,7 @@ Upon clicking this button, the previous action will be totally reversed and you 
 
 This is where you upload and manage the material attached to the conference. The material can be minutes, papers, posters, slides, etc. You can control the access protection of the material by choosing it to be public, private or inheriting (see access\_control).
 
-![image136](UserGuidePics/conferenceMaterial.png)
+![image136](img/conferenceMaterial.png)
 
 ------------------------------------------------------------------------
 
@@ -335,7 +335,7 @@ This is where you upload and manage the material attached to the conference. The
 
 From the *programme* option (on the left menu) you can add/remove tracks and access each of them by clicking on their name.
 
-![image12](UserGuidePics/confm5.png)
+![image12](img/confm5.png)
 
 Tracks are parts of the conference to which abstracts and contributions can belong. For more on tracks, see indico\_glossary (section about tracks).
 
@@ -345,19 +345,19 @@ Inside tracks you can do the following:
     -   Modify the Code: a code can be used if you prefer to use codes as opposed to long titles. These codes will be used in listings for contributions and abstracts.
     -   Modify the Title and the Description of the track.
 
-![image13](UserGuidePics/confm6.png)
+![image13](img/confm6.png)
 
 -   Coordination Control: Assign Track Manager(s) who can propose what is accepted into their Track. Track Managers do not have modification access to the rest of the conference, they only have access to the modification of their Track, see track\_coordinators\_guide
 
-![image14](UserGuidePics/confm7.png)
+![image14](img/confm7.png)
 
 -   Abstracts: Show any abstracts which have been submitted to the Track, the Track Manager can then propose to accept or reject it. Only the Conference Manager can have the final say in whether an abstract is accepted or rejected [(see Abstracts Management)](#abstracts-management).
 
-![image105](UserGuidePics/trackAbstracts.png)
+![image105](img/trackAbstracts.png)
 
 -   Contributions: Show any contributions that belong to the Track [(see Contributions Management)](#contributions-management).
 
-![image106](UserGuidePics/trackContributions.png)
+![image106](img/trackContributions.png)
 
 ------------------------------------------------------------------------
 
@@ -371,7 +371,7 @@ These are the steps in the registration process:
 
 2. The registrants apply for participation. To do so, they fill in a form that is found on the event’s page.
 
-![image118](UserGuidePics/regform-link.png)
+![image118](img/regform-link.png)
 
 This form is set by the conference manager (see below). He can choose all the options that will be available to registrants, such as social events, accommodation etc. The conference manager will have the option to make certain events billable (such as lunches, expeditions organized within the conference etc.) and then to enable the e-payment. E-payment can be enabled in the *Registration* option in the left menu, under the tab *e-payment* (see epayment).
 
@@ -379,7 +379,7 @@ This form is set by the conference manager (see below). He can choose all the op
 
 4. Once the list of participants has been established, Indico automatically generates printable badges for each participants. The conference manager can customize them by going to the tab *Registrants*, selecting registrants and then clicking on *Print badges* (see registrants, section *Print badges*), sending emails, exporting to excel, pdf, etc.
 
-![image138](UserGuidePics/registration2.png)
+![image138](img/registration2.png)
 
 ------------------------------------------------------------------------
 
@@ -395,7 +395,7 @@ From the Setup tab you can control the main features of the registration form: e
 
 The last part of this tab is *Custom statuses*. This is the status of the registrant; you can add or delete statuses.
 
-![image51](UserGuidePics/regform-setup.png)
+![image51](img/regform-setup.png)
 
 Here is an exhaustive list of the parameters that can be configured:
 
@@ -417,43 +417,43 @@ Here is an exhaustive list of the parameters that can be configured:
 
 Within this tab resides all edition capabilities of the registration form content. You will be presented with an interactive editor of the registration form. Whatever change you make on it, it will be instantly saved.
 
-![image167](UserGuidePics/regform-edit.png)
+![image167](img/regform-edit.png)
 
 The registration form is organized in *sections*. Each one is an essential part of the registration form, and it may contain several *fields* to be filled in by the user later on. The edition view allows you to edit, disable, recover and sort sections, create new ones, and delete them. Also, they can be expanded and collapsed to have a more comfortable view.
 
 The first thing you will find above the sections is a floating toolbar with buttons to create new sections, recover disabled ones (if applies), and extend/collapse all. In order to modify the order of the sections, if you grab the 3 horizontal dots on the upper part of the section box, you can drag and drop it to the desired location. Should you need to finally dispose of any custom section that is disabled, you can do so from within the recover sections dialog.
 
-![image168](UserGuidePics/regform-section.png)
+![image168](img/regform-section.png)
 
 In the header of each section you can modify the title and description simply by clicking on the text to start editing it and saving it by pressing ENTER. On the right side there are some buttons that allow you to add new *fields*, open the configuration dialog, disable the section, or collapsing/extending it. Please, note that not all the sections allow the same actions, as some don't accept new fields or can't be disabled nor have further configuration options. Some of their peculiarities are as follows.
 
 -   **Personal Data**: Personal data registrants will be asked. Any number of fields can be added. There are several types of fields available from the *Add Field* button, covering the most common use cases. Also, these fields will have the option to be billable, meaning that they can have a price attached. Therefore, the form can be used with an online payment system.
 
-![image169](UserGuidePics/regform-add-field.png)
+![image169](img/regform-add-field.png)
 
 A highlighted field can be removed, disabled and configured by clicking on the icons that appear on the right side. Depending on the type of field, different options will appear in the configuration dialog. Disabled fields will be moved to the bottom of the section and they won't be displayed in the registration form. You can sort the fields by grabbing the 3 dots on the left side of the row and drag & dropping it on the desired location. Here is an example of how it looks a configuration dialog.
 
-![image170](UserGuidePics/regform-dialog.png)
+![image170](img/regform-dialog.png)
 
 -   **Reason for Participation**: The Reason for participation form allows you to ask the registrant why he or she wants to participate. From this page you can modify the question and title of the form.
 
-![image53](UserGuidePics/regform-section-reason.png)
+![image53](img/regform-section-reason.png)
 
 -   **Sessions**: The Sessions form allows you to add which sessions from your conference you would like people to register for. From the form you can also change the title, description, and the type of session's form (2 choices, they can choose just two sessions; multiple, they can choose any session).
 
-![image54](UserGuidePics/regform-section-session.png)
+![image54](img/regform-section-session.png)
 
 -   **Accommodation**: The Accommodation form lets you add or remove the different types of accommodation available to your registrants. You can also add a maximum number of places, price, etc.
 
-![image55](UserGuidePics/regform-section-accommodation.png)
+![image55](img/regform-section-accommodation.png)
 
 -   **Social Events**: The Social Events form allows you to add/remove any social events for which registrants can sign up. When you add an event you need to add the title of this event.
 
-![image56](UserGuidePics/regform-section-events.png)
+![image56](img/regform-section-events.png)
 
 -   **Further Information**: The Further Information form gives you the opportunity to add any additional information for the registrants.
 
-![image57](UserGuidePics/regform-section-info.png)
+![image57](img/regform-section-info.png)
 
 -   **General Sections**: These are custom sessions created by the manager of the conference. As with the *Personal Data* section, you can add as many fields as needed.
 
@@ -463,7 +463,7 @@ A highlighted field can be removed, disabled and configured by clicking on the i
 
 The Registrants tab will show a list of all the registrants for your conference.
 
-![image58](UserGuidePics/confreg12.png)
+![image58](img/confreg12.png)
 
 From this list you can perform several actions on the registrants, as for example:
 
@@ -472,21 +472,21 @@ From this list you can perform several actions on the registrants, as for exampl
 -   **Check in**: It will mark the selected registrants as checked in. *(This option is only available if the e-ticket module is enabled)*
 -   **Email**: It will allow to send an email to the selected registrants. Indico will send one email per participant. Also, you can profit from the Available tags to make it personal; Indico will replace the tag with the real value of the registrant, e.g. {registrant\_family\_name} will be Smith.
 
-![image102](UserGuidePics/confreg14.png)
+![image102](img/confreg14.png)
 
 -   **Print badges**: It will open a new page that will allow you to print the badges of the selected registrants.
 
-![image103](UserGuidePics/confreg15.png)
+![image103](img/confreg15.png)
 
 You may then select which template you which to use for your PDF by selecting the radio button to the left of it and then clicking 'Download Badges PDF'. You also have the option to edit, clone and delete the templates you have stored at will.
 
 Furthermore, clicking the 'PDF Layout Options' button provides access to further fine-tune your badges before downloading:
 
-![image158](UserGuidePics/confreg15pdfopts.png)
+![image158](img/confreg15pdfopts.png)
 
 -   **Show stats**: It will show the statistics about the registrants.
 
-![image104](UserGuidePics/confreg16.png)
+![image104](img/confreg16.png)
 
 -   **Export -&gt; CSV**: It will create a CSV file with the selected registrants and the columns displayed.
 -   **Export -&gt; PDF**: It will allow you to create a PDF in two styles: *Table style* and *Book style*. If you want to print a large quantity of fields the *Book Style* is recommended.
@@ -495,11 +495,11 @@ Also, beware that clicking on Select *All* or *None* will select or unselect all
 
 Moreover, clicking on the registrant's name will show you all his details and the information he provided in response to the form's questions. And you can also modify them.
 
-![image59](UserGuidePics/confreg13.png)
+![image59](img/confreg13.png)
 
 Additionally, if the e-ticket module is enabled an e-ticket tab will be shown. Where you can download the generated ticket for this registrant, as well as mark/unmark him as checked in.
 
-![image166](UserGuidePics/confreg19.png)
+![image166](img/confreg19.png)
 
 ------------------------------------------------------------------------
 
@@ -507,13 +507,13 @@ Additionally, if the e-ticket module is enabled an e-ticket tab will be shown. W
 
 You can choose to enable or disable e-payment by clicking on *Enable*/*Disable*. From this tab, you can customize the text to display in the payment page, the payment conditions, the email bodies related to epayment and the currency to use. See in the image below all the options.
 
-![image119](UserGuidePics/epayment.png)
+![image119](img/epayment.png)
 
 ##### E-ticket
 
 You can choose to enable or disable the e-ticket module by clicking on *On*/*Off*.
 
-![image164](UserGuidePics/confreg17.png)
+![image164](img/confreg17.png)
 
 Once enabled, Indico will be ready to generate a unique electronic ticket for every participant. The e-ticket is a PDF document containing a QR code that can be used to check-in attendees at the Conference Registration Desk. In order to read the QR codes, Indico provides a mobile app named 'Indico check-in' that will list all the registrants and provides the necessary tools to check them in.
 
@@ -523,7 +523,7 @@ Managers can choose how Indico will distribute the e-tickets. Currently, there a
 2.  The e-ticket can be downloaded from the conference homepage menu.
 3.  The e-ticket can be downloaded from the summary page right after registration.
 
-![image165](UserGuidePics/confreg18.png)
+![image165](img/confreg18.png)
 
 ------------------------------------------------------------------------
 
@@ -550,13 +550,13 @@ The Abstracts process works in the following way:
 3.  The abstracts are now reviewed by the track coordinators. Each Track Coordinator has a list of abstracts to review. He will propose to accept, merge or reject each abstract
 4.  The final decision belongs to the event organizer. He will decide whether to confirm the track coordinator's decision or to do otherwise
 
-![image137](UserGuidePics/cfa.png)
+![image137](img/cfa.png)
 
 ------------------------------------------------------------------------
 
 #### Abstracts Setup
 
-![image23](UserGuidePics/confm15.png)
+![image23](img/confm15.png)
 
 The different tabs are explained below:
 
@@ -577,11 +577,11 @@ The options you can find inside the setup tab are the following:
 
 Different types of abstract fields can be added by clicking in the *add* button.
 
-![image161](UserGuidePics/addAbstractFieldQtip.png)
+![image161](img/addAbstractFieldQtip.png)
 
 Fields can be configured at creation time or at any moment by clicking on the name of the field. These dialogs will appear. For changes to take effect the *add*/*update* must be clicked.
 
-![image162](UserGuidePics/addAbstractFieldDialog1.png) ![image163](UserGuidePics/addAbstractFieldDialog2.png)
+![image162](img/addAbstractFieldDialog1.png) ![image163](img/addAbstractFieldDialog2.png)
 
 ------------------------------------------------------------------------
 
@@ -595,7 +595,7 @@ Click on this tab to get a preview of the abstract submission form. Feel free to
 
 The List of Abstracts tab shows all the abstracts that have been submitted to the conference:
 
-![image25](UserGuidePics/confm17.png)
+![image25](img/confm17.png)
 
 -   **Quick Search**: If you are looking for an abstract and know its ID, type it in the box next to *Abstract ID* and click on *seek it*; this will get you directly to the abstract you are looking for.
 -   **Apply filters**: Clicking on this link will open a box with many filters. Enabling or disabling any of them will have an impact on the abstracts shown in the list below. For example, you can choose to display only the abstracts belonging to a particular track or session.
@@ -603,58 +603,58 @@ The List of Abstracts tab shows all the abstracts that have been submitted to th
 -   **Add New**: Submit a new abstract. This will bring you to a page similar to the one any user will see. For further information about the abstract submission form, please see submit\_abstract.
 -   **Accept**: If you have the correct rights, you can accept abstracts (if not, you can only propose to accept). Tick the corresponding box, and then click on *Accept*. A new page will appear, where you can choose the destination track, session, the type of contribution and if you wish to send an email notification or not. Once you have chosen all the options, click on *accept*.
 
-![image110](UserGuidePics/acceptAbstract.png)
+![image110](img/acceptAbstract.png)
 
 -   **Reject**: If you have the correct rights, you can reject abstracts (if not, you can only propose to reject). Tick the corresponding box, and then click on *Reject*. A new page will appear, you will need to give a reason for rejecting. You can also choose whether to send an email notification or not. Once you have completed the form, click on *reject*
 
-![image111](UserGuidePics/rejectAbstract.png)
+![image111](img/rejectAbstract.png)
 
 -   **Merge**: If you have the correct rights, you can merge abstracts (if not, you can only propose to merge). Tick the corresponding box, and then click on *Merge*. You will need to specify the abstract IDs to be merged and the target abstract ID. You can choose to include authors in target abstract and whether to send or not an email notification. You can also add comments. Once you have completed this, click on *submit*
 
-![image112](UserGuidePics/mergeAbstract.png)
+![image112](img/mergeAbstract.png)
 
 -   **Author List**: You can get an author list for the abstracts. You first need to select at least an abstract, by ticking the corresponding boxes. A list will then be displayed showing the submitters, primary authors and co-authors.
 -   **Export to**: You can export the abstracts of your choice. You can choose between XML, PDF or Excel
 
 You can also access each abstract by clicking on its name ([see Abstracts](#abstracts)). An abstract can be in one of 10 states:
 
--   Submitted ![image31](UserGuidePics/ab6.png)
+-   Submitted ![image31](img/ab6.png)
 
     > -   Abstract has no judgement yet.
 
--   Under Review ![image32](UserGuidePics/ab7.png)
+-   Under Review ![image32](img/ab7.png)
 
     > -   Abstract has at least one judgement but not for all tracks.
 
--   Proposed Acceptation ![image34](UserGuidePics/ab9.png)
+-   Proposed Acceptation ![image34](img/ab9.png)
 
     > -   Abstract has at least one judgement for each track and exectly one track has all proposals for acceptance.
 
--   Proposed Rejection ![image28](UserGuidePics/ab3.png)
+-   Proposed Rejection ![image28](img/ab3.png)
 
     > -   Abstract has at least one judgement for each track and there is proposal for reject and there are no proposals for acceptance.
 
--   Accepted ![image26](UserGuidePics/ab1.png)
+-   Accepted ![image26](img/ab1.png)
 
     > -   Abstract has been accepted.
 
--   Rejected ![image27](UserGuidePics/ab2.png)
+-   Rejected ![image27](img/ab2.png)
 
     > -   Abstract has been rejected.
 
--   Withdrawn ![image29](UserGuidePics/ab4.png)
+-   Withdrawn ![image29](img/ab4.png)
 
     > -   Abstract has been withdrawn.
 
--   Duplicated ![image33](UserGuidePics/ab8.png)
+-   Duplicated ![image33](img/ab8.png)
 
     > -   Abstract has been marked as duplicated.
 
--   Merged ![image30](UserGuidePics/ab5.png)
+-   Merged ![image30](img/ab5.png)
 
     > -   Abstract has been merged with another.
 
--   Conflict ![image35](UserGuidePics/ab10.png)
+-   Conflict ![image35](img/ab10.png)
 
     > -   Abstract has at least one judgement for each track and there is more then one track proposed for acceptance.
     > -   Abstract has different judgments within at least one track (e.g one reviewer proposed to accept abstract and another proposed to reject it).
@@ -707,7 +707,7 @@ Step 3:
 -   If the condition is ACCEPTED, you need to specify if this appplies to any contribution type and track, none, or a specific one, and then click on the button *submit*. Click on preview to preview the template.
 -   If the condition is REJECTED or MERGED, or if you have done step 3, you are finished. This template will be sent under condition chosen at 2.3.1. . Therefore, Indico will automatically send the email when accepting, rejecting and merging abstracts.
 
-![image24](UserGuidePics/confm16.png)
+![image24](img/confm16.png)
 
 ------------------------------------------------------------------------
 
@@ -717,15 +717,15 @@ An abstract is either submitted by an author or manually added by a Abstract Man
 
 -   **Main**: From here, you can change the main information about the abstract such as the author, co-author, contribution type etc. The Conference Manager can change the status of an abstract, for example, by accepting it or marking it as a duplicate.
 
-![image36](UserGuidePics/confm18.png)
+![image36](img/confm18.png)
 
 -   **Track judgments**: Any comments made by the Track Manager or Conference Manager while changing the status of the abstract can be viewed from this tab.
 
-![image37](UserGuidePics/confm19.png)
+![image37](img/confm19.png)
 
 -   **Internal comments**: Here, conference organizers can add any comments they may have about the abstract.
 
-![image113](UserGuidePics/abstractInternalComment.png)
+![image113](img/abstractInternalComment.png)
 
 -   **Notification log**: A notification log, with the emails sent to the author, can also be viewed from inside this tab
 -   **Tools**: From here, you can delete the abstract
@@ -736,11 +736,11 @@ When the abstract has been accepted or rejected it exists the possibility of und
 
 It will be shown the button *back to submitted* in order to make the action.
 
-![image156](UserGuidePics/abstractBackToSubmitted.png)
+![image156](img/abstractBackToSubmitted.png)
 
 In case of the status *Accepted*, a popup will open in order to confirm the action because the associated contribution will be deleted.
 
-![image157](UserGuidePics/abstractBackToSubmittedConfirm.png)
+![image157](img/abstractBackToSubmittedConfirm.png)
 
 ------------------------------------------------------------------------
 
@@ -748,7 +748,7 @@ In case of the status *Accepted*, a popup will open in order to confirm the acti
 
 The Contributions menu shows all the contributions to the conference. These may be either accepted abstracts or abstracts added by the Conference Managers.
 
-![image15](UserGuidePics/confm8.png)
+![image15](img/confm8.png)
 
 From the contribution menu you can:
 
@@ -759,8 +759,8 @@ From the contribution menu you can:
 -   **Move**: Assign one or more specific contributions to a session.
 -   **Author list**: This will show you a list of the primary authors, the co-authors and presenters. You need to select at least one contribution before clicking on *Author list*.
 -   **Material package**: This allows you to export all the material from the contributions into a zip file\[
--   **Proceedings**: Get a zip file with all the papers and a table of contents. To generate this, the conference organiser should go through all contributions, and mark the wanted papers as main resource (click on the ![image133](UserGuidePics/markMainResource.png) icon. When the star is yellow, the material is marked as main resource). Once this is done, Indico will generate a table of contents for all the papers and organize all PDF files by chapters into a zip file.
--   **PDF icon**: This will create a PDF of the contributions in the three following ways: you can export it as a contribution list (which contains more details), as a book of abstracts with less details or as a book of abstracts which is sorted by board number (useful for posters). To select a contribution you wish to export, you must first tick the corresponding box (clicking on the name will redirect you to the contribution's page) and then on the PDF icon ![image107](UserGuidePics/pdf.png) .
+-   **Proceedings**: Get a zip file with all the papers and a table of contents. To generate this, the conference organiser should go through all contributions, and mark the wanted papers as main resource (click on the ![image133](img/markMainResource.png) icon. When the star is yellow, the material is marked as main resource). Once this is done, Indico will generate a table of contents for all the papers and organize all PDF files by chapters into a zip file.
+-   **PDF icon**: This will create a PDF of the contributions in the three following ways: you can export it as a contribution list (which contains more details), as a book of abstracts with less details or as a book of abstracts which is sorted by board number (useful for posters). To select a contribution you wish to export, you must first tick the corresponding box (clicking on the name will redirect you to the contribution's page) and then on the PDF icon ![image107](img/pdf.png) .
 
 ------------------------------------------------------------------------
 
@@ -770,7 +770,7 @@ Each contribution has its own management area.
 
 From inside the Main tab you can:
 
-![image16](UserGuidePics/confm9.png)
+![image16](img/confm9.png)
 
 -   Modify the main details of the contribution, for example, name, duration, etc.
 -   Change the track to which this contribution is assigned.
@@ -781,11 +781,11 @@ From inside the Main tab you can:
 
 From the Material tab you can access the material of the contribution and add or remove documents [(see Material)](#material).
 
-![image108](UserGuidePics/contributionsMaterial.png)
+![image108](img/contributionsMaterial.png)
 
 From the Sub-contributions tab you can:
 
-![image17](UserGuidePics/confm10.png)
+![image17](img/confm10.png)
 
 -   Add/remove a sub-contribution.
 -   Change the order of sub-contributions by using the drop down priorities.
@@ -793,7 +793,7 @@ From the Sub-contributions tab you can:
 
 From the Protection tab you can:
 
-![image18](UserGuidePics/confm11.png)
+![image18](img/confm11.png)
 
 -   List the users that can submit material [(see Material)](#material) to the contributions. By default nobody can submit material, it needs to be specified.
 -   List the users that can modify the contributions.
@@ -809,7 +809,7 @@ From the Protection tab you can:
 
 From the Tools tab you can:
 
-![image19](UserGuidePics/confm12.png)
+![image19](img/confm12.png)
 
 -   Delete the contribution.
 -   Assign the contribution to a session
@@ -821,7 +821,7 @@ From the Tools tab you can:
 
 Sub-contributions can be added to a contribution to organize the contribution further.
 
-![image20](UserGuidePics/confm13.png)
+![image20](img/confm13.png)
 
 From inside each sub-contribution you can modify the general details, add or remove presenters, and attach material in the same way as you can for contributions. From the Tools tab in a sub-contribution you can delete that sub-contribution or write the minutes for it; these will be attached to the material for the sub-contribution.
 
@@ -833,7 +833,7 @@ Material can be submitted by a user once the abstract has been accepted and made
 
 You can upload files or simply add URL links.
 
-![image21](UserGuidePics/meet19.png)
+![image21](img/meet19.png)
 
 -   **Location**: Choose the type of location of your file and upload it
 -   **Material type**: Select the material type (e.g. slides, poster etc.)
@@ -841,7 +841,7 @@ You can upload files or simply add URL links.
 
 Access rights can be set for each material. From inside Access Control you can list those users that can view the material.
 
-![image22](UserGuidePics/confm14.png)
+![image22](img/confm14.png)
 
 Protection:
 
@@ -860,7 +860,7 @@ Advanced:
 
 When you click on this option (and if you haven’t chosen the type of reviewing yet) you will see this:
 
-![image144](UserGuidePics/chooseReviewing.png)
+![image144](img/chooseReviewing.png)
 
 You will therefore need to choose a type of reviewing process. There are four options:
 
@@ -883,25 +883,25 @@ Content reviewer, see content\_reviewer
 
 -   Setup tab
 
-![image145](UserGuidePics/contrew1.png)
+![image145](img/contrew1.png)
 
 This is where you set up the options for the content reviewing. Here, you can add your own statuses, questions that referees must answer, set default deadlines, set automatic email notifications and upload templates.
 
 -   Team tab
 
-![image146](UserGuidePics/contrew2.png)
+![image146](img/contrew2.png)
 
 This is where you can assign managers, referees and content reviewers.
 
 -   Competences tab
 
-![image147](UserGuidePics/contrew3.png)
+![image147](img/contrew3.png)
 
 Here you can define competences for each user. This can be helpful while assigning contributions.
 
 -   Assign papers
 
-![image148](UserGuidePics/contrew4.png)
+![image148](img/contrew4.png)
 
 Here you have a list of all the contributions and their information. Depending on your role, you can assign them to reviewers (referee) or remove them (manager).
 
@@ -911,7 +911,7 @@ Here you have a list of all the contributions and their information. Depending o
 
 -   Setup tab
 
-![image149](UserGuidePics/layrew1.png)
+![image149](img/layrew1.png)
 
 This is where you set up the layout reviewing. You can add the questions that must be answered by the layout reviewers, set the default deadlines for the judgments, set automatic email notifications and upload a template.
 
@@ -943,7 +943,7 @@ This area gives you access to all the lists of pending users, dependent upon the
 
 You are again presented with the corresponding list of users. You can send e-mails to selected users.
 
-![image143](UserGuidePics/speakersList.png)
+![image143](img/speakersList.png)
 
 The same options are available in the three different tabs.
 
@@ -953,7 +953,7 @@ The same options are available in the three different tabs.
 
 By clicking on this link, you will be presented with 3 tabs: *Pending Submitters*, *Pending Managers* and *Pending Coordinators*. In each of them, you will find a list of the corresponding users. From these tabs, you can remove selected users or send reminders.
 
-![image141](UserGuidePics/pending%20Users.png)
+![image141](img/pending%20Users.png)
 
 ------------------------------------------------------------------------
 
@@ -961,7 +961,7 @@ By clicking on this link, you will be presented with 3 tabs: *Pending Submitters
 
 You are presented with a corresponding list of users. You can send e-mails to selected users.
 
-![image142](UserGuidePics/convenersList.png)
+![image142](img/convenersList.png)
 
 ------------------------------------------------------------------------
 
@@ -975,15 +975,15 @@ Protection in a conference is similar to that in a Category [(see Protection)](C
 
 If the conference access is RESTRICTED the event manager will be able to set a 'Contact in case of no access', so users with no access will know who to contact in order to request access.
 
-![image49](UserGuidePics/confm29.png)
+![image49](img/confm29.png)
 
 Restricted events can have an Access Key, meaning that anyone with this key will be able to access the conference without logging in. Users will see a message such as the following:
 
-![image50](UserGuidePics/confm30.png)
+![image50](img/confm30.png)
 
 Whenever an event contains elements (sessions, contributions, ...) that have different protection statuses (i.e. the even is private but there is a protected element within, or conversely) a corresponding warning message will be shown.
 
-![image160](UserGuidePics/childrenProtectedPopup.png)
+![image160](img/childrenProtectedPopup.png)
 
 *Domain Control* This option is only for public events. It allows to specify which domain (e.g. CERN) can access the conference. Therefore, only users from inside this domain will be able to access.
 
@@ -1001,7 +1001,7 @@ The conference Tools allow you to carry out certain actions on the whole of the 
 
 You can set an alarm/reminder to alert people about the conference; the alert will be in the form of an email. To do so, click on the button *add new alarm* in the *Alarms* tab.
 
-![image172](UserGuidePics/conferenceAlarm.png)
+![image172](img/conferenceAlarm.png)
 
 ------------------------------------------------------------------------
 
@@ -1021,7 +1021,7 @@ You have three possibilities:
 -   Clone the event with a fixed interval: If your event is regularly occurring, then you can choose this option. You have the choice to clone it every *x* weeks, months or years. To determine the number of times the conference will be cloned, you can choose a start and end date (e.g. every 3 weeks from 01.01.2012 to 01.08.2012) or a number of times (e.g. beginning on 01.01.2012, clone the event every 3 weeks, 10 times).
 -   Clone on given days: This allows you to clone your event on given days. You will need to fix an interval (every *x* months) and give a start/end date or a start date and the number of times you wish to clone the event (e.g. beginning on 01.01.2012 , every 2 months until 01.01.2013 or beginning on 01.01.2012, every 2 months, 10 times).
 
-![image68](UserGuidePics/conferenceClone.png)
+![image68](img/conferenceClone.png)
 
 ------------------------------------------------------------------------
 
@@ -1029,13 +1029,13 @@ You have three possibilities:
 
 It is possible to create your own posters for the conference in Indico. You can either generate one of the pre-existing templates offered by your installation or generate event specific templates, either using the aforementioned ones as a basis or something entirely new.
 
-![image127](UserGuidePics/conferencePoster.png)
+![image127](img/conferencePoster.png)
 
 As with Badge / Tablesigns, you are permitted to alter the resultant PDF options by clicking the 'PDF Layout Options' button and setting the parameters as required beforehand.
 
 The list of event templates are templates which are only available for this event, you may freely edit, clone or delete these poster templates at will.
 
-![image159](UserGuidePics/posterdesign.png)
+![image159](img/posterdesign.png)
 
 The Poster design page is very similar to the Badge / Tablesigns design page. The options are broken into two tabs:
 
@@ -1050,7 +1050,7 @@ From the list of participants, Indico automatically generates printable badges f
 
 As for posters, you have the option to create a new template or to upload an already existing one.
 
-![image171](UserGuidePics/conferenceBadge.png)
+![image171](img/conferenceBadge.png)
 
 ------------------------------------------------------------------------
 
@@ -1058,7 +1058,7 @@ As for posters, you have the option to create a new template or to upload an alr
 
 You can lock the event. If you do so, you will not be able to change its details anymore. Only the creator of the event or an administrator of the system/category can lock/unlock an event. You will be asked to confirm.
 
-![image128](UserGuidePics/conferenceLock.png)
+![image128](img/conferenceLock.png)
 
 ------------------------------------------------------------------------
 
@@ -1066,7 +1066,7 @@ You can lock the event. If you do so, you will not be able to change its details
 
 Delete the conference. There is no undo tool so far, but you will be asked to confirm deletion
 
-![image67](UserGuidePics/conferenceDelete.png)
+![image67](img/conferenceDelete.png)
 
 ------------------------------------------------------------------------
 
@@ -1074,7 +1074,7 @@ Delete the conference. There is no undo tool so far, but you will be asked to co
 
 Using the Material package option you can create a package of all the material that has been used in the conference.
 
-![image69](UserGuidePics/conferenceMaterial2.png)
+![image69](img/conferenceMaterial2.png)
 
 ------------------------------------------------------------------------
 
@@ -1084,7 +1084,7 @@ Within the *Offline version* tab you can generate an offline copy of your lectur
 
 After clicking on *Generate*, your request will appear in the list along with it's status. Once the generation has finished, you will be able to download the offline website from the same list.
 
-![image173](UserGuidePics/conferenceOffline.png)
+![image173](img/conferenceOffline.png)
 
 ------------------------------------------------------------------------
 
@@ -1092,7 +1092,7 @@ After clicking on *Generate*, your request will appear in the list along with it
 
 The display area allows you to customize your conference. You can customize the menu that will be shown in the conference display [(see Conference Display)](#conference-display-area), change the colours of the conference background/text, add a logo and much more. It contains four tabs, that are explained below.
 
-![image60](UserGuidePics/confm31.png)
+![image60](img/confm31.png)
 
 ------------------------------------------------------------------------
 
@@ -1103,11 +1103,11 @@ The display area allows you to customize your conference. You can customize the 
 -   Stylesheets: CSS
 -   Color customization: You can change the background colour of the conference header by using the Conference header background color option in the Layout customizantion tab. The same can be done for the text colour by using the Conference header text colour option.
 
-![image64](UserGuidePics/confm35.png)
+![image64](img/confm35.png)
 
 -   Logo customization: If you want to add your own logo to the conference display you can add it from the logo area in display. In the Layout customozation tab, you can browse for your logo, save it, and see it in the preview box.
 
-![image65](UserGuidePics/confm36.png)
+![image65](img/confm36.png)
 
 ------------------------------------------------------------------------
 
@@ -1117,9 +1117,9 @@ This tab has two main parts:
 
 -   Announcement: You can enable and disable this option by clicking on the buttons *Enable*/*Disable*. Below this, you can type your announcement. This announcement will appear below the title and date of the conference in the event page, as you can see below
 
-![image120](UserGuidePics/announcement.png)
+![image120](img/announcement.png)
 
--   Conference header features: you can choose what will appear in the header. To enable/disable an option, click on ![image52](UserGuidePics/confreg2.png) . When it is green, the option is enabled, when red, it is disabled.
+-   Conference header features: you can choose what will appear in the header. To enable/disable an option, click on ![image52](img/confreg2.png) . When it is green, the option is enabled, when red, it is disabled.
 
 ------------------------------------------------------------------------
 
@@ -1127,27 +1127,27 @@ This tab has two main parts:
 
 This is where you can customize the menu that will appear in the event page. You can choose what options to display, add spacers or URL links.
 
-![image61](UserGuidePics/confm32.png)
+![image61](img/confm32.png)
 
 -   Add link: You can add any link you wish to appear in the event page. You can select if you wish the link to appear in a new or in the same window. In the example below, we have added a link to Indico. Clicking on it will open a new Indico page.
 
-![image121](UserGuidePics/addLink.png) ![image122](UserGuidePics/addLinkEventPage.png)
+![image121](img/addLink.png) ![image122](img/addLinkEventPage.png)
 
 -   Add page: You can add a new page in the event page. Click on *Add page* and you will be presented with the following form:
 
-![image123](UserGuidePics/addPage.png)
+![image123](img/addPage.png)
 
 In the image below, the title of the page is circled in red, and the text typed in the text box is circled in green.
 
-![image124](UserGuidePics/addPageEventPage.png)
+![image124](img/addPageEventPage.png)
 
 -   Add spacer: You can add a spacer between two options in the even page menu. You first need to choose where to place it; while creating it, you need to click on the arrows *move up/ down the spacer*. It will appear on the left menu with all the options (circled in red below):
 
-![image125](UserGuidePics/addSpacer.png)
+![image125](img/addSpacer.png)
 
 Once you have created the spacer, the result will look as following in the event page:
 
-![image126](UserGuidePics/spacerEventPage.png)
+![image126](img/spacerEventPage.png)
 
 ------------------------------------------------------------------------
 
@@ -1155,9 +1155,9 @@ Once you have created the spacer, the result will look as following in the event
 
 In this tab you can upload images. This will give you a link for the given image. When you need to make use of this image, copy and paste this link. Clicking on it will redirect you to the image.
 
-To upload an image, click on ![image140](UserGuidePics/addPicture.png) and then on *Browse*. Once you have found the picture in your documents, click on *Upload*.
+To upload an image, click on ![image140](img/addPicture.png) and then on *Browse*. Once you have found the picture in your documents, click on *Upload*.
 
-![image139](UserGuidePics/uploadPicture.png)
+![image139](img/uploadPicture.png)
 
 ------------------------------------------------------------------------
 
@@ -1169,7 +1169,7 @@ The list contains actions grouped by day and each row displays the type of a sin
 
 The toolbar allows to filter by kind of action and the search box to filter by match with any of the relevant content. There are also two buttons for expanding and collapsing extended information of all rows.
 
-![image134](UserGuidePics/log.png)
+![image134](img/log.png)
 
 ------------------------------------------------------------------------
 
@@ -1184,13 +1184,13 @@ The Conference Display is the view that users of the conference will see. If the
 
 Various parts of the conference display are always present in order for you to navigate or view the display area:
 
-![image72](UserGuidePics/confd1.png) This is placed at the top left of the display view and will take you back to home page of Indico.
+![image72](img/confd1.png) This is placed at the top left of the display view and will take you back to home page of Indico.
 
-![image100](UserGuidePics/confd21.png) This is also placed at the top left of the display view and allows you to use additional features (e.g. export the details of the conference in iCalendar format)
+![image100](img/confd21.png) This is also placed at the top left of the display view and allows you to use additional features (e.g. export the details of the conference in iCalendar format)
 
-![image73](UserGuidePics/confd2.png) This will be underneath the display menu and enables you to email the event support if conference management have entered one.
+![image73](img/confd2.png) This will be underneath the display menu and enables you to email the event support if conference management have entered one.
 
-![image76](UserGuidePics/confd5.png) This is placed at the top right of the screen and is the access for logging in or out.
+![image76](img/confd5.png) This is placed at the top right of the screen and is the access for logging in or out.
 
 ------------------------------------------------------------------------
 
@@ -1198,7 +1198,7 @@ Various parts of the conference display are always present in order for you to n
 
 The Overview Area shows the main details of the conference including any material that is included and the date and location of the conference.
 
-![image78](UserGuidePics/confd7.png)
+![image78](img/confd7.png)
 
 ------------------------------------------------------------------------
 
@@ -1206,7 +1206,7 @@ The Overview Area shows the main details of the conference including any materia
 
 The Call for abstracts view will show the range of dates during which an abstract can be submitted.
 
-![image79](UserGuidePics/confd8.png)
+![image79](img/confd8.png)
 
 From within the Call for abstracts a user can submit an abstract and view the abstracts they have submitted.
 
@@ -1216,7 +1216,7 @@ From within the Call for abstracts a user can submit an abstract and view the ab
 
 You need to be logged in as a user and the dates of submission must be in the time range to allow you to submit an abstract. Once logged in you can fill in the form to submit your abstract.
 
-![image150](UserGuidePics/absSubForm.png)
+![image150](img/absSubForm.png)
 
 A rich text editor is provided to write an abstract. It supports *LaTeX* commands and *Markdown* syntax, an easy-to-write plain text format that is converted to valid HTML.
 
@@ -1230,7 +1230,7 @@ Once everything is filled in click on *submit* to submit the form.
 
 You can view and see the status of any abstracts you have submitted. You can also create a PDF of your abstracts. By clicking on the abstract name you will see the details of the abstract.
 
-![image81](UserGuidePics/confd10.png)
+![image81](img/confd10.png)
 
 ------------------------------------------------------------------------
 
@@ -1238,7 +1238,7 @@ You can view and see the status of any abstracts you have submitted. You can als
 
 When you click on an abstract's title you will be taken to the abstracts view. This shows all the details of the abstract.
 
-![image82](UserGuidePics/confd11.png)
+![image82](img/confd11.png)
 
 You can print the details of this abstract as a PDF using the link in the top right corner.
 
@@ -1248,7 +1248,7 @@ You can print the details of this abstract as a PDF using the link in the top ri
 
 The Author Index shows all the authors with contributions in the conference; the authors can be searched for by name.
 
-![image83](UserGuidePics/confd12.png)
+![image83](img/confd12.png)
 
 The contribution(s) [(see Contribution Display)](#contribution-display) they have written and the details of the author can be accessed by clicking on the name.
 
@@ -1258,7 +1258,7 @@ The contribution(s) [(see Contribution Display)](#contribution-display) they hav
 
 The Author Display shows the details of the author, e.g., contact details and the contribution(s) he has authored.
 
-![image84](UserGuidePics/confd13.png)
+![image84](img/confd13.png)
 
 ------------------------------------------------------------------------
 
@@ -1266,7 +1266,7 @@ The Author Display shows the details of the author, e.g., contact details and th
 
 Contribution List in the menu takes you to all the contributions in the Conference. From here you can see a list of all or just certain types of contributions that you wish to see, e.g. only those contributions in a specific session. You can also filter by a pattern to find in the title or description of the contribution.
 
-![image85](UserGuidePics/confd14.png)
+![image85](img/confd14.png)
 
 You can access the display of each contribution by clicking on its name. You can also create a PDF of either displayed contributions or all of them.
 
@@ -1276,7 +1276,7 @@ You can access the display of each contribution by clicking on its name. You can
 
 In the Contribution Display you can see all the details of the contribution, including the description, the primary and co-authors, the session (if any) it is included, the track, the contribution type, any material [(see Contribution Material Display)](#contribution-material-display) it has and any sub-contributions that belong to it. You can also access those details by clicking on their names. You can also print the contribution in PDF, XML, or iCal format by using the links in the top right-hand corner.
 
-![image86](UserGuidePics/confd15.png)
+![image86](img/confd15.png)
 
 If you have modification rights, you will have the modification link next to the print formats and you can access the Contribution Modification Area.
 
@@ -1286,11 +1286,11 @@ If you have modification rights, you will have the modification link next to the
 
 The material that belongs to a contribution can be viewed by accessing the Contribution Display [(see Contribution Display)](#contribution-display). Here, there is a section *Material* with all the resources attached.
 
-![image87](UserGuidePics/confd151.png)
+![image87](img/confd151.png)
 
 Having the proper access, by clicking in *Edit files* is possible manage the material attached. It will open a popup, and by clicking in *Add Material* is possible to upload more, in the edit icon to modify, and in the red cross to remove it.
 
-![image155](UserGuidePics/confd152.png)
+![image155](img/confd152.png)
 
 ------------------------------------------------------------------------
 
@@ -1298,7 +1298,7 @@ Having the proper access, by clicking in *Edit files* is possible manage the mat
 
 The *My conference* area gives you access to those areas for which you have co-ordinator or modification rights. For example, if you are a Track Co-ordinator or a Session Co-coordinator those tracks or sessions will appear under *My conference*. Same thing if you are submitter for a contribution.
 
-![image88](UserGuidePics/confd16.png)
+![image88](img/confd16.png)
 
 More information here:
 
@@ -1311,7 +1311,7 @@ More information here:
 
 The Registration Area shows you the dates in which you are able to register, the maximum number of registrants allowed and any contact information.
 
-![image90](UserGuidePics/confreg8.png)
+![image90](img/confreg8.png)
 
 ------------------------------------------------------------------------
 
@@ -1319,11 +1319,11 @@ The Registration Area shows you the dates in which you are able to register, the
 
 From the New Registrant Area people can fill in the forms that were chosen and customized from the Registration Management [(see Registration Management)](#registration-management). The registrant will need to fill in their personal information and anything else in the form that has been asked for.
 
-![image91](UserGuidePics/confreg9.png)
+![image91](img/confreg9.png)
 
 Once your registration has been submitted you will be shown a screen to confirm your registration.
 
-![image93](UserGuidePics/confreg11.png)
+![image93](img/confreg11.png)
 
 If the epayment is enabled. The user will be able to click the button *next* and proceed with the payment online.
 
@@ -1341,7 +1341,7 @@ The Book of Abstracts selection in the menu will produce a PDF document of all t
 
 The Scientific Programme shows all the tracks with their descriptions:
 
-![image94](UserGuidePics/confd18.png)
+![image94](img/confd18.png)
 
 You can create a PDF document of all the tracks using the PDF icon in the top right-hand corner. If you are a Co-ordinator of any tracks, you will have the modification logo next to that track and a *Manage my track* option in the menu as in the picture above.
 
@@ -1351,7 +1351,7 @@ You can create a PDF document of all the tracks using the PDF icon in the top ri
 
 You can access the conference’s timetable from the event page by clicking on the *Timetable* link. The Timetable area shows all the session, contributions, and breaks for the conference. You can access each session content by clicking on the session name. This will show you any contributions/breaks inside this session.
 
-![image95](UserGuidePics/confd19.png)
+![image95](img/confd19.png)
 
 Clicking on a contribution will open a popup with the option "View details" that will take you to the display view of that contribution [(see Contribution Display)](#contribution-display).
 
@@ -1360,7 +1360,7 @@ On the top right of the timetable, there are different options available to you:
 -   Print: Click here if you wish to print the timetable. You will be redirected to a preview of the printed timetable. If you wish to print, click on *Print*. Otherwise, click on *Go back*
 -   PDF: Get a PDF document of the timetable. Click on this and you will be presented with a form, where you can customize the document, by choosing Normal timetable/ Simplified timetable and their inner options (see below). You can also choose the PDF options, i.e. page/font size and the page numbering.
 
-![image129](UserGuidePics/pdf2.png)
+![image129](img/pdf2.png)
 
 Once you have chosen all your options, click on *get pdf*
 
@@ -1369,13 +1369,13 @@ Once you have chosen all your options, click on *get pdf*
 
 In this conference, this is the normal view:
 
-![image130](UserGuidePics/normalView.png)
+![image130](img/normalView.png)
 
 And this is the detailed view:
 
-![image131](UserGuidePics/detailedView.png)
+![image131](img/detailedView.png)
 
-In this detailed view, you can click on the icon ![image132](UserGuidePics/getDocuments.png) to get all the material belonging to the contribution.
+In this detailed view, you can click on the icon ![image132](img/getDocuments.png) to get all the material belonging to the contribution.
 
 If you click on the contribution, a balloon will appear. Click on *View details* to access the contribution's page. You can export this contribution by clicking on *Export* in the balloon. You can export it as a PDF, calendar or XML file.
 
@@ -1388,7 +1388,7 @@ If you click on the contribution, a balloon will appear. Click on *View details*
 
 Session View allows you to see any contributions or breaks within each session:
 
-![image96](UserGuidePics/confd20.png)
+![image96](img/confd20.png)
 
 If you are a Session Co-ordinator or a Session Manager you will have the modification icon in the top right-hand corner as above. This will take you to the appropriate Modification area for that session. You may also make a PDF of the session.
 

@@ -51,12 +51,12 @@ In the *Evaluation* option we have four tabs: *Setup | Edit | Preview | Results*
 
 #### Setup
 
-In this section you can set the main information and configuration about the survey. Click on ![image174](UserGuidePics/eval_modify.png) to set your options.
+In this section you can set the main information and configuration about the survey. Click on ![image174](img/eval_modify.png) to set your options.
 
-![image175](UserGuidePics/eval_Setup.jpg)
+![image175](img/eval_Setup.jpg)
 
 - **Curent status:** When an evaluation is HIDDEN (default), it is  
-not shown in the Display Area and guests cannot answer it. You can show the evaluation by setting it to VISIBLE. But be aware that if you want your survey to work properly it must be open and contain some questions. To show/hide it, simply click on ![image176](UserGuidePics/eval_show.png) / ![image177](UserGuidePics/eval_hide.png).
+not shown in the Display Area and guests cannot answer it. You can show the evaluation by setting it to VISIBLE. But be aware that if you want your survey to work properly it must be open and contain some questions. To show/hide it, simply click on ![image176](img/eval_show.png) / ![image177](img/eval_hide.png).
 
 - **Notifications:** You can set email addresses of people you want  
 to be notified when the evaluation starts and/or when someone answers the form. `Advice`: Click on *modify* and then check *Add current registrants* if you want your event participants to be notified of the start of the evaluation.
@@ -69,21 +69,21 @@ anonymously. Otherwise their identity is known by the surveyor. `Note`: Users no
 
 - **Special Actions:**
 
-> - ![image178](UserGuidePics/eval_exportEval.png) Export the evaluation with its questions to an XML  
+> - ![image178](img/eval_exportEval.png) Export the evaluation with its questions to an XML  
 > file. Useful for backing up or transporting. *Note:* If the file is directly shown in Firefox/InternetExplorer6, save it with: *File &gt; Save as...* To solve the same problem in InternetExplorer7: *Page &gt; Save as...*
 >
-> - ![image179](UserGuidePics/eval_importEval.png) Import an evaluation from an XML file.
+> - ![image179](img/eval_importEval.png) Import an evaluation from an XML file.
 >
-> > ![image180](UserGuidePics/eval_ImportXml.png)
+> > ![image180](img/eval_ImportXml.png)
 > >
 > > Concerning the main setup configuration (all the main information, e.g., title, announcement, etc.) you can choose to keep your current one or to overwrite it with an imported one. For the questions, you can keep only your current ones or only imported ones or have both (imported ones just after current ones). `Advice`: We suggest that you back up your current evaluation (with export feature) before importing in order to prevent loss of data. `Note`: In order to prevent some misunderstanding the status and the dates are not imported. Be aware that as questions and submissions are bound, you will also lose your current submissions if you get rid of your questions.
 >
-> -   ![image181](UserGuidePics/eval_removeSubmissions.png) All collected answers will be erased.
+> -   ![image181](img/eval_removeSubmissions.png) All collected answers will be erased.
 >
-> - ![image182](UserGuidePics/eval_removeQuestions.png) All questions will be erased. As the submissions are  
+> - ![image182](img/eval_removeQuestions.png) All questions will be erased. As the submissions are  
 > connected to them, they will also be removed!
 >
-> - ![image183](UserGuidePics/eval_reinit.png) Delete all evaluation informations, its questions and  
+> - ![image183](img/eval_reinit.png) Delete all evaluation informations, its questions and  
 > its submissions. You will have a brand new evaluation.
 >
 ------------------------------------------------------------------------
@@ -92,39 +92,39 @@ anonymously. Otherwise their identity is known by the surveyor. `Note`: Users no
 
 In this section you can add/edit/remove the questions in your form. On the left panel you have six different types of question you can add.
 
-- ![image184](UserGuidePics/eval_textbox.png) **Textbox:** A standard field where your submitter can  
+- ![image184](img/eval_textbox.png) **Textbox:** A standard field where your submitter can  
 enter some text as answer to the provided question. Here is a little example of a question of type Textbox.
 
-![image185](UserGuidePics/eval_textboxEx.png)
+![image185](img/eval_textboxEx.png)
 
-- ![image186](UserGuidePics/eval_textarea.png) **Textarea:** Like Textbox but with more capacity for  
+- ![image186](img/eval_textarea.png) **Textarea:** Like Textbox but with more capacity for  
 text. Suitable for long answers like comments, feedbacks, etc.
 
-![image187](UserGuidePics/eval_textareaEx.png)
+![image187](img/eval_textareaEx.png)
 
-- ![image188](UserGuidePics/eval_password.png) **Password:** Like Textbox but the answer is hidden.  
+- ![image188](img/eval_password.png) **Password:** Like Textbox but the answer is hidden.  
 For example on the picture below, it is recommended that the answer is hidden if the submitter is in a public area. Otherwise anybody next to him would be able to read the password on the screen. Note that the evaluation module doesn't use https, as all this information is not supposed to be confidential.
 
-![image189](UserGuidePics/eval_passwordEx.png)
+![image189](img/eval_passwordEx.png)
 
-- ![image190](UserGuidePics/eval_select.png) **Select:** A drop down list which lets the submitter  
+- ![image190](img/eval_select.png) **Select:** A drop down list which lets the submitter  
 select one answer.
 
-![image191](UserGuidePics/eval_selectEx.png)
+![image191](img/eval_selectEx.png)
 
-- ![image192](UserGuidePics/eval_radio.png) **Radio:** A group of radio buttons which lets the  
+- ![image192](img/eval_radio.png) **Radio:** A group of radio buttons which lets the  
 submitter select one answer.
 
-![image193](UserGuidePics/eval_radioEx.png)
+![image193](img/eval_radioEx.png)
 
-- ![image194](UserGuidePics/eval_checkbox.png) **Checkbox:** This type is suitable for multiple-choice  
+- ![image194](img/eval_checkbox.png) **Checkbox:** This type is suitable for multiple-choice  
 questions. You can check more than one answer.
 
-![image195](UserGuidePics/eval_checkboxEx.png)
+![image195](img/eval_checkboxEx.png)
 
 When adding a Textbox/Textarea/Password you have the screen below.
 
-![image196](UserGuidePics/eval_addBox.png)
+![image196](img/eval_addBox.png)
 
 - **Required:** If checked, an answer for this question is  
 mandatory.
@@ -145,21 +145,21 @@ form.
 
 On the following picture you can see the result of the manipulation.
 
-![image197](UserGuidePics/eval_addedBox.jpg)
+![image197](img/eval_addedBox.jpg)
 
 When adding a Select/Radio/Checkbox you have the screen below. Note that some fields have already been described above, which is why they are not explained here.
 
-![image198](UserGuidePics/eval_addChoice.png)
+![image198](img/eval_addChoice.png)
 
 -   **Choice Items:** Choice items are answers that can be selected. `Note`: Check the box next to a choice item, to set it to be a default answer.
 
 On the following picture you can see the result of the manipulation.
 
-![image199](UserGuidePics/eval_addedChoice.jpg)
+![image199](img/eval_addedChoice.jpg)
 
-After having first added some questions, here is an example of the questions overview (see picture below). You can change the position of a question within the form by clicking on ![image201](UserGuidePics/eval_position.jpg). Press ![image202](UserGuidePics/edit.png) to edit a question and ![image203](UserGuidePics/remove.png) to remove it.
+After having first added some questions, here is an example of the questions overview (see picture below). You can change the position of a question within the form by clicking on ![image201](img/eval_position.jpg). Press ![image202](img/edit.png) to edit a question and ![image203](img/remove.png) to remove it.
 
-![image200](UserGuidePics/eval_questionsView.jpg)
+![image200](img/eval_questionsView.jpg)
 
 ------------------------------------------------------------------------
 
@@ -181,11 +181,11 @@ In the second, you see the collected results of your evaluation shown as graphs 
 
 Answer lists shown for Textbox/Textarea/Password:
 
-![image204](UserGuidePics/eval_result1.png)
+![image204](img/eval_result1.png)
 
 Graphs shown for Select/Radio/Checkbox:
 
-![image205](UserGuidePics/eval_result6.png)
+![image205](img/eval_result6.png)
 
 ------------------------------------------------------------------------
 
@@ -195,6 +195,6 @@ For a conference, you can access an evaluation via the left menu.
 
 For a meeting/lecture, you can access it via the top menu.
 
-![image207](UserGuidePics/eval_DisplayMeetingLecture.png)
+![image207](img/eval_DisplayMeetingLecture.png)
 
 ------------------------------------------------------------------------

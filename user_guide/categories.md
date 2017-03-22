@@ -21,7 +21,7 @@ You can create a new category from the menu *Manage* and then by clicking on *Ad
 
 You can also create a subcategory from the Management area, which you access from the menu *Manage*, option *Edit category*. In *General settings*, [(See General Settings)](#general-settings) , click on the button *add subcateg*.
 
-![image1](UserGuidePics/categ1.png)
+![image1](img/categ1.png)
 
 Setting the protection for your category is important. You can set it to Inheriting, Restricted or Public, see access\_control .
 
@@ -38,11 +38,11 @@ It is possible to exclude some categories from the event overview, and hence con
 -   *Category name* - events are shown only in the overview webpage for current category.
 -   *Nowhere* - events are not shown in any overview webpage.
 
-![image6](UserGuidePics/categ6.png)
+![image6](img/categ6.png)
 
 As you can see in the previous image, it allows you to see all the events happening in one specific day. You can then view the other days by clicking on the arrows on top, or by choosing the day on the calendar on the left. Underneath the calendar, you can also choose the display options. You can choose to display the events over a day, a week or a month. You can also choose the detail level: *agenda* will show you all the events occuring over that period of time, *sessions* will only display the sessions and *contributions* will only display the contributions.
 
-![image7](UserGuidePics/categ7.png)
+![image7](img/categ7.png)
 
 **Calendar overview webpage** : Another option for *View* is the calendar view. It gives you an overview of all the events over several months. You can access it by clicking on *View* -&gt; *Calendar*. You can see all the events happening in one specific day by pointing with your mouse on the day you wish to view (see image above). On the left menu, you can choose the number of months you wish to view (up to 12), the starting month and the number of colums displayed. You can also change to color legend.
 
@@ -69,7 +69,7 @@ and you can modify its content:
 -   Re-allocate (move to another category) some events or categories
 -   Remove the inner events or categories
 
-<img src="UserGuidePics/categ2.png" alt="image2" width="900" />
+<img src="img/categ2.png" alt="image2" width="900" />
 
 ------------------------------------------------------------------------
 
@@ -77,7 +77,7 @@ and you can modify its content:
 
 In this option, you can add material to a category. To do so, click on the link *Add Material*. A window will appear:
 
-![image8](UserGuidePics/uploadMaterial.png)
+![image8](img/uploadMaterial.png)
 
 When uploading material, in the *Basic* tab, you can select its access protection and set it to inheriting, private or public (for more details, see access\_control ). In the *Advanced* tab, you can add a description and a display name. The display name will be used instead of the original name of the file.
 
@@ -87,7 +87,7 @@ When uploading material, in the *Basic* tab, you can select its access protectio
 
 From the Management Area you can protect your category using the three controls for access levels: Modification control, Access control and Domain control. You can add Users or Groups to the Modification and Access control lists. Conference creation control controls the users who are able to add events to this category.
 
-![image3](UserGuidePics/categ3.png)
+![image3](img/categ3.png)
 
 *Modification Control*: Category Managers can be added to a category to allow access to the Management Area for modification. Category managers are either those listed in the modification control list or Indico administrators. The creator of a category will be able to modify its category without being listed.
 
@@ -97,7 +97,7 @@ From the Management Area you can protect your category using the three controls 
 
 *Conference creation control*: You can restrict who is able to add events to the category. If you do so, you will need to add users or groups to the list in order to allow them to add events.
 
-![image4](UserGuidePics/categ4.png)
+![image4](img/categ4.png)
 
 [See Protection System](Protection.html) in order to know more about Protection in Indico.
 
@@ -107,7 +107,7 @@ From the Management Area you can protect your category using the three controls 
 
 The details of a Category can be modified and sub-categories can be organised from the option *General settings* in the management area. Details can be modified by clicking on *modify* inside the main menu. Sub-categories and events can be organised in the particular order in which you wish to view them by using the order drop down box next to each sub-category.
 
-![image5](UserGuidePics/categ5.png)
+![image5](img/categ5.png)
 
 You can re-allocate a sub-category or event by selecting the one you wish to move using the tick box and clicking on re-allocate, you will then be asked to where you would like to reallocate this sub-category/event.
 

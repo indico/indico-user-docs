@@ -17,7 +17,7 @@ The Tutorial
 
 You can read the Core Features listings in order to get a full overview of the options of the room booking modules. It allows you to assign a room to a particular event, a talk or simply to book a room on its own, without attaching it to a event. The booking can then be managed from the administration area.
 
-![image165](UserGuidePics/rb_main.png)
+![image165](img/rb_main.png)
 
 ------------------------------------------------------------------------
 
@@ -35,7 +35,7 @@ The Room Booking Module first page depends on who is logged in. For most people,
 
 ### The Most Important Tip
 
-If you require it, point at the question mark icon ![image166](UserGuidePics/help.png) with your mouse to see context help. Context help is meant to answer most of your questions along the way.
+If you require it, point at the question mark icon ![image166](img/help.png) with your mouse to see context help. Context help is meant to answer most of your questions along the way.
 
 ------------------------------------------------------------------------
 
@@ -47,7 +47,7 @@ If a room does not have a name, the default name is built in the following way:
 
 Examples: "CERN: 304-1-001", "Sheraton: 0-34-013".
 
-![image167](UserGuidePics/rb_room_name.png)
+![image167](img/rb_room_name.png)
 
 ------------------------------------------------------------------------
 
@@ -64,7 +64,7 @@ There are three kinds of room. They determine how much freedom users have.
 -   *Private rooms* which cannot be booked at all (red colour). Only the room  
     manager can book his/her private room. If you need such a room, you should ask this person to create a booking for you.
 
-![image168](UserGuidePics/rb_room_types.png)
+![image168](img/rb_room_types.png)
 
 ------------------------------------------------------------------------
 
@@ -91,7 +91,7 @@ The booking process consists essentially on three steps:
 -   Selecting an available period
 -   Confirming the reservation
 
-![image169](UserGuidePics/rb_booking_a_room.png)
+![image169](img/rb_booking_a_room.png)
 
 In the first step you can specify the rooms, date range and time range in which you want to search for bookings.
 
@@ -101,7 +101,7 @@ In the first step you can specify the rooms, date range and time range in which 
 
 When you are done, click the button *Search* to proceed to the next step.
 
-![image170](UserGuidePics/rb_conflicts.png)
+![image170](img/rb_conflicts.png)
 
 In the second step, you will be presented with a calendar summarizing the rooms, dates and times you specified previously. In this view you can check all available periods (marked in green), other bookings (in yellow) or conflicts (in red).
 
@@ -109,7 +109,7 @@ This view is very versatile. Give it a try: set the frecuency of the search to t
 
 If you click on an available period with you will be redirected to the next step in which you will confirm the reservation.
 
-![image171](UserGuidePics/rb_booking_form.png)
+![image171](img/rb_booking_form.png)
 
 In the third and final step, you will need to complete the booking form. Click *Book* to confirm the reservation.
 
@@ -134,7 +134,7 @@ Note: you can always browse your own bookings and PRE-bookings using the menu op
 
 You can view the bookings or pre-bookings that you made by going under the 'My bookings' and 'My PRE-bookings' sections of the Room Booking side menu. By selecting one of the bookings in the list, you will get the following :
 
-![image172](UserGuidePics/rb_booking_display.png)
+![image172](img/rb_booking_display.png)
 
 This page contains all the information about a booking, and it allows you to modify, clone or cancel the booking. If the reservation is done for more than a single day, each of the occurences of the booking can be canceled individually. In addition, this page lets you watch the history of the booking (i.e. all the past actions that were performed on this reservation) if you are the creator of the booking. Only the most recent entry is partially displayed, but you can see the rest of it by clicking on the *Show All History...* link. Additional information about a particular entry can be viewed by clicking the *More Info* link.
 

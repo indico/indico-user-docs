@@ -38,7 +38,7 @@ Clicking on the link *Switch to event page* will take you to the event page of t
 
 In General Settings, you can edit the title, description, place, start/end date, timezone, default style, event type. You can add a support e-mail and modify its caption; it will be displayed in the event page. It is also possible to create a short display URL, used as a shortcut to the event page. You have the possibility of changing the default style, [(see Meeting Display Area)](#meeting-display-area) . To edit the visibility, see visibility in general\_settings for conferences. Finally, you can add or remove any chairpersons.
 
-![image100](UserGuidePics/meet2.png)
+![image100](img/meet2.png)
 
 ------------------------------------------------------------------------
 
@@ -56,11 +56,11 @@ Here, we will just explain how to create contributions. For more details and fur
 
 You can directly add contributions into your timetable using the *Add new* &gt; *Contribution* at the top of the timetable. This will open a pop-up with a form to create a new contribution.
 
-![image103](UserGuidePics/confm23.png)
+![image103](img/confm23.png)
 
 Within this form, you can define the name, description, location, presenters, the starting time and duration of this contribution.
 
-![image104](UserGuidePics/confm28.png)
+![image104](img/confm28.png)
 
 In order to edit the contribution, you can click on it and a edition balloon will show up. In this balloon, you can modify the timing or the whole contribution.
 
@@ -78,9 +78,9 @@ See [Contribution Management for Conferences](Conferences.html#contribution-mana
 
 ### Material
 
-Here, you can upload any material you wish to attach to the meeting. The material can be video, slides, minutes etc. You can modify the material by clicking on ![image144](UserGuidePics/edit.png) or to delete it by clicking on ![image145](UserGuidePics/delete.png).
+Here, you can upload any material you wish to attach to the meeting. The material can be video, slides, minutes etc. You can modify the material by clicking on ![image144](img/edit.png) or to delete it by clicking on ![image145](img/delete.png).
 
-![image143](UserGuidePics/meetingMaterial.png)
+![image143](img/meetingMaterial.png)
 
 ------------------------------------------------------------------------
 
@@ -108,15 +108,15 @@ Protection in a meeting is the same as in a Conference. There is Modification Co
 
 *Modification Control* Only the managers listed in the modification control, the creator of the meeting, and any administrators can access the Management Area of the meeting. However, you can add a Modification Key which means anyone with this key can modify the meeting without logging in.
 
-![image119](UserGuidePics/meet21.png)
+![image119](img/meet21.png)
 
 *Access Control* When the meeting is public, anyone can view the meeting including the details, timetable, material, etc. When the meeting is private, only those in the access list, meeting managers, and administrators can view the meeting. When it is inheriting, its access protection will be the same as its parent category. Changing the access protection of the parent category will change the access protection of the meeting (see access\_control)
 
-![image120](UserGuidePics/confm30.png)
+![image120](img/confm30.png)
 
 If the meeting is PUBLIC and has some element that is RESTRICTED, there will show a message 'Some parts of it are, however, protected. Which ones?'. If you click in 'Which ones?' it will show a popup with the children protected. The same works when the meeting access is RESTRICTED and has PUBLIC elements.
 
-![image165](UserGuidePics/childrenProtectedPopup.png)
+![image165](img/childrenProtectedPopup.png)
 
 If the meeting access is RESTRICTED the event manager will be able to set a 'Contact in case of no access', so users with no access will know who to contact in order to request access.
 
@@ -144,7 +144,7 @@ You can set an alarm/reminder in the same way as it's done for conferences; see 
 
 Clone the meeting if you would like to make another meeting exactly the same. You have the option to clone it once, at fixed intervals, or on certain dates. For more on cloning, see clone\_event for conferences.
 
-![image123](UserGuidePics/meetingClone.png)
+![image123](img/meetingClone.png)
 
 ------------------------------------------------------------------------
 
@@ -152,7 +152,7 @@ Clone the meeting if you would like to make another meeting exactly the same. Yo
 
 You have the possibility of creating posters for your meetings. You can create your own, or create one from a template.
 
-![image146](UserGuidePics/meetingPoster.png)
+![image146](img/meetingPoster.png)
 
 ------------------------------------------------------------------------
 
@@ -160,7 +160,7 @@ You have the possibility of creating posters for your meetings. You can create y
 
 It is possible to lock the meeting. If you lock the event, you won’t be able to change its details anymore. Only the creator of the meetings or an administrator of the system/category can unlock an event. You will be asked to confirm.
 
-![image121](UserGuidePics/meetingLock.png)
+![image121](img/meetingLock.png)
 
 ------------------------------------------------------------------------
 
@@ -168,7 +168,7 @@ It is possible to lock the meeting. If you lock the event, you won’t be able t
 
 The Delete meeting option will delete the whole meeting. You will be asked to confirm deletion beforehand.
 
-![image122](UserGuidePics/meetingDelete.png)
+![image122](img/meetingDelete.png)
 
 ------------------------------------------------------------------------
 
@@ -176,7 +176,7 @@ The Delete meeting option will delete the whole meeting. You will be asked to co
 
 Using the *Material package* option you can create a package of all the materials that have been used in the meeting.
 
-![image124](UserGuidePics/meetingMaterial2.png)
+![image124](img/meetingMaterial2.png)
 
 ------------------------------------------------------------------------
 
@@ -195,19 +195,19 @@ The Meeting Display is the view that users of the meeting will see. If the meeti
 
 ### Indico Style
 
-This is the default view for meetings in Indico. If you have modification rights to any parts of the meeting you will be able to access the Management Area by clicking the icon ![image133](UserGuidePics/conf2.png).
+This is the default view for meetings in Indico. If you have modification rights to any parts of the meeting you will be able to access the Management Area by clicking the icon ![image133](img/conf2.png).
 
-![image134](UserGuidePics/meetd1.png)
+![image134](img/meetd1.png)
 
 You can see a bunch of additional buttons next to the navigation options on the top left of the page:
 
-![image141](UserGuidePics/meetd7.png) This will print a printable version of the display area
+![image141](img/meetd7.png) This will print a printable version of the display area
 
-![image142](UserGuidePics/meetd8.png) This will let you set filters to focus on events depending on their date or the session they are included in.
+![image142](img/meetd8.png) This will let you set filters to focus on events depending on their date or the session they are included in.
 
-![image164](UserGuidePics/ical.png) Opens the popup with all the options to export the agenda to your calendar.
+![image164](img/ical.png) Opens the popup with all the options to export the agenda to your calendar.
 
-![image140](UserGuidePics/confd21.png) This button allows you to use the following additional features:
+![image140](img/confd21.png) This button allows you to use the following additional features:
 
 -   Export to PDF format
 -   Download a package with all the material linked to the meeting
@@ -215,16 +215,16 @@ You can see a bunch of additional buttons next to the navigation options on the 
 
 The other icons are:
 
--   ![image147](UserGuidePics/home.png): Gets you back to the Indico homepage
--   ![image148](UserGuidePics/a1.png): Brings you to the oldest event in the category your event belongs to
--   ![image149](UserGuidePics/a2.png): Brings you to the previous event in the category your event belongs to
--   ![image150](UserGuidePics/a3.png): Brings you to the category event overview your event belongs to
--   ![image151](UserGuidePics/a4.png): Brings you to the next event in the category your event belongs to
--   ![image152](UserGuidePics/a5.png): Brings you to the newest event in the category your event belongs to
--   ![image162](UserGuidePics/manage.png): From *Manage* , you can:
+-   ![image147](img/home.png): Gets you back to the Indico homepage
+-   ![image148](img/a1.png): Brings you to the oldest event in the category your event belongs to
+-   ![image149](img/a2.png): Brings you to the previous event in the category your event belongs to
+-   ![image150](img/a3.png): Brings you to the category event overview your event belongs to
+-   ![image151](img/a4.png): Brings you to the next event in the category your event belongs to
+-   ![image152](img/a5.png): Brings you to the newest event in the category your event belongs to
+-   ![image162](img/manage.png): From *Manage* , you can:
     -   Edit event: this will lead you to the management area of the meeting, same as for PENCIL
     -   Clone event: Leads you to the tab *Clone Event* in the *Tools* option; see clone\_meeting
-    -   Edit minutes: add and edit your minutes. When you add minutes, the following appears in the event page: ![image163](UserGuidePics/minutes.png) Clicking on *Minutes* on the left will open the minutes in the same page; clicking on the icon on the right will open the minutes in a new tab
+    -   Edit minutes: add and edit your minutes. When you add minutes, the following appears in the event page: ![image163](img/minutes.png) Clicking on *Minutes* on the left will open the minutes in the same page; clicking on the icon on the right will open the minutes in a new tab
     -   Manage material: opens a window where you can add, edit or delete existing material
 
 ------------------------------------------------------------------------
@@ -233,7 +233,7 @@ The other icons are:
 
 The simple text style:
 
-![image136](UserGuidePics/meetd3.png)
+![image136](img/meetd3.png)
 
 ------------------------------------------------------------------------
 
@@ -241,7 +241,7 @@ The simple text style:
 
 The Administrative style:
 
-![image137](UserGuidePics/meetd4.png)
+![image137](img/meetd4.png)
 
 ------------------------------------------------------------------------
 
@@ -249,7 +249,7 @@ The Administrative style:
 
 The Compact style:
 
-![image138](UserGuidePics/meetd5.png)
+![image138](img/meetd5.png)
 
 You can pass extra parameters to this compact style in order to choose the amount of days to display in one row and the start and end date. The parameters are:
 
@@ -271,6 +271,6 @@ and you want to display in the 1st row the 1st week and just underneath the seco
 
 The Parellel style:
 
-![image139](UserGuidePics/meetd6.png)
+![image139](img/meetd6.png)
 
 ------------------------------------------------------------------------

@@ -34,7 +34,7 @@ The Management Area allows you to control the different parts of your lecture. T
 
 In *General settings*, you can: edit the title, place, start/end date, timezone, default style (see lecture\_display\_area ), visibility (see general\_settings for conferences), event type, keywords. You can add a description to your lecture, a support email and its caption (which will appear on the event page), organizers and a short display URL (used as a shortcut to the lecture’s event page). You can also add or remove speakers.
 
-![image141](UserGuidePics/lect2.png)
+![image141](img/lect2.png)
 
 Clicking on the button *Switch to event page* will take you to the home page of your event.
 
@@ -44,7 +44,7 @@ Clicking on the button *Switch to event page* will take you to the home page of 
 
 You can add material to the lecture, by using the *Material* menu, and the link *Add Material*. You can then enter the name and description of the material.
 
-![image144](UserGuidePics/lect10.png)
+![image144](img/lect10.png)
 
 The material can be files or links. You also protect the material to control who has access to view it.
 
@@ -62,7 +62,7 @@ For more info see [Meeting participants](Meetings.html#participants).
 
 You can set an evaluation form to be completed by the participants. There are four tabs in this option:
 
-![image162](UserGuidePics/lectureEvaluation.png)
+![image162](img/lectureEvaluation.png)
 
 -   Setup: Where you set the basic details, such as evaluation start/end date, max. number of submissions etc. You enable and disable the form by clicking on *Show*/*Hide*. You also have special actions, such as export or import the evaluation etc.
 -   Edit: This is where you create the evaluation form. You can add a textbox, textarea, password, select, radio or checkbox question.
@@ -77,7 +77,7 @@ Protection Management in a lecture is the same as that in a Meeting. There is Mo
 
 *Modification Control* Only the managers listed in the modification control, the creator of the lecture, and any administrators can access the Management Area of the lecture. However, you can add a Modification Key which means anyone with this key can modify the lecture without logging in.
 
-![image145](UserGuidePics/lect3.png)
+![image145](img/lect3.png)
 
 *Access Control* When the lecture is public, anyone can view the lecture . When the lecture is private, only those in the access list, lecture managers, and administrators can view the lecture. When it is inheriting, it has the same access protection as its parent category. Changing the access protection of its parent category will change the access protection of the lecture.
 
@@ -85,11 +85,11 @@ If the lecture access is PRIVATE the event manager will be able to set a 'Contac
 
 Also when private you can also add an Access Key which means anyone with this key can access the lecture without logging in.
 
-![image146](UserGuidePics/confm30.png)
+![image146](img/confm30.png)
 
 If the lecture is PUBLIC and has some element that is RESTRICTED, there will show a message 'Some parts of it are, however, protected. Which ones?'. If you click in 'Which ones?' it will show a popup with the children protected. The same works when the lecture access is RESTRICTED and has PUBLIC elements.
 
-![image167](UserGuidePics/childrenProtectedLecturePopup.png)
+![image167](img/childrenProtectedLecturePopup.png)
 
 *Domain Control* This is available when the lecture is public. You can specify which domain can access the lecture. For instance, choosing CERN as a domain means only users accessing from a computer in the CERN domain will be able to access.
 
@@ -111,7 +111,7 @@ You can set an alarm/reminder in the same way as it's done for conferences; see 
 
 Clone the lecture if you would like to make another lecture exactly the same. You have the option to clone it once, at fixed intervals, or on certain dates.
 
-![image149](UserGuidePics/lectureClone.png)
+![image149](img/lectureClone.png)
 
 For more explanation on the cloning process, see clone\_event for conferences.
 
@@ -121,7 +121,7 @@ For more explanation on the cloning process, see clone\_event for conferences.
 
 As for meetings, you can create posters for your lecture. You can either create your own, or use a local template.
 
-![image163](UserGuidePics/lecturePoster.png)
+![image163](img/lecturePoster.png)
 
 ------------------------------------------------------------------------
 
@@ -129,7 +129,7 @@ As for meetings, you can create posters for your lecture. You can either create 
 
 It is possible to lock the lecture. If you lock the event, you won’t be able to change its details anymore. Only the creator of the lecture or an administrator of the system/category can unlock an event. You will be asked to confirm.
 
-![image164](UserGuidePics/lectureLock.png)
+![image164](img/lectureLock.png)
 
 ------------------------------------------------------------------------
 
@@ -137,7 +137,7 @@ It is possible to lock the lecture. If you lock the event, you won’t be able t
 
 The Delete option will delete the whole lecture. There is no undo tool so far, but you will be asked to confirm deletion beforehand.
 
-![image148](UserGuidePics/lectureDelete.png)
+![image148](img/lectureDelete.png)
 
 ------------------------------------------------------------------------
 
@@ -145,7 +145,7 @@ The Delete option will delete the whole lecture. There is no undo tool so far, b
 
 Using the *Material Package* option you can create a package of all the materials that have been used in the lecture.
 
-![image150](UserGuidePics/lectureMaterial.png)
+![image150](img/lectureMaterial.png)
 
 ------------------------------------------------------------------------
 
@@ -164,11 +164,11 @@ The Lecture Display is the view that users of the lecture will see. If the lectu
 
 ### Lecture Style
 
-This is the default view for lectures in Indico. If you have modification rights to any parts in the lecture, you will be able to access the Management Area by clicking the modification icon ![image155](UserGuidePics/conf2.png).
+This is the default view for lectures in Indico. If you have modification rights to any parts in the lecture, you will be able to access the Management Area by clicking the modification icon ![image155](img/conf2.png).
 
 You can also do some management actions from the tab *Manage* on the right of the title.
 
-![image156](UserGuidePics/lect11.png)
+![image156](img/lect11.png)
 
 ------------------------------------------------------------------------
 
@@ -176,7 +176,7 @@ You can also do some management actions from the tab *Manage* on the right of th
 
 The IT style:
 
-![image157](UserGuidePics/lect12.png)
+![image157](img/lect12.png)
 
 ------------------------------------------------------------------------
 
@@ -184,7 +184,7 @@ The IT style:
 
 The CDS Agenda style:
 
-![image158](UserGuidePics/lect13.png)
+![image158](img/lect13.png)
 
 ------------------------------------------------------------------------
 
@@ -192,7 +192,7 @@ The CDS Agenda style:
 
 The Static style:
 
-![image159](UserGuidePics/lect14.png)
+![image159](img/lect14.png)
 
 ------------------------------------------------------------------------
 
@@ -200,7 +200,7 @@ The Static style:
 
 The Simple XML style:
 
-![image160](UserGuidePics/lect15.png)
+![image160](img/lect15.png)
 
 ------------------------------------------------------------------------
 
@@ -208,6 +208,6 @@ The Simple XML style:
 
 The Event style:
 
-![image161](UserGuidePics/lect16.png)
+![image161](img/lect16.png)
 
 ------------------------------------------------------------------------

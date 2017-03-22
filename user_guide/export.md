@@ -6,17 +6,17 @@ To Personal Scheduler Tools (Outlook, iCal, korganizer...)
 
 You can export an event or a set of events to your personal scheduler tool by using the Indico iCal export. There are different ways you can export data into iCal:
 
--   With the icon ![image162](UserGuidePics/ical_small.png) which you can find when looking at a category’s events. This will export the whole event into iCal:
+-   With the icon ![image162](img/ical_small.png) which you can find when looking at a category’s events. This will export the whole event into iCal:
 
-![image165](UserGuidePics/ical1.png)
+![image165](img/ical1.png)
 
 -   From the event page, from the menu *More* -&gt; *Export to iCal*. You have the choice to export the event or the timetable. Clicking on *Export event* will export the event into iCal and clicking on *Export timetable* will export the timetable, with all the contributions etc. within it.
 
-![image166](UserGuidePics/ical2.png)
+![image166](img/ical2.png)
 
 -   From the category’s overview page, by clicking on the link *iCal export*, on the top right. This will export all the events in the given category
 
-![image167](UserGuidePics/ical3.png)
+![image167](img/ical3.png)
 
 On a category page, all events in the category will be exported. Some scheduler tools recognize multiple events (iCal, korganizer, Outlook 2007), others do not (Outlook 2003); in this case, only the first event in the list is recognized.
 
@@ -27,7 +27,7 @@ You can also ask your personal scheduler tool to subscribe to one of these expor
 RSS feeds
 ---------
 
-Indico provides RSS feeds on each Category page. If your browser is RSS-aware, you will see an icon like this on the browser menu bar: ![image163](UserGuidePics/rss.png). Click on it to access the RSS feed, and subscribe to it using an RSS aggregator.
+Indico provides RSS feeds on each Category page. If your browser is RSS-aware, you will see an icon like this on the browser menu bar: ![image163](img/rss.png). Click on it to access the RSS feed, and subscribe to it using an RSS aggregator.
 
 ------------------------------------------------------------------------
 
@@ -40,7 +40,7 @@ If you maintain a Sharepoint web site, it is very easy to create inside it a web
 
 The result should look like this:
 
-![image164](UserGuidePics/sharepoint.png)
+![image164](img/sharepoint.png)
 
 Using the HTTP Export API
 -------------------------
