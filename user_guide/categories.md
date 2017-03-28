@@ -118,8 +118,6 @@ To remove a sub-category and anything it contains or an event, select it and cli
 
 ### Deleting a Category
 
-Was: _To delete the current category you can go to the Tools menu in the Management Area and select 'Delete this category'. There is no undo tool so far, but you will be asked to confirm the deletion first._
-
-New: To delete the current category you can click on the Manage category pencil on the right hand side of the category index. A bin is offered to you in order to delete the category, if it is empty.
+To delete the current category you can click on the Manage category pencil on the right hand side of the category index. A bin is offered to you in order to delete the category, if it is empty.
 
 ------------------------------------------------------------------------
