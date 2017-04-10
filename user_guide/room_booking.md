@@ -26,12 +26,6 @@ The Room Booking Module first page depends on who is logged in. For most people,
 
 ---
 
-### The Most Important Tip
-
-All  question mark icons ![image166](img/help.png) unfold context help. Just point on them with your mouse.
-
----
-
 ### Room Names
 
 The default name is built in the format: "building-floor-room \(location\)". If the room is know by a name, then it appears as: "building-floor-room - Common Name \(location\)".
