@@ -1,4 +1,6 @@
-# Conference Room Booking
+```
+Conference Room Booking
+```
 
 ## Introduction
 
@@ -38,7 +40,7 @@ If a room does not have a name, the default name is built in the following way:
 
 Examples: "CERN: 304-1-001", "Sheraton: 0-34-013".
 
-![image167](img/rb_room_name.png)
+![](/assets/indico-room-book-list.png)
 
 ---
 
