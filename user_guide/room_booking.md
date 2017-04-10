@@ -20,13 +20,13 @@ Just click on _Room Booking_ in the Indico home page, in the top blue bar. To bo
 
 ### The First Page
 
-The Room Booking Module first page depends on who is logged in. For most people, it shows the site _Map of Rooms_ that can be booked, as per the relevant menu option, on the left banner. The _Book a Room_ option, from the same menu, shows all the bookable rooms sorted by room number, together with the room capacity and equipment available. The _My Bookings_ menu option shows you bookings you have already done. Room managers can see bookings of rooms they manage by using the _My Rooms_  option, always on the left banner.
+The Room Booking Module first page depends on who is logged in. For most people, it shows the site _Map of Rooms_ that can be booked, as per the relevant menu option, on the left banner. The _Book a Room_ option, from the same menu, shows all the bookable rooms sorted by room number, together with the room capacity and equipment available. The _My Bookings_ menu option shows the bookings you have already done. Room managers can see bookings/blockings of rooms they manage by using the _My Rooms / Room Blocking_  options, always on the left banner.
 
 ---
 
 ### The Most Important Tip
 
-If you require it, point at the question mark icon ![image166](img/help.png) with your mouse to see context help. Context help is meant to answer most of your questions along the way.
+All  question mark icons ![image166](img/help.png) unfold context help. Just point on them with your mouse.
 
 ---
 
