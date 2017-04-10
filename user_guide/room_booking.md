@@ -46,13 +46,12 @@ Examples: "304-1-001 \(CERN\)", "4-3-004 - TH Discussion Room \(CERN\)"
 
 There are three kinds of room. They determine how much freedom users have.
 
-* _Public rooms_ which do not require confirmation \(black/green  
-  colour\). This means all bookings are accepted.
+* _Public rooms_ which do not require confirmation \(the lock icon on the room line is open\). This means all bookings are accepted.
 
-* _Public rooms_ which do require confirmation \(orange colour\). You can  
+* _Public rooms_ which **do** require confirmation \(orange colour????????????????\). You can  
   PRE-book them and wait for acceptance or rejection.
 
-* _Private rooms_ which cannot be booked at all \(red colour\). Only the room  
+* _Private rooms_ which cannot be booked at all \(red colour??????????????\). Only the room  
   manager can book his/her private room. If you need such a room, you should ask this person to create a booking for you.
 
 ![image168](img/rb_room_types.png)
