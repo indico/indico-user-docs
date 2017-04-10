@@ -38,7 +38,7 @@ The default name is built in the format: "building-floor-room \(location\)". If 
 
 Examples: "304-1-001 \(CERN\)", "4-3-004 - TH Discussion Room \(CERN\)"
 
-![](/assets/indico-book-room-list.png)
+![](/assets/indico-rooms-to-book.png)
 
 ---
 
