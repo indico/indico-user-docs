@@ -34,11 +34,9 @@ All  question mark icons ![image166](img/help.png) unfold context help. Just poi
 
 ### Room Names
 
-If a room does not have a name, the default name is built in the following way:
+The default name is built in the format: "building-floor-room \(location\)". If the room is know by a name, then it appears as: "building-floor-room - Common Name \(location\)". 
 
-"location: building-floor-room"
-
-Examples: "CERN: 304-1-001", "Sheraton: 0-34-013".
+Examples: "304-1-001 \(CERN\)", "4-3-004 - TH Discussion Room \(CERN\)"
 
 ![](/assets/indico-book-room-list.png)
 
@@ -246,5 +244,5 @@ _Room blocking_: a restriction created by a room manager which prevents users fr
 
 ---
 
-
+![](/assets/indico-rooms-to-book.png)
 
