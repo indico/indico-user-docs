@@ -10,7 +10,7 @@ Indico users can book conference rooms for their conference and meeting purposes
 
 Instead of being a boring manual no one ever reads, this file is a tutorial, navigating through the pages of the room booking modules. It shows you how to assign a room to a particular event or simply to book a room on its own, without attaching it to a event. The booking can then be managed from the administration area.
 
-![image165](img/rb_main.png)
+![image165](img/uploadPicture.png)
 
 ---
 
@@ -29,6 +29,8 @@ The Room Booking Module first page depends on who is logged in. For most people,
 ### The Most Important Tip
 
 All  question mark icons ![image166](img/help.png) unfold context help. Just point on them with your mouse.
+![image165](img/rb_main.png)
+
 
 ---
 
