@@ -38,7 +38,7 @@ The default name is built in the format: "building-floor-room \(location\)". If 
 
 Examples: "304-1-001 \(CERN\)", "4-3-004 - TH Discussion Room \(CERN\)"
 
-![](/assets/indico-rooms-to-book.png)
+
 
 ---
 
@@ -242,6 +242,4 @@ _Room responsible/manager_: the person who accepts/rejects bookings. Each room h
 _Room blocking_: a restriction created by a room manager which prevents users from booking the rooms listed in the blocking unless they have explicit permission to override the permission or own the rooms.
 
 ---
-
-![](/assets/indico-rooms-to-book.png)![](/assets/indico-rooms-to-book.png)
 
