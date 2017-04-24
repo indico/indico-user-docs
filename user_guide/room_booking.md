@@ -63,9 +63,9 @@ In the image below you can see examples of these three types of rooms:
 
 ---
 
-### Six Types of Booking
+### Booking single or multiple occurence events
 
-There are six types of booking. They allow you to define different types of recurring reservation. A common example is a weekly meeting \(which takes place at the same time every week\). You can choose from:
+You may do a _ types of recurring reservation. A common example is a weekly meeting \(which takes place at the same time every week\). You can choose from:
 
 * _Single day_: not recurring, one-time event
 * _Repeat daily_: use if you want to book many subsequent days, like an entire week
@@ -73,7 +73,7 @@ There are six types of booking. They allow you to define different types of recu
 * _Repeat once every two weeks_: as above, but repeats every two weeks
 * _Repeat once every three weeks_: as above, but repeats every three weeks
 * _Repeat every month_: allows you to do bookings like 'first Friday of each month', 'second Wednesday of each month', 'fourth Saturday of each month', etc.
-
+![](/assets/book_frequency.png)
 ---
 
 ### Booking a Room
