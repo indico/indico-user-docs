@@ -32,7 +32,7 @@ The default name is built in the format: "building-floor-room \(location\)". If 
 
 Examples: "304-1-001 \(CERN\)", "4-3-004 - TH Discussion Room \(CERN\)"
 
-
+![](/assets/room_names.png)
 
 ---
 
