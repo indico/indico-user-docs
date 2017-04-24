@@ -46,10 +46,18 @@ There are three kinds of room. They determine how much freedom users have.
 * _Public rooms_ which do require confirmation \(orange colour\). You can  
   PRE-book them and wait for acceptance or rejection.
 
-* _Private rooms_ which cannot be booked at all \(red colour\). Only the room  
-  manager can book his/her private room. If you need such a room, you should ask this person to create a booking for you.
+* _Private rooms_ which cannot be booked at all \(red colour\). Only the room manager can book his/her private room. If you need such a room, you should ask this person to create a booking for you.
 
-![image168](img/rb_room_types.png)
+In the image below you can see examples of these three types of rooms:
+* _513-R-068_ is public, i.e. you try to book it, it is free at the time you want it, you have it!
+* _513-1-024_ is public but requires confirmation, i.e. you try to book it, it is free at the time you want it, you PRE-book it, wait for moderator's approval, you have it!
+* _513-R-070_ is private, i.e. you try to book it, you get the message: _You don't have rights to book this room_
+
+
+
+
+
+![](/assets/kinds_of_rooms.png)
 
 ---
 
