@@ -16,7 +16,7 @@ Instead of being a boring manual no one ever reads, this file is a tutorial, nav
 
 ### Getting into Room Booking Module
 
-Just click on _Room Booking_ in the Indico home page, in the top blue bar. To book rooms for your event, go to the event management page and click on the _Room Booking_ option on the left banner. In both cases you will be asked to sign in. Use your Indico login.
+Just click on _Room Booking_ in the Indico home page, in the top dark bar. To book rooms for your event, go to the event management page and click on the _Room Booking_ option on the left banner. In both cases you will be asked to sign in. Use your Indico login.
 
 ---
 
