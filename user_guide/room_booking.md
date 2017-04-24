@@ -26,18 +26,15 @@ The Room Booking Module first page depends on who is logged in. For most people,
 
 ---
 
-### Book a Room
+### Room Names and filters
 
 When you click on _Book a Room_ on the left banner, the entire list of rooms appears, arithmetically sorted. 
 Observe the _filter_ possibilities offered to you on the top row of the table. There you may type a building or room number, if you have a preferred location and restrict your selection with rooms with videoconferencing equipment and/or projector, required capacity and 'privacy' to facilitate your booking process.
 
-### Room Names
-
 The default name is built in the format: "building-floor-room \(location\)". If the room is know by a name, then it appears as: "building-floor-room - Common Name \(location\)".
 
 Examples: "304-1-001 \(CERN\)", "4-3-004 - TH Discussion Room \(CERN\)"
-
-![](/assets/room_names.png)
+![](/assets/room_names_filters.png)
 
 ---
 
