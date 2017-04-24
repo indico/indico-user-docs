@@ -63,16 +63,12 @@ In the image below you can see examples of these three types of rooms:
 
 ---
 
-### Booking single or multiple occurence events
+### Booking rooms for single or multiple occurence events
 
-You may do a _ types of recurring reservation. A common example is a weekly meeting \(which takes place at the same time every week\). You can choose from:
+You may reserve a room more than _Once_, namely on a _Daily_, _Weekly_ or _Monthly_ basis. A common example is a weekly meeting \(which takes place at the same time every week\). 
 
-* _Single day_: not recurring, one-time event
-* _Repeat daily_: use if you want to book many subsequent days, like an entire week
-* _Repeat once a week_: the booking will take place every week, always on the same day
-* _Repeat once every two weeks_: as above, but repeats every two weeks
-* _Repeat once every three weeks_: as above, but repeats every three weeks
-* _Repeat every month_: allows you to do bookings like 'first Friday of each month', 'second Wednesday of each month', 'fourth Saturday of each month', etc.
+See, on the image below, once you've _selected_ your room and declared you want to book it _Weekly_, how _all Mondays_ appear darker than the other days on the calendar.
+
 ![](/assets/book_frequency.png)
 ---
 
