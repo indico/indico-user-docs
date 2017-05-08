@@ -107,10 +107,6 @@ If someone else has already booked this room on the period you selected, you wil
 
 If you have booked the room for multiple days and there are conflicts in some of them, you can still book the room for the dates that are available and the days where there is a conflict will simply be discarted.
 
-Click on the green bar to book the room for that date.
-
-Just as before, Select whether you want to use the room for yourself of if you are booking the room for someone else, and write down your reason for booking the room.
-once you are finished, click on “create booking”.
 
 Let’s now look at how to search for an available room based on more specific criteria.
 
