@@ -114,6 +114,8 @@ You can also search for a room based on more specific criteria. For this, click 
 
 ![](/assets/indico_room_search.png)
 
+**# MARIA MUST RE-EDIT APPENDED TEXT !!!!!!!!!!!!!!!!!!!**
+
 Write in some room details, such as the person responsible at CERN, or some equipment, if you have some of these informations. Otherwise leave it blank.
 Choose the availability, for example “available”, and decide the time period you want.
 
