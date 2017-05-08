@@ -82,7 +82,6 @@ The booking process consists essentially on three steps:
 * Selecting an available period
 * Confirming the reservation
 
-![image169](img/rb_booking_a_room.png)
 
 In the first step you can specify the rooms, date range and time range in which you want to search for bookings.
 
@@ -225,6 +224,8 @@ The room must have its manager. It is not possible to define multiple managers f
 The room must have a defined building, which must be a number. This is mandatory. If you do not need building, put any number there \(like '0'\). If your building naming scheme has letters, we are sorry - the software is not flexible enough for you.
 
 The room must have defined floor \(alphanumerical\) and room 'number' \(alphanumerical in fact\).
+
+Restrictions may apply to the time period for which you are allowed to define a periodic booking, e.g. you may book the same room every day at the same time but not for more than X weeks/months.
 
 ---
 
