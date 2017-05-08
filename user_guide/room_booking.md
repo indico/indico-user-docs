@@ -84,15 +84,15 @@ In the first step you can specify the rooms, date range and time range in which 
 
 If you have permission to book the room you selected, you should be able to see this “Booking Time & date” page, with a calendar where you can easily choose the dates you want.
 
-If you want to book the room for only one day, simply click on the date you want by choosing the correct month (show months switching) and day.
-You will also have to choose the time interval you want to book, for example 1 pm to 3 pm.
+If you want to book the room for only one day, simply click on the date you want by choosing the correct month and day.
+You will also have to choose the time interval you want to book it for.
 
 If instead you want to book a room for several consecutive days, weeks, or months, click on “Daily, Weekly, or monthly” near “Frequency”.
 
-Below you will see a preview of the availability of the current day.
-The green bar you lets you know where you can book your room, and other bars of other colours will show you when other users have booked the same room.
+At the end of the page you will see a preview of the availability of the current day.
+The green bar informs you on timeslots for which you can book this room, and other bars of other colours will show you when other users have already booked the same room.
 
-Select whether you want to use the room for yourself of if you are booking the room for someone else, and write down your reason for booking the room.
+Select whether you want to use the room for yourself of if you are booking the room for someone else, and write down the reason for this booking.
 
 Finally, if the room is equipped with videoconferencing, select whether you plan to use this equipment or not.
 
