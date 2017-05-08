@@ -74,16 +74,69 @@ See, on the image below, once you've _selected_ your room and declared you want 
 
 ### Booking a Room
 
-On the Indico main page, click the _Room Booking_ menu option. This is how you access the Room Booking Module. From there, click the _Book a Room_ menu option.
-
 The booking process consists essentially on three steps:
 
 * Specifying the search criteria
 * Selecting an available period
 * Confirming the reservation
 
+In the first step you can specify the rooms, date range and time range in which you want to search for bookings. The sections and images shown so far explained how you can select a candidate room to book.
 
-In the first step you can specify the rooms, date range and time range in which you want to search for bookings.
+If you have permission to book the room you selected, you should be able to see this “Booking Time & date” page, with a calendar where you can easily choose the dates you want.
+
+If you want to book the room for only one day, simply click on the date you want by choosing the correct month (show months switching) and day.
+You will also have to choose the time interval you want to book, for example 1 pm to 3 pm.
+
+If instead you want to book a room for several consecutive days, weeks, or months, click on “Daily, Weekly, or monthly” near “Frequency”.
+
+Below you will see a preview of the availability of the current day.
+The green bar you lets you know where you can book your room, and other bars of other colours will show you when other users have booked the same room.
+
+Select whether you want to use the room for yourself of if you are booking the room for someone else, and write down your reason for booking the room.
+
+Finally, if the room is equipped with videoconferencing, select whether you plan to use this equipment or not.
+
+Click on Create bookings, once you are finished.
+
+If someone else has already booked this room on days you selected, you will be able to resolve these “conflicts”, by clicking on “conflicts”.
+
+Let’s now look at how to book a room you only know the name of and how to book a room based on certain basic criteria
+
+return to your “room booking page”. Then click on “Book a room”
+If you know the name of the room you are looking for, search for it and select it.
+
+You can use some filters if you want your room to contain certain equipment, such as videoconference, Webcast, Projector, or whether it is a public room.
+For example, let’s look for rooms that have Videoconference, and a projector.
+Now only the rooms that have this equipment will appear.
+
+Then choose your booking time and date information as before.
+And when you’re finished, click “continue”.
+Check if there are conflicts between your date and other user’s bookings, and if there are, go back and change the date.
+If you have several days worth of bookings and there are conflicts in only a few dates, you can still book the room for the dates that are available and the days where there is a conflict will be simply discarted.
+
+Click on the green bar to book the room for that date.
+
+Just as before, Select whether you want to use the room for yourself of if you are booking the room for someone else, and write down your reason for booking the room.
+once you are finished, click on “create booking”.
+
+Let’s now look at how to search for an available room based on more specific criteria.
+
+You can also search for a room based on more specific criteria. For this, click on “Search rooms” under “Search”.
+
+Write in some room details, such as the person responsible at CERN, or some equipment, if you have some of these informations. Otherwise leave it blank.
+Choose the availability, for example “available”, and decide the time period you want.
+
+Choose the number of seats you want the room to have, and then select the criteria that you want from the extensive list, for example let’s suppose we want VIDEO CONFERENCE WITH VIDYO AND  WEBCASTING OR RECORDING.
+
+Simply click “Search” once you’re finished and the next page will show you a list of the rooms that match your criteria.
+
+click on “view” for more details about the room, or click on “book”, and you will be directed to the page that allows you to book the room, just like we have seen before.
+
+ANOTHER type of search you can do is searching the bookings instead of the room based on certain criteria.
+To do this, click on “Search bookings“.
+
+This allows you to look at the bookings other users have made for a specific time window and for a SPECIFIC ROOM. 
+If you want to Look at all the bookings for a specific DAY for ALL the rooms, simply click on “Calendar” at the left of the page.
 
 * The _room picker_ allows you to filter by name, technical requirements, and minimum capacity. By clicking on a room you will mark it as a candidate for the booking.
 * The _date range_ selector allows you to specify the frecuency and flexibility of the booking. Frecuency allows to book the room a single time, daily, weekly or monthly. Flexibility extends the search a few days before and after the specified date.
