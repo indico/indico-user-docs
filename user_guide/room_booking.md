@@ -116,7 +116,7 @@ You can also search for a room based on more specific criteria. For this, click 
 
 **# MARIA MUST RE-EDIT APPENDED TEXT !!!!!!!!!!!!!!!!!!!**
 
-Write in some room details, such as the person responsible at CERN, or some equipment, if you have some of these informations. Otherwise leave it blank.
+Write in some room details, such as the person responsible at CERN, or some equipment, if you have this information. Otherwise leave it blank.
 Choose the availability, for example “available”, and decide the time period you want.
 
 Choose the number of seats you want the room to have, and then select the criteria that you want from the extensive list, for example let’s suppose we want VIDEO CONFERENCE WITH VIDYO AND  WEBCASTING OR RECORDING.
