@@ -110,7 +110,9 @@ If you have booked the room for multiple days and there are conflicts in some of
 
 Let’s now look at how to search for an available room based on more specific criteria.
 
-You can also search for a room based on more specific criteria. For this, click on “Search rooms” under “Search”.
+You can also search for a room based on more specific criteria. For this, click on _Search rooms_ under _Search_.
+
+![](/assets/indico_room_search.png)
 
 Write in some room details, such as the person responsible at CERN, or some equipment, if you have some of these informations. Otherwise leave it blank.
 Choose the availability, for example “available”, and decide the time period you want.
