@@ -83,16 +83,16 @@ The booking process consists essentially on three steps:
 In the first step you can specify the rooms, date range and time range in which you want to search for bookings. The sections and images shown so far explained how you can select a candidate room to book.
 
 You can use some filters if you want your room to contain certain equipment, such as videoconference, Webcast, Projector, or whether it is a public room.
-For example, let’s look for rooms that have Videoconference, and a projector. Now only the rooms that have this equipment will appear.
+For example, let’s look for rooms that have Videoconference, and a projector. Now only the rooms that have this equipment will appear from which you can try to select one.
 
 ![](/assets/indico_rooms_filtered.png)
 
-If you have permission to book the room you selected, you should be able to see this _Booking Time & date_page, with a calendar where you can easily choose the dates you want.
+If you have permission to book the room you selected, you should be able to see this _Booking Time & date_ area further down in the same page, with a calendar where you can easily choose the date(s) you want.
 
 If you want to book the room for only one day, simply click on the date you want by choosing the correct month and day.
 You will also have to choose the time interval you want to book it for.
 
-If instead you want to book a room for several consecutive days, weeks, or months, click on “Daily, Weekly, or monthly” near “Frequency”.
+If instead you want to book a room for several consecutive days, weeks, or months, click on “Daily, Weekly, or Monthly” near “Frequency”.
 
 At the end of the page you will see a preview of the availability of the current day.
 The green bar informs you on timeslots for which you can book this room, and other bars of other colours will show you when other users have already booked the same room.
@@ -105,12 +105,7 @@ Click on _Create booking_, once you are finished.
 
 If someone else has already booked this room on the period you selected, you will be able to resolve these “conflicts”, by clicking on _Conflicts_.
 
-
-
-Then choose your booking time and date information as before.
-And when you’re finished, click “continue”.
-Check if there are conflicts between your date and other user’s bookings, and if there are, go back and change the date.
-If you have several days worth of bookings and there are conflicts in only a few dates, you can still book the room for the dates that are available and the days where there is a conflict will be simply discarted.
+If you have booked the room for multiple days and there are conflicts in some of them, you can still book the room for the dates that are available and the days where there is a conflict will simply be discarted.
 
 Click on the green bar to book the room for that date.
 
