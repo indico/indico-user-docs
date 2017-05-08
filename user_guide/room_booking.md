@@ -82,7 +82,12 @@ The booking process consists essentially on three steps:
 
 In the first step you can specify the rooms, date range and time range in which you want to search for bookings. The sections and images shown so far explained how you can select a candidate room to book.
 
-If you have permission to book the room you selected, you should be able to see this “Booking Time & date” page, with a calendar where you can easily choose the dates you want.
+You can use some filters if you want your room to contain certain equipment, such as videoconference, Webcast, Projector, or whether it is a public room.
+For example, let’s look for rooms that have Videoconference, and a projector. Now only the rooms that have this equipment will appear.
+
+![](/assets/indico_rooms_filtered.png)
+
+If you have permission to book the room you selected, you should be able to see this _Booking Time & date_page, with a calendar where you can easily choose the dates you want.
 
 If you want to book the room for only one day, simply click on the date you want by choosing the correct month and day.
 You will also have to choose the time interval you want to book it for.
@@ -96,18 +101,11 @@ Select whether you want to use the room for yourself of if you are booking the r
 
 Finally, if the room is equipped with videoconferencing, select whether you plan to use this equipment or not.
 
-Click on Create bookings, once you are finished.
+Click on _Create booking_, once you are finished.
 
-If someone else has already booked this room on days you selected, you will be able to resolve these “conflicts”, by clicking on “conflicts”.
+If someone else has already booked this room on the period you selected, you will be able to resolve these “conflicts”, by clicking on _Conflicts_.
 
-Let’s now look at how to book a room you only know the name of and how to book a room based on certain basic criteria
 
-return to your “room booking page”. Then click on “Book a room”
-If you know the name of the room you are looking for, search for it and select it.
-
-You can use some filters if you want your room to contain certain equipment, such as videoconference, Webcast, Projector, or whether it is a public room.
-For example, let’s look for rooms that have Videoconference, and a projector.
-Now only the rooms that have this equipment will appear.
 
 Then choose your booking time and date information as before.
 And when you’re finished, click “continue”.
