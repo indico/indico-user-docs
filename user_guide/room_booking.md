@@ -1,5 +1,5 @@
 ```
-Conference Room Booking
+Event Room Booking
 ```
 
 ## Introduction
