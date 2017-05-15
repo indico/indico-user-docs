@@ -113,9 +113,6 @@ Finally, if the room is equipped with videoconferencing, select whether you plan
 
 Click on _Create \(pre-\)booking_, once you are finished.
 
-If someone else has already booked this room on the period you selected, you will be able to resolve these “conflicts”, by clicking on _Conflicts_.
-
-If you have booked the room for multiple days and there are conflicts in some of them, you can still book the room for the dates that are available and the days where there is a conflict will simply be discarted.
 
 
 Let’s now look at how to search for an available room based on more specific criteria.
