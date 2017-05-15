@@ -112,12 +112,12 @@ Let’s now look at how to search for an available room based on more specific c
 
 You can also search for a room based on more specific criteria. For this, click on _Search rooms_ under _Search_.
 
-![](/assets/indico_room_search.png)
+![](/assets/indico_room_search_all.png)
 
 Write in some room details, such as the name of the person responsible for the room, if you know it, or some equipment that you need the room to include. Otherwise leave it blank.
 Choose the availability, for example “available”, and decide the time period you want.
 
-Choose the number of seats you want the room to have, and then select the criteria that you want from the extensive list, for example let’s suppose we want VIDEO CONFERENCE WITH VIDYO AND  WEBCASTING OR RECORDING.
+Choose the number of seats you want the room to have, and then select the criteria that you want from the extensive list, for example let’s suppose we want _Video conference: Vidyo_
 
 Simply click “Search” once you’re finished and the next page will show you a list of the rooms that match your criteria.
 
