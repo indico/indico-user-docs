@@ -121,7 +121,7 @@ You can also search for a room based on more specific criteria. For this, click 
 
 ![](/assets/indico_room_search_all.png)
 
-Write in some room details, such as the name of the person responsible for the room, if you know it, or some equipment that you need the room to include. Otherwise leave it blank.
+Write in some room details, such as the name of the person responsible for the room, if you know it, \(e.g. IT secretariat\) or some equipment that you need the room to include. Otherwise leave it blank.
 Choose the availability, for example “available”, and decide the time period you want.
 
 Choose the number of seats you want the room to have, and then select the criteria that you want from the extensive list, for example let’s suppose we want _Video conference: Vidyo_
