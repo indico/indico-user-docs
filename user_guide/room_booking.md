@@ -45,9 +45,9 @@ Examples: "304-1-001 \(CERN\)", "4-3-004 - TH Discussion Room \(CERN\)"
 
 ---
 
-### Three Kinds of Room
+### Three Kinds of Rooms
 
-There are three kinds of room. They determine how much freedom users have.
+There are three kinds of rooms. They determine how much freedom users have.
 
 * _Public rooms_ which do not require confirmation \(black/green  
   colour\). This means all bookings are accepted.
@@ -101,7 +101,8 @@ You will also have to choose the time interval you want to book it for.
 
 If instead you want to book a room for several consecutive days, weeks, or months, click on “Daily, Weekly, or Monthly” near “Frequency”.
 
-At the end of the page you will see a preview of the availability of the current day.
+On the next page you will see a preview of the room availability for your date\(s\) you specified in your criteria. It looks exactly like the image we showed earlier on Kinds ofrooms.
+
 The green bar informs you on timeslots for which you can book this room, and other bars of other colours will show you when other users have already booked the same room.
 
 Select whether you want to use the room for yourself of if you are booking the room for someone else, and write down the reason for this booking.
