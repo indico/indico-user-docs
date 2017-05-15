@@ -1,4 +1,4 @@
-a```
+```
 Conference Room Booking
 ```
 
@@ -132,11 +132,12 @@ Click on “view” for more details about the room, or click on “\(PRE-\)book
 
 A "Check conflicts" button is also available on this view, as there might be existing bookings done by others during the period you defined. Conflict management is explained later in this document.
 
-ANOTHER type of search you can do is searching the bookings instead of the room based on certain criteria.
-To do this, click on “Search bookings“.
+Another type of search you can do is searching the bookings instead of the room based on certain criteria.
+To do this, click on “Search bookings“ on the left banner.
 
-This allows you to look at the bookings other users have made for a specific time window and for a SPECIFIC ROOM. 
-If you want to Look at all the bookings for a specific DAY for ALL the rooms, simply click on “Calendar” at the left of the page.
+This allows you to look at the bookings other users have made. Narrow down your search to a specific room and/or timespan, to find something suitable to your needs with least tries.
+
+If you want to look at all the bookings for a specific DAY for ALL the rooms, simply click on “Calendar” from the same left banner.
 
 * The _room picker_ allows you to filter by name, technical requirements, and minimum capacity. By clicking on a room you will mark it as a candidate for the booking.
 * The _date range_ selector allows you to specify the frequency and flexibility of the booking. Frequency allows to book the room a single time, daily, weekly or monthly. "Flexibility" extends the search a few days before and after the specified date.
@@ -238,7 +239,7 @@ General features are:
 Options available to regular users:
 
 * Book a room
-* Manage own bookings \(track, modify, cancel\)
+* Manage own bookings \(track, modify, clone, cancel\)
 * Search for rooms
 * Search for bookings \(including archival\)
 * View existing room blockings
