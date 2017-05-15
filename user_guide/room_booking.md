@@ -101,7 +101,7 @@ You will also have to choose the time interval you want to book it for.
 
 If instead you want to book a room for several consecutive days, weeks, or months, click on “Daily, Weekly, or Monthly” near “Frequency”.
 
-On the next page you will see a preview of the room availability for your date\(s\) you specified in your criteria. It looks exactly like the image we showed earlier on Kinds ofrooms.
+On the next page you will see a preview of the room availability for your date\(s\) you specified in your criteria. It looks exactly like the image we showed earlier on Kinds of rooms.
 
 The green bar informs you on timeslots for which you can book this room, and other bars of other colours will show you when other users have already booked the same room.
 
