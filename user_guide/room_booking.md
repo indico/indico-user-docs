@@ -94,7 +94,7 @@ For example, let’s look for rooms that have Videoconference, and a projector. 
 
 ![](/assets/indico_rooms_filtered.png)
 
-If you have permission to book the room you selected, you should be able to see this _Booking Time & date_ area further down in the same page, with a calendar where you can easily choose the date(s) you want.
+If you have permission to book the room you selected, you should be able to see, further down in the same page, the _Booking Time & date_ area, that we showed earlier, with a calendar, where you can easily choose the date(s) you want.
 
 If you want to book the room for only one day, simply click on the date you want by choosing the correct month and day.
 You will also have to choose the time interval you want to book it for.
