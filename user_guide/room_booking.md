@@ -90,7 +90,7 @@ The booking process consists essentially on three steps:
 In the first step you can specify the rooms, date range and time range in which you want to search for bookings. The sections and images shown so far explained how you can select a candidate room to book.
 
 You can use some filters if you want your room to contain certain equipment, such as videoconference, Webcast, Projector, or whether it is a public room.
-For example, let’s look for rooms that have Videoconference, and a projector. Now only the rooms that have this equipment will appear from which you can try to select one.
+For example, let’s look for rooms that have Videoconference, and a projector. Please observe the pronounced blue camera and projector images on the _Filter_ top row of the image below. Now only the rooms that have this equipment will appear from which you can try to select one.
 
 ![](/assets/indico_rooms_filtered.png)
 
