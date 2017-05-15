@@ -8,7 +8,7 @@ This chapter describes the Indico module for booking conference rooms.
 
 Indico users can book conference rooms for their conference and meeting purposes. Bookings can also be standalone - they do not have to be bound to any event. Room managers can monitor and moderate all bookings. Indico administrators can create rooms and manage their data.
 
-Instead of being a boring manual no one ever reads, this file is a tutorial, navigating through the pages of the room booking modules. It shows you how to assign a room to a particular event or simply to book a room on its own, without attaching it to a event. The booking can then be managed from the administration area.
+This document is a tutorial, navigating through the pages of the room booking modules. It shows you how to assign a room to a particular event or simply to book a room on its own, without attaching it to a event. The booking can then be managed from the administration area.
 
 ![](/assets/main_room.png)
 
@@ -168,6 +168,7 @@ You can view the bookings or pre-bookings that you made by going under the 'My b
 ![](/assets/My_bookings.png)
 
 This page contains all the information about all your bookings, and it allows you to modify, clone or cancel some of them, by clicking on the coloured zone of the booking done. If the room reservation is done for more than a single day, each of the occurences of the booking can be canceled individually. In addition, this page lets you watch the history of the booking \(e.g. the image below continues through a long list of reservations done for room 513-R-068 since 2013 and up to now.\)
+
 ![](/assets/booking_history.png)
 
 ---
