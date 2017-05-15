@@ -4,10 +4,14 @@ Categories
 Category
 --------
 
-A Category is a means of grouping your events or other Categories together. In Indico, *Home* is the top level category from where you start. Inside a category you can:
+A Category is a means of grouping your events or other Categories together. In Indico, *Home* is the top level category from where you start. 
+
+![](/assets/home_with_categories.png)
+
+Inside a category you can:
 
 
--   add events or other sub-categories,
+-   add/delete events or other sub-categories,
 -   set access rights to say who can access or modify,
 -   re-allocate the sub-categories,
 -   remove the sub-categories,
