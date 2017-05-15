@@ -161,11 +161,14 @@ Note: you can always browse your own bookings and PRE-bookings using the menu op
 
 ---
 
-### View your Booking
+### View your Bookings
 
-You can view the bookings or pre-bookings that you made by going under the 'My bookings' and 'My PRE-bookings' sections of the Room Booking side menu. By selecting one of the bookings in the list, you will get the following :
+You can view the bookings or pre-bookings that you made by going under the 'My bookings' sections of the Room Booking side menu:
+
 ![](/assets/My_bookings.png)
-This page contains all the information about a booking, and it allows you to modify, clone or cancel the booking. If the reservation is done for more than a single day, each of the occurences of the booking can be canceled individually. In addition, this page lets you watch the history of the booking \(i.e. all the past actions that were performed on this reservation\) if you are the creator of the booking. Only the most recent entry is partially displayed, but you can see the rest of it by clicking on the _Show All History..._ link. Additional information about a particular entry can be viewed by clicking the _More Info_ link.
+
+This page contains all the information about all your bookings, and it allows you to modify, clone or cancel some of them, by clicking on the coloured zone of the booking done. If the room reservation is done for more than a single day, each of the occurences of the booking can be canceled individually. In addition, this page lets you watch the history of the booking \(e.g. the image below continues through a long list of reservations done for room 513-R-068 since 2013 and up to now.\)
+![](/assets/booking_history.png)
 
 ---
 
