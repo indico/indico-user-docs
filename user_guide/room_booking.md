@@ -128,7 +128,7 @@ Choose the number of seats you want the room to have, and then select the criter
 
 Simply click “Search” once you’re finished and the next page will show you a list of the rooms that match your criteria.
 
-click on “view” for more details about the room, or click on “book”, and you will be directed to the page that allows you to book the room, just like we have seen before.
+click on “view” for more details about the room, or click on “\(PRE-\)book”, and you will be directed to the page that allows you to book the room, just like we have seen before.
 
 ANOTHER type of search you can do is searching the bookings instead of the room based on certain criteria.
 To do this, click on “Search bookings“.
