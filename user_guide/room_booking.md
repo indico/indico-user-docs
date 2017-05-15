@@ -40,6 +40,7 @@ Observe the _filter_ possibilities offered to you on the top row of the table. T
 The default name is built in the format: "building-floor-room \(location\)". If the room is know by a name, then it appears as: "building-floor-room - Common Name \(location\)".
 
 Examples: "304-1-001 \(CERN\)", "4-3-004 - TH Discussion Room \(CERN\)"
+
 ![](/assets/room_names_filters.png)
 
 ---
