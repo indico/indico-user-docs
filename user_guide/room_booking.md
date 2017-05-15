@@ -113,7 +113,7 @@ Finally, if the room is equipped with videoconferencing, select whether you plan
 
 Click on _Create \(pre-\)booking_, once you are finished.
 
-
+### Search and book a room
 
 Let’s now look at how to search for an available room based on more specific criteria.
 
