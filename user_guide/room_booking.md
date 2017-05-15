@@ -103,13 +103,15 @@ If instead you want to book a room for several consecutive days, weeks, or month
 
 On the next page you will see a preview of the room availability for your date\(s\) you specified in your criteria. It looks exactly like the image we showed earlier on Kinds of rooms.
 
-The green bar informs you on timeslots for which you can book this room, and other bars of other colours will show you when other users have already booked the same room.
+The green bars inform you on timeslots for which you can book this room, and other bars of other colours will show you when other users have already booked the same room.
 
-Select whether you want to use the room for yourself of if you are booking the room for someone else, and write down the reason for this booking.
+If you are trying to book the room for multiple occurences and some of them are impossible, because the room is taken, you can still click on a green bar and _Skip conflicting days_ to proceed with your booking for the rest of the desired period.
+
+Select whether you want to use the room for yourself of if you are booking the room for someone else, and write down the reason for this booking. If you've skipped conflicting days you'll be asked to tick _I understand_ for the slots that cannot be booked.
 
 Finally, if the room is equipped with videoconferencing, select whether you plan to use this equipment or not.
 
-Click on _Create booking_, once you are finished.
+Click on _Create \(pre-\)booking_, once you are finished.
 
 If someone else has already booked this room on the period you selected, you will be able to resolve these “conflicts”, by clicking on _Conflicts_.
 
