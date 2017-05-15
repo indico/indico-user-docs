@@ -10,13 +10,19 @@ Indico users can book conference rooms for their conference and meeting purposes
 
 This document is a tutorial, navigating through the pages of the room booking modules. It shows you how to assign a room to a particular event or simply to book a room on its own, without attaching it to a event. The booking can then be managed from the administration area.
 
-![](/assets/main_room.png)
+
 
 ---
 
 ### Getting into Room Booking Module
 
-Just click on _Room Booking_ in the Indico home page, in the top dark bar. To book rooms for your event, go to the event management page and click on the _Room Booking_ option on the left banner. In both cases you will be asked to sign in. Use your Indico login.
+Just click on _Room Booking_ in the Indico home page, in the top dark bar. 
+
+![](/assets/main_room.png)
+
+
+
+To book rooms for your event, go to the event management page and click on the _Room Booking_ option on the left banner. In both cases you will be asked to sign in. Use your Indico login.
 
 ---
 
