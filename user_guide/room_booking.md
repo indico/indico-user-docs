@@ -130,18 +130,17 @@ This allows you to look at the bookings other users have made for a specific tim
 If you want to Look at all the bookings for a specific DAY for ALL the rooms, simply click on “Calendar” at the left of the page.
 
 * The _room picker_ allows you to filter by name, technical requirements, and minimum capacity. By clicking on a room you will mark it as a candidate for the booking.
-* The _date range_ selector allows you to specify the frequency and flexibility of the booking. Frequency allows to book the room a single time, daily, weekly or monthly. Flexibility extends the search a few days before and after the specified date.
+* The _date range_ selector allows you to specify the frequency and flexibility of the booking. Frequency allows to book the room a single time, daily, weekly or monthly. "Flexibility" extends the search a few days before and after the specified date.
 * The _time range_ simply serves the purpose of specifying the hours in which the room will be needed.
 
 When you are done, click the button _Search_ to proceed to the next step.
 
 In the second step, you will be presented with a calendar summarizing the rooms, dates and times you specified previously. In this view you can check all available periods \(marked in green\), other bookings \(in yellow\) or conflicts \(in red\).
 
-This view is very versatile. Give it a try: set the frecuency of the search to to _Weekly_, set the end date to be at least 2 months after the start date, and search again. See the room calendar in its full glory.
+This view is very versatile. Give it a try: set the frequency of the search to to _Weekly_, set the end date to be at least 2 months after the start date, and search again. See the room calendar in its full glory.
 
 If you click on an available period with you will be redirected to the next step in which you will confirm the reservation.
 
-![image171](img/rb_booking_form.png)
 
 In the third and final step, you will need to complete the booking form. Click _Book_ to confirm the reservation.
 
@@ -165,9 +164,7 @@ Note: you can always browse your own bookings and PRE-bookings using the menu op
 ### View your Booking
 
 You can view the bookings or pre-bookings that you made by going under the 'My bookings' and 'My PRE-bookings' sections of the Room Booking side menu. By selecting one of the bookings in the list, you will get the following :
-
-![image172](img/rb_booking_display.png)
-
+![](/assets/My_bookings.png)
 This page contains all the information about a booking, and it allows you to modify, clone or cancel the booking. If the reservation is done for more than a single day, each of the occurences of the booking can be canceled individually. In addition, this page lets you watch the history of the booking \(i.e. all the past actions that were performed on this reservation\) if you are the creator of the booking. Only the most recent entry is partially displayed, but you can see the rest of it by clicking on the _Show All History..._ link. Additional information about a particular entry can be viewed by clicking the _More Info_ link.
 
 ---
