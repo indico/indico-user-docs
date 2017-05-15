@@ -1,4 +1,4 @@
-```
+a```
 Conference Room Booking
 ```
 
@@ -130,12 +130,10 @@ This allows you to look at the bookings other users have made for a specific tim
 If you want to Look at all the bookings for a specific DAY for ALL the rooms, simply click on “Calendar” at the left of the page.
 
 * The _room picker_ allows you to filter by name, technical requirements, and minimum capacity. By clicking on a room you will mark it as a candidate for the booking.
-* The _date range_ selector allows you to specify the frecuency and flexibility of the booking. Frecuency allows to book the room a single time, daily, weekly or monthly. Flexibility extends the search a few days before and after the specified date.
+* The _date range_ selector allows you to specify the frequency and flexibility of the booking. Frequency allows to book the room a single time, daily, weekly or monthly. Flexibility extends the search a few days before and after the specified date.
 * The _time range_ simply serves the purpose of specifying the hours in which the room will be needed.
 
 When you are done, click the button _Search_ to proceed to the next step.
-
-![image170](img/rb_conflicts.png)
 
 In the second step, you will be presented with a calendar summarizing the rooms, dates and times you specified previously. In this view you can check all available periods \(marked in green\), other bookings \(in yellow\) or conflicts \(in red\).
 
