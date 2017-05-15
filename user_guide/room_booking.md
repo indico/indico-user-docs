@@ -130,7 +130,12 @@ Simply click “Search” once you’re finished and the next page will show you
 
 Click on “view” for more details about the room, or click on “\(PRE-\)book”, and you will be directed to the page that allows you to book the room, just like we have seen before.
 
-A "Check conflicts" button is also available on this view, as there might be existing bookings done by others during the period you defined. Conflict management is explained later in this document.
+A "Check conflicts" button is also available on this view, as there might be existing bookings done by others during the period you defined. 
+
+If your booking conflicts with others, you have two options:
+
+* In general, it is better to resolve conflicts manually: by changing dates, hours or maybe trying another room.
+* The alternative is to automatically book everything except conflicting days. This may be useful if you do long-term, recurring booking, for example, _whole year, every week_. Imagine everything looks perfect, except for several weeks when the room is not available. In this case check the 'skip conflicting dates' option to book everything except problematic dates.
 
 Another type of search you can do is searching the bookings instead of the room based on certain criteria.
 To do this, click on “Search bookings“ on the left banner.
@@ -139,25 +144,6 @@ This allows you to look at the bookings other users have made. Narrow down your 
 
 If you want to look at all the bookings for a specific DAY for ALL the rooms, simply click on “Calendar” from the same left banner.
 
-* The _room picker_ allows you to filter by name, technical requirements, and minimum capacity. By clicking on a room you will mark it as a candidate for the booking.
-* The _date range_ selector allows you to specify the frequency and flexibility of the booking. Frequency allows to book the room a single time, daily, weekly or monthly. "Flexibility" extends the search a few days before and after the specified date.
-* The _time range_ simply serves the purpose of specifying the hours in which the room will be needed.
-
-When you are done, click the button _Search_ to proceed to the next step.
-
-In the second step, you will be presented with a calendar summarizing the rooms, dates and times you specified previously. In this view you can check all available periods \(marked in green\), other bookings \(in yellow\) or conflicts \(in red\).
-
-This view is very versatile. Give it a try: set the frequency of the search to to _Weekly_, set the end date to be at least 2 months after the start date, and search again. See the room calendar in its full glory.
-
-If you click on an available period with you will be redirected to the next step in which you will confirm the reservation.
-
-
-In the third and final step, you will need to complete the booking form. Click _Book_ to confirm the reservation.
-
-If your booking conflicts with others, you have two options:
-
-* In general, it is better to resolve conflicts manually: by changing dates, hours or maybe trying another room.
-* The alternative is to automatically book everything except conflicting days. This may be useful if you do long-term, recurring booking, for example, _whole year, every week_. Imagine everything looks perfect, except for several weeks when the room is not available. In this case check the 'skip conflicting dates' option to book everything except problematic dates.
 
 If your form is corectly filled, the system will ensure your new booking does not conflict with others. When no conflicts are found, you will be shown the confirmation page which lists the details of your booking.
 
