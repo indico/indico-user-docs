@@ -61,6 +61,17 @@ PUT IMAGE HERE???????
 
 **Calendar overview webpage** : Another option for *View* is the calendar view. It gives you an overview of all the events over several months. You can access it by clicking on *View* -&gt; *Calendar*. You can see all the events happening in one specific day by pointing with your mouse on the day you wish to view (see image above). On the left menu, you can choose the number of months you wish to view (up to 12), the starting month and the number of colums displayed. You can also change to color legend.
 
+!!!!!!!!! RE-PHRASE TO FIT NICELY:
+
+_Overview pages are pages that show what is going on in a given category.
+That includes "today's events" and "week's events", accesible from the
+"eye" icon at the top right of a category page. E.g.:
+
+https://indico.cern.ch/category/70/overview?date=2017-04-10&period=week&detail=event
+
+(see "legend" - it should be an image that is readable in small format
+and with a square aspect ratio)_
+
 Category Management Area
 ------------------------
 
