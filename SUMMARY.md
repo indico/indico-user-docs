@@ -9,6 +9,7 @@
 * [Export](/user_guide/export.md)
 * [Room Booking](/user_guide/room_booking.md)
   * [Getting into Room Booking Module](/user_guide/room_booking.md#getting-into-room-booking-module)
+  * [Booking rooms for single or multiple occurence events] (/user_guide/room_booking.md#booking-rooms-for-single-or-multiple-occurence-events)
 * [Event Agreements](/user_guide/event_agreements.md)
 * [Event Services](/user_guide/event_services.md)
 * [Evaluation](/user_guide/evaluation.md)
