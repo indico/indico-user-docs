@@ -18,7 +18,9 @@ Inside a category you can:
 -   delete the current category and everything inside it,
 -   and also insert a logo in your own category.
 
-These features are accessible through the menu *Manage category* (you must be logged in and with modification rights in order to see it), that you can find to the right of your own category title  . After clicking *Manage* you will be accessing the Management area for Category.
+These features are accessible through the menu *Manage category* (you must be logged in and with modification rights in order to see it), that you can find to the right of your own category title  . After clicking on *Manage Category* you will be accessing the Management area for Category.
+
+![](/assets/category_edit_button.png)
 
 Creating a Category
 -------------------
