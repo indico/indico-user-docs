@@ -12,7 +12,7 @@ This document is a tutorial, navigating through the pages of the room booking mo
 
 ---
 
-### Getting into Room Booking Module
+## Getting into Room Booking Module
 
 Just click on _Room Booking_ in the Indico home page, in the top dark bar. 
 
