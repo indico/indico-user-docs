@@ -10,8 +10,6 @@ Indico users can book a room for their conference, meeting or lecture. Bookings 
 
 This document is a tutorial, navigating through the pages of the room booking modules. It shows you how to assign a room to a particular event or simply to book a room on its own, without attaching it to a event. The booking can then be managed from the administration area.
 
-
-
 ---
 
 ### Getting into Room Booking Module
@@ -77,6 +75,7 @@ You may reserve a room more than _Once_, namely on a _Daily_, _Weekly_ or _Month
 See, on the image below, once you've _selected_ your room and declared you want to book it _Weekly_, how _all Mondays_ appear darker than the other days on the calendar.
 
 ![](/assets/book_frequency.png)
+
 ---
 
 ### Booking a Room
@@ -112,6 +111,8 @@ Select whether you want to use the room for yourself of if you are booking the r
 Finally, if the room is equipped with videoconferencing, select whether you plan to use this equipment or not.
 
 Click on _Create \(pre-\)booking_, once you are finished.
+
+---
 
 ### Search and book a room
 
