@@ -12,6 +12,8 @@
   * [Booking a Room](/user_guide/room_booking.md#booking-a-room)
   * [Search and book a room](/user_guide/room_booking.md#search-and-book-a-room)
   * [View your Bookings](/user_guide/room_booking.md#view-your-Bookings)
+  * [Blocking a Room](/user_guide/room_booking.md#blocking-a-room)
+  * [Core Features and Constraints](/user_guide/room_booking.md#core-features-and-constraints)
 * [Event Agreements](/user_guide/event_agreements.md)
 * [Event Services](/user_guide/event_services.md)
 * [Evaluation](/user_guide/evaluation.md)
