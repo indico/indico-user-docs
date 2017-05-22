@@ -10,6 +10,7 @@
 * [Room Booking](/user_guide/room_booking.md)
   * [Getting into Room Booking Module](/user_guide/room_booking.md#getting-into-room-booking-module)
   * [Booking a Room](/user_guide/room_booking.md#booking-a-room)
+  * [Search and book a room](/user_guide/room_booking.md#search-and-book-a-room)
 * [Event Agreements](/user_guide/event_agreements.md)
 * [Event Services](/user_guide/event_services.md)
 * [Evaluation](/user_guide/evaluation.md)
