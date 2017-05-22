@@ -29,7 +29,7 @@ You can create a new category from the menu *Manage* and then by clicking on *Ad
 
 You can also create a subcategory from the Management area, which you access from the menu *Manage*, option *Edit category*. In *General settings*, [(See General Settings)](#general-settings) , click on the button *add subcateg*.
 
-![image1](img/categ1.png)
+PUT IMAGE HERE???????
 
 Setting the protection for your category is important. You can set it to Inheriting, Restricted or Public, see access\_control .
 
@@ -46,11 +46,18 @@ It is possible to exclude some categories from the event overview, and hence con
 -   *Category name* - events are shown only in the overview webpage for current category.
 -   *Nowhere* - events are not shown in any overview webpage.
 
-![image6](img/categ6.png)
+PUT IMAGE HERE???????
+
+
 
 As you can see in the previous image, it allows you to see all the events happening in one specific day. You can then view the other days by clicking on the arrows on top, or by choosing the day on the calendar on the left. Underneath the calendar, you can also choose the display options. You can choose to display the events over a day, a week or a month. You can also choose the detail level: *agenda* will show you all the events occuring over that period of time, *sessions* will only display the sessions and *contributions* will only display the contributions.
 
+!!!!rm image below!!!
 ![image7](img/categ7.png)
+
+PUT IMAGE HERE???????
+
+
 
 **Calendar overview webpage** : Another option for *View* is the calendar view. It gives you an overview of all the events over several months. You can access it by clicking on *View* -&gt; *Calendar*. You can see all the events happening in one specific day by pointing with your mouse on the day you wish to view (see image above). On the left menu, you can choose the number of months you wish to view (up to 12), the starting month and the number of colums displayed. You can also change to color legend.
 
