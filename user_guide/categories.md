@@ -128,8 +128,7 @@ Important note for the 'Inheriting' protection mode: Changing the parent's prote
 *Event visibility*: This is **not** related to category *viewing* rights - those are regulated by the *Protection mode* explained above.  The choice offered, allows you to decide whether events in this category will be shown in *Today's events* and the *Calendar* from everywhere or from some parent categories only.
 
 *Event creation settings*: You can restrict who is able to add events to the category. If you do so, you will need to add users or groups to the list in order to allow them to add events.
-
-![image4](img/categ4.png)
+![](/assets/category_event_creation_settings.png)
 
 [See Protection System](Protection.html) in order to know more about Protection in Indico.
 
