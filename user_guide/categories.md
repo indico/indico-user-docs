@@ -41,58 +41,33 @@ In the display page of the categories, click on the **eye** on the page right to
 ![](/assets/category_goodies_emphasis.png)
 
 Specifically for the *Calendar* view, which gives you an overview of all the events over several months, see an example from the CERN Home Category in the image below.
+
 ![](/assets/category_calendar.png)
 
-You can move to past and future months from the calendar on the left banner and show the details for your category. Example below: 
+You can move to past and future months from the calendar on the left banner and show the details for your category. Example: 
 
 ![](/assets/category_calendar_events.png)
 
-
-_Overview pages are pages that show what is going on in a given category.
-That includes "today's events" and "week's events", accesible from the
-"eye" icon at the top right of a category page. E.g.:
-
-https://indico.cern.ch/category/70/overview?date=2017-04-10&period=week&detail=event
-
-(see "legend" - it should be an image that is readable in small format
-and with a square aspect ratio)_
-
+        
 Category Management Area
 ------------------------
+        I HAVE TO REVIEW THESE TERMS 
+        
+        WRITE ABOUT DELETIONS AND MATERIAL ADDING 
 
-### General settings
+### Detail Modification & Sub-Category/Event Organisation
 
-In the Category Management Area, the first option in the menu is *General settings*:
+The details of a Category can be modified and sub-categories can be organised from the option *General settings* in the management area. Details can be modified by clicking on *modify* inside the main menu. Sub-categories and events can be organised in the particular order in which you wish to view them by using the order drop down box next to each sub-category.
 
-You can modify the details of the category:
+        RM THIS OLD IMAGE - FIND THE RIGHT NOW WHEN SUB-CAT ISSUE ANSWERED 
+![image5](img/categ5.png)
 
--   Name
--   Description
--   Timezone
--   Icon
--   Default style (layout) for meetings created within this category [(see Meetings)](Meetings.html)
--   Default style (layout) for lectures created within this category [(see Lectures)](Lectures.html)
--   Event visibility for this category [(See Category overview)](#category-overview)
+You can re-allocate a sub-category or event by selecting the one you wish to move using the tick box and clicking on re-allocate, you will then be asked to where you would like to reallocate this sub-category/event.
 
-and you can modify its content:
-
--   Add a new sub-category
--   Re-allocate (move to another category) some events or categories
--   Remove the inner events or categories
-
-<img src="img/categ2.png" alt="image2" width="900" />
+To remove a sub-category and anything it contains or an event, select it and click *remove*. If it contains anything you will be asked confirmation of the deletion.
 
 ------------------------------------------------------------------------
 
-### Files
-
-In this option, you can add material to a category. To do so, click on the link *Add Material*. A window will appear:
-
-![image8](img/uploadMaterial.png)
-
-When uploading material, in the *Basic* tab, you can select its access protection and set it to inheriting, private or public (for more details, see access\_control ). In the *Advanced* tab, you can add a description and a display name. The display name will be used instead of the original name of the file.
-
-------------------------------------------------------------------------
 
 ### Protection
 
@@ -102,9 +77,9 @@ From the Management Area you can protect your category in terms of who can view 
 *Manager(s)* can be added to a category to allow access to the Management Area for modification. Category managers are either those listed in the category protection view or Indico administrators. The creator of a category will be able to modify it without being listed.
 
 *Protection mode*: A category can be:
-Public: Anyone can view events in it, or
-Inheriting: The protection mode of the parent category (see breadcrumbs under the page top banner) applies, or
-Protected: Only those users in the *Access control list* or administrators can access the category. 
+**Public**: Anyone can view events in it, or
+**Inheriting**: The protection mode of the parent category (see breadcrumbs under the page top banner) applies, or
+**Protected**: Only those users in the *Access control list* or administrators can access the category. 
 
 When a Category has 'Inheriting' or 'Protected' mode, the manager(s) can put a text of contact information to be shows to non-authorised viewers, so users with no access will know who to contact in order to request access. 
 
@@ -115,24 +90,14 @@ Important note for the 'Inheriting' protection mode: Changing the parent's prote
 *Event creation settings*: You can restrict who is able to add events to the category. If you do so, you will need to add users or groups to the list in order to allow them to add events.
 ![](/assets/category_event_creation_settings.png)
 
-[See Protection System](Protection.html) in order to know more about Protection in Indico.
 
 ------------------------------------------------------------------------
 
-### Detail Modification & Sub-Category/Event Organisation
-
-The details of a Category can be modified and sub-categories can be organised from the option *General settings* in the management area. Details can be modified by clicking on *modify* inside the main menu. Sub-categories and events can be organised in the particular order in which you wish to view them by using the order drop down box next to each sub-category.
-
-![image5](img/categ5.png)
-
-You can re-allocate a sub-category or event by selecting the one you wish to move using the tick box and clicking on re-allocate, you will then be asked to where you would like to reallocate this sub-category/event.
-
-To remove a sub-category and anything it contains or an event, select it and click *remove*. If it contains anything you will be asked confirmation of the deletion.
 
 ------------------------------------------------------------------------
 
 ### Deleting a Category
 
-To delete the current category you can click on the Manage category pencil on the right hand side of the category index. A bin is offered to you in order to delete the category, if it is empty.
+To delete the current category you can click on the Manage category **pencil** on the right hand side of the category index. A bin is offered to you in order to delete the category, if it is empty.
 
 ------------------------------------------------------------------------
