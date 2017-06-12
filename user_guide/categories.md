@@ -25,37 +25,20 @@ These features are accessible through the menu *Manage category* (you must be lo
 Creating a Category
 -------------------
 
-You can create a new category from the menu *Manage* and then by clicking on *Add subcategory*. You will need to have an Administrator's account or be listed in the modification list [(see Protection)](#protection) for the category.
+You can create a new category from the menu *Manage* and then by clicking on *Add subcategory*. ???!!!!
+You can also create a subcategory from the Management area,...click on the button *add subcateg*???!!!
 
-You can also create a subcategory from the Management area, which you access from the menu *Manage*, option *Edit category*. In *General settings*, [(See General Settings)](#general-settings) , click on the button *add subcateg*.
-
-PUT IMAGE HERE???????
-
-Setting the protection for your category is important. You can set it to Inheriting, Restricted or Public, see access\_control .
+        EMAILED PEDRO ON 12/6. CAN'T SEE HOW TO create sub-cat...
+        PUT IMAGE HERE???????
 
 ------------------------------------------------------------------------
 
-Category overview
+Category goodies
 -----------------
 
-In the display page of the categories, the option *View* &gt; *Today's events* allows you to see the category's event overview. Events that belong to the category and its subcategories from the specified period will be displayed.
+In the display page of the categories, click on the **eye** on the page right to see the various useful options offered like *Today's or week's events*, *Calendar* and *Statistics*. 
 
-It is possible to exclude some categories from the event overview, and hence control the visibility of the events belonging to the category in *General settings* [(See General Settings)](#general-settings) . Categories have three event visibility levels:
-
--   *Everywhere* - events are shown in the event overview webpage for this category and the parent categories.
--   *Category name* - events are shown only in the overview webpage for current category.
--   *Nowhere* - events are not shown in any overview webpage.
-
-PUT IMAGE HERE???????
-
-
-
-As you can see in the previous image, it allows you to see all the events happening in one specific day. You can then view the other days by clicking on the arrows on top, or by choosing the day on the calendar on the left. Underneath the calendar, you can also choose the display options. You can choose to display the events over a day, a week or a month. You can also choose the detail level: *agenda* will show you all the events occuring over that period of time, *sessions* will only display the sessions and *contributions* will only display the contributions.
-
-!!!!rm image below!!!
-![image7](img/categ7.png)
-
-PUT IMAGE HERE???????
+![](/assets/category_calendar_events.png)
 
 
 
