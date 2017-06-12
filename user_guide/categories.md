@@ -116,7 +116,14 @@ From the Management Area you can protect your category in terms of who can view 
 
 *Manager(s)* can be added to a category to allow access to the Management Area for modification. Category managers are either those listed in the category protection view or Indico administrators. The creator of a category will be able to modify it without being listed.
 
-*Access Control*: A category can be public, inheriting or private; Public: Anyone can view a public category and any user can add events to it. However, users will only be able to see the events inside the category to which they have access. Restricted: Only those users in the access list or administrators can access the category and add events. When a Category is made private, the option for domain control is omitted and any event or category made inside it will also be private. The category will be displayed with "(protected)" after its name to show it is private. As well, if the category access is RESTRICTED the category manager will be able to set a 'Contact in case of no access', so users with no access will know who to contact in order to request access. Inheriting: The category will have the same access protection as its parent category. This means that changing the parent's protection will change the protection of tha category.
+*Protection mode*: A category can be:
+Public: Anyone can view events in it, or
+Inheriting: The protection mode of the parent category (see breadcrumbs under the page top banner) applies, or
+Protected: Only those users in the *Access control list* or administrators can access the category. 
+
+When a Category has 'Inheriting' or 'Protected' mode, the manager(s) can put a text of contact information to be shows to non-authorised viewers, so users with no access will know who to contact in order to request access. 
+
+Important note for the 'Inheriting' protection mode: Changing the parent's protection will change the protection of its sub-categories.
 
 *Domain Control*: The access to the Category can be restricted by domain. Therefore, just the users from the chosen domain will be able to access (e.g. If we choose the domain CERN, just users from inside CERN will be able to access the category and its content).
 
