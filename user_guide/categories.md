@@ -111,11 +111,10 @@ When uploading material, in the *Basic* tab, you can select its access protectio
 
 ### Protection
 
-From the Management Area you can protect your category using the three controls for access levels: Modification control, Access control and Domain control. You can add Users or Groups to the Modification and Access control lists. Conference creation control controls the users who are able to add events to this category.
+From the Management Area you can protect your category in terms of who can view it, who is its manager and who can create events in the category.
+![](/assets/category_protection_top.png)
 
-![image3](img/categ3.png)
-
-*Modification Control*: Category Managers can be added to a category to allow access to the Management Area for modification. Category managers are either those listed in the modification control list or Indico administrators. The creator of a category will be able to modify its category without being listed.
+*Manager(s)* can be added to a category to allow access to the Management Area for modification. Category managers are either those listed in the category protection view or Indico administrators. The creator of a category will be able to modify it without being listed.
 
 *Access Control*: A category can be public, inheriting or private; Public: Anyone can view a public category and any user can add events to it. However, users will only be able to see the events inside the category to which they have access. Restricted: Only those users in the access list or administrators can access the category and add events. When a Category is made private, the option for domain control is omitted and any event or category made inside it will also be private. The category will be displayed with "(protected)" after its name to show it is private. As well, if the category access is RESTRICTED the category manager will be able to set a 'Contact in case of no access', so users with no access will know who to contact in order to request access. Inheriting: The category will have the same access protection as its parent category. This means that changing the parent's protection will change the protection of tha category.
 
