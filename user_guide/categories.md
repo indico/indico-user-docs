@@ -36,15 +36,17 @@ You can also create a subcategory from the Management area,...click on the butto
 Category goodies
 -----------------
 
-In the display page of the categories, click on the **eye** on the page right to see the various useful options offered like *Today's or week's events*, *Calendar* and *Statistics*. 
+In the display page of the categories, click on the **eye** on the page right to see the various useful options offered like *Today's or week's events*, *Calendar* and *Statistics*. See them highlighted on the image below.
+
+![](/assets/category_goodies_emphasis.png)
+
+Specifically for the *Calendar* view, which gives you an overview of all the events over several months, see an example from the CERN Home Category in the image below.
+![](/assets/category_calendar.png)
+
+You can move to past and future months from the calendar on the left banner and show the details for your category. Example below: 
 
 ![](/assets/category_calendar_events.png)
 
-
-
-**Calendar overview webpage** : Another option for *View* is the calendar view. It gives you an overview of all the events over several months. You can access it by clicking on *View* -&gt; *Calendar*. You can see all the events happening in one specific day by pointing with your mouse on the day you wish to view (see image above). On the left menu, you can choose the number of months you wish to view (up to 12), the starting month and the number of colums displayed. You can also change to color legend.
-
-!!!!!!!!! RE-PHRASE TO FIT NICELY:
 
 _Overview pages are pages that show what is going on in a given category.
 That includes "today's events" and "week's events", accesible from the
