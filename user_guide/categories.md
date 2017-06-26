@@ -26,12 +26,9 @@ These features are accessible through the menu *Manage category* (you must be lo
 Creating a Category
 -------------------
 
-You can create a new category from the menu *Manage* and then by clicking on *Add subcategory*. ???!!!!
-You can also create a subcategory from the Management area,...click on the button *add subcateg*???!!!
-
-        EMAILED PEDRO ON 12/6. CAN'T SEE HOW TO create sub-cat...
-        PUT IMAGE HERE???????
-
+You can create a new category by clicking on *New category*. You will be given fields to 
+![](/assets/category_creation.png)
+You will be
 ------------------------------------------------------------------------
 
 Category goodies
