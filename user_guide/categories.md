@@ -10,7 +10,6 @@ A Category is a means of grouping your events or other Categories together. In I
 
 Inside a category you can:
 
-
 -   add/delete events or other sub-categories,
 -   set access rights to say who can access or modify,
 -   re-allocate the sub-categories,
@@ -18,7 +17,9 @@ Inside a category you can:
 -   delete the current category and everything inside it,
 -   and also insert a logo and a description in your own category.
 
-These features are accessible through the menu *Manage category* (you must be logged in and with management rights in the category in order to see it), that you can find to the right of your own category title  . After clicking on *Manage Category* you will be accessing the Management area for Category.
+You cannot have a category that contains both sub-categories and events. You will have to use the "split" functionality (the button with a "bifurcated" arrow) to move the contents of the category to one or more sub-categories.
+
+These features are accessible through the menu *Manage category* (you must be logged in and with management rights in the category in order to see it), that you can find to the right of your own category title. After clicking on *Manage Category* you will be accessing the Management area for Category.
 
 ![](/assets/category_edit_button.png)
 
