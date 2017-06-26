@@ -29,7 +29,7 @@ Creating a Category
 You can create a new category by clicking on *New category*. 
 ![](/assets/category_creation.png)
 
-You will be given fields to complete that describe and define your category. See them here, they contain explanatory sub-titles.
+You will be given fields to complete that describe and define your category. See some of them here, they contain explanatory sub-titles.
 ![](/assets/category_def_fields.png)
 
 
@@ -51,8 +51,8 @@ You can move to past and future months from the calendar on the left banner and 
 ![](/assets/category_calendar_events.png)
 
         
-Category Management Area
-------------------------
+Category Management
+-------------------
 
 You can re-allocate a sub-category or event by selecting the one you wish to move using the tick box and clicking on the arrows that show text *move the selected category* when you point there with the mouse, you will then be asked to where you would like to reallocate this sub-category/event.
 ![](/assets/category_move.png)
