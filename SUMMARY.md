@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
 * [Categories](/user_guide/categories.md)
+  * [What is an indico category](/user_guide/categories.md#what-is-an-indico-category)
 * [Meetings](/user_guide/meetings.md)
 * [Conferences](/user_guide/conferences.md)
 * [Lectures](/user_guide/lectures.md)
