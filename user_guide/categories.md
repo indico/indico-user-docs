@@ -26,9 +26,13 @@ These features are accessible through the menu *Manage category* (you must be lo
 Creating a Category
 -------------------
 
-You can create a new category by clicking on *New category*. You will be given fields to 
+You can create a new category by clicking on *New category*. 
 ![](/assets/category_creation.png)
-You will be
+
+You will be given fields to complete that describe and define your category. See them here, they contain explanatory sub-titles.
+![](/assets/category_def_fields.png)
+
+
 ------------------------------------------------------------------------
 
 Category goodies
