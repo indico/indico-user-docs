@@ -53,20 +53,11 @@ You can move to past and future months from the calendar on the left banner and 
         
 Category Management Area
 ------------------------
-        I HAVE TO REVIEW THESE TERMS 
-        
-        WRITE ABOUT DELETIONS AND MATERIAL ADDING 
 
-### Detail Modification & Sub-Category/Event Organisation
+You can re-allocate a sub-category or event by selecting the one you wish to move using the tick box and clicking on the arrows that show text *move the selected category* when you point there with the mouse, you will then be asked to where you would like to reallocate this sub-category/event.
+![](/assets/category_move.png)
 
-The details of a Category can be modified and sub-categories can be organised from the option *General settings* in the management area. Details can be modified by clicking on *modify* inside the main menu. Sub-categories and events can be organised in the particular order in which you wish to view them by using the order drop down box next to each sub-category.
-
-        RM THIS OLD IMAGE - FIND THE RIGHT NOW WHEN SUB-CAT ISSUE ANSWERED 
-![image5](img/categ5.png)
-
-You can re-allocate a sub-category or event by selecting the one you wish to move using the tick box and clicking on re-allocate, you will then be asked to where you would like to reallocate this sub-category/event.
-
-To remove a sub-category and anything it contains or an event, select it and click *remove*. If it contains anything you will be asked confirmation of the deletion.
+To delete a sub-category and anything it contains or an event, select it and click on the bin. Categories cannot be deleted if they are not empty.
 
 ------------------------------------------------------------------------
 
@@ -96,10 +87,3 @@ Important note for the 'Inheriting' protection mode: Changing the parent's prote
 ------------------------------------------------------------------------
 
 
-------------------------------------------------------------------------
-
-### Deleting a Category
-
-To delete the current category you can click on the Manage category **pencil** on the right hand side of the category index. A bin is offered to you in order to delete the category, if it is empty.
-
-------------------------------------------------------------------------
