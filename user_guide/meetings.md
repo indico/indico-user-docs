@@ -16,7 +16,7 @@ You may choose the _Location_ of your event. Depending on your installation you 
 
 Select your _Protection mode_. By default, this is set to “Inheriting”, meaning you will inherit the rights from the category your meeting belongs to. You may wish to change the default for your event, e.g. you can select “Protected” for your event (even if it belongs to a "Public" category, if you want the meeting to be visible to a selected few only(like the category managers and the users you will give access to).
 
-Once you’re finished, click on “Create Event”.
+Once you are finished, click on “Create Event”.
 
 ![](/assets/create-meeting.png)
 
@@ -52,14 +52,19 @@ Type in the name and description of your session and choose the duration, for ex
 
 Once you are finished, **click on Save**.
 
+![](/assets/session-meeting.png)
+
 ### Adding a Session block
 
 Now, you will be asked to define your first Block.
 Type in the title of your first block, in our case “morning”, and then the start time and duration, 1 hour, starting from 11am, for example.
 
-Click on “Save” to create your first block. 
+**Click on Save** to create your first block. 
 
 This is your first BLOCK inside your first SESSION.
+
+![](/assets/block-in-session.png)
+
 Now we want to create another block, inside the same session.
 To do this, click on “Add new”, and then “session block”. 
 You can see here that we could create a new session altogether, or simply create a new block to our existing session. 
@@ -68,6 +73,8 @@ Click on your session under “Add another block to”, in order to create the n
 Select a title for your second block, such as “afternoon” and then choose its start time and duration, for example, 1 hour, starting from 2 pm.
 
 **Click on save** to return to your timetable.
+
+![](/assets/result-timetable-meeting.png)
 
 ### Adding a Contribution
 
