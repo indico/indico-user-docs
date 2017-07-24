@@ -32,19 +32,25 @@ Once you have chosen your Chairpersons, **Click on Save**. The chairpsersons app
 
 Click on “Switch to display view” and check if all the details of your meeting are correct.
 
-=================== LETS NOW SEE HOW TO MAKE A TIMETABLE ===================
+Making a Timetable
+------------------
 
-Click at the pencil on the top-left of your page to switch to your EDIT EVENT page.
+Click on the pencil at the top of your page to _switch to the management area_ of your event.
 
-Then, click on Timetable on your left, under “Settings”.
+Then, click on _Timetable_ on your left, under _Settings_.
 
-In this page, you will be able to add CONTRIBUTIONS. Contributions can be grouped in different SESSIONS, and each session can be divided in different BLOCKS, for example a morning block and an afternoon block of your meeting.
-You can add a contribution either inside or outside a specific session or block.
+In this page, you will be able to add CONTRIBUTIONS. 
+Contributions can be grouped in different SESSIONS, and 
+each Session can be divided in different BLOCKS, 
+for example a morning block and an afternoon block of your meeting.
+You can add a Contribution either inside or outside a specific Session or Block.
 
-Click on “Add new”, and then in “session block” to create a new SESSION.
-Type in the name and description of your SESSION and choose the duration, for example 1 hour. Remember that this will be the default duration for each contribution you will add.
+### Adding a Session block
 
-Once you are finished, click on save.
+Click on “Add new”, and then in “Session block” to create a new _Session_.
+Type in the name and description of your session and choose the duration, for example 1 hour. **Remember** that this will be the default duration for each contribution you will add.
+
+Once you are finished, **click on Save**.
 Now, you will be asked to define your first BLOCK.
 Type in the title of your first block, in our case “morning”, and then the start time and duration, 1 hour, starting from 11am, for example.
 Click on “Save” to create your first block. 
