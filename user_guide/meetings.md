@@ -94,12 +94,16 @@ To add minutes to the whole event, click on the pencil on the top right of the p
 Here you can add the text of the minutes of your meeting, you are offered formatting help (headers, bulletted or numbered lists, etc).
 Click on save, and then on Close. 
 
-Minutes can also be added to your session or contribution, by clicking on the relevant PENCIL on the right.
+Minutes can also be added to your session or contribution, by clicking on the relevant pencil on the right. 
+
+See an example on the image below where _Description_, _Minutes_ and _Material_ exist at the level of the Event as well as at the level of individual _Contributions_.
+
+![](/assets/material-meeting.png)
 
 Adding Material
 ---------------
 
-Click on the pencil at the TOP RIGHT of your screen, and click on “Material Editor”.
+Click on the pencil at the top right of your screen, and click on _Material Editor_.
 
 In this window, you can upload files, add links, or create a new folder in which you will include your files.
 For example, to upload a FILE, simply click on “Upload files”, click on “choose from your computer” and select a file from your device. alternatively, you can drag and drop your file in the area indicated.
