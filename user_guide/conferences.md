@@ -19,6 +19,10 @@ A conference is the most complex form of event in Indico. You should be able to 
 -   paper reviewing
 
 ------------------------------------------------------------------------
+Keep this image for later 
+![](/assets/conference-timetable.png)
+
+
 
 Creating a Conference
 ---------------------
@@ -28,55 +32,8 @@ In order to create a conference, you just need to click on *Create event* and *C
 1.  choose the category where you want to place your conference
 2.  fill the details of the conference you wish to create
 3.  set the access protection of the conference to inheriting, public or private (see access\_control)
-
-Once this is done your conference will be created and you will be redirected to its Management Area. If you want to see the Home page of your conference, click on the button *Switch to event page* on the top right of the page.
-
-The creator of this conference will by default have modification rights to it and is referred to as a Conference Manager as is anyone else listed in the Modification control list.
-
-Remember that the category in which you want to create your conference must be public or you must have access rights to it.
-
-To access the Management Area of a conference you need to click on the modification icon ![image7](img/conf2.png) in the top bar of the event home page.
-
-------------------------------------------------------------------------
-
-Setting up a Conference
------------------------
-
-Once your conference has been created the Conference Manager can start setting up the conference from the Management Area.
-
--   Set up your Access Control to restrict or allow users the rights to access or modify the conference [(see Access Control Management)](#protection-management).
--   Look at customizing the look of your conference when users come to view it [(see Layout Management)](#layout-management).
--   Start adding Tracks to your conference to define areas to help with organisation. A Track Manager can be assigned to each track to co-ordinate which abstracts to accept into these tracks [(see Programme Management)](#programme-management).
--   Starting abstract submission process. Abstracts are proposed contributions to your conference. By default, when you first create a conference, abstracts management is disabled. You can enable this in *Abstracts* [(see Abstracts Management)](#abstracts-management).
--   Start looking at which submitted abstracts you wish to accept into your conference, they will then become contributions [(see Contributions Management)](#contributions-management).
--   Start setting up a Timetable to organize what will be happening where, and when, and what contributions, materials, etc. will be included [(see Timetable Management)](#timetable-management).
--   If those that will attend your conference need to register, give details concerning their needs while at the conference or pay the fees; you can set up a registration form [(see Registration Management)](#registration-management).
--   There are options to clone your conference, and to perform other tasks on the whole of your conference once you set it up [(see Conference Tools)](#conference-tools).
-
-------------------------------------------------------------------------
-
-Conference Management Area
---------------------------
-
-The Management Area allows you to control, manage, setup and modify the different parts of your conference. The following sections will show each area of the Conference Management.
-
-Clicking on the link *Switch to event page* to the top right of the page will take you to the home page of the event.
-
-------------------------------------------------------------------------
-
-### General Settings
-
-From the option General Settings in the left menu you can:
-
-![image10](img/confm3.png)
-
--   **Title**: Title of the conference .
--   **Description** : The description that will appear on the event page .
--   **Place** : Edit the location, address and room of the conference.
--   **Start/End Date** : Edit the start and end dates of the conference.
--   **Timezone** : Timezone of the conference.
--   **Additional info** : Additional information that will appear on the event page overview.
--   **Support** : Modify the support email along with the caption. This will change the support email link located at the bottom of the menu that is displayed on the home page of the conference [(see Conference Display)](#conference-display-area). You can specify more than one email address for the support. Just make sure of separating each of the addresses by a comma (",").
+----------------------------------------------------
+This will change the support email link located at the bottom of the menu that is displayed on the home page of the conference [(see Conference Display)](#conference-display-area). You can specify more than one email address for the support. Just make sure of separating each of the addresses by a comma (",").
 
 ![image11](img/confm4.png)
 

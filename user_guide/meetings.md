@@ -87,6 +87,7 @@ Remember that you can also add a contribution outside your sessions and blocks, 
 
 Click on “Switch to Display view” to look at your session, your blocks inside the session, and your contribution for each block.
 
+
 Adding Minutes 
 ---------------
 
