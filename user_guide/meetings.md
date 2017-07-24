@@ -77,7 +77,7 @@ On the window, click on “Go to session block timetable”
 Here, you can add a contribution, by simply clicking on “add new”, and then on “contribution”.
 Type in the name and description of your contribution, as well as a start time. The duration will be the one you selected before.
 
-Once you’re finished, click on save. This will add a contribution in the given block.
+Once you’re finished, **click on save**. This will add a contribution in the given block.
 
 
 
@@ -87,16 +87,17 @@ Remember that you can also add a contribution outside your sessions and blocks, 
 
 Click on “Switch to Display view” to look at your session, your blocks inside the session, and your contribution for each block.
 
-================================= LETS NOW SEE HOW TO ADD MINUTES TO YOUR MEETING ==================================
+Adding Minutes 
+---------------
 
-In order to add minutes to the whole event, click on the pencil ON YOUR TOP RIGHT, and click on “add minutes”.
+To add minutes to the whole event, click on the pencil on the top right of the page, and click on _add minutes_.
 Here you can add the text of the minutes of your meeting, you are offered formatting help (headers, bulletted or numbered lists, etc).
 Click on save, and then on Close. 
 
 Minutes can also be added to your session or contribution, by clicking on the relevant PENCIL on the right.
 
-============================== FINALLY, LETS SEE HOW YOU CAN ADD MATERIAL TO YOUR MEETING ============
-
+Adding Material
+---------------
 
 Click on the pencil at the TOP RIGHT of your screen, and click on “Material Editor”.
 
@@ -104,7 +105,7 @@ In this window, you can upload files, add links, or create a new folder in which
 For example, to upload a FILE, simply click on “Upload files”, click on “choose from your computer” and select a file from your device. alternatively, you can drag and drop your file in the area indicated.
 Here you can also choose to automatically convert your file to PDF, and whether you want your file to be accessible to anybody or to a selected few.
 
-Once you’re finished, click on “Upload”. and close your window.
+Once you’re finished, click on _Upload_. and close your window.
 
 
 You can see here the files you uploaded.
