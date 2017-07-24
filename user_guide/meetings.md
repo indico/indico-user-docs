@@ -48,7 +48,8 @@ You can add a Contribution either inside or outside a specific Session or Block.
 ### Adding a Session
 
 Click on “Add new”, and then in “Session block” to create a new _Session_.
-Type in the name and description of your session and choose the duration, for example 1 hour. **Remember** that this will be the default duration for each contribution you will add.
+Type in the name and description of your session and choose the duration, for example 1 hour. 
+**Remember** that this will be the default duration for each contribution you will add.
 
 Once you are finished, **click on Save**.
 
