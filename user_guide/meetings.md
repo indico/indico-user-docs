@@ -9,11 +9,17 @@ Creating a Meeting
 First of all, make sure that you are in the Indico page and that you are logged in.
 Click on the tab “Create event”, and click on “Create meeting”.
 Click on “Choose Category” to select the category that you want. You can type in the one that you are looking for and click on “select” once you have found it.
-Then, type in the title for your meeting and choose the start and the end date of your event. Do the same for the hour of the day, for example 10am to 6pm.
-You may select the timezone to match the location of your meeting.
-You may choose the location of your event. You can select one from your institution, for example “CERN” in our case, so we are offered the CERN meeting rooms’ list to choose from. Please remember that room reservation has to be done separately.
-After having chosen the location of your meeting, you will have to select your “protection mode”. By default, the protection mode is set to “Inherit”, that means that you will inherit the rights from the category your meeting belongs to. In our case it’s public, so that everyone can see it, but if you choose another category and you want your event to be public regardless of it, you can click on “public”. Otherwise, you can select “Protected” if you want the meeting to be visible to a selected few only ((like the category managers and the users you will give access to)).
+
+Type in the _Title_ for your meeting and choose the start and the end date and duration (timeframe and timezone) of your event. 
+
+You may choose the _Location_ of your event. Depending on your installation you may be offered a list of meeting rooms to choose from. Please remember that room reservation has to be done separately!
+
+Select your _Protection mode_. By default, this is set to “Inheriting”, meaning you will inherit the rights from the category your meeting belongs to. You may wish to change the default for your event, e.g. you can select “Protected” for your event (even if it belongs to a "Public" category, if you want the meeting to be visible to a selected few only(like the category managers and the users you will give access to).
+
 Once you’re finished, click on “Create Event”.
+
+![](/assets/create-meeting.png)
+
 In this page, you will be able to see the details of your meeting, and you can change them by clicking on the pencil on your right. For example, to add additional descriptions. Cl__ick on save to confirm.
 Add chairpersons by clicking on the pencil on the right under “Chairpersons”.
 You can add existing users, by typing their name. Click on search, and if the user exists, you can select and add it.
