@@ -59,18 +59,19 @@ Once you are finished, **click on Save**.
 Now, you will be asked to define your first Block.
 Type in the title of your first block, in our case “morning”, and then the start time and duration, 1 hour, starting from 11am, for example.
 
-**Click on Save** to create your first block. 
-
-This is your first BLOCK inside your first SESSION.
+**Click on Save** to create your first block. This is your first BLOCK inside your first SESSION.
 
 ![](/assets/block-in-session.png)
 
 Now we want to create another block, inside the same session.
 To do this, click on “Add new”, and then “session block”. 
-You can see here that we could create a new session altogether, or simply create a new block to our existing session. 
+
+We can create a new session altogether, or simply create a new block to our existing session. 
+
 Click on your session under “Add another block to”, in order to create the new block. 
 
 Select a title for your second block, such as “afternoon” and then choose its start time and duration, for example, 1 hour, starting from 2 pm.
+
 
 **Click on save** to return to your timetable.
 
