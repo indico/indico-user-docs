@@ -39,20 +39,24 @@ Click on the pencil at the top of your page to _switch to the management area_ o
 
 Then, click on _Timetable_ on your left, under _Settings_.
 
-In this page, you will be able to add CONTRIBUTIONS. 
-Contributions can be grouped in different SESSIONS, and 
-each Session can be divided in different BLOCKS, 
+In this page, you will be able to add _Contributions_. 
+Contributions can be grouped in different _Sessions_, and 
+each Session can be divided in different _Session blocks_, 
 for example a morning block and an afternoon block of your meeting.
 You can add a Contribution either inside or outside a specific Session or Block.
 
-### Adding a Session block
+### Adding a Session
 
 Click on “Add new”, and then in “Session block” to create a new _Session_.
 Type in the name and description of your session and choose the duration, for example 1 hour. **Remember** that this will be the default duration for each contribution you will add.
 
 Once you are finished, **click on Save**.
-Now, you will be asked to define your first BLOCK.
+
+### Adding a Session block
+
+Now, you will be asked to define your first Block.
 Type in the title of your first block, in our case “morning”, and then the start time and duration, 1 hour, starting from 11am, for example.
+
 Click on “Save” to create your first block. 
 
 This is your first BLOCK inside your first SESSION.
@@ -62,7 +66,10 @@ You can see here that we could create a new session altogether, or simply create
 Click on your session under “Add another block to”, in order to create the new block. 
 
 Select a title for your second block, such as “afternoon” and then choose its start time and duration, for example, 1 hour, starting from 2 pm.
-Click on save to return to your timetable.
+
+**Click on save** to return to your timetable.
+
+### Adding a Contribution
 
 To add a CONTRIBUTION to a block for example, choose one of your blocks and click on it to make this window appear. 
 On the window, click on “Go to session block timetable”
