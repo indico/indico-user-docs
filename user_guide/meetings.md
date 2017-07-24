@@ -1,276 +1,87 @@
 Meetings
 ========
+A _Meeting_ is an indico event to which you can include **Minutes**, in addition to all the other rich functionality that indico events include.
 
-Meeting
--------
-
-A Meeting is not as in depth as a Conference and is made for smaller events. Within a Meeting you can find the modules:
-
--   General settings: Where you can manage the general settings of the meeting (e.g. title, location etc.)
--   Timetable: In which you can directly add Sessions, Contributions, and Breaks.
--   Material: Where you can upload material that will be attached to the meeting. The material can be slides, videos, minutes etc.
--   Participants: you can add all the participants for the Meeting or you can open the participation so users can apply for it.
--   Evaluation: You can submit an evaluation form to be completed by the participants. You can set the questions, edit the form and the results and preview it in the different tabs available
--   Lists: Relevant lists of users, such as list of all sessions’ conveners etc
--   Protection: Set the access control for the meeting
--   Tools: Where you can set alarms, clone the conference etc.
--   Logs: List of all the actions performed on the whole of the meeting
-
-------------------------------------------------------------------------
 
 Creating a Meeting
 ------------------
 
-To create a meeting, click on *Create* -&gt; *Meeting* in the top blue menu bar. You will be presented with a form you need to complete. First, you need to choose the category in which your meeting will be created. Then, enter the basic information (title, start/end date etc.); you can choose the default style in which the Meeting will be displayed [(see Meeting Display Area)](#meeting-display-area). Finally, set the access protection. Click on *Create meeting*. You will be redirected to the meeting's Management Area.
+First of all, make sure that you are in the Indico page and that you are logged in.
+Click on the tab “Create event”, and click on “Create meeting”.
+Click on “Choose Category” to select the category that you want. You can type in the one that you are looking for and click on “select” once you have found it.
+Then, type in the title for your meeting and choose the start and the end date of your event. Do the same for the hour of the day, for example 10am to 6pm.
+You may select the timezone to match the location of your meeting.
+You may choose the location of your event. You can select one from your institution, for example “CERN” in our case, so we are offered the CERN meeting rooms’ list to choose from. Please remember that room reservation has to be done separately.
+After having chosen the location of your meeting, you will have to select your “protection mode”. By default, the protection mode is set to “Inherit”, that means that you will inherit the rights from the category your meeting belongs to. In our case it’s public, so that everyone can see it, but if you choose another category and you want your event to be public regardless of it, you can click on “public”. Otherwise, you can select “Protected” if you want the meeting to be visible to a selected few only ((like the category managers and the users you will give access to)).
+Once you’re finished, click on “Create Event”.
+In this page, you will be able to see the details of your meeting, and you can change them by clicking on the pencil on your right. For example, to add additional descriptions. Cl__ick on save to confirm.
+Add chairpersons by clicking on the pencil on the right under “Chairpersons”.
+You can add existing users, by typing their name. Click on search, and if the user exists, you can select and add it.
+Otherwise, you can manually insert users you want to include, by typing in their name and email address. The email is mandatory.
+Once you have chosen your Chairpersons, Click on Save.
 
-------------------------------------------------------------------------
+Click on “Switch to display view” and check if all the details of your meeting are correct.
 
-Meeting Management Area
------------------------
+=================== LETS NOW SEE HOW TO MAKE A TIMETABLE ===================
 
-The Management Area allows you to control the different parts of your meeting. The following sections will show each option of the Meeting Management Area.
+Click at the pencil on the top-left of your page to switch to your EDIT EVENT page.
 
-Clicking on the link *Switch to event page* will take you to the event page of the meeting.
+Then, click on Timetable on your left, under “Settings”.
 
-------------------------------------------------------------------------
+In this page, you will be able to add CONTRIBUTIONS. Contributions can be grouped in different SESSIONS, and each session can be divided in different BLOCKS, for example a morning block and an afternoon block of your meeting.
+You can add a contribution either inside or outside a specific session or block.
 
-### General Settings Management
+Click on “Add new”, and then in “session block” to create a new SESSION.
+Type in the name and description of your SESSION and choose the duration, for example 1 hour. Remember that this will be the default duration for each contribution you will add.
 
-In General Settings, you can edit the title, description, place, start/end date, timezone, default style, event type. You can add a support e-mail and modify its caption; it will be displayed in the event page. It is also possible to create a short display URL, used as a shortcut to the event page. You have the possibility of changing the default style, [(see Meeting Display Area)](#meeting-display-area) . To edit the visibility, see visibility in general\_settings for conferences. Finally, you can add or remove any chairpersons.
+Once you are finished, click on save.
+Now, you will be asked to define your first BLOCK.
+Type in the title of your first block, in our case “morning”, and then the start time and duration, 1 hour, starting from 11am, for example.
+Click on “Save” to create your first block. 
 
-![image100](img/meet2.png)
+This is your first BLOCK inside your first SESSION.
+Now we want to create another block, inside the same session.
+To do this, click on “Add new”, and then “session block”. 
+You can see here that we could create a new session altogether, or simply create a new block to our existing session. 
+Click on your session under “Add another block to”, in order to create the new block. 
 
-------------------------------------------------------------------------
+Select a title for your second block, such as “afternoon” and then choose its start time and duration, for example, 1 hour, starting from 2 pm.
+Click on save to return to your timetable.
 
-### Timetable Management
+To add a CONTRIBUTION to a block for example, choose one of your blocks and click on it to make this window appear. 
+On the window, click on “Go to session block timetable”
 
-The Timetable Management allows you to organize your meeting by using sessions (groups of contributions), contributions (presentations), and breaks.
+Here, you can add a contribution, by simply clicking on “add new”, and then on “contribution”.
+Type in the name and description of your contribution, as well as a start time. The duration will be the one you selected before.
 
-The management of the timetable is the same as for conferences. The only difference is while adding contributions. In conferences, you can add unscheduled contributions to the timetable. In meetings, unscheduled contributions don't exist, therefore you will always need to create the contribution.
+Once you’re finished, click on save. This will add a contribution in the given block.
 
-Here, we will just explain how to create contributions. For more details and further explanations about the Timetable Management [see Timetable Management for Conferences](Conferences.html#timetable-management).
 
-------------------------------------------------------------------------
 
-#### Adding Contributions
+Remember that you can also add a contribution outside your sessions and blocks, by simply clicking on “Add new”, then on “Contribution”, and repeat the process.
 
-You can directly add contributions into your timetable using the *Add new* &gt; *Contribution* at the top of the timetable. This will open a pop-up with a form to create a new contribution.
 
-![image103](img/confm23.png)
 
-Within this form, you can define the name, description, location, presenters, the starting time and duration of this contribution.
+Click on “Switch to Display view” to look at your session, your blocks inside the session, and your contribution for each block.
 
-![image104](img/confm28.png)
+================================= LETS NOW SEE HOW TO ADD MINUTES TO YOUR MEETING ==================================
 
-In order to edit the contribution, you can click on it and a edition balloon will show up. In this balloon, you can modify the timing or the whole contribution.
+In order to add minutes to the whole event, click on the pencil ON YOUR TOP RIGHT, and click on “add minutes”.
+Here you can add the text of the minutes of your meeting, you are offered formatting help (headers, bulletted or numbered lists, etc).
+Click on save, and then on Close. 
 
-------------------------------------------------------------------------
+Minutes can also be added to your session or contribution, by clicking on the relevant PENCIL on the right.
 
-#### Session Management
+============================== FINALLY, LETS SEE HOW YOU CAN ADD MATERIAL TO YOUR MEETING ============
 
-See [Session Management for Conferences](Conferences.html#session-management).
 
-#### Contribution Management
+Click on the pencil at the TOP RIGHT of your screen, and click on “Material Editor”.
 
-See [Contribution Management for Conferences](Conferences.html#contribution-management).
+In this window, you can upload files, add links, or create a new folder in which you will include your files.
+For example, to upload a FILE, simply click on “Upload files”, click on “choose from your computer” and select a file from your device. alternatively, you can drag and drop your file in the area indicated.
+Here you can also choose to automatically convert your file to PDF, and whether you want your file to be accessible to anybody or to a selected few.
 
-------------------------------------------------------------------------
+Once you’re finished, click on “Upload”. and close your window.
 
-### Material
 
-Here, you can upload any material you wish to attach to the meeting. The material can be video, slides, minutes etc. You can modify the material by clicking on ![image144](img/edit.png) or to delete it by clicking on ![image145](img/delete.png).
-
-![image143](img/meetingMaterial.png)
-
-------------------------------------------------------------------------
-
-### Evaluation
-
-Same as for lectures; see evaluation .
-
-------------------------------------------------------------------------
-
-### Lists
-
-See lists\_management for Conferences.
-
-------------------------------------------------------------------------
-
-### Logs
-
-See logs\_management for Conferences
-
-------------------------------------------------------------------------
-
-### Protection Management
-
-Protection in a meeting is the same as in a Conference. There is Modification Control, Domain Control, and Access Control. When adding to the Access and Modification lists, you can also add Groups of users if any have been defined by Administration.
-
-*Modification Control* Only the managers listed in the modification control, the creator of the meeting, and any administrators can access the Management Area of the meeting. However, you can add a Modification Key which means anyone with this key can modify the meeting without logging in.
-
-![image119](img/meet21.png)
-
-*Access Control* When the meeting is public, anyone can view the meeting including the details, timetable, material, etc. When the meeting is private, only those in the access list, meeting managers, and administrators can view the meeting. When it is inheriting, its access protection will be the same as its parent category. Changing the access protection of the parent category will change the access protection of the meeting (see access\_control)
-
-![image120](img/confm30.png)
-
-If the meeting is PUBLIC and has some element that is RESTRICTED, there will show a message 'Some parts of it are, however, protected. Which ones?'. If you click in 'Which ones?' it will show a popup with the children protected. The same works when the meeting access is RESTRICTED and has PUBLIC elements.
-
-![image165](img/childrenProtectedPopup.png)
-
-If the meeting access is RESTRICTED the event manager will be able to set a 'Contact in case of no access', so users with no access will know who to contact in order to request access.
-
-Also, when private you can also add an Access Key which means anyone with this key can access the meeting without logging in.
-
-*Domain Control* This is available for public meetings. It allows you to specify which domain can access the meeting. For instance, choosing CERN will mean the meeting is only accessible for people inside the CERN domain.
-
-*Material Visibility* By default a material will always be visible in the timetable, even if it is private (the user will be redirected to a login screen or access key prompt when clicking on it). You can force the material to be hidden for non-authorized people by using the *Visibility to unauthorized users* section in the material access control page.
-
-------------------------------------------------------------------------
-
-### Tools Tab
-
-The meeting Tools allow you to make certain actions on the whole of the meeting. See following sub-sections.
-
-------------------------------------------------------------------------
-
-#### Alarm Control
-
-You can set an alarm/reminder in the same way as it's done for conferences; see conference\_alarms.
-
-------------------------------------------------------------------------
-
-#### Cloning a Meeting
-
-Clone the meeting if you would like to make another meeting exactly the same. You have the option to clone it once, at fixed intervals, or on certain dates. For more on cloning, see clone\_event for conferences.
-
-![image123](img/meetingClone.png)
-
-------------------------------------------------------------------------
-
-#### Posters
-
-You have the possibility of creating posters for your meetings. You can create your own, or create one from a template.
-
-![image146](img/meetingPoster.png)
-
-------------------------------------------------------------------------
-
-#### Lock
-
-It is possible to lock the meeting. If you lock the event, you won’t be able to change its details anymore. Only the creator of the meetings or an administrator of the system/category can unlock an event. You will be asked to confirm.
-
-![image121](img/meetingLock.png)
-
-------------------------------------------------------------------------
-
-#### Deleting a Meeting
-
-The Delete meeting option will delete the whole meeting. You will be asked to confirm deletion beforehand.
-
-![image122](img/meetingDelete.png)
-
-------------------------------------------------------------------------
-
-#### Packaging Material
-
-Using the *Material package* option you can create a package of all the materials that have been used in the meeting.
-
-![image124](img/meetingMaterial2.png)
-
-------------------------------------------------------------------------
-
-#### Create an Offline version of a Meeting
-
-You can create an offline copy of a meeting in the same way it's done for conferences; see offline\_conference.
-
-------------------------------------------------------------------------
-
-Meeting Display Area
---------------------
-
-The Meeting Display is the view that users of the meeting will see. If the meeting is public they will not need to log in to view it. It is also the area in which you can access the modification areas if you have access rights. There are various views/styles in which the meeting can be displayed; the following sections show the different views and displays.
-
-------------------------------------------------------------------------
-
-### Indico Style
-
-This is the default view for meetings in Indico. If you have modification rights to any parts of the meeting you will be able to access the Management Area by clicking the icon ![image133](img/conf2.png).
-
-![image134](img/meetd1.png)
-
-You can see a bunch of additional buttons next to the navigation options on the top left of the page:
-
-![image141](img/meetd7.png) This will print a printable version of the display area
-
-![image142](img/meetd8.png) This will let you set filters to focus on events depending on their date or the session they are included in.
-
-![image164](img/ical.png) Opens the popup with all the options to export the agenda to your calendar.
-
-![image140](img/confd21.png) This button allows you to use the following additional features:
-
--   Export to PDF format
--   Download a package with all the material linked to the meeting
--   Change the style of the display. The following sections give you some examples of available styles.
-
-The other icons are:
-
--   ![image147](img/home.png): Gets you back to the Indico homepage
--   ![image148](img/a1.png): Brings you to the oldest event in the category your event belongs to
--   ![image149](img/a2.png): Brings you to the previous event in the category your event belongs to
--   ![image150](img/a3.png): Brings you to the category event overview your event belongs to
--   ![image151](img/a4.png): Brings you to the next event in the category your event belongs to
--   ![image152](img/a5.png): Brings you to the newest event in the category your event belongs to
--   ![image162](img/manage.png): From *Manage* , you can:
-    -   Edit event: this will lead you to the management area of the meeting, same as for PENCIL
-    -   Clone event: Leads you to the tab *Clone Event* in the *Tools* option; see clone\_meeting
-    -   Edit minutes: add and edit your minutes. When you add minutes, the following appears in the event page: ![image163](img/minutes.png) Clicking on *Minutes* on the left will open the minutes in the same page; clicking on the icon on the right will open the minutes in a new tab
-    -   Manage material: opens a window where you can add, edit or delete existing material
-
-------------------------------------------------------------------------
-
-### Simple Text Style
-
-The simple text style:
-
-![image136](img/meetd3.png)
-
-------------------------------------------------------------------------
-
-### Administrative Style
-
-The Administrative style:
-
-![image137](img/meetd4.png)
-
-------------------------------------------------------------------------
-
-### Compact Style
-
-The Compact style:
-
-![image138](img/meetd5.png)
-
-You can pass extra parameters to this compact style in order to choose the amount of days to display in one row and the start and end date. The parameters are:
-
--   daysPerRow: number of days that you want to show per row (as a table row).
--   firstDay: first day to be shown (must have the format 1-January-2010)
--   lastDay: last day to be shown (must have the format 3-January-2010)
-
-Let's suppose you have a 2 weeks meeting:
-
-<http://indico.cern.ch/conferenceDisplay.py?confId=XXXX&view=nicecompact> (where XXXX is the ID of your meeting)
-
-and you want to display in the 1st row the 1st week and just underneath the second week, you can do it adding the extra paramenter daysPerRow as follows:
-
-<http://indico.cern.ch/conferenceDisplay.py?confId=XXXX&view=nicecompact&daysPerRow=7> (where XXXX is the ID of your meeting)
-
-------------------------------------------------------------------------
-
-### Parellel Style
-
-The Parellel style:
-
-![image139](img/meetd6.png)
-
-------------------------------------------------------------------------
+You can see here the files you uploaded.
