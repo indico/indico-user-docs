@@ -56,8 +56,10 @@ Once you are finished, **click on Save**.
 
 ### Adding a Session block
 
-Now, you will be asked to define your first Block.
+Now, you will be asked to define your first _Block_.
 Type in the title of your first block, in our case “morning”, and then the start time and duration, 1 hour, starting from 11am, for example.
+
+![](/assets/add-session-block-meeting.png)
 
 **Click on Save** to create your first block. This is your first BLOCK inside your first SESSION.
 
@@ -65,6 +67,7 @@ Type in the title of your first block, in our case “morning”, and then the s
 
 Now we want to create another block, inside the same session.
 To do this, click on “Add new”, and then “session block”. 
+
 
 We can create a new session altogether, or simply create a new block to our existing session. 
 
@@ -79,22 +82,26 @@ Select a title for your second block, such as “afternoon” and then choose it
 
 ### Adding a Contribution
 
-To add a CONTRIBUTION to a block for example, choose one of your blocks and click on it to make this window appear. 
+To add a _Contribution_ to a block for example, choose one of your blocks and click on it to make this window appear. 
 On the window, click on “Go to session block timetable”
 
-Here, you can add a contribution, by simply clicking on “add new”, and then on “contribution”.
+Here, you can add a contribution, by simply clicking on “Add new”, and then on “Contribution”.
+
+![](/assets/contribution-meeting.png)
+
 Type in the name and description of your contribution, as well as a start time. The duration will be the one you selected before.
 
 Once you’re finished, **click on save**. This will add a contribution in the given block.
 
 
 
-Remember that you can also add a contribution outside your sessions and blocks, by simply clicking on “Add new”, then on “Contribution”, and repeat the process.
+You can also add a contribution outside your sessions and blocks, by simply clicking on “Add new”, then on “Contribution”, and repeat the process.
 
+![](/assets/add-contribution-meeting.png)
 
+Click on _Switch to display view_ to look at your Session, your Blocks inside the session, and the Contribution fin the first block.
 
-Click on “Switch to Display view” to look at your session, your blocks inside the session, and your contribution for each block.
-
+![](/assets/result-timetable-meeting.png)
 
 Adding Minutes 
 ---------------
@@ -102,6 +109,8 @@ Adding Minutes
 To add minutes to the whole event, click on the pencil on the top right of the page, and click on _add minutes_.
 Here you can add the text of the minutes of your meeting, you are offered formatting help (headers, bulletted or numbered lists, etc).
 Click on save, and then on Close. 
+
+![](/assets/add-minutes-meeting.png)
 
 Minutes can also be added to your session or contribution, by clicking on the relevant pencil on the right. 
 
