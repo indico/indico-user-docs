@@ -78,8 +78,6 @@ Select a title for your second block, such as “afternoon” and then choose it
 
 **Click on save** to return to your timetable.
 
-![](/assets/result-timetable-meeting.png)
-
 ### Adding a Contribution
 
 To add a _Contribution_ to a block for example, choose one of your blocks and click on it to make this window appear. 
@@ -99,7 +97,7 @@ You can also add a contribution outside your sessions and blocks, by simply clic
 
 ![](/assets/add-contribution-meeting.png)
 
-Click on _Switch to display view_ to look at your Session, your Blocks inside the session, and the Contribution fin the first block.
+Click on _Switch to display view_ to look at your Session, your Blocks inside the session, and the Contribution in the first block.
 
 ![](/assets/result-timetable-meeting.png)
 
