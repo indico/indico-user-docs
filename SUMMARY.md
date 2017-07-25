@@ -2,10 +2,10 @@
 
 * [Introduction](README.md)
 * [Categories](/user_guide/categories.md)
-  * [What is an indico category](/user_guide/categories.md#what-is-an-indico-category)
+  * [What is an indico category](/user_guide/categories.md)
   * [Creating a category](/user_guide/creating_a_category.md)
-  * [Category goodies](/user_guide/categories.md#category-goodies)
-  * [Category management](/user_guide/categories.md#category-management)
+  * [Category goodies](/user_guide/category_goodies.md)
+  * [Category management](/user_guide/category_management.md)
 * [Meetings](/user_guide/meetings.md)
 * [Room Booking](/user_guide/room_booking.md)
   * [Getting into Room Booking Module](/user_guide/room_booking.md#getting-into-room-booking-module)
