@@ -2,7 +2,6 @@
 
 * [Introduction](README.md)
 * [Categories](/user_guide/categories.md)
-  * [What is an indico category](/user_guide/categories.md)
   * [Creating a category](/user_guide/creating_a_category.md)
   * [Category goodies](/user_guide/category_goodies.md)
   * [Category management](/user_guide/category_management.md)
