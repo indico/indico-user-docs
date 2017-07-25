@@ -144,7 +144,7 @@ This allows you to look at the bookings other users have made. Narrow down your 
 If you want to look at all the bookings for a specific DAY for ALL the rooms, simply click on “Calendar” from the same left banner.
 
 
-If your form is corectly filled, the system will ensure your new booking does not conflict with others. When no conflicts are found, you will be shown the confirmation page which lists the details of your booking.
+If your form is correctly filled, the system will ensure your new booking does not conflict with others. When no conflicts are found, you will be shown the confirmation page which lists the details of your booking.
 
 * Click _My bookings_ from the menu. Your new booking now appears on the list.
 
