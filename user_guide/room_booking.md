@@ -10,9 +10,6 @@ This document is a tutorial, navigating through the pages of the room booking mo
 
 ---
 
-### The First Page
-
-The Room Booking Module first page depends on who is logged in. For most people, it shows the site _Map of Rooms_ that can be booked, as per the relevant menu option, on the left banner. The _Book a Room_ option, from the same menu, shows all the bookable rooms sorted by room number, together with the room capacity and equipment available. The _My Bookings_ menu option shows the bookings you have already done. Room managers can see bookings/blockings of rooms they manage by using the _My Rooms / Room Blocking_  options, always on the left banner.
 
 ---
 
