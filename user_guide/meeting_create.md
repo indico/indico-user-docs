@@ -26,3 +26,7 @@ Once you have chosen your Chairpersons, **Click on Save**. The chairpsersons app
 ![](/assets/define-meeting.png)
 
 Click on “Switch to display view” and check if all the details of your meeting are correct.
+
+More event actions
+------------------
+From the event management page, click on the gear icon on the top right to see how to move, lock, delete or change the type of your event.
