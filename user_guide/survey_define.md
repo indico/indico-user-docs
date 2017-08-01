@@ -7,20 +7,23 @@ On your event Management page, select "SURVEYS", which is under “Organization�
 
 Now you can click on “Create Survey” to start the Survey creation process.
 
-Choose a title for your survey, for example "Online tutorial evaluation survey" 
-and fill the introduction box with some text you want to be shown as a description, for example:"Please answer some questions about this tutorial".
+Choose a title for your survey and fill the introduction box with some text you want to be shown as a description.
 
-Then you can decide whether you want your survey to be filled anonymously or not, 
-if you want to put a limit on the number of submissions accepted, 
-if you want to make the survey public or reserved for a selected few,
-and whether you allow a partial completion of the survey, 
+![](/assets/survey_create_1.png)
 
-Finally, decide whether you want to enable email notifications related to the survey. 
+Decide whether you want your survey to be filled _anonymously_ or not, 
+if you want to put a _limit_ on the number of _submissions_ accepted, 
+if you want to make the survey _public_ or reserved for a selected few,
+and whether you allow a _partial completion_ of the survey, 
+
+Finally, decide whether you want to enable email _Notifications_ related to the survey. 
 If you select “yes”, then type in the email addresses of the users who will receive these notifications in the appropriate boxes, 
 the first box for when the survey starts, and the second one for each time the survey is filled by a participant.
 Just write one email per line, no separators are accepted.
 
 When you are finished, click on “Save”.
+
+![](/assets/survey_create_2.png)
 
 Create the questionnaire
 --------------------------
