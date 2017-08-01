@@ -1,11 +1,11 @@
 Define your survey
 ==================
 
-First you will have to create an indico EVENT that matches your needs (meeting or lecture or conference). To learn how to do this, please see the relevant sections in this document.
+First you will have to create an indico _event_ that matches your needs (meeting or lecture or conference). To learn how to do this, please see the relevant sections in this book.
 
-On your event Management page, select "SURVEYS", which is under “Organization” on the left banner.
+On your event Management page, select _Surveys_, which is under _Organization_ on the left banner.
 
-Now you can click on “Create Survey” to start the Survey creation process.
+Click on _Create Survey _ to start the Survey definition.
 
 Choose a title for your survey and fill the introduction box with some text you want to be shown as a description.
 

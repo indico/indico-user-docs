@@ -22,7 +22,7 @@
   * [Core Features and Constraints](/user_guide/room_features.md)
   * [Dictionary](/user_guide/room_dictionary.md)
 * [Surveys on events](/user_guide/surveys.md)
-  * [Define you Survey](/user_guide/survey_define.md)
+  * [Define your Survey](/user_guide/survey_define.md)
   * [Collect your Survey Results](/user_guide/survey_results.md)
 * [Event reminders](/user_guide/reminders.md)
 * [Import into Calendaring tools](/user_guide/calendar_import.md)
