@@ -1,7 +1,7 @@
 Lecture
 =======
 
-A Lecture is an indico event where you simply add a description or abstract, the speaker(s)'names and their material. It may re-occur over several days, still its definition is more homogenious, hence simpler than an indico Meeting.
+A _Lecture_ is an indico event where you simply add a description or abstract, the speaker(s)'names and their material. It may re-occur over several days, still its definition is more homogeneous, hence simpler than an indico Meeting.
 
 [See here a video tutorial on How to make an indico LECTURE](https://cds.cern.ch/video/2261867)
 
@@ -14,7 +14,13 @@ Click on the tab “Create event”, and click on “Create lecture”.
 ![](/assets/lecture_create_1.png)
 
 Click on “Choose Category” to select the category that you want. You can type in the one that you are looking for and click on “select” once you have found it.
-Then, type in the _Title_ for your lecture and choose the _Date_ of your event. By clicking on _Add occurrence_ you can add more dates of the same lecture series. Do the same for the hour of the day and the duration of your event, for example 60 minutes, starting at 2 pm.
+
+![](/assets/lecture_category_select.png)
+
+Then, type in the _Title_ for your lecture and choose the _Date_ of your event. By clicking on _Add occurrence_ you can add more dates of the same lecture series. Do the same for the hour of the day and the duration of your event.
+
+![](/assets/lecture_occurence.png)
+
 Adjust, if needed, the timezone to reflect the region your lecture takes place.
 You may choose the _Location_ of your event. If you are offered a  meeting rooms’ list to choose from, please **remember** that room reservation has to be done separately.
 
@@ -25,6 +31,7 @@ Otherwise, you can manually insert users you want to include, by typing in their
 
 By default, all speakers are marked as _submitters_, which
 means that they can upload their presentation to Indico themselves.
+
 
 Then, you will have to select your _Protection mode_. By default, the protection mode is set to “Inheriting”, that means that you will inherit the rights from the category your Lecture belongs to. In this example figure it is public, so that everyone can see it, but if you choose another category and you want your event to be public regardless of its category restrictions, you can make the change by clicking on “Public”. Otherwise, you can select “Protected” if you want the lecture to be visible to a selected few only ((like the category managers and the users you will give access to)).
 
