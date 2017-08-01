@@ -7,5 +7,7 @@ A _Lecture_ is an indico event where you simply add a description or abstract, t
 
 {% video %}https://cds.cern.ch/video/2261867{% endvideo %}
 
+<iframe width="576" height="360" frameborder="0" src="https://cds.cern.ch/video/2261867?showTitle=true" allowfullscreen></iframe>
+
 
 
