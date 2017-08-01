@@ -7,7 +7,7 @@ A _Meeting_ is an indico event to which you can include **Minutes**, in addition
 
 {% video %}https://cds.cern.ch/video/2261868{% endvideo %}
 
-
+<iframe src="//cds.cern.ch/video/2261867/" allowfullscreen></iframe>
 Creating a Meeting
 ------------------
 
