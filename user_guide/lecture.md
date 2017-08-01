@@ -10,6 +10,9 @@ Creating an indico lecture
 --------------------------
 Make sure that you are on the Indico page and that you are logged in.
 Click on the tab “Create event”, and click on “Create lecture”.
+
+![](/assets/lecture_create_1.png)
+
 Click on “Choose Category” to select the category that you want. You can type in the one that you are looking for and click on “select” once you have found it.
 Then, type in the _Title_ for your lecture and choose the _Date_ of your event. By clicking on _Add occurrence_ you can add more dates of the same lecture series. Do the same for the hour of the day and the duration of your event, for example 60 minutes, starting at 2 pm.
 Adjust, if needed, the timezone to reflect the region your lecture takes place.
