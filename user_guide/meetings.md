@@ -1,5 +1,5 @@
-Meetings
-========
+Meeting
+=======
 A _Meeting_ is an indico event to which you can include **Minutes**, in addition to all the other rich functionality that indico events include.
 
 
