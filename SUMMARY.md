@@ -21,4 +21,9 @@
   * [Blocking a Room](/user_guide/room_block.md)
   * [Core Features and Constraints](/user_guide/room_features.md)
   * [Dictionary](/user_guide/room_dictionary.md)
+* [Surveys on events](/user_guide/surveys.md)
+* [Event reminders](/user_guide/reminders.md)
+* [Import into Calendaring tools](/user_guide/calendar_import.md)
+* [Vidyo room create/join](/user_guide/vidyo.md)
+* [Webcast/Recording booking](/user_guide/webcast_recording.md)
 
