@@ -6,6 +6,15 @@ A _Lecture_ is an indico event where you simply add a description or abstract, t
 [See here a video tutorial on How to make an indico LECTURE](https://cds.cern.ch/video/2261867)
 
 
+```
+<div class="intrinsic-container">
+  <iframe src="//cds.cern.ch/video/2261867/" allowfullscreen></iframe>
+</div>
+
+```
+
+
+
 Creating an indico lecture
 --------------------------
 Make sure that you are on the Indico page and that you are logged in.
