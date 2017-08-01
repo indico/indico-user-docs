@@ -25,6 +25,7 @@ Otherwise, you can manually insert users you want to include, by typing in their
 By default, all speakers are marked as _submitters_, which
 means that they can upload their presentation to Indico themselves.
 
+![](/assets/lecture_submitter_manual.png)
 
 Then, you will have to select your _Protection mode_. By default, the protection mode is set to “Inheriting”, that means that you will inherit the rights from the category your Lecture belongs to. In this example figure it is public, so that everyone can see it, but if you choose another category and you want your event to be public regardless of its category restrictions, you can make the change by clicking on “Public”. Otherwise, you can select “Protected” if you want the lecture to be visible to a selected few only ((like the category managers and the users you will give access to)).
 
