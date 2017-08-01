@@ -5,6 +5,8 @@ A _Meeting_ is an indico event to which you can include **Minutes**, in addition
 
 [See here a video tutorial on How to make an indico MEETING](https://cds.cern.ch/video/2261868)
 
+{% video %}https://cds.cern.ch/video/2261868{% endvideo %}
+
 
 Creating a Meeting
 ------------------

@@ -7,7 +7,7 @@ A _Lecture_ is an indico event where you simply add a description or abstract, t
 
 {% video %}https://cds.cern.ch/video/2261867{% endvideo %}
 
-<iframe src="//cds.cern.ch/video/2261867/" allowfullscreen></iframe>
+
 
 Creating an indico lecture
 --------------------------
