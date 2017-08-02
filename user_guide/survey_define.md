@@ -33,22 +33,24 @@ You can either import an existing questionnaire, or define a new one.
 You may  divide your questionnaire in sections. _Sections_ contain
 _questions_ and questions will show up within the corresponding section, except for those in the "_standalone section_", which will show up at the top level.
 
-![](/assets/survey_questionnaire_1.png)
-
 For each question, you can choose a different modality, such as multiple choice, a 'yes' or 'no' answer, and so on.
 
 While creating a new section, by clicking on _Add section_, decide whether you want a standard section, or a standalone one.
 
-Type in the title of your section, for example "Usefulness" and a brief description "How useful is this tutorial?"
+Type in the _Title_ of your section and a Description explaining what you are asking the users to do.
 
 Click on “Save” and the section will be displayed.
 
+
+![](/assets/survey_questionnaire_1.png)
+
+
 Time to add some items to your section.
 
-You can click on “add text item” if your want to include an item that only contains your informative text.
+You can click on _Add text item_ if your want to include an item that only contains your informative text.
 Otherwise you can add one of the actual questions that the survey participant will have to answer.
 
-Click on “add text item”, and write "Welcome! Please answer this question" in the box. Click on “Save” in order to show the text item in your section.
+In the _Add text item_ pop-up, and write your prompting text in the box. Click on “Save” in order to show the text item in your section.
 
 ![](/assets/survey_questionnaire_2.png)
 
