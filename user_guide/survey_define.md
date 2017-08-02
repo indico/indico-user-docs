@@ -76,11 +76,14 @@ You can do the same with your entire section, by dragging it using the grey rect
 
 Once you’re finished creating the sections of the questionnaire, you are ready to open it!
 Click on “Surveys” to the left.
-Now, click on “Manage”, you will be able to decide when the survey can be submitted and when it will be open.
+Now, click on _Manage_, you will be able to decide when the survey can be submitted and when it will be open.
 
-On this page, click on “Schedule”, and select the date and hour of the day when your survey can be submitted, and when it will close.
+On this page, click on _Schedule_, and select the date and hour of the day when your survey can be submitted, and when it will close.
 
 Alternatively, you can simply Click on “Open now”, so that anybody will be able to fill out the survey right away.
 
-Click on “switch to display view”, and then on “Fill out” on the RIGHT, to access the survey. 
+![](/assets/survey_schedule.png)
 
+Click on “switch to display view”, and then on “Fill out” on the right, to access the survey. 
+
+![](/assets/survey_fillout.png)
