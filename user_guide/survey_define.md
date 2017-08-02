@@ -80,10 +80,10 @@ Now, click on _Manage_, you will be able to decide when the survey can be submit
 
 On this page, click on _Schedule_, and select the date and hour of the day when your survey can be submitted, and when it will close.
 
-Alternatively, you can simply Click on “Open now”, so that anybody will be able to fill out the survey right away.
+Alternatively, you can simply Click on _Open now_, so that anybody will be able to fill out the survey right away.
 
 ![](/assets/survey_schedule.png)
 
-Click on “switch to display view”, and then on “Fill out” on the right, to access the survey. 
+Click on _Switch to display view_, and then on “Fill out” on the right, to access the survey. 
 
 ![](/assets/survey_fillout.png)
