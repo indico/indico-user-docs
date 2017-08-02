@@ -16,10 +16,8 @@ if you want to put a _limit_ on the number of _submissions_ accepted,
 if you want to make the survey _public_ or reserved for a selected few,
 and whether you allow a _partial completion_ of the survey, 
 
-Finally, decide whether you want to enable email _Notifications_ related to the survey. 
-If you select “yes”, then type in the email addresses of the users who will receive these notifications in the appropriate boxes, 
-the first box for when the survey starts, and the second one for each time the survey is filled by a participant.
-Just write one email per line, no separators are accepted.
+Decide whether you want to enable email _Notifications_ related to the survey. 
+If you select “_yes_”, then type in the email addresses of the users who will receive these notifications in the appropriate boxes, the first box for when the survey **starts**, and the second one for each time the survey is **filled** by a participant.Write one email address per line, no separators are accepted.
 
 When you are finished, click on “Save”.
 
@@ -36,6 +34,7 @@ You may also add sections to your questionnaire. Sections contain
 questions and questions will show up within the corresponding section,
 except for those in the "standalone section", which will show up at the
 top level.
+![](/assets/survey_questionnaire_1.png)
 
 For each question, you can choose a different MODALITY, such as multiple choice, a yes or no answer, and so on.
 
@@ -55,9 +54,13 @@ Otherwise you can add one of the actual questions that the survey participant wi
 
 Click on “add text item”, and write "Welcome! Please answer this question" in the box. Click on “Save” in order to show the text item in your section.
 
+![](/assets/survey_questionnaire_2.png)
+
 Click on the tab “Add QUESTION” and select the question modality that suits your needs.
 
 Let’s add a “Single choice” question  to our section.
+
+![](/assets/survey_questionnaire_3.png)
 
 This means that the user will be able to select only ONE from the available options.
 
@@ -68,6 +71,7 @@ If you choose radio buttons, indicate whether you want them displayed horizontal
 
 Type in the options that you want your participant to choose from, for example, 'yes', 'no, 'maybe' and click on Save once you are finished.
 
+![](/assets/survey_questionnaire_4.png)
 
 Now that you have created your Section, you can change the order of presentation of your question and item. To do this, you can drag your question or item by using the grey rectangle that will appear on the left. 
 
