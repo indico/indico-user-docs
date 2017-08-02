@@ -39,7 +39,7 @@ While creating a new section, by clicking on _Add section_, decide whether you w
 
 Type in the _Title_ of your section and a Description explaining what you are asking the users to do.
 
-Click on “Save” and the section will be displayed.
+Click on _Save_ and the section will be displayed.
 
 
 ![](/assets/survey_questionnaire_1.png)
@@ -50,31 +50,29 @@ Time to add some items to your section.
 You can click on _Add text item_ if your want to include an item that only contains your informative text.
 Otherwise you can add one of the actual questions that the survey participant will have to answer.
 
-In the _Add text item_ pop-up, and write your prompting text in the box. Click on “Save” in order to show the text item in your section.
+In the _Add text item_ pop-up write your prompting text in the box. Click on _Save_ in order to show the text item in your section.
 
 ![](/assets/survey_questionnaire_2.png)
 
-Click on the tab “Add QUESTION” and select the question modality that suits your needs.
-
-Let’s add a “Single choice” question  to our section.
+Click on the tab _Add question_ and select the question modality that suits your needs, e.g._Single choice_ question, as per this figure:
 
 ![](/assets/survey_questionnaire_3.png)
 
-This means that the user will be able to select only ONE from the available options.
+This means that the user will be able to select only **one** from the available options.
 
-Type the question in the title box,for example "Will you use indico to make your own survey?" and add an additional description if you need to, for example: "Select one of the candidate answers below", then indicate whether you want the answer to this question to be required in order for the survey to be effectively submitted.
+Type the question in the _Title_ box,for example "Will you use indico to make your own survey?" and add a _Description_ if you need to, for example: "Select one of the candidate answers below", then indicate whether you want the answer to this question to be _Required_ in order for the survey to be effectively submitted.
 
-Select whether you want your options to be displayed as radio buttons or a dropdown list.
-If you choose radio buttons, indicate whether you want them displayed horizontally or vertically.
+Select whether you want your options to be displayed as _Radio buttons _or a _Drop-down list_.
+If you choose radio buttons, indicate whether you want them displayed _Vertically_ or _Horizontally_.
 
-Type in the options that you want your participant to choose from, for example, 'yes', 'no, 'maybe' and click on Save once you are finished.
+Type in the Options that you want your participant to choose from, for example, 'yes', 'no, 'maybe' and click on Save once you are finished. The figure below shows the above options selected:
 
 ![](/assets/survey_questionnaire_4.png)
 
-Now that you have created your Section, you can change the order of presentation of your question and item. To do this, you can drag your question or item by using the grey rectangle that will appear on the left. 
+Now that you have created your _Section_, you can change the order of presentation of your question and item. To do this, you can drag your question or item by using the grey rectangle that will appear on the left. 
 
 You can do the same with your entire section, by dragging it using the grey rectangle at the top.
-
+![](/assets/survey_sections.png)
 
 Once you’re finished creating the sections of the questionnaire, you are ready to open it!
 Click on “Surveys” to the left.
