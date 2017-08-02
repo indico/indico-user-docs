@@ -1,13 +1,13 @@
 Define your survey
 ==================
 
-First you will have to create an indico _event_ that matches your needs (meeting or lecture or conference). To learn how to do this, please see the relevant sections in this book.
+First you will have to login in to indico and create an **event** that matches your needs (meeting or lecture or conference). To learn how to do this, please see the relevant sections in this book.
 
-On your event Management page, select _Surveys_, which is under _Organization_ on the left banner.
+On your event Management page, accessible by clicking on the **pencil** on the top of the event display page, select _Surveys_, which is under _Organization_ on the left banner.
 
 Click on _Create Survey _ to start the Survey definition.
 
-Choose a title for your survey and fill the introduction box with some text you want to be shown as a description.
+Choose a _Title_ for your survey and fill the introduction box with some text you want to be shown as a description.
 
 ![](/assets/survey_create_1.png)
 
@@ -26,22 +26,18 @@ When you are finished, click on “Save”.
 Create the questionnaire
 --------------------------
 
-To do this, click on “Manage”, and then on “Prepare questionnaire”. 
+To do this, click on _Manage_, and then on _Prepare questionnaire_. 
 
-In this page, you can either import an existing questionnaire, or create a new one all together.
+You can either import an existing questionnaire, or define a new one.
 
-You may also add sections to your questionnaire. Sections contain
-questions and questions will show up within the corresponding section,
-except for those in the "standalone section", which will show up at the
-top level.
+You may  divide your questionnaire in sections. _Sections_ contain
+_questions_ and questions will show up within the corresponding section, except for those in the "_standalone section_", which will show up at the top level.
+
 ![](/assets/survey_questionnaire_1.png)
 
-For each question, you can choose a different MODALITY, such as multiple choice, a yes or no answer, and so on.
+For each question, you can choose a different modality, such as multiple choice, a 'yes' or 'no' answer, and so on.
 
-
-== Let’s now create a new SECTION, by clicking on “Add section”. ==
-
-Decide whether you want a standard section, or a standalone section, meaning a section whose questions show up at the top level.
+While creating a new section, by clicking on _Add section_, decide whether you want a standard section, or a standalone one.
 
 Type in the title of your section, for example "Usefulness" and a brief description "How useful is this tutorial?"
 
