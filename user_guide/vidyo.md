@@ -1,7 +1,7 @@
 # Create or Join a Vidyo room via Indico
 
 
-In the managemenent page of your event click on _Videoconference_ under the tab _Services_ on the left banner.
+In the managemenent page of your Indico event click on _Videoconference_ under the tab _Services_ on the left banner.
 
 ![](/assets/vidyo_find.png)
 
@@ -18,7 +18,7 @@ Going back to the _Event display view_ you will see that the room is now attache
 
 You have the possibility to allow vidyo access to only **parts** of your event, by linking your vidyo room to specific contributions only.
 
-## Create a new Vidyo romm
+## Create a new Vidyo room
 
 To _Create a new Vidyo room_, you'll see the name of your event appearing, by default, as the vidyo room name. You can change it to something more generic, to re-use in the future, if you want.
 
