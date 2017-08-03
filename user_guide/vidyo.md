@@ -14,7 +14,6 @@ Here you can _create_ a new Vidyo room or _Add_ an existing one to your event.
 
 If you just need to _Add existing room_, start typing the name of the room. A list of existing rooms will be suggested, _Select_ the one you need and click on _Save_.
 
-![](/assets/vidyo_find.png)
 Going back to the _Event display view_ you will see that the room is now attached to your event.
 
 You have the possibility to allow vidyo access to only **parts** of your event, by linking your vidyo room to specific contributions only.
