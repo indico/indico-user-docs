@@ -1,4 +1,4 @@
-# DRAFT!!!!!!!!!!!!! How to book Webcast or simply Recording for an event in Indico.
+# How to book Webcast or simply Recording for an event in Indico.
 
 Go to your Indico event management page.  
 
@@ -44,7 +44,7 @@ Your request will be pending approval. As event manager you will receive an emai
 
 You must now prompt your speakers to agree with the recording and publishing of their talk.
 
-Click on _Speaker Release Form_ in the Warning box. Click on _Download_ if you want to print the agreement form in order for the speakers to sign in paper form. Else, if you want to let the speakers sign electronically, you can email the agreements to all the speakers (a list will be provided below).
+Click on _Speaker Release Form_ in the Warning (yellow) box. Click on _Download_ if you want to print the agreement form in order for the speakers to sign in paper form. Else, if you want to let the speakers sign electronically, you can email the agreements to all the speakers (a list will be provided below).
 
 ![](/assets/webcast_sign.png)
 Click on _Send_. You can customise the email message the speakers will receive, or leave the default text. Click on _Ok_. All the speakers will receive the request by email.
