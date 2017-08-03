@@ -1,5 +1,4 @@
-Import into Calendaring Tools
-=============================
+# Import into Calendaring Tools
 
 On the event display view, click on the calendar icon at he top left of the page.
 

@@ -1,7 +1,6 @@
-Define your survey
-==================
+## Define your survey
 
-First you will have to login in to indico and create an **event** that matches your needs (meeting or lecture or conference). To learn how to do this, please see the relevant sections in this book.
+First you will have to login in to Indico and create an **event** that matches your needs (meeting or lecture or conference). To learn how to do this, please see the relevant sections in this book.
 
 On your event Management page, accessible by clicking on the **pencil** on the top of the event display page, select _Surveys_, which is under _Organization_ on the left banner.
 

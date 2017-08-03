@@ -1,5 +1,4 @@
-Creating a Meeting
-------------------
+## Creating a Meeting
 
 First of all, make sure that you are in the Indico page and that you are logged in.
 Click on the tab “Create event”, and click on “Create meeting”.

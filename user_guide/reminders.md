@@ -1,5 +1,5 @@
-Create a reminder for your event
-================================
+# Create a reminder for your event
+
 From the event management view, click on _Reminders_ on the left banner under _Organisation_.
 
 ![](/assets/reminders_entry.png)

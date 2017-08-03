@@ -1,5 +1,5 @@
 
-### Blocking a Room
+## Blocking a Room
 
 As a room manager you may create room blockings which prevent regular users from booking certain rooms. This feature can be used for special events during which only a few people should be allowed to create bookings for some rooms.
 

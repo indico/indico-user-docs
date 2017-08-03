@@ -1,4 +1,4 @@
-### Search and book a room
+## Search and book a room
 
 Let’s now look at how to search for an available room based on more specific criteria.
 

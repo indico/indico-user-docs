@@ -1,6 +1,5 @@
 
-Adding Material
----------------
+## Adding Material
 
 Click on the pencil at the top right of your screen, and click on _Material Editor_.
 

@@ -1,5 +1,4 @@
-Making a Timetable
-------------------
+## Making a Timetable
 
 Click on the pencil at the top of your page to _switch to the management area_ of your event.
 

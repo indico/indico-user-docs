@@ -1,7 +1,7 @@
 Categories
 ==========
 
-What is an indico category
+What is an Indico category
 --------
 
 A Category is a means of grouping your events or other Categories together. In Indico, *Home* is the top level category from where you start. 

@@ -1,6 +1,6 @@
-### Core Features
+## Core Features
 
-#### General
+### General
 
 General features are:
 
@@ -17,7 +17,7 @@ General features are:
 
 ---
 
-#### User
+### User
 
 Options available to regular users:
 
@@ -29,7 +29,7 @@ Options available to regular users:
 
 ---
 
-#### Room Manager
+### Room Manager
 
 In addition to what a user has access to, a room manager can:
 
@@ -40,7 +40,7 @@ In addition to what a user has access to, a room manager can:
 
 ---
 
-#### Indico Administrator
+### Indico Administrator
 
 In addition to what a room manager has access to, an Indico Administrator can:
 

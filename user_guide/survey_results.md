@@ -1,9 +1,6 @@
-Open/close survey & collect results
-===================================
+## Open/close survey & collect results
 
-To open:
---------
-
+### To open:
 
 **As a manager**, once you’ve finished creating the sections of the questionnaire, you are ready to open it!
 Click on “Surveys” to the left.
@@ -21,8 +18,8 @@ Click on _Switch to display view_, and then on “Fill out” on the right, to a
 
 **As a user,** you can fill out the survey and submit your answers.
 
-To close:
----------
+### To close:
+
 As an event manager, once some users have filled out the survey, you can check the results of the survey. 
 
 To do this, click at the pencil at the top of your screen to return to the management page of your event. Then click on “Surveys”, and then on “Manage”.

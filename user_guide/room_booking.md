@@ -1,6 +1,6 @@
 
 
-## Indico Room Booking
+# Indico Room Booking
 
 This chapter describes the Indico module for booking a room for an event.
 

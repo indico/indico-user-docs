@@ -1,5 +1,5 @@
 
-### View your Bookings
+## View your Bookings
 
 You can view the bookings or pre-bookings that you made by going under the 'My bookings' sections of the Room Booking side menu:
 
