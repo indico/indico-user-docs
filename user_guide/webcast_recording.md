@@ -5,6 +5,8 @@ Go to your Indico event management page.
 Make sure that the event takes place in a room that is **equipped** with webcast and Recording!
 To see which rooms these are, go to the Indico _Room booking_ page, and click on _Book a room_. Use the **filter banner** to display only rooms equipped for Webcast and Recording. You will see the list of candidate rooms.
 
+![](/assets/webcast_rooms.png)
+
 Before selecting one of them, **make sure it is available** at the time of your event.
 
 If your event is a **Lecture**, you can click on Webcast/recording and you will be able to send the request for a Webcast right away.
