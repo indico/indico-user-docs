@@ -1,65 +1,61 @@
-# Create or Join a Vidyo room via Indico
+# Create or Join a Vidyo room via Indico DRAFT
 
 
 In the managemenent page of your event click on _Videoconference_ under the tab _Services_ on the left banner.
 
-Here you can create a new vidyo room or add an existing one to your event.
+Here you can _create_ a new Vidyo room or _add* an existing one to your event.
 
-If you just need to _Add existing room_, start typing the name of the room. A LIST WILL BE SUGGESTED, SELECT THE ONE YOU ARE LOOKING FOR. SIMPLY CLICK ON SAVE.
-YOU WILL SEE THAT THE ROOM IS NOW ATTACHED TO YOUR EVENT.
+## Add existing Vidyo room
 
-NOW LET’S CREATE A NEW VIDYO ROOM.
+If you just need to _Add existing room_, start typing the name of the room. A list of existing rooms will be suggested, _Select_ the one you need and click on _Save_.
 
-THE NAME OF YOUR EVENT IS THERE BY DEFAULT, You can change IT TO SOMETHING MORE GENERIC FOR FUTURE USE if you want.
+Going back to the _Event display view_ you will see that the room is now attached to your event.
 
-YOU MAY ALLOW VIDYO ACCESS TO ONLY PARTS OF YOUR EVENT, BY LINKING YOUR VIDYO ROOM TO SPECIFIC CONTRIBUTIONS.
+You have the possibility to allow vidyo access to only **parts** of your event, by linking your vidyo room to specific contributions only.
 
-IN THE DESCRIPTION FIELD WRITE SOMETHING HELPFUL FOR YOUR USERS WHO WILL BE JOINING IN THE FUTURE.
+## Create a new Vidyo romm
 
-THE DEFAULT OWNER OF THE ROOM IS YOU, BUT YOU CAN *CHOOSE* SOMEONE ELSE WHO WILL BE RESPONSIBLE ON THE LONG TERM, 
+To _Create a new Vidyo room_, you'll see the name of your event appearing, by default, as the vidyo room name. You can change it to something more generic, to re-use in the future, if you want.
 
-YOU CAN ENTER A MODERATION PIN IF YOU WANT TO MODERATE THE ROOM. Anybody who knows the PIN will be able to perform the functions of a moderator.
-MODERATORS can Mute, Unmute, Hide Video, Show Video, and Remove a selected participant or all participants from the conference.
+While defining the room parametres,use the _Description_ field to write something helpful for your users who will be joining in the future.
 
-Then we have the ROOM PIN. The "Room PIN" enables you to make your meeting 'private', only people to whom you give the PIN will be able to join your meeting.
+The default _Owner_ of the room is you, but you can _Choose_ someone else, who will be responsible, on the long term.
 
+You can enter a _Moderation PIN_, if you want to moderate the room.
+Anybody who knows the PIN will be able to perform the functions of a moderator. **Moderators** can Mute, Unmute, Hide Video, Show Video, and Remove a given participant or all participants from the conference.
 
-IF YOU WANT THE PARTICIPANTS WHO WILL JOIN THE ROOM TO BE MUTED BY DEFAULT, MAKE SURE THAT YOUR AUTO OPTION IS SELECTED ON “ON”.
+You may also assign a _Room PIN_ , if you wish. It enables you to make your meeting 'private', only people to whom you give the PIN will be able to join your meeting.
 
+If you want the participants who will join the room to be muted by default, make sure that the _Auto_ option is set to _ON_.
 
-CLICK ON “SAVE”.
+Click on _Save_.
 
+Check your videoconference status, see how you can _Edit_ your room, _Detach_ it from the event or _Join_ the room.CHECK YOUR 
 
-
-ON THIS page, YOU CAN CHECK YOUR VIDEOCONFERENCE STATUS, YOU CAN EDIT YOUR ROOM, YOU CAN DETACH IT FROM THE EVENT.
-AND FINALLY YOU CAN JOIN THE ROOM.
-Click on join and you will be directed to a Vidyo page.
-Make sure you have Vidyo installed before doing this.
-
-As a user, enter your name and click on “connect”. A Vidyo window will appear.
+Click on _Join_ and you will be directed to a Vidyo page.
+Make sure you have Vidyo **installed** before doing this.
+As a user, enter your name and click on _Connect_. A Vidyo window will appear.
 
 
 
 In the Vidyo window, if you hover over the screen, you can see a banner with a few options. The most useful ones are:
 
-“Show participants” (useful for your event’s minutes). 
-“Group chats” (a very useful area to exchange web links and make comments about the Vidyo performance itself, for example if you can’t hear what’s being said). 
-“Screen share” is useful for interactive discussions and for navigating through slides.
-Then you can disable video and mute the audio.
+- “Show participants” (useful for your event’s minutes). 
+- “Group chats” (a very useful area to exchange web links and make comments about the Vidyo performance itself, for example if you can’t hear what’s being said). 
+- “Screen share” (useful for interactive discussions and for navigating through slides).
+
+In this banner you can also disable video and/or mute the audio.
 It is a good idea to mute your microphone when you don’t speak to avoid background noise affecting the entire room.
+
 Finally, you can click on the gear icon for some Vidyo configuration options, for example concerning your audio source.
 
+## For Linux users
 
+After clicking on _Join_, a selector will appear. You can choose to use the standard vidyo desktop app or the [CERN WebRTC](https://vidyowebrtc.web.cern.ch/) (Real Time Communication) client.
+If you select the latter, the Vidyo Room URL will be already present. Just click on _Join the room_.
 
-FOR LINUX USERS, AFTER YOU CLICK ON “JOIN”, A SELECTOR WILL APPEAR. YOU WILL HAVE THE OPTION BETWEEN USING THE STANDARD VIDYO DESKTOP APP WE SAW BEFORE, OR THE CERN WEBRTC (REAL TIME COMMUNICATION) CLIENT.
+All the icons explained earlier are available to you, via this interface, as well.
 
-IF YOU SELECT THE LATTER, THE VIDYO ROOM URL WILL BE ALREADY PRESENT.
-AND THEN CLICK ON “JOIN THE ROOM”.
-
-
-
-
-THE SAME ICONS MENTIONED BEFORE ARE AVAILABLE TO YOU.
 
 
 
