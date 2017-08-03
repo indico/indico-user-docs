@@ -3,12 +3,18 @@
 
 In the managemenent page of your event click on _Videoconference_ under the tab _Services_ on the left banner.
 
-Here you can _create_ a new Vidyo room or _add* an existing one to your event.
+![](/assets/vidyo_find.png)
+
+Here you can _create_ a new Vidyo room or _Add_ an existing one to your event.
+
+![](/assets/vidyo_create_or_add.png)
+
 
 ## Add existing Vidyo room
 
 If you just need to _Add existing room_, start typing the name of the room. A list of existing rooms will be suggested, _Select_ the one you need and click on _Save_.
 
+![](/assets/vidyo_find.png)
 Going back to the _Event display view_ you will see that the room is now attached to your event.
 
 You have the possibility to allow vidyo access to only **parts** of your event, by linking your vidyo room to specific contributions only.
@@ -30,13 +36,13 @@ If you want the participants who will join the room to be muted by default, make
 
 Click on _Save_.
 
+![](/assets/vidyo_create.png)
+
 Check your videoconference status, see how you can _Edit_ your room, _Detach_ it from the event or _Join_ the room.CHECK YOUR 
 
 Click on _Join_ and you will be directed to a Vidyo page.
 Make sure you have Vidyo **installed** before doing this.
 As a user, enter your name and click on _Connect_. A Vidyo window will appear.
-
-
 
 In the Vidyo window, if you hover over the screen, you can see a banner with a few options. The most useful ones are:
 
