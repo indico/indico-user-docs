@@ -39,10 +39,9 @@ Click on “Speaker Release Form” in the Warning box.
 Click on “Download” if you want to print the agreement form in order for the speakers to sign in paper form. Else, if you want to let the speakers sign electronically, you can email the agreements to all the speakers (a list will be provided below).
 Click on _Send_. You can customise the email message the speakers will receive, or leave the default text. Click on _Ok_. All the speakers will receive the request by email.
 
-For each speaker to agree to the recording and its publishing, they will have to click on the link they'll receive by email informing you about the agreement that needs to be signed.
-select “I agree”, and the agreement is signed.
+For each speaker to agree to the recording and its publishing, they will have to click on the link they'll receive by email informing them about the agreement that needs to be signed, by visiting the page and selecting _I agree_.
 
-If the option to notify all event managers each time an agreement is signed has been selected, ALL event managers will receive the notification.
+If the option to notify all event managers each time an agreement is signed has been selected, they will, all, receive the notification.
 
 Please remember that all speakers must sign the agreement, otherwise the recording will not be published.
 
