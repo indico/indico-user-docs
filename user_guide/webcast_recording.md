@@ -22,40 +22,24 @@ if you decide, after the event, that you wish CDS publishing, you may request th
 If you click on _Webcast_ you will be asked to define restrictions, if any,for the community eligible to view the webcast. 
 
 **Recording** allows your community to watch your event afterwards, from CDS. Speakers of your event, will be asked to electronically _sign_ their agreement to be recorded and made publicly available. 
+Until all speakers sign the agreement, the recording cannot be published. 
+Here, you will be able to send the e-agreement requests to all the speakers of your event.
+
+You can decide whether you want to notify all the event managers of the speaker’s signature
 
 If you click on recording you will be asked to inform the experts’ team about additional restrictions, if any.
 
 Uncheck _All contributions_ if you want the request for a Webcast and/or a recording to only apply to some of your contributions and not all of them, and select which ones.
 
-Write some additional comments if you need to, and, once you've finished, click on _Send request_. Your request will be pending approval. As event manager you will receive an email informing you about the status of your webcast/recording request.
-
-You can click on “Webcast/recording” if you want to modify or withdraw your request.
-
-
-Once your request for a Webcast has been accepted, and you have chosen to record the Webcast, all the speakers have to sign an e-agreement to effectively record the Webcast. Until all speakers sign the agreement, the Webcast cannot be published.
-
-As the Event manager, click on the link you have received by e-mail once your Webcast request has been accepted. It will redirect you to your Webcast request page.
+Write some additional comments if you need to, and, once you've finished, click on _Send request_. 
+You can click on _Webcast/recording_ if you want to modify or withdraw your request.
+Your request will be pending approval. As event manager you will receive an email informing you about the status of your webcast/recording request. Click on the link you have received by e-mail once your Webcast request has been accepted. It will redirect you to your Webcast request page.
 Click on “Speaker Release Form” in the Warning box.
 
-Here, you will be able to send the e-agreement requests to all the speakers of your event.
+Click on “Download” if you want to print the agreement form in order for the speakers to sign in paper form. Else, if you want to let the speakers sign electronically, you can email the agreements to all the speakers (a list will be provided below).
+Click on _Send_. You can customise the email message the speakers will receive, or leave the default text. Click on _Ok_. All the speakers will receive the request by email.
 
-You can decide whether you want to notify all the event managers of the speaker’s signature…
-… 
-…
-
-Click on “Download” if you want to print the agreement form in order for the speakers to sign in paper form.
-
-
-Otherwise, if you want to let the speakers sign electronically, you can send the agreements to all the speakers (a list will be provided below).
-Click on “Send”. You can customise the e-mail the speakers will receive, or leave the default message. 
-Click on “Ok”
-Now  all the speakers will receive the request by email.
-
-
-Let’s now act as a speaker and agree to the recording of the Webcast, so it can be published.
-
-
-Click on the link you have received by e-mail informing you about the agreement that needs to be signed.
+For each speaker to agree to the recording and its publishing, they will have to click on the link they'll receive by email informing you about the agreement that needs to be signed.
 select “I agree”, and the agreement is signed.
 
 If the option to notify all event managers each time an agreement is signed has been selected, ALL event managers will receive the notification.
