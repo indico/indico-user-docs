@@ -34,9 +34,7 @@ Uncheck _All contributions_ if you want the request for a Webcast and/or a recor
 Write some additional comments if you need to, and, once you've finished, click on _Send request_. 
 You can click on _Webcast/recording_ if you want to modify or withdraw your request.
 Your request will be pending approval. As event manager you will receive an email informing you about the status of your webcast/recording request. Click on the link you have received by e-mail once your Webcast request has been accepted. It will redirect you to your Webcast request page.
-Click on “Speaker Release Form” in the Warning box.
-
-Click on “Download” if you want to print the agreement form in order for the speakers to sign in paper form. Else, if you want to let the speakers sign electronically, you can email the agreements to all the speakers (a list will be provided below).
+Click on _Speaker Release Form_ in the Warning box. Click on _Download_ if you want to print the agreement form in order for the speakers to sign in paper form. Else, if you want to let the speakers sign electronically, you can email the agreements to all the speakers (a list will be provided below).
 Click on _Send_. You can customise the email message the speakers will receive, or leave the default text. Click on _Ok_. All the speakers will receive the request by email.
 
 For each speaker to agree to the recording and its publishing, they will have to click on the link they'll receive by email informing them about the agreement that needs to be signed, by visiting the page and selecting _I agree_.
