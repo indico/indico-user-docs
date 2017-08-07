@@ -11,7 +11,9 @@ The following video explains how to create a Conference in Indico and define its
 As a conference organiser, i.e. event manager, make sure that you are on the Indico page and that you are logged in.
 Click on the tab _Create event_, and click on _Create conference_.
 
-The initial steps are similar across Indico event creation. Please read the **Meeting** section of this book, if needed
+The initial steps are similar across Indico event creation. Please read the **Meeting** section of this book, if needed.
 The general data you'll enter when creating your conference will constitute the _Overview_.
+
+![](/assets/conference_overview.png)
 
 Click on "Switch to display view" to see what you've done. 
