@@ -1,5 +1,11 @@
 # How to book Webcast or simply Recording for an event in Indico.
 
+The CERN Webcast Service opens CERN lectures, meetings and seminars to universities, schools and to the general public. This service allows you to watch live events from equipped rooms on http://webcast.cern.ch and provides video recording of these events for future viewing.
+
+This short video guides you through Webcast/Recording booking via Indico.
+
+<iframe width="576" height="360" frameborder="0" src="https://cds.cern.ch/video/2276014?showTitle=true" allowfullscreen></iframe>
+
 Go to your Indico event management page.  
 
 Make sure that the event takes place in a room that is **equipped** with webcast and Recording!
