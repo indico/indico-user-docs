@@ -1,4 +1,4 @@
-# Review and Judge Abstracts for an Indico Conference
+# Review Abstracts for a Conference in Indico
 
 This short video explains the Abstract Review process and the Judge's role in Indico:
 
