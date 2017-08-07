@@ -1,7 +1,11 @@
 # Create or Join a Vidyo room via Indico
 
+Vidyo allows users to make point-to-point calls or multipoint videoconference meetings from their desktop machines, tablets and smartphones, H323/SIP equipped meeting rooms and from traditional phone lines. This short video shows the process of creatings or joining a Vidyo room via Indico.
 
-In the managemenent page of your Indico event click on _Videoconference_ under the tab _Services_ on the left banner.
+<iframe width="576" height="360" frameborder="0" src="https://cds.cern.ch/video/2276119?showTitle=true" allowfullscreen></iframe>
+
+In more detail:
+On the managemenent page of your Indico event click on _Videoconference_ under the tab _Services_ on the left banner.
 
 ![](/assets/vidyo_find.png)
 
