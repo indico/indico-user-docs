@@ -17,9 +17,9 @@ From the Management Area you can protect your category in terms of who can view 
 *Manager(s)* can be added to a category to allow access to the Management Area for modification. Category managers are either those listed in the category protection view or Indico administrators. The creator of a category will be able to modify it without being listed.
 
 *Protection mode*: A category can be:
--*Public*: Anyone can view events in it, or
--*Inheriting*: The protection mode of the parent category (see breadcrumbs under the page top banner) applies, or
--*Protected*: Only those users in the *Access control list* or administrators can access the category. 
+- *Public*: Anyone can view events in it, or
+- *Inheriting*: The protection mode of the parent category (see breadcrumbs under the page top banner) applies, or
+- *Protected*: Only those users in the *Access control list* or administrators can access the category. 
 
 When a Category has 'Inheriting' or 'Protected' mode, the manager(s) can put a text of contact information to be shows to non-authorised viewers, so users with no access will know who to contact in order to request access. 
 
