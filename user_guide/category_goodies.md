@@ -3,10 +3,10 @@ Category goodies
 -----------------
 
 In the display page of the categories, click on the **eye**, on the  right, to see the various useful options offered like:
-- *Today's*
-- *Week's events*, 
-- *Calendar* and 
-- *Statistics*. 
+- _Today's_
+- _Week's events_, 
+- _Calendar_ and 
+- _Statistics_. 
 See them highlighted on the image below:
 
 ![](/assets/category_goodies_emphasis.png)
