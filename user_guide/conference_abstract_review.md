@@ -1,4 +1,4 @@
-# Review Abstracts for a Conference in Indico DRAFT
+## Review Abstracts for a Conference in Indico DRAFT
 
 This short video explains the Abstract Review process and the Judge's role in Indico:
 
@@ -6,11 +6,9 @@ This short video explains the Abstract Review process and the Judge's role in In
 
 These steps in detail:
 
-act as an abstract reviewer ===============
-((((((you need to return to the display view as an event manager, a reviewer))))))
+### As an abstract reviewer
 
-
-switching again to a different role, from abstract submitter to one of the reviewers,  lets click on the reviewer area. we can see the tracks we are a reviewer of, 
+Return to the display view as an event manager, with a Reviewer role. Click on the reviewer area. we can see the tracks we are a reviewer of, 
 if we hover over the area, we see, in one track, “1 left to review, 1 abstract ”, so we click on the track.
 
 then we see that the abstract is awaiting review, so we click on the abstract’s name.

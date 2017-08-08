@@ -1,8 +1,8 @@
 ## Define your survey
 
-First you will have to login in to Indico and create an **event** that matches your needs (meeting or lecture or conference). To learn how to do this, please see the relevant sections in this book.
+First you will have to login in to Indico and create an **event** that matches your needs (meeting or lecture or conference). To learn how to do this, please see the relevant sections in this documentation.
 
-On your event Management page, accessible by clicking on the **pencil** on the top of the event display page, select _Surveys_, which is under _Organization_ on the left banner.
+On your event management page, accessible by clicking on the **pencil** on the top of the event display page, select _Surveys_, which is under _Organization_ on the left banner.
 
 Click on _Create Survey _ to start the Survey definition.
 
@@ -10,7 +10,7 @@ Choose a _Title_ for your survey and fill the introduction box with some text yo
 
 ![](/assets/survey_create_1.png)
 
-Decide whether you want your survey to be filled _anonymously_ or not, 
+Decide whether you allow _Anonymous submissions_ or not, 
 if you want to put a _limit_ on the number of _submissions_ accepted, 
 if you want to make the survey _public_ or reserved for a selected few,
 and whether you allow a _partial completion_ of the survey, 
@@ -29,9 +29,9 @@ To do this, click on _Manage_, and then on _Prepare questionnaire_.
 You can either import an existing questionnaire, or define a new one.
 
 You may  divide your questionnaire in sections. _Sections_ contain
-_questions_ and questions will show up within the corresponding section, except for those in the "_standalone section_", which will show up at the top level.
+_questions_ and questions will show up within the corresponding section, except for those in the "_Standalone section_", which will show up at the top level.
 
-For each question, you can choose a different modality, such as multiple choice, a 'yes' or 'no' answer, and so on.
+For each question, you can choose a different modality, such as multiple choice, a "yes" or "no" answer, and so on.
 
 While creating a new section, by clicking on _Add section_, decide whether you want a standard section, or a standalone one.
 
@@ -52,18 +52,18 @@ In the _Add text item_ pop-up write your prompting text in the box. Click on _Sa
 
 ![](/assets/survey_questionnaire_2.png)
 
-Click on the tab _Add question_ and select the question modality that suits your needs, e.g._Single choice_ question, as per this figure:
+Click on the tab _Add question_ and select the question modality that suits your needs, e.g. _Single choice_ question, as per this figure:
 
 ![](/assets/survey_questionnaire_3.png)
 
 This means that the user will be able to select only **one** from the available options.
 
-Type the question in the _Title_ box,for example "Will you use Indico to make your own survey?" and add a _Description_ if you need to, for example: "Select one of the candidate answers below", then indicate whether you want the answer to this question to be _Required_ in order for the survey to be effectively submitted.
+Type the question in the _Title_ box, for example "Will you use Indico to make your own survey?" and add a _Description_ if you need to, for example: "Select one of the candidate answers below", then indicate whether you want the answer to this question to be _Required_ in order for the survey to be effectively submitted.
 
-Select whether you want your options to be displayed as _Radio buttons _or a _Drop-down list_.
+Select whether you want your options to be displayed as _Radio buttons_ or a _Drop-down list_.
 If you choose radio buttons, indicate whether you want them displayed _Vertically_ or _Horizontally_.
 
-Type in the Options that you want your participant to choose from, for example, 'yes', 'no, 'maybe' and click on Save once you are finished. The figure below shows the above options selected:
+Type in the Options that you want your participant to choose and click on _Save_ once you are finished. The figure below shows the above options selected:
 
 ![](/assets/survey_questionnaire_4.png)
 
