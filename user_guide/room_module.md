@@ -42,23 +42,18 @@ There are three kinds of rooms. They determine how much freedom users have.
 * _Private rooms_ which cannot be booked at all \(red colour\). Only the room manager can book his/her private room. If you need such a room, you should ask this person to create a booking for you.
 
 In the image below you can see examples of these three types of rooms:
-* _513-R-068_ is public, i.e. you try to book it, it is free at the time you want it, you have it!
-* _513-1-024_ is public but requires confirmation, i.e. you try to book it, it is free at the time you want it, you PRE-book it, wait for moderator's approval, you have it!
-* _513-R-070_ is private, i.e. you try to book it, you get the message: _You don't have rights to book this room_
-
-
-
-
+* _513-R-068_ is public, i.e. you can book it right away, if it is free at the time you selected.
+* _513-1-024_ is public but requires confirmation, i.e. you can PRE-book it, if it is free at the time you selected and once you receive the moderator's approval, the booking will be confirmed.
+* _513-R-070_ is private, i.e. if you try to book it, you get the message: _You don't have rights to book this room_
 
 ![](/assets/kinds_of_rooms.png)
 
----
 
 ### Booking rooms for single or multiple occurence events
 
 You may reserve a room more than _Once_, namely on a _Daily_, _Weekly_ or _Monthly_ basis. A common example is a weekly meeting \(which takes place at the same time every week\). 
 
-See, on the image below, once you've _selected_ your room and declared you want to book it _Weekly_, how _all Mondays_ appear darker than the other days on the calendar.
+See, on the image below, once you've selected your room and declared you want to book it _Weekly_, how all Mondays appear darker than the other days on the calendar.
 
 ![](/assets/book_frequency.png)
 
