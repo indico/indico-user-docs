@@ -13,7 +13,7 @@ To book rooms for your event, go to the event management page and click on the _
 
 ### The First Page
 
-The Room Booking Module first page depends on who is logged in. For most people, it shows the site _Map of Rooms_ that can be booked, as per the relevant menu option, on the left banner. The _Book a Room_ option, from the same menu, shows all the bookable rooms sorted by room number, together with the room capacity and equipment available. The _My Bookings_ menu option shows the bookings you have already done. Room managers can see bookings/blockings of rooms they manage by using the _My Rooms / Room Blocking_  options, always on the left banner.
+The Room Booking Module first page depends on who is logged in. For most people, it shows the site _Map of Rooms_ that can be booked, as per the relevant menu option, on the left banner. The _Book a Room_ option, from the same menu, shows all the bookable rooms sorted by room number, together with the room capacity and equipment available. The _My Bookings_ menu option shows the bookings you have already made. Room managers can see bookings/blockings of rooms they manage by using the _My Rooms / Room Blocking_  options, always on the left banner.
 
 ---
 
@@ -22,7 +22,7 @@ The Room Booking Module first page depends on who is logged in. For most people,
 When you click on _Book a Room_ on the left banner, the entire list of rooms appears, arithmetically sorted. 
 Observe the _filter_ possibilities offered to you on the top row of the table. There you may type a building or room number, if you have a preferred location and restrict your selection to rooms with videoconferencing equipment and/or projector, required capacity and 'privacy' to facilitate your booking process.
 
-The default name is built in the format: "building-floor-room \(location\)". If the room is know by a name, then it appears as: "building-floor-room - Common Name \(location\)".
+The default name is built in the format: "building-floor-room \(location\)". If the room is known by a name, then it appears as: "building-floor-room - Common Name \(location\)".
 
 Examples: "304-1-001 \(CERN\)", "4-3-004 - TH Discussion Room \(CERN\)"
 

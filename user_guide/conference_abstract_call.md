@@ -76,12 +76,13 @@ Click on _Save_ once you’ve chosen all the relevant people for these roles.
 
 Now click on _Settings_, at the right of _Roles_ to define, as event manager, a set of questions, to  be used as a guide for the reviewers and the scale for the answers to these questions, from 0 to 5 for example.
 
-below you have certain options such as allowing conveners to accept or reject an abstract, allowing comments in your review page, and allow contributors in the comments.
+Below you have certain options such as allowing conveners to accept or reject an abstract, allowing comments in your review page, and allow contributors in the comments.
 
-under “review questions”, type in your questions, for example “what is the quality of english?”, click at the disk icon at your right to save your question and click on “add” if you want to add a new question. for example “what is the quality of the content?
+Under _Review questions_, type in your questions, click at the disk icon on your right to save your question and click on _Add_ if you want to add a new question, for example “what is the quality of the content?"
 
+![](/assets/conference_review_instructions.png)
 
-finally, write in some instructions for the reviewers, such as “give a grade from 0 to 5”, and one for the judges, who need to ultimately accept or reject an abstract based on the review, such as “accept or reject the abstract based on the feedback”.
+Finally, write in some instructions for the reviewers, such as “give a grade from 0 to 5”, and one for the judges, who need to ultimately accept or reject an abstract based on the review, such as “accept or reject the abstract based on the feedback”.
 
 once you have chosen your scale and your question, click on save at the bottom of the page.
 
