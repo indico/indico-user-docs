@@ -8,9 +8,6 @@ You can re-allocate a sub-category or event by selecting the one you wish to mov
 
 To delete a sub-category and anything it contains or an event, select it and click on the bin. Categories cannot be deleted if they are not empty.
 
-------------------------------------------------------------------------
-
-
 ### Protection
 
 From the Management Area you can protect your category in terms of who can view it, who is its manager and who can create events in the category.
