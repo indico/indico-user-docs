@@ -4,17 +4,15 @@ This short video shows you how to submit your candidate Abstract for a conferenc
 
 <iframe width="576" height="360" frameborder="0" src="https://cds.cern.ch/video/2275344?showTitle=true" allowfullscreen></iframe>
 
-These steps in detail:
+In more detail:
 
-Acting as a submitter (a user who submits an abstract), and not as event manager, 
-click on “submit new abstract”.
-enter a title ((((the lhc computing grid project for example)))), and the content of your abstract.
+Acting as an abstract **submitter** _Submit new abstract_.
 
- select its type, lets say we want it to be a poster, and let’s add the author of the abstract.
-don’t forget to click on “speaker” on at least one of your authors.
+Enter a _Title_ and the content of your abstract.
 
-
-choose the track your abstract belongs to, for example "offline computing”.
+Select its _Type_, e.g. _Poster_, and add the author of the abstract.
+Click on _Speaker_ for at least one of your authors.
+Choose the _Track_ your abstract belongs to, for example "offline computing”.
 and answer the question you defined before , in our case, “what is your experiment” (for example atlas, or cms, the ones we defined before).
 
 click on submit.
