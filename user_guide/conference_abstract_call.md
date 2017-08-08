@@ -14,6 +14,7 @@ On this page, you will be able to:
 - define **Settings** related to the types of questions asked during the review of an abstract, 
 - select the users who will review the abstracts, 
 - officially open the call for abstracts
+
 and more...
 
 The **Schedule** box defines when the call for abstracts will be open for submissions, at a given future date, or right now.
@@ -39,6 +40,7 @@ Write in an _Announcement_ you want to be displayed when users submit their abst
 Select the options that suit you, such as:
 - allowing the selection of multiple tracks, 
 - making the track selection mandatory
+
 etc.
 
 If you want to limit the abstract submission to a selected few, you can add a limited number of users in “authorised submitters”.
