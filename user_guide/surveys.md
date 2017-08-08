@@ -1,4 +1,4 @@
-# Surveys on indico events
+# Surveys on Indico events
 
 This section describes how to make an Indico event evaluation survey.
 
