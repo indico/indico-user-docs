@@ -74,9 +74,7 @@ You may _Add_ Reviewers or Conveners for a selected track (or for “all tracks�
 
 Click on _Save_ once you’ve chosen all the relevant people for these roles.
 
-Now click on _Settings_, at the right of _Roles_ to define, 
-here you, as an event manager, define a set of questions and the scale for the answers to your questions, from 0 to 5 for example.
-these questions will be used as a guide for the reviewers.
+Now click on _Settings_, at the right of _Roles_ to define, as event manager, a set of questions, to  be used as a guide for the reviewers and the scale for the answers to these questions, from 0 to 5 for example.
 
 below you have certain options such as allowing conveners to accept or reject an abstract, allowing comments in your review page, and allow contributors in the comments.
 
