@@ -1,4 +1,4 @@
-## Booking a Room
+## Book a Room
 
 The booking process consists essentially on three steps:
 
