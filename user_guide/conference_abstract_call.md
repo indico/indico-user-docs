@@ -94,6 +94,8 @@ To configure the book of abstracts, click on _Settings_ from the relevant raw of
 
 Write any additional text that will be included on the document, and select the sorting criteria for the abstracts’ appearance in the book.  Click on _Save_.
 
+![](/assets/conference_abstracts_book_list.png)
+
 ## The list of Abstracts
 
 This is the list of **all** abstracts and it is built automatically once the "Call for Abstracts" is open.
@@ -101,7 +103,5 @@ You can rearrange this list by clicking on _Manage_.
 
 ## Open the Call for Abstracts
 
-From the same management page, you can click on _Schedule_ and select the start, the end and modification deadline of your call for abstracts. Otherwise, if you want to open it right away, simply click on “start now”.
-
-Click on _Switch to display view_ to see what you have done.
+From the same management page, you can click on _Schedule_ and select the start, the end and modification deadline of your call for abstracts. Otherwise, if you want to open it right away, simply click on _Start now_.
 
