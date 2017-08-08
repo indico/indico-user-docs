@@ -22,8 +22,7 @@ When you are finished, click on “Save”.
 
 ![](/assets/survey_create_2.png)
 
-Create the questionnaire
---------------------------
+## Create the questionnaire
 
 To do this, click on _Manage_, and then on _Prepare questionnaire_. 
 
@@ -59,7 +58,7 @@ Click on the tab _Add question_ and select the question modality that suits your
 
 This means that the user will be able to select only **one** from the available options.
 
-Type the question in the _Title_ box,for example "Will you use indico to make your own survey?" and add a _Description_ if you need to, for example: "Select one of the candidate answers below", then indicate whether you want the answer to this question to be _Required_ in order for the survey to be effectively submitted.
+Type the question in the _Title_ box,for example "Will you use Indico to make your own survey?" and add a _Description_ if you need to, for example: "Select one of the candidate answers below", then indicate whether you want the answer to this question to be _Required_ in order for the survey to be effectively submitted.
 
 Select whether you want your options to be displayed as _Radio buttons _or a _Drop-down list_.
 If you choose radio buttons, indicate whether you want them displayed _Vertically_ or _Horizontally_.
@@ -71,4 +70,5 @@ Type in the Options that you want your participant to choose from, for example, 
 Now that you have created your _Section_, you can change the order of presentation of your question and item. To do this, you can drag your question or item by using the grey rectangle that will appear on the left. 
 
 You can do the same with your entire section, by dragging it using the grey rectangle at the top.
+
 ![](/assets/survey_sections.png)

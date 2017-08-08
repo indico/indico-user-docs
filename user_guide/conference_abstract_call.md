@@ -32,7 +32,7 @@ You can add new rulesets by clicking on _Add new one_, for example for when a ab
 
 ## Configure abstract submission 
 
-From the "Call for Abstracts" management page, click on _Settings_ on the _Submissions_ raw and enter the Configure abstract submission”. 
+From the "Call for Abstracts" management page, click on _Settings_ on the _Submissions_ raw which leads to to the _Configure abstract submission_ screen. 
 
 Write in an _Announcement_ you want to be displayed when users submit their abstracts.
 
