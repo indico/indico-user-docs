@@ -64,12 +64,13 @@ Always on the "Call for Abstracts" management page a raw on _Reviewing_ options 
 
 ![](/assets/conference_review_def.png)
 
-Click on _Roles_. In this page, you can add users as reviewers and conveners. reviewers provide an assessment of the abstract with their review, and they can consult only their own reviews.
-conveners can read all reviews in their tracks… ///////// and, like the event managers, can act as what we call “judges”, who can effectively accept or reject an abstract based on the feedback left by the reviewers
-////////////
+Click on _Roles_. In this page, you can add users as _Reviewers_ and _Conveners_. Reviewers provide an assessment of the abstract with their review, and they can consult only their own reviews.
+Conveners can read all reviews in their tracks and, like the event managers, can act as _Judges_, who can effectively accept or reject an abstract based on the feedback left by the reviewers.
+
+![](/assets/conference_reviewers.png)
 
 
-the idea is that you can have a team of specialists for specific tracks, such as “online computing”, one of our track.
+The idea is that you can have a team of specialists for specific tracks, such as “online computing”, one of our track.
 
 
 click on “add” under either reviewers or conveners for a selected track (or for “all tracks” at the top), search for existing users, and add them.
