@@ -58,9 +58,10 @@ From the same  _Fields and types_ raw click on the _Abstract fields_ box, to add
 
 ## Configure Abstract Reviewing options
 
+Always on the "Call for Abstracts" management page a raw on _Reviewing_ options allows you to define the questions used in the abstract reviewing process.
 
+![](/assets/conference_review_def.png)
 
-further down, we have reviewing options, where you define the questions used in the abstract reviewing process.
 click on “roles” and in this page, you will be able to add users as reviewers and conveners. reviewers provide an assessment of the abstract with their review, and they can consult only their own reviews.
 conveners can read all reviews in their tracks… ///////// and, like the event managers, can act as what we call “judges”, who can effectively accept or reject an abstract based on the feedback left by the reviewers
 ////////////
