@@ -1,4 +1,4 @@
-# Submit an Abstract for a Conference in Indico DRAFT
+## Submit an Abstract for a Conference in Indico DRAFT
 
 This short video shows you how to submit your candidate Abstract for a conference in Indico:
 
