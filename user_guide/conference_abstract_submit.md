@@ -6,7 +6,7 @@ This short video shows you how to submit your candidate Abstract for a conferenc
 
 In more detail:
 
-Acting as an Abstract **submitter** click on _Submit new abstract_.
+Acting as an Abstract **Submitter** click on _Submit new abstract_.
 
 Enter a _Title_ and the content of your abstract.
 
@@ -17,6 +17,6 @@ Choose the _Track_ your abstract belongs to and answer the questions present the
 Click on _Submit_.
 
 If the notification options in the Call for Abstracts have been enabled, you, as the abstract submitter, should receive an email  on successful abstract submission.
-By clicking on the abstract’s name, the submitter can see if Reviewers (normally more than one) left a positive or negative review, and if the Abstract has been accepted by a judge. 
+By clicking on the Abstract name, the Submitter can see if Reviewers (normally more than one) left a positive or negative review, and if the Abstract has been accepted by a Judge. 
 
 

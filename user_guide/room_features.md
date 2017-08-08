@@ -4,18 +4,17 @@
 
 General features are:
 
-* Stand-alone and "in-conference" mode.
+* Stand-alone mode or bound to an Indico **event**.
   * The stand-alone mode allows you to book, manage bookings and do administration stuff. You don't have to create an Indico event \(the bookings will not be assigned to any Indico event\).
-  * The "In-conference" mode allows you to book rooms for your event. You can assign booked rooms to conferences, lectures, meetings, sessions, contributions or breaks.
-* Recurring bookings \('every day', 'every week', 'every 3rd Wednesday of a month', etc\).
-* E-mail notifications \(to users and room managers, about every important action\).
+  * The mode bound to an Indico event allows you to book rooms for your event. You can assign booked rooms to conferences, lectures, meetings, sessions, contributions or breaks.
+* Recurring bookings, e.g. _Daily_, _Weekly_, _Monthly_.
+* Email notifications \(to users and room managers, about every important action\).
 * Three user roles: \(1\) Indico administrator, \(2\) room manager and
   \(3\) ordinary user.
 * Optional booking moderation. Each room may work in one of the following modes:
   * Bookings require explicit confirmation of room manager, _or_
   * Bookings are automatically accepted.
 
----
 
 ### User
 
@@ -27,32 +26,30 @@ Options available to regular users:
 * Search for bookings \(including archival\)
 * View existing room blockings
 
----
+
 
 ### Room Manager
 
 In addition to what a user has access to, a room manager can:
 
-* Accept and reject PRE-bookings \(for his room\(s\)\)
+* Accept and reject pre-bookings \(for his room\(s\)\)
 * Reject bookings \(for his room\(s\)\)
 * Block rooms from being booked \(with confirmation from the room owner\)
 * Accept blocking requests \(for his room\(s\)\)
 
----
 
 ### Indico Administrator
 
 In addition to what a room manager has access to, an Indico Administrator can:
 
 
-* Switch on/off Room Booking Module
+* Switch on/off the Room Booking Module
 * Configure room booking plugins in admin section
 * Add/remove location
 * Define room attributes specific to the location
 * Define possible room equipment specific to the location
 * Manage meeting rooms \(add/modify/remove\)
 
----
 
 ### Constraints
 
