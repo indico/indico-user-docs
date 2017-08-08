@@ -82,40 +82,26 @@ Under _Review questions_, type in your questions, click at the disk icon on your
 
 ![](/assets/conference_review_instructions.png)
 
-Finally, write in some instructions for the reviewers, such as “give a grade from 0 to 5”, and one for the judges, who need to ultimately accept or reject an abstract based on the review, such as “accept or reject the abstract based on the feedback”.
+Finally, write in some instructions for the Reviewers and for the Judges, who need to ultimately accept or reject an abstract based on the review.
 
-once you have chosen your scale and your question, click on save at the bottom of the page.
+Once you have chosen your _Scale_ and your _questions_, click on _Save_ at the bottom of the page.
 
+## The Book of Abstracts
 
-
-
-
-
-
-then we have the book of abstracts, a configurable and downloadable document (in pdf) where only the accepted abstracts will be 'published'. 
+The book of abstracts is a configurable and downloadable document (in pdf) where only the accepted abstracts will be published. 
  
-to configure the book of abstracts, click on “settings”.
+To configure the book of abstracts, click on _Settings_ from the relevant raw of the "Call for Abstracts" management page.
 
+Write any additional text that will be included on the document, and select the sorting criteria for the abstracts’ appearance in the book.  Click on _Save_.
 
-write additional text that will appear on the document, and select the sorting criteria for the abstracts’ appearance in the book.  click on “save”.
+## The list of Abstracts
 
+This is the list of **all** abstracts and it is built automatically once the "Call for Abstracts" is open.
+You can rearrange this list by clicking on _Manage_.
 
+## Open the Call for Abstracts
 
+From the same management page, you can click on _Schedule_ and select the start, the end and modification deadline of your call for abstracts. Otherwise, if you want to open it right away, simply click on “start now”.
 
+Click on _Switch to display view_ to see what you have done.
 
-
-finally, we have the list of all abstracts, which is built automatically once the call for abstracts is open.
-you can rearrange this list by clicking on “manage”.
-
-let’s return on call for abstracts to the parameters definition page.
-
-
-
-
-
-
-
-
-
-now let’s open the call for abstracts, you can click on schedule and select the start, the end and modification deadline of your call for abstracts. otherwise, if you want to open it right away, simply click on “start now”.
-then switch to display view.
