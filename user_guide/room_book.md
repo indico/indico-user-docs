@@ -27,7 +27,7 @@ The green bars inform you on timeslots for which you can book this room, and oth
 If you are trying to book the room for multiple occurences and some of them are impossible, because the room is taken, you can still click on a green bar and _Skip conflicting days_ to proceed with your booking for the rest of the desired period.
 
 Select whether you want to use the room for yourself of if you are booking the room for someone else, and write down the reason for this booking. 
-If you've skipped conflicting days you'll be asked to tick _I understand_ for the slots that cannot be booked.
+If you've skipped conflicting days, you'll be asked to tick _I understand_ for the slots that cannot be booked.
 
 Finally, if the room is equipped with videoconferencing, select whether you plan to use this equipment or not.
 
