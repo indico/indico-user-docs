@@ -2,7 +2,7 @@
 Category Management
 -------------------
 
-You can re-allocate a sub-category or event by selecting the one you wish to move using the tick box and clicking on the arrows that show text *move the selected category* when you point there with the mouse, you will then be asked to where you would like to reallocate this sub-category/event.
+You can re-allocate a sub-category or event by selecting the one you wish to move using the tick box and clicking on the horizontal arrows on your right,that show text *Move the selected category* when you point there with the mouse. You will then have to answer **where** you would like to reallocate this sub-category/event.
 
 ![](/assets/category_move.png)
 

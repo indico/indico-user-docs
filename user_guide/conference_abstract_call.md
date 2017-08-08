@@ -54,10 +54,9 @@ Click on _Contribution types_, _New contribution type_ and create a few.
    
 From the same  _Fields and types_ raw click on the _Abstract fields_ box, to add new fields tailored to your event, such as a question, or simple text. To do this, click on _Add new field_, and then on _Single choice_ if you allow only one of the available options. Enter the question and select how your want your question to be displayed, for example with radio buttons, displayed vertically. Click on _Save_ and close the window.
 
+![](/assets/conference_abstract_custom.png)
 
-
-
-
+## Configure Abstract Reviewing options
 
 
 
