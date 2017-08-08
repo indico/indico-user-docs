@@ -13,7 +13,7 @@ Return to the display view as an event manager, with a Reviewer role. Click on t
 Click on the Abstract’s name.
 
 
-On the Reviewing page we saw before as a user, but now, as a Reviewer, we have the review option (leaving feedback on the abstract), and a “judge option” as event manager, which means that we will be able to effectively accept of reject an abstract based on the various reviews.
+On the Reviewing page, as a Reviewer, you may leave feedbacl on the Abstract in the _Review option_. The _Judge option” as event manager, which means that we will be able to effectively accept of reject an abstract based on the various reviews.
 
 to leave a review, scroll down the page and click on review on the right.
  
