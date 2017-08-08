@@ -35,8 +35,8 @@ For example, to add a description. After every change, click on _Save_ to confir
 
 Click on _Switch to display view_ and check if all the details of your lecture are correct.
 
-More event actions
-------------------
+## More event actions
+
 From the event management page, click on the **gear** icon on the top right to see how to move, lock, delete or change the type of your event.
 
 
