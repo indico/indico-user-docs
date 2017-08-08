@@ -9,7 +9,7 @@ Copy one of the URLs to import into your calendaring tool.
 
 ![](/assets/calendar_entry.png)
 
-In your preferred calendaring tool, enter the new calendar subscription by pasting the URL you just copied, select a title and **Save**.
+In your preferred calendaring tool, enter the new calendar subscription by pasting the URL you just copied, select a title and click on _Save_.
 
 ![](/assets/calendar_import.png)
 

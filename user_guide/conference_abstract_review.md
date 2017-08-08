@@ -6,19 +6,19 @@ This short video explains the Abstract Review process and the Judge's role in In
 
 These steps in detail:
 
-### As an abstract reviewer
+### As an abstract Reviewer
 
 Return to the display view as an event manager, with a Reviewer role. Click on the Reviewer area, see the tracks you are a Reviewer of, hover over the area, see how many tracks contain Abstracts pending for Review, click on the track.
 
 Click on the Abstract’s name.
 
 
-On the Reviewing page, as a Reviewer, you may leave feedbacl on the Abstract in the _Review option_. The _Judge option” as event manager, which means that we will be able to effectively accept of reject an abstract based on the various reviews.
+On the Reviewing page, as a Reviewer, you may leave feedbacl on the Abstract in the _Review option_. The _Judge option”_ means that we will be able to effectively _Accept_ of _Reject_ an Abstract, based on the various reviews.
 
-to leave a review, scroll down the page and click on review on the right.
+To leave a review, scroll down the page and click on _Review_ on the right.
  
-give a grade in number for each question we defined before as event manager. 
-select the proposal, for example: accept, and for which type, for example poster.
+Give a grade in number for each question, defined in advance by the event manager. 
+Select the proposal, for example: _Accept, and for which type, for example poster.
 leave review comments if you want,
 
 then we click on “submit review“.
