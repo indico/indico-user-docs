@@ -3,7 +3,7 @@ Category goodies
 -----------------
 
 In the display page of the categories, click on the **eye**, on the  right, to see the various useful options offered like:
-- *Today's 
+- *Today's*
 - *Week's events*, 
 - *Calendar* and 
 - *Statistics*. 
