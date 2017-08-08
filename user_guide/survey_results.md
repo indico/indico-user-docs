@@ -3,7 +3,7 @@
 ### To open:
 
 **As a manager**, once you’ve finished creating the sections of the questionnaire, you are ready to open it!
-Click on “Surveys” to the left.
+Click on _Surveys_ to the left.
 Now, click on _Manage_, you will be able to decide when the survey can be submitted and when it will be open.
 
 On this page, click on _Schedule_, and select the date and hour of the day when your survey can be submitted, and when it will close.
@@ -12,7 +12,7 @@ Alternatively, you can simply Click on _Open now_, so that anybody will be able 
 
 ![](/assets/survey_schedule.png)
 
-Click on _Switch to display view_, and then on “Fill out” on the right, to access the survey. 
+Click on _Switch to display view_, and then on _Fill out_ on the right, to access the survey. 
 
 ![](/assets/survey_fillout.png)
 
@@ -22,7 +22,7 @@ Click on _Switch to display view_, and then on “Fill out” on the right, to a
 
 As an event manager, once some users have filled out the survey, you can check the results of the survey. 
 
-To do this, click at the pencil at the top of your screen to return to the management page of your event. Then click on “Surveys”, and then on “Manage”.
+To do this, click at the pencil at the top of your screen to return to the management page of your event. Then click on _Surveys_, and then on _Manage_.
 
 ![](/assets/survey_results.png)
 

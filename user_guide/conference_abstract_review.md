@@ -8,13 +8,12 @@ These steps in detail:
 
 ### As an abstract reviewer
 
-Return to the display view as an event manager, with a Reviewer role. Click on the reviewer area. we can see the tracks we are a reviewer of, 
-if we hover over the area, we see, in one track, “1 left to review, 1 abstract ”, so we click on the track.
+Return to the display view as an event manager, with a Reviewer role. Click on the Reviewer area, see the tracks you are a Reviewer of, hover over the area, see how many tracks contain Abstracts pending for Review, click on the track.
 
-then we see that the abstract is awaiting review, so we click on the abstract’s name.
+Click on the Abstract’s name.
 
 
-this is the reviewing page we saw before as a user, but now, as a reviewer, we have the review option (leaving feedback on the abstract), and a “judge option” as event manager, which means that we will be able to effectively accept of reject an abstract based on the various reviews.
+On the Reviewing page we saw before as a user, but now, as a Reviewer, we have the review option (leaving feedback on the abstract), and a “judge option” as event manager, which means that we will be able to effectively accept of reject an abstract based on the various reviews.
 
 to leave a review, scroll down the page and click on review on the right.
  
