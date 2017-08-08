@@ -64,7 +64,7 @@ Always on the "Call for Abstracts" management page a raw on _Reviewing_ options 
 
 ![](/assets/conference_review_def.png)
 
-click on “roles” and in this page, you will be able to add users as reviewers and conveners. reviewers provide an assessment of the abstract with their review, and they can consult only their own reviews.
+Click on “roles” and in this page, you will be able to add users as reviewers and conveners. reviewers provide an assessment of the abstract with their review, and they can consult only their own reviews.
 conveners can read all reviews in their tracks… ///////// and, like the event managers, can act as what we call “judges”, who can effectively accept or reject an abstract based on the feedback left by the reviewers
 ////////////
 

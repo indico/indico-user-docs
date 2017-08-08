@@ -21,11 +21,11 @@ From the Management Area you can protect your category in terms of who can view 
 - *Inheriting*: The protection mode of the parent category (see breadcrumbs under the page top banner) applies, or
 - *Protected*: Only those users in the *Access control list* or administrators can access the category. 
 
-When a Category has 'Inheriting' or 'Protected' mode, the manager(s) can put a text of contact information to be shows to non-authorised viewers, so users with no access will know who to contact in order to request access. 
+When a Category has _Inheriting_ or _Protected_ mode, the manager(s) can put a text of contact information to be shows to non-authorised viewers, so users with no access will know who to contact in order to request access. 
 
-Important note for the 'Inheriting' protection mode: Changing the parent's protection will change the protection of its sub-categories.
+Important note for the _Inheriting_ protection mode: Changing the parent's protection will change the protection of its sub-categories.
 
-*Event visibility*: This is **not** related to category *viewing* rights - those are regulated by the *Protection mode* explained above.  The choice offered, allows you to decide whether events in this category will be shown in *Today's events* and the *Calendar* from everywhere or from some parent categories only.
+*Event visibility*: This is **not** related to category viewing rights - those are regulated by the *Protection mode* explained above.  The choice offered, allows you to decide whether events in this category will be shown in *Today's events* and the *Calendar* from everywhere or from some parent categories only.
 
 
 *Event creation settings*: You can restrict who is able to add events to the category. If you do so, you will need to add users or groups to the list in order to allow them to add events.
