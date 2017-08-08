@@ -69,13 +69,10 @@ Conveners can read all reviews in their tracks and, like the event managers, can
 
 ![](/assets/conference_reviewers.png)
 
+The idea is that you can have a team of specialists for specific tracks, such as “Online Computing”, in the example above.
+You may _Add_ Reviewers or Ronveners for a selected track (or for “all tracks” at the top). You will be offered the possibility to _Search_ for existing users and add them.
 
-The idea is that you can have a team of specialists for specific tracks, such as “online computing”, one of our track.
-
-
-click on “add” under either reviewers or conveners for a selected track (or for “all tracks” at the top), search for existing users, and add them.
-
-click on “save” once you’ve chosen all your roles.
+Click on _Save_ once you’ve chosen all the relevant people for these roles.
 
 
 
