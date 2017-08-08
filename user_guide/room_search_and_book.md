@@ -34,7 +34,7 @@ If your form is correctly filled, the system will ensure your new booking does n
 Click on _My bookings_ from the menu. Your new booking now appears on the list.
 
 Notes: 
-* Some rooms require confirmation. These rooms are usually coded in orange. In this case, you cannot directly book them. You can only _pre-book_ such rooms. Pre-booking works exactly the same way as booking. The only difference is that you must wait for acceptance from the room manager.
+* Some rooms require confirmation. These rooms are usually coded in orange. In this case, you cannot directly book them. You can only pre-book such rooms. Pre-booking works exactly the same way as booking. The only difference is that you must wait for acceptance from the room manager.
 * You can always modify your booking \(or pre-booking\). It will again be checked for conflicts.
 * You can always browse your own bookings and pre-bookings using the menu options _My bookings_ and _My pre-bookings_.
 
