@@ -37,7 +37,7 @@ From the "Call for Abstracts" management page, click on _Settings_ on the _Submi
 Write in an _Announcement_ you want to be displayed when users submit their abstracts.
 
 Select the options that suit you, such as:
--  allowing the selection of multiple tracks, 
+- allowing the selection of multiple tracks, 
 - making the track selection mandatory
 etc.
 
@@ -52,10 +52,7 @@ Click on _Contribution types_, _New contribution type_ and create a few.
 
 ![](/assets/conference_abstract_type.png) 
    
-Click on the abstract fields box, to add new fields tailored to your event, such as a question, or simple text.
-
-for example a question like “what is your experiment?”.  click on “add new field”, and then on “single choice” for a question where you can select only one out of the available options. enter the question, “what is your experiment?”, and select how your want your question to be displayed, for example with radio buttons, vertically displayed. select your options, for example, atlas, alice, lhcb, and cms.
-then click on save, and close the window.
+From the same  _Fields and types_ raw click on the _Abstract fields_ box, to add new fields tailored to your event, such as a question, or simple text. To do this, click on _Add new field_, and then on _Single choice_ if you allow only one of the available options. Enter the question and select how your want your question to be displayed, for example with radio buttons, displayed vertically. Click on _Save_ and close the window.
 
 
 

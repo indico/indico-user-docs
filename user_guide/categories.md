@@ -19,7 +19,7 @@ Inside a category you can:
 
 You cannot have a category that contains both sub-categories and events. You will have to use the "split" functionality (the button with a "bifurcated" arrow) to move the contents of the category to one or more sub-categories.
 
-These features are accessible through the menu *Manage category* (you must be logged in and with management rights in the category in order to see it), that you can find to the right of your own category title. After clicking on *Manage Category* you will be accessing the Management area for Category.
+These features are accessible through the category management menu (you must be logged in and with management rights in the category in order to see it), that you can find to the right of your own category title. After clicking on the pencil to manage the category you will be accessing its Management area.
 
 ![](/assets/category_edit_button.png)
 
