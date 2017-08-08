@@ -1,4 +1,4 @@
-# Define the Call for Abstracts DRAFT
+## Define the Call for Abstracts
 
 This short video shows you how to define the Call for Abstracts in Indico and open it to candidate Abstract submissions:
 
@@ -21,7 +21,7 @@ The **Schedule** box defines when the call for abstracts will be open for submis
 
 Before opening the Call for Abstracts, you have to define the parameters below.
 
-## Email notifications
+### Email notifications
 
 To customise the email notification templates to send to the users who submit their abstracts, click on _Notifications_, and click on _Add new one_. Here you can add what we call a "notification ruleset", i.e. a specific email template to send when a rule is matched. For example: if an abstract is submitted, a certain email notification will be sent.
 
@@ -31,7 +31,7 @@ Choose a _Title_ for your ruleset, and select the email template that you want, 
 
 You can add new rulesets by clicking on _Add new one_, for example for when a abstract is _Accepted_ or _Rejected_.
 
-## Configure abstract submission 
+### Configure abstract submission 
 
 From the "Call for Abstracts" management page, click on _Settings_ on the _Submissions_ raw which leads to to the _Configure abstract submission_ screen. 
 
@@ -58,7 +58,7 @@ From the same  _Fields and types_ raw click on the _Abstract fields_ box, to add
 
 ![](/assets/conference_abstract_custom.png)
 
-## Configure Abstract Reviewing options
+### Configure Abstract Reviewing options
 
 Always on the "Call for Abstracts" management page a raw on _Reviewing_ options allows you to define the questions used in the abstract reviewing process.
 
@@ -86,7 +86,7 @@ Finally, write in some instructions for the Reviewers and for the Judges, who ne
 
 Once you have chosen your _Scale_ and your _questions_, click on _Save_ at the bottom of the page.
 
-## The Book of Abstracts
+### The Book of Abstracts
 
 The book of abstracts is a configurable and downloadable document (in pdf) where only the accepted abstracts will be published. 
  
@@ -96,12 +96,12 @@ Write any additional text that will be included on the document, and select the 
 
 ![](/assets/conference_abstracts_book_list.png)
 
-## The list of Abstracts
+### The List of Abstracts
 
 This is the list of **all** abstracts and it is built automatically once the "Call for Abstracts" is open.
 You can rearrange this list by clicking on _Manage_.
 
-## Open the Call for Abstracts
+### Open the Call for Abstracts
 
 From the same management page, you can click on _Schedule_ and select the start, the end and modification deadline of your call for abstracts. Otherwise, if you want to open it right away, simply click on _Start now_.
 

@@ -1,5 +1,5 @@
 
-# Define the programme
+## Define the programme
 
 This short video guides you step-by-step to define your Indico Conference programme:
 
