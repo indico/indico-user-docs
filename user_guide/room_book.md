@@ -18,7 +18,7 @@ If you have permission to book the room you selected, you should be able to see,
 If you want to book the room for only one day, simply click on the date you want by choosing the correct month and day.
 You will also have to choose the time interval you want to book it for.
 
-If instead you want to book a room for several consecutive days, weeks, or months, click on _Daily, Weekly_, or _Monthly_near _Frequency_. Hit _Continue_.
+If instead you want to book a room for several consecutive days, weeks, or months, click on _Daily_, _Weekly_, or _Monthly_ near _Frequency_. Hit _Continue_.
 
 On the next page you will see a preview of the room availability for your date\(s\) you specified in your criteria. It looks exactly like the image we showed earlier in the _Kinds of rooms_ section.
 
