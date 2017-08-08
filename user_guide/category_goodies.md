@@ -2,7 +2,12 @@
 Category goodies
 -----------------
 
-In the display page of the categories, click on the **eye** on the page right to see the various useful options offered like *Today's or week's events*, *Calendar* and *Statistics*. See them highlighted on the image below.
+In the display page of the categories, click on the **eye**, on the  right, to see the various useful options offered like:
+-*Today's 
+-*Week's events*, 
+-*Calendar* and 
+-*Statistics*. 
+See them highlighted on the image below:
 
 ![](/assets/category_goodies_emphasis.png)
 
@@ -14,4 +19,3 @@ You can move to past and future months from the calendar on the left banner and 
 
 ![](/assets/category_calendar_events.png)
 
--------------------------------------------------------------------------
