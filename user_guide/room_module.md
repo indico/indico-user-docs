@@ -9,13 +9,9 @@ Just click on _Room Booking_ in the Indico home page, in the top dark bar.
 
 To book rooms for your event, go to the event management page and click on the _Room Booking_ option on the left banner. In both cases you will be asked to sign in. Use your Indico login.
 
----
-
 ### The First Page
 
 The Room Booking Module first page depends on who is logged in. For most people, it shows the site _Map of Rooms_ that can be booked, as per the relevant menu option, on the left banner. The _Book a Room_ option, from the same menu, shows all the bookable rooms sorted by room number, together with the room capacity and equipment available. The _My Bookings_ menu option shows the bookings you have already made. Room managers can see bookings/blockings of rooms they manage by using the _My Rooms / Room Blocking_  options, always on the left banner.
-
----
 
 ### Room Names and filters
 
@@ -28,7 +24,6 @@ Examples: "304-1-001 \(CERN\)", "4-3-004 - TH Discussion Room \(CERN\)"
 
 ![](/assets/room_names_filters.png)
 
----
 ### Three Kinds of Rooms
 
 There are three kinds of rooms. They determine how much freedom users have.
