@@ -9,7 +9,7 @@ These steps in detail:
 Enter the event **management** interface by clicking at the pencil at the top of the display view page.
 Click on _Programme_, on your left under _Organisation_.
 
-The Program of your conference is divided in different **tracks.
+The Program of your conference is divided in different tracks.
 Tracks cover the subjects presented at the conference.
 For example, a first track called “Online computing”, a second track called “Offline computing”, and so on.
 

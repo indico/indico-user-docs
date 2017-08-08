@@ -65,20 +65,16 @@ Always on the "Call for Abstracts" management page a raw on _Reviewing_ options 
 ![](/assets/conference_review_def.png)
 
 Click on _Roles_. In this page, you can add users as _Reviewers_ and _Conveners_. Reviewers provide an assessment of the abstract with their review, and they can consult only their own reviews.
-Conveners can read all reviews in their tracks and, like the event managers, can act as _Judges_, who can effectively accept or reject an abstract based on the feedback left by the reviewers.
+Conveners can read all reviews in their tracks and, like the event managers, can act as _Judges_, who can effectively accept or reject an abstract based on the feedback left by the Reviewers.
 
 ![](/assets/conference_reviewers.png)
 
 The idea is that you can have a team of specialists for specific tracks, such as “Online Computing”, in the example above.
-You may _Add_ Reviewers or Ronveners for a selected track (or for “all tracks” at the top). You will be offered the possibility to _Search_ for existing users and add them.
+You may _Add_ Reviewers or Conveners for a selected track (or for “all tracks” at the top). You will be offered the possibility to _Search_ for existing users and add them.
 
 Click on _Save_ once you’ve chosen all the relevant people for these roles.
 
-
-
-
-
-click on “settings”, at the right of “roles”.
+Now click on _Settings_, at the right of _Roles_ to define, 
 here you, as an event manager, define a set of questions and the scale for the answers to your questions, from 0 to 5 for example.
 these questions will be used as a guide for the reviewers.
 
