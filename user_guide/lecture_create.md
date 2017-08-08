@@ -1,6 +1,6 @@
 
-Creating an indico lecture
---------------------------
+## Creating an Indico lecture
+
 Make sure that you are on the Indico page and that you are logged in.
 Click on the tab _Create event_, and click on _Create lecture_.
 
