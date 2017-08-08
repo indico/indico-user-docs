@@ -22,4 +22,3 @@ Click on _Save_ to add your first track and repeat the process for all your trac
 You can drag and drop your tracks and change their order using the grey rectangle at the top of each track.
 
 Tracks **must** be defined before opening the _Call for Abstracts_, so that submitters can choose the track their abstracts belong to.
-![](/assets/conference_track.png

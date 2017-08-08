@@ -20,7 +20,7 @@
   * [Abstract Review](/user_guide/conference_abstract_review.md)
   * [Configure Conference Registration](/user_guide/conference_registration_config.md)
   * [Register/Apply to a Conference](/user_guide/conference_register.md)
-  * [Customise Conference views](/user_guide/conference_customisation.md)
+* [Customise Indico page views](/user_guide/conference_customisation.md)
 * [Room Booking](/user_guide/room_booking.md)
   * [Enter the Room Booking Module](/user_guide/room_module.md)
   * [Book a Room](/user_guide/room_book.md)
