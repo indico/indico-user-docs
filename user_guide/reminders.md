@@ -14,7 +14,7 @@ You can also type _Email addresses_ in the relevant box - write one email per li
 
 Select the senders, and write the text that you want to include in the email message.
 
-You can decide to Include the agenda of the event in the email by checking the _include agenda_ box.
+You can decide to include the agenda of the event in the email by checking the _include agenda_ box.
 
 ![](/assets/reminders.png)
 
