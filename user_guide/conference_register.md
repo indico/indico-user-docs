@@ -1,4 +1,4 @@
-## Register/Apply to participate in a Conference via Indico DRAFT
+## Register/Apply to participate in a Conference via Indico DRAFT NEEDS PICTURES
 
 This short video explains how you can register/apply and pay for your participation in a Conference using Indico:
 

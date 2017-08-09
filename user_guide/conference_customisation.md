@@ -1,63 +1,44 @@
-# Customisation of Indico pages  DRAFT
+## Customisation of Indico pages  DRAFT
 
 This short video shows you how to customise the layout and menus of your Indico pages:
 
 <iframe width="576" height="360" frameborder="0" src="https://cds.cern.ch/video/2275337?showTitle=true" allowfullscreen></iframe>
 
-These steps in detail:
+### Layout customisation
 
-you can customise the layout of your indico pages, while in management  mode, by clicking on “layout”, under the tab “customisation”.
+While in event management  mode click on _Layout_, under the tab _Customisation_.
 
+The _General_ section offers several options, e.g. the possibility to _Enable search_ on your pages
 
+The _Header style_ section offers a box for you to select the colours for your text, and for the background of your Indico pages.
 
+# NEED PICTURE HERE
 
-under the “general” section, 
-you have a few options available, such as the possibility to enable search on your pages, among others.
+The _Announcement_ section enables you to write an announcement text to be displayed below the _Title_.
 
+Under the _Timetable_ section, you can change your Indico theme style, e.g. to group your Timetable entries by room or to always show a detailed view of the Timetable by default.
 
-then, under the “header style” section,
+In the _Theme_ section, you can select one of the available default colours as your Theme for your Indico pages.
+Alternatively, you may upload a css file with your code, so you will be able to completely customise your pages.
 
-you can click on the box and select the colours you want for your text, and for the background of your indico pages.
+Finally, you can upload a **logo** for your event. To do so, click on _Choose from your computer_ or drag and drop the file in the designated area.
 
+# NEED PICTURE HERE
 
+### Menu customisation
 
+You can customise the appearance of your indico menus, by clicking on _Menu_, under the tab _Customisation_, while on management mode.
 
-…under the “announcement” section, you can write in text for an announcement and enable it below the title.
+Select _Yes_ on the right so that you can start customising the menus on your pages.
 
+Click on the **eye** icon to show or stop showing a particular 
+block. Then you can drag and drop the block to change their order and you can click on the pencil to edit the titles of the menu blocks.
 
-under the “timetable” section, you can change your indico theme style,
-you can decide whether you want to group your entries in your timetable by room, and you can choose to always show a more detailed view of the timetable as a default.
+To add another block to your Menus you can click on _Add an entry_, then either on _Add link_, or _Add page_.
+For example, you can add a page entitled “accommodation” where you will show some photos of hotels, where participants of the conference can stay, and so on.
+You can also add a spacer that will separate two blocks, like this…
 
+# NEED PICTURE HERE
 
-then, in the “theme” section, you can select one of the available default colours as your theme for your indico pages.
-otherwise, you can upload a css file with your code, so you will be able to completely customise your pages.
-
-finally, you can upload a logo for your event, click on “choose from your computer” or drag and drop the file in the corresponding area to do so.
-
-
-
-====================
-====================
-==============let’s now take a look on how to customise your menu in indico=======
-
-
-you can customise the appearance of your indico menus, by clicking on “menu”, under the tab “customisation”, while on management mode.
-
-
-select “yes” on the right so that you can start customising the menus on your pages.
-
-
-here you can click on the eye icon to show or stop showing a particular 
-block.
-
-then you can drag and drop the block to change their order, 
-
-and you can click on the pencil to edit the titles of the menu blocks.
-
-
-to add another block to your menus you can click “add an entry”, then on either “add link”, or “add page”.
-for example, you can add a page titled “accommodation” where you will show some photos of the hostel where participants of the conference can stay, and so on.
-you can also add a spacer that will separate two blocks, like this…
-
-
-click on “switch to display view” to see the changes to your menu that you just made. 
+Click on _Switch to display view_ to see the changes to your menu that you just made. 
+# NEED PICTURE HERE
