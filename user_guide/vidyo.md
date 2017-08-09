@@ -48,7 +48,9 @@ Check your videoconference status, see how you can _Edit_ your room, _Detach_ it
 ![](/assets/vidyo_join.png)
 
 Click on _Join_ and you will be directed to a Vidyo page.
-Make sure you have Vidyo **installed** before doing this.
+
+Make sure you have VidyoDesktop **installed** before doing this. To do this, go to https://vidyoportal.cern.ch and download the client. 
+
 As a user, enter your name and click on _Connect_. A Vidyo window will appear.
 
 In the Vidyo window, if you hover over the screen, you can see a banner with a few options. The most useful ones are:
