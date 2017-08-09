@@ -1,6 +1,6 @@
 # How to book Webcast or simply Recording for an event in Indico.
 
-The CERN Webcast Service opens CERN lectures, meetings and seminars to universities, schools and to the general public. This service allows you to watch live events from equipped rooms on http://webcast.cern.ch and provides video recording of these events for future viewing.
+The CERN Webcast Service opens CERN lectures, meetings and seminars to universities, schools and to the general public. This service allows you to watch live events from equipped rooms on https://webcast.cern.ch and provides video recording of these events for future viewing.
 
 This short video guides you through Webcast/Recording booking via Indico.
 
@@ -33,11 +33,11 @@ If you click on _Webcast_ you will be asked to define restrictions, if any,for t
 
 **Recording** allows your community to watch your event afterwards in   CDS. Speakers of your event, will be asked to electronically _sign_ their agreement to be recorded and to be made publicly available. 
 Until **all** speakers sign the agreement, the recording cannot be published. 
-Here, you will be able to send the e-agreement requests to all the speakers of your event.
+Via this page, you are able to send the e-agreement requests to all the speakers of your event.
 
 You can decide whether you want to notify all the event managers of the speaker’s signature.
 
-If you click on recording you will be asked to inform the experts’ team about additional restrictions, if any.
+If you click on recording you will be asked to inform the experts’ team about additional restrictions, if any. Recording restrictions are inherited from the Indico event at the time of the publishing. If you need to change these restrictions after the publication, you need to request it.
 
 Uncheck _All contributions_ if you want the request for a Webcast and/or a recording to only apply to some of your contributions and not all of them, and select which ones.
 
