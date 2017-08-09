@@ -17,7 +17,7 @@ To change this, simply click on _Enable payments_, and _Confirm_.
 At this point, a button called _Payments_ will appear on the left banner. Click on this button to see several payment options. Click on one of the payments options available to enable it, e.g. choose the _Bank transfer_ option, in which case you will have to select _Enable_, and insert the IBAN code of the bank account where the payment should be deposited.
 you can do the same for other options such as PayPal, using the PayPal ID you needed for the Conference payment.
 
-### Other Registration configuration steps
+### Related Registration configuration steps
 
 From the _Registration_ page of the event management area, click on the _Create form_ button.
 
@@ -25,58 +25,40 @@ Give a _Name_ to your registration form. The most important of the options avail
 
 # NEED PICTURE HERE 
 
-It is important to select the "registration modification allowed" option, because of the electronic payment features. it is wise to allow modifications only until the payment or simply say “never”.
-this is because change of 'settings' after payment may entail change of the total due amount.
+Be careful about the _Registration modification allowed_ option, because of the electronic payment features. It is wise to allow modifications only **until** the payment is done or simply select _Never_. This is because change of such _Settings_ after payment may entail change of the total due amount!
+
+In _Price options_, select the currency and enter the fee.
+
+# NEED PICTURE HERE 
+
+Further down the same page you may configure _Notification_ headers and text for emails to be sent to the Registrants and to the event managers. Click on _Save_ when you are finished!
+
+Click on _Configure_ on the right of the _Registration form_ row. A form is offered to you by default, you can add sections to it, by clicking on _Add new_ at the top and then _Section_, e.g. select the label _Accommodation_ and click on _Add_. Then click on the _+_ sign, in your section and select the "accomodation" option. 
+
+# NEED PICTURE HERE 
 
 
+on caption, write “accommodation”. !!!!?????????!!!!!!!!!!!!!!!!!!!!!!
+Go to _Configuration_ on the left banner, and select a few dates available. 
 
-then, in price options, select the currency and enter the fee.
+Then go to _Edit accomodations_ on the left banner.
+The default option is _No accomodation_, but you can change that by clicking on _Add new accomodation_ to add some, including the room price and places' limit. Enter the necessary data and click on _Add_.
 
-further down you may configure notification headers and text for emails to be sent to the registrants and to the event managers.
+You can add various new fields, suitable for your event, by clicking on the _+_ signs of the sections defined. The sections are drag and drop!
 
- click save when you are finished!
+When done with this configuration, click on _Back_ at the bottom of the page on the right.
 
+### Manage invitations 
 
-at the right of the “registration form” row, click on “configure”. there is a form by default.
-you can add sections to this form, by clicking on "add new" at the top and then "section".
-for example:"accommodation", click on "add".
+From the event management page, click on _Manage_ on the _Invitations_ row.
 
-   then click on the “+” sign, in your section and select the "accomodation" option. 
+A list of people that will receive an email invitation to the event can be defined here. The email will contain a link to the Indico registration form for the event. They can either _Accept_ or _Decline_ the invitation.
 
-on caption, write “accommodation”. 
-go to “configuration” on the left banner, and select a few dates available.
-then go to “edit accomodations“ on the left banner.
-the default option is 'no accomodation', but you can add more. 
-click on “add new accomodation“. for example “cern hostel“, enter the room price and places' limit.
- and then click on “add”.
+# NEED PICTURE HERE 
 
-remember that you can add all sorts of fields. by clicking on the “+” signs of the sections defined. 
+Click on _Invite_, you can either invite Indico users (by searching and adding them) or external people.
 
-the sections are drag and drop!
-
-then click on “back” at the bottom of the page on the right.
-
-============ as an event manager ======
-============ let’s now look on how to manage invitations ===============
-
-from the event management page, click on "manage" on the 'invitations' row.
-
-here a list of people that will receive an email invitation to the event can be defined. the email will contain a link to the indico registration form for the event. 
-they either accept or decline the invitation.
-
-
-
-
-
-
-click on invite, you can either invite indico users, or non existing users.
-search and add the users you want to invite. ((((((show multiple users being selected)))))
-
-
-
-/////////////////////////////////////////////////////////////////////////
-
-if you want to accept the registration of the users you send the invitations to right away without the need for a confirmation first, you can select “yes”, on “skip moderation”.
+If you want to accept the registration of the users you send the invitations to right away without the need for a confirmation first, you can select “yes”, on “skip moderation”.
 click on “send” once you’re finished.
 
 ////////////////////////////////////////////////////////////////////////
