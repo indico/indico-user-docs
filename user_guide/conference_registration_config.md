@@ -1,4 +1,4 @@
-## Configure Registration forms in Indico DRAFT
+## Configure Registration forms in Indico DRAFT NEEDS PICTURES
 
 This short video is a tutorial on how to define Registration forms in Indico:
 
@@ -58,15 +58,10 @@ A list of people that will receive an email invitation to the event can be defin
 
 Click on _Invite_, you can either invite Indico users (by searching and adding them) or external people.
 
-If you want to accept the registration of the users you send the invitations to right away without the need for a confirmation first, you can select “yes”, on “skip moderation”.
-click on “send” once you’re finished.
+If you want to accept the registration of the users you send the invitations to right away, without the need for a confirmation first, select _Yes_, on _Skip moderation_. Click on _Send_ when your invitation is compete.
 
-////////////////////////////////////////////////////////////////////////
+Return to the registration page, by clicking on _Registration_ on the left banner. Click on _Manage_, near _Registrations_.
 
+# NEED PICTURE HERE 
 
-return to the registration page, by clicking on “registration” on the left banner. click on “manage”, near “registrations”, at the bottom.
-
-click on start now, in order to open the registration process.
-then switch to display view.
-
-==================== (((((end of registrations' configuration))))) =============
+Click on _Start now_, in order to open the registration process.
