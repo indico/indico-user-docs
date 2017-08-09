@@ -1,45 +1,32 @@
-# Register/Apply to participate in a Conference via Indico DRAFT
+## Register/Apply to participate in a Conference via Indico DRAFT
 
 This short video explains how you can register/apply and pay for your participation in a Conference using Indico:
 
 <iframe width="576" height="360" frameborder="0" src="https://cds.cern.ch/video/2275654?showTitle=true" allowfullscreen></iframe>
 
-These steps in detail:
+Follow these steps in detail here:
 
-============= (((((as a user))))) ======================================
+### Register/Apply & pay as a candidate participant
 
-============== let’s now see how you can register or apply as a candidate participant ===================
+As a user, candidate Conference participant, you can place a Registration or an Application, if the event is moderated.
 
+On the event overview page, click on _Apply now_.
 
-now, as a user, candidate conference participant, we will place a registration,,,,,,,, or an application, depending on whether participation to the event is moderated or not.
+Fill out the form, e.g selecting your preferred options for _Accomodation_, the _Arrival_ and the _Departure date_.
 
-on the event overview page,
-click apply now.
+# NEED PICTURE HERE 
 
-the user will fill out the form, for example, in our case, the cern hostel for accomodation, the arrival and the departure date.
+Click on _Apply_ once you’re finished. You may need to wait for event manager's approval, if the moderation option is enabled. 
 
-click on apply once you’re finished.
+Once the event manager has approved yuur Application, you will be able to place the payment.
 
+On the page that will appear after having filled the Application form, a _Checkout_ button will appear at the bottom. It will direct you to a page, where you will be able to pay with the options enabled, e.g. bank transfer and/or PayPal.
 
-here we see the registration is awating approval. this is because we have enabled the moderation option at the beginning, which means that a manager will have to approve the registration first.
+### Approve Conference Applications as an event manager 
 
+As event manager, click at the pencil at the top to return to your event management page.
 
+Click on _Registration_ at the left banner, under _Organization_. As a manager, you may click on _Registrations_ to see the pending registration.
 
+Simply click on the name of the applicant, and click on _Approve_ , if you agree.
 
-============ ((((as an event manager))))) =============
-
-============== let’s now approve applications as an event manager ===================
-
-
-switching to a different role again, from applicant to event manager. click at the pencil at the top to return to your management page.
-
-then, click on registration at the left banner, under organisation, and as a manager, click on “registrations”.
-see the   still pending registration.
-
-simply click on the name of the applicant, and click on approve to approve the registration.
-((((as a user)))))
-
-
-once the event manager has approved the application. the user will be able to place the payment.
-as a user, on the page that will appear after having filled the application form, a checkout button will appear at the bottom. 
-you will be directed to a page where you will be able to pay with the options enabled, in our case, bank transfer and paypal.
