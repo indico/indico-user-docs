@@ -8,40 +8,24 @@ These steps in detail:
 
 ### Enable payments
 
-As event manager, enter the event management area  and click on Registration on the left banner. As you can see, payments are disabled by default.
+As event manager, enter the event management area  and click on _Registration_ on the left banner. As you can see, payments are disabled by default.
 
 # NEED PICTURE HERE 
 
 
 To change this, simply click on _Enable payments_, and _Confirm_.
-once it’s enabled, a button called “payments” will appear on the left banner.
+At this point, a button called _Payments_ will appear on the left banner. Click on this button to see several payment options. Click on one of the payments options available to enable it, e.g. choose the _Bank transfer_ option, in which case you will have to select _Enable_, and insert the IBAN code of the bank account where the payment should be deposited.
+you can do the same for other options such as PayPal, using the PayPal ID you needed for the Conference payment.
 
-click on the payments button.
+### Other Registration configuration steps
 
-here you have several payment options available 
+From the _Registration_ page of the event management area, click on the _Create form_ button.
 
-you need to click on one of the payments option to enable it. for example click on the “bank transfer” option.
+Give a _Name_ to your registration form. The most important of the options available is the _Moderation workflow_ option. If, as a Conference event manager, you select the option _Moderated_, this means that the manager has to approve any user registration first.
 
-here you will have to select “enable”, and insert the iban code required for the payment (????????????????????).
+# NEED PICTURE HERE 
 
-you can do the same for other options such as paypal, using the paypal id you need for your payment.
-
-================================
-
-
-let’s now return to our registration page, by clicking on “registration”, on the left banner.
-
-the registration module contains several configuration options. the most important one, is the create form!... click on this button.
-
-
-
-
-give a name to your registration form.
-here there are a few options, but the most important is the moderation workflow option.
-as a conference event manager i select the option: moderated. this means that the manager has to approve any user registration first.
-
-
-here, it is important to select the "registration modification allowed" option, because of the electronic payment features. it is wise to allow modifications only until the payment or simply say “never”.
+It is important to select the "registration modification allowed" option, because of the electronic payment features. it is wise to allow modifications only until the payment or simply say “never”.
 this is because change of 'settings' after payment may entail change of the total due amount.
 
 

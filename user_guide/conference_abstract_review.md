@@ -1,4 +1,4 @@
-## Review Abstracts for a Conference in Indico DRAFT
+## Review Abstracts for a Conference in Indico DRAFT NEEDS IMAGES
 
 This short video explains the Abstract Review process and the Judge's role in Indico:
 
