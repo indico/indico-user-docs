@@ -6,6 +6,8 @@ This short video guides you through Webcast/Recording booking via Indico.
 
 <iframe width="576" height="360" frameborder="0" src="https://cds.cern.ch/video/2276014?showTitle=true" allowfullscreen></iframe>
 
+Here is the process in more detail:
+
 Go to your Indico event management page.  
 
 Make sure that the event takes place in a room that is **equipped** with webcast and Recording!
@@ -18,7 +20,7 @@ Before selecting one of them, **make sure it is available** at the time of your 
 If your event is a **Lecture**, you can click on Webcast/recording and you will be able to send the request for a Webcast right away.
 If your event is a **Conference** or a **Meeting**, on the other hand, you will need to create a contribution to your event first.
 
-To do this, click on _Timetable_ on the left banner, under _Settings_. Click on _Add new_, and then on _Contribution_. Insert the title of your contribution and a brief description, and Indicate the start time and its duration. Add _Speakers_ to your contribution by searching for them, or by adding them manually. Once you are finished defining your contribution, click on Save. More details on this process can be found in the section "Make the timetable" of the "Meeting" chapter in this book.
+To do this, click on _Timetable_ on the left banner, under _Settings_. Click on _Add new_, and then on _Contribution_. Insert the title of your contribution and a brief description, and Indicate the start time and its duration. Add _Speakers_ to your contribution by searching for them, or by adding them manually. Once you are finished defining your contribution, click on Save. More details on this process can be found in the [section "Make the timetable" of the "Meeting" chapter of the Indico documentation](https://indico.gitbooks.io/indico-documentation/content/user_guide/meeting_timetable.html).
 
 You are now ready to request Webcast/Recording.
 
