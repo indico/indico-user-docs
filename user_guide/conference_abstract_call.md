@@ -1,4 +1,4 @@
-## Define the Call for Abstracts
+## Define the Call for Abstracts for a Conference in Indico
 
 This short video shows you how to define the Call for Abstracts in Indico and open it to candidate Abstract submissions:
 

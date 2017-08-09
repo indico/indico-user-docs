@@ -1,4 +1,4 @@
-# Configure Registration forms in Indico DRAFT
+## Configure Registration forms in Indico DRAFT
 
 This short video is a tutorial on how to define Registration forms in Indico:
 
@@ -6,22 +6,14 @@ This short video is a tutorial on how to define Registration forms in Indico:
 
 These steps in detail:
 
+### Enable payments
 
-============= (((((as an event manager))))) ==========================
-====================
-====================
-========== let’s now take a look at how to create registration forms ===============
+As event manager, enter the event management area  and click on Registration on the left banner. As you can see, payments are disabled by default.
 
-
-in order to access the registration management pages to be able to customise the registration form, click on registration on the left banner.
+# NEED PICTURE HERE 
 
 
-first of all, we will need to enable payments
-
-
-on this page, you can see that the payments are disabled.
-
-to change this, simply click on “enable payments”, and confirm.
+To change this, simply click on _Enable payments_, and _Confirm_.
 once it’s enabled, a button called “payments” will appear on the left banner.
 
 click on the payments button.
