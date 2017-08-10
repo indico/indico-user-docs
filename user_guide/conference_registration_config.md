@@ -8,10 +8,9 @@ These steps in detail:
 
 ### Enable payments
 
-As event manager, enter the event management area  and click on _Registration_ on the left banner. As you can see, payments are disabled by default.
+As event manager, enter the event management area  and click on _Registration_ on the left banner. As you can see in the image below, payments are disabled by default.
 
-# NEED PICTURE HERE  1
-
+![](/assets/Conference_Reg_Config_1.png)
 
 To change this, simply click on _Enable payments_, and _Confirm_.
 At this point, a button called _Payments_ will appear on the left banner. Click on this button to see several payment options. Click on one of the payments options available to enable it, e.g. choose the _Bank transfer_ option, in which case you will have to select _Enable_, and insert the IBAN code of the bank account where the payment should be deposited.
