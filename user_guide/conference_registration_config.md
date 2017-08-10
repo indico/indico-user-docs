@@ -1,4 +1,4 @@
-## Configure Registration forms in Indico DRAFT NEEDS PICTURES
+## Configure Registration forms in Indico
 
 This short video is a tutorial on how to define Registration forms in Indico:
 

@@ -1,4 +1,4 @@
-## Customisation of Indico pages  DRAFT
+## Customisation of Indico pages
 
 This short video shows you how to customise the layout and menus of your Indico pages:
 
@@ -12,7 +12,7 @@ The _General_ section offers several options, e.g. the possibility to _Enable se
 
 The _Header style_ section offers a box for you to select the colours for your text, and for the background of your Indico pages.
 
-# NEED PICTURE HERE 1
+![](/assets/Customize 1.png)
 
 The _Announcement_ section enables you to write an announcement text to be displayed below the _Title_.
 
@@ -23,8 +23,8 @@ Alternatively, you may upload a css file with your code, so you will be able to 
 
 Finally, you can upload a **logo** for your event. 
 
-# NEED PICTURE HERE 2
+![](/assets/Customize 2.png)
 
 To do so, click on _Choose from your computer_ or drag and drop the file in the designated area.
 
-# NEED PICTURE HERE 3
+![](/assets/Customize 3.png)
