@@ -1,4 +1,4 @@
-## Review Abstracts for a Conference in Indico DRAFT NEEDS PICTURES
+## Review Abstracts for a Conference in Indico
 
 This short video explains the Abstract Review process and the Judge's role in Indico:
 
@@ -48,13 +48,11 @@ Click on _Manage_ on the right of the _List of abstracts_.
 
 As an event manager, you will see the list of all Abstracts and their status. The options at the top offer customisation possibilities, where you can decide the display criteria of this list. As the Conference event manager you may, with your privileges, undo all Judges’ decisions about Abstract acceptance.
 
-# NEED PICTURE HERE
-
 If you click on the boxes of several Abstracts and you have the privileges, you may judge several of them in one go.
 
-# NEED PICTURE HERE 4
+![](/assets/Conference_Abstract_Review_4.png)
 
 More options are offered on the same line, for example to export the selected abstacts in various document formats (pdf, excel, etc.).
 
-# NEED PICTURE HERE 5
+![](/assets/Conference_Abstract_Review_5.png)
 
