@@ -11,13 +11,13 @@ As an event **manager** click on _Call for Abstracts_ on the left banner, under 
 Click on _Enable module_ and you will be directed to your "Call for Abstracts" page.
 
 On this page, you will be able to:
-- define **Settings** related to the types of questions asked during the review of an abstract, 
+- define _Settings_ related to the types of questions asked during the review of an abstract, 
 - select the users who will review the abstracts, 
 - officially open the call for abstracts
 
 and more...
 
-The **Schedule** box defines when the call for abstracts will be open for submissions, at a given future date, or right now.
+The _Schedule_ box defines when the call for abstracts will be open for submissions, at a given future date, or right now.
 
 Before opening the Call for Abstracts, you have to define the parameters below.
 
@@ -43,7 +43,7 @@ Select the options that suit you, such as:
 
 etc.
 
-If you want to limit the abstract submission to a selected few, you can add a limited number of users in “authorised submitters”.
+If you want to limit the abstract submission to a selected few, you can add a limited number of users in _Authorized submitters_.
 
 ![](/assets/conference_abstract_submit_config.png)
 
