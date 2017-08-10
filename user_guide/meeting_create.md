@@ -20,7 +20,7 @@ Add chairpersons by clicking on the pencil on the right under _Chairpersons_.
 You can add existing users, by clicking on _Search_ and typing their name. If the person exists, you can select and add it.
 Otherwise or in addition, you can manually insert users you want to include, by typing in their name and email address. The email is **mandatory**. 
 
-Once you have chosen your Chairpersons, click on _Save_. The chairpsersons appear, by default, as _Submitters_.
+Once you have chosen your Chairpersons, click on _Save_. The chairpersons appear, by default, as _Submitters_.
 
 ![](/assets/define-meeting.png)
 
