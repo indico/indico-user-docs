@@ -8,7 +8,7 @@ Read about this process in detail below.
 
 ### As an abstract Reviewer
 
-From the event display view, as an event manager, with a Reviewer role, click on the Reviewer area, see the tracks you are a Reviewer of, hover over the area, see how many tracks contain Abstracts pending for Review, click on the track.
+From the event display view, as an event manager with a Reviewer role, click on the Reviewer area. See the tracks you are a Reviewer of, hover over the area, see how many tracks contain Abstracts pending for Review, click on the track.
 
 Click on the Abstract’s name.
 
@@ -52,7 +52,7 @@ If you click on the boxes of several Abstracts and you have the privileges, you 
 
 ![](/assets/Conference_Abstract_Review_4.png)
 
-More options are offered on the same line, for example to export the selected abstacts in various document formats (pdf, excel, etc.).
+More options are offered on the same line, for example to export the selected abstracts in various document formats (pdf, excel, etc.).
 
 ![](/assets/Conference_Abstract_Review_5.png)
 
