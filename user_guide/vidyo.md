@@ -35,7 +35,7 @@ The default _Owner_ of the room is you, but you can _Choose_ someone else, who w
 You can enter a _Moderation PIN_, if you want to moderate the room.
 Anybody who knows the PIN will be able to perform the functions of a moderator. **Moderators** can Mute, Unmute, Hide Video, Show Video, and Remove a given participant or all participants from the conference.
 
-You may also assign a _Room PIN_ , if you wish. It enables you to make your meeting 'private', only people to whom you give the PIN will be able to join your meeting.
+You may also assign a _Room PIN_ , if you wish. It enables you to make your meeting "private", only people to whom you give the PIN will be able to join your meeting.
 
 If you want the participants who will join the room to be muted by default, make sure that the _Auto_ option is set to _ON_.
 
