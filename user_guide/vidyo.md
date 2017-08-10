@@ -7,7 +7,7 @@ Vidyo allows users to make point-to-point calls or multipoint videoconference me
 
 Here is the process in more detail:
 
-On the managemenent page of your Indico event click on _Videoconference_ under the tab _Services_ on the left banner.
+On the management page of your Indico event click on _Videoconference_ under the tab _Services_ on the left banner.
 
 ![](/assets/vidyo_find.png)
 
