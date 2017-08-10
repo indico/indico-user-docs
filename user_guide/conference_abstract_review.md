@@ -16,8 +16,8 @@ On the Reviewing page, as a Reviewer, you may leave feedback on the Abstract in 
 
 To leave a comment, as a Reviewer, scroll down the page and click on _Review_ on the right.
 
-# NEED PICTURE HERE 1
- 
+![](/assets/Conference_Abstract_Review_1.png)
+
 Give a grade in number for each question, defined in advance by the event manager. 
 If you select to _Accept_ an Abstract, you may choose its _Type_, for example as a _Poster_ and leave review comments, if you want,
 Click on _Submit review_.
