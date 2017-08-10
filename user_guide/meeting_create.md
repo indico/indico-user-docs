@@ -28,4 +28,4 @@ Click on _Switch to display view_ and check if all the details of your meeting a
 
 More event actions
 ------------------
-From the event management page, click on the gear icon on the top right to see how to move, lock, delete or change the type of your event.
+From the event management page, click on the gear icon on the top right to see how to _Move_, _Lock_, _Delete_ or _Change type_ of your event, e.g. from Meeting to Lecture.
