@@ -16,7 +16,7 @@ To change this, simply click on _Enable payments_, and _Confirm_.
 At this point, a button called _Payments_ will appear on the left banner. Click on this button to see several payment options. Click on one of the payments options available to enable it, e.g. choose the _Bank transfer_ option, in which case you will have to select _Enable_, and insert the IBAN code of the bank account where the payment should be deposited.
 you can do the same for other options such as PayPal, using the PayPal ID you needed for the Conference payment.
 
-# NEED PICTURE HERE  2
+![](/assets/Conference_Reg_Config_ 2.png)
 
 ### Related Registration configuration steps
 
