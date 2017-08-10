@@ -18,11 +18,11 @@ To leave a comment, as a Reviewer, scroll down the page and click on _Review_ on
 
 ![](/assets/Conference_Abstract_Review_1.png)
 
-Give a grade in number for each question, defined in advance by the event manager. 
+Give a _Rating_ in number for each question, defined in advance by the event manager. 
 If you select to _Accept_ an Abstract, you may choose its _Type_, for example as a _Poster_ and leave review comments, if you want,
 Click on _Submit review_.
 
-# NEED PICTURE HERE 2
+![](/assets/Conference_Abstract_Review_2.png)
 
 Remember that the Conveners defined by the event manager(s) have privileged access to all reviews in their tracks.
 
@@ -39,7 +39,7 @@ Finally, you can write some additional comments in the comment box, and decide i
 
 Click on _Judge_ to confirm.
 
-# NEED PICTURE HERE 3
+![](/assets/Conference_Abstract_Review_3.png)
 
 ## Abstract management 
 
