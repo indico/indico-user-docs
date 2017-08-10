@@ -14,13 +14,17 @@ On the event overview page, click on _Apply now_.
 
 Fill out the form, e.g selecting your preferred options for _Accomodation_, the _Arrival_ and the _Departure date_.
 
-# NEED PICTURE HERE 
-
 Click on _Apply_ once you’re finished. You may need to wait for event manager's approval, if the moderation option is enabled. 
 
-Once the event manager has approved yuur Application, you will be able to place the payment.
+# NEED PICTURE HERE 1
+
+Once the event manager has approved your Application, you will be able to place the payment.
 
 On the page that will appear after having filled the Application form, a _Checkout_ button will appear at the bottom. It will direct you to a page, where you will be able to pay with the options enabled, e.g. bank transfer and/or PayPal.
+
+
+# NEED PICTURE HERE 2
+
 
 ### Approve Conference Applications as an event manager 
 
@@ -28,5 +32,15 @@ As event manager, click at the pencil at the top to return to your event managem
 
 Click on _Registration_ at the left banner, under _Organization_. As a manager, you may click on _Registrations_ to see the pending registration.
 
+# NEED PICTURE HERE 3
+
+
 Simply click on the name of the applicant, and click on _Approve_ , if you agree.
+
+# NEED PICTURE HERE 4
+# NEED PICTURE HERE 5
+
+
+
+
 

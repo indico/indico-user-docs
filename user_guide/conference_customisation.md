@@ -12,7 +12,7 @@ The _General_ section offers several options, e.g. the possibility to _Enable se
 
 The _Header style_ section offers a box for you to select the colours for your text, and for the background of your Indico pages.
 
-# NEED PICTURE HERE
+# NEED PICTURE HERE 1
 
 The _Announcement_ section enables you to write an announcement text to be displayed below the _Title_.
 
@@ -21,9 +21,13 @@ Under the _Timetable_ section, you can change your Indico theme style, e.g. to g
 In the _Theme_ section, you can select one of the available default colours as your Theme for your Indico pages.
 Alternatively, you may upload a css file with your code, so you will be able to completely customise your pages.
 
-Finally, you can upload a **logo** for your event. To do so, click on _Choose from your computer_ or drag and drop the file in the designated area.
+Finally, you can upload a **logo** for your event. 
 
-# NEED PICTURE HERE
+# NEED PICTURE HERE 2
+
+To do so, click on _Choose from your computer_ or drag and drop the file in the designated area.
+
+# NEED PICTURE HERE 3
 
 ### Menu customisation
 
@@ -34,11 +38,13 @@ Select _Yes_ on the right so that you can start customising the menus on your pa
 Click on the **eye** icon to show or stop showing a particular 
 block. Then you can drag and drop the block to change their order and you can click on the pencil to edit the titles of the menu blocks.
 
+# NEED PICTURE HERE 4
+
 To add another block to your Menus you can click on _Add an entry_, then either on _Add link_, or _Add page_.
 For example, you can add a page entitled “accommodation” where you will show some photos of hotels, where participants of the conference can stay, and so on.
-You can also add a spacer that will separate two blocks, like this…
+You can also add a spacer that will separate two blocks.
 
-# NEED PICTURE HERE
+# NEED PICTURE HERE 5
 
 Click on _Switch to display view_ to see the changes to your menu that you just made. 
-# NEED PICTURE HERE
+# NEED PICTURE HERE 6
