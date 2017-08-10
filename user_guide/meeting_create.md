@@ -8,19 +8,19 @@ Type in the _Title_ for your meeting and choose the start and the end date and d
 
 You may choose the _Location_ of your event. Depending on your installation you may be offered a list of meeting rooms to choose from. Please **remember** that room reservation has to be done separately!
 
-Select your _Protection mode_. By default, this is set to “Inheriting”, meaning you will inherit the rights from the category your meeting belongs to. You may wish to change the default for your event, e.g. you can select “Protected” for your event (even if it belongs to a _Public_ category, if you want the meeting to be visible to a selected few only(like the category managers and the users you will give access to).
+Select your _Protection mode_. By default, this is set to _Inheriting_, meaning you will inherit the rights from the category your meeting belongs to. You may wish to change the default for your event, e.g. you can select “Protected” for your event (even if it belongs to a _Public_ category, if you want the meeting to be visible to a selected few only(like the category managers and the users you will give access to).
 
 Once you are finished, click on _Create Event_.
 
 ![](/assets/create-meeting.png)
 
-You are now offered a page, where you see the parametres defined of your meeting, which you can change by clicking on the pencil on your right. You are advised to add a _Description_. Click on **save** to confirm.
+You are now offered a page, where you see the parametres defined of your meeting, which you can change by clicking on the pencil on your right. You are advised to add a _Description_. Click on _Save_ to confirm.
 
 Add chairpersons by clicking on the pencil on the right under _Chairpersons_.
 You can add existing users, by clicking on _Search_ and typing their name. If the person exists, you can select and add it.
 Otherwise or in addition, you can manually insert users you want to include, by typing in their name and email address. The email is **mandatory**. 
 
-Once you have chosen your Chairpersons, **Click on Save**. The chairpsersons appear, by default, as _Submitters_.
+Once you have chosen your Chairpersons, click on _Save_. The chairpsersons appear, by default, as _Submitters_.
 
 ![](/assets/define-meeting.png)
 
