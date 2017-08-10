@@ -1,6 +1,6 @@
 # Import into Calendaring Tools
 
-On the event display view, click on the calendar icon at he top left of the page.
+On the event display view, click on the calendar icon at the top left of the page.
 
 On the window that appears, you can download a file that you can open with your calendaring tools.
 
