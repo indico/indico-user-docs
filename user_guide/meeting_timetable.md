@@ -46,7 +46,7 @@ Click on _Save_ to return to your timetable.
 ### Adding a Contribution
 
 To add a _Contribution_ to a block for example, choose one of your blocks and click on it to make this window appear. 
-On the window, click on _Go to session block timetable>
+On the window, click on _Go to session block timetable_.
 
 Here, you can add a contribution, by simply clicking on _Add new_, and then on _Contribution_.
 
