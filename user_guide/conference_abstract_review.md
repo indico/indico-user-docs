@@ -31,7 +31,7 @@ As a Judge, at the bottom of the reviewing area page, you can select:
 - The track the Abstract will be accepted in, 
 - The type, for example _Oral_. 
 
-Finally, you can write some additional comments in the comment box, and decide if you want to notify the Abstract Submitter of your decision.
+Finally, you can write some additional comments in the comment box, and decide if you want to notify the Abstract Submitter of your decision. As a Judge you may Reject an Abstract even if all Reviewers have given positive comments and grades. 
 
 Click on _Judge_ to confirm.
 
@@ -40,7 +40,7 @@ Click on _Judge_ to confirm.
 From the event management page, click on _Call for Abstracts_ on the left banner, under _Organization_.
 Click on _Manage_ on the right of the _List of abstracts_.
 
-As an event manager, you will see the list of all Abstracts and their status. The options at the top offer customisation possibilities, where you can decide the display criteria of this list.
+As an event manager, you will see the list of all Abstracts and their status. The options at the top offer customisation possibilities, where you can decide the display criteria of this list. As the Conference event manager you may, with your privileges, undo all Judges’ decisions about Abstract acceptance.
 
 # NEED PICTURE HERE
 
