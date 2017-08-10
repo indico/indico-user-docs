@@ -71,4 +71,3 @@ Return to the registration page, by clicking on _Registration_ on the left banne
 Click on _Start now_, in order to open the registration process.
 
 ![](/assets/Conference_Reg_Config_9.png)
-![](/assets/Conference_Reg_Config_9.png)
