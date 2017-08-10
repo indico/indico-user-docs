@@ -2,7 +2,7 @@
 ## Adding Minutes 
 
 To add minutes to the whole event, click on the pencil on the top right of the page, and click on _add minutes_.
-Here you can add the text of the minutes of your meeting, you are offered formatting help (headers, bulletted or numbered lists, etc).
+Here you can add the text of the minutes of your meeting, you are offered formatting help (headers, bulleted or numbered lists, etc).
 Click on save, and then on Close. 
 
 ![](/assets/add-minutes-meeting.png)
