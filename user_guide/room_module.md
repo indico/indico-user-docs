@@ -44,7 +44,7 @@ In the image below you can see examples of these three types of rooms:
 ![](/assets/kinds_of_rooms.png)
 
 
-### Booking rooms for single or multiple occurence events
+### Booking rooms for single or multiple occurrence events
 
 You may reserve a room more than _Once_, namely on a _Daily_, _Weekly_ or _Monthly_ basis. A common example is a weekly meeting \(which takes place at the same time every week\). 
 
