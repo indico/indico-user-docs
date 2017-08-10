@@ -24,7 +24,7 @@ From the _Registration_ page of the event management area, click on the _Create 
 
 Give a _Name_ to your registration form. The most important of the options available is the _Moderation workflow_ option. If, as a Conference event manager, you select the option _Moderated_, this means that the manager has to approve any user registration first.
 
-# NEED PICTURE HERE 3
+![](/assets/Conference_Reg_Config_3.png)
 
 Be careful about the _Registration modification allowed_ option, because of the electronic payment features. It is wise to allow modifications only **until** the payment is done or simply select _Never_. This is because change of such _Settings_ after payment may entail change of the total due amount!
 
@@ -34,11 +34,11 @@ Further down the same page you may configure _Notification_ headers and text for
 
 Click on _Configure_ on the right of the _Registration form_ row. 
 
-# NEED PICTURE HERE 4
+![](/assets/Conference_Reg_Config_4.png)
 
 A form is offered to you by default, you can add sections to it, by clicking on _Add new_ at the top and then _Section_, e.g. select the label _Accommodation_ and click on _Add_. Then click on the _+_ sign, in your section and select the _Accomodation_ option. 
 
-# NEED PICTURE HERE 5
+![](/assets/Conference_Reg_Config_5.png)
 
 on caption, write “Accommodation”. 
 
@@ -55,19 +55,20 @@ When done with this configuration, click on _Back_ at the bottom of the page on 
 
 From the event management page, click on _Manage_ on the _Invitations_ row.
 
-# NEED PICTURE HERE 6
+![](/assets/Conference_Reg_Config_6.png)
 
 A list of people that will receive an email invitation to the event can be defined here. The email will contain a link to the Indico registration form for the event. They can either _Accept_ or _Decline_ the invitation.
 
 Click on _Invite_, you can either invite Indico users (by searching and adding them) or external people.
 
-# NEED PICTURE HERE 7
+![](/assets/Conference_Reg_Config_7.png)
 
 If you want to accept the registration of the users you send the invitations to right away, without the need for a confirmation first, select _Yes_, on _Skip moderation_. Click on _Send_ when your invitation is complete.
 
-# NEED PICTURE HERE 8
+![](/assets/Conference_Reg_Config_8.png)
 
 Return to the registration page, by clicking on _Registration_ on the left banner. Click on _Manage_, near _Registrations_.
 Click on _Start now_, in order to open the registration process.
 
-# NEED PICTURE HERE 9
+![](/assets/Conference_Reg_Config_9.png)
+![](/assets/Conference_Reg_Config_9.png)
