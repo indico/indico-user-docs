@@ -16,9 +16,9 @@ if you want to make the survey _public_ or reserved for a selected few,
 and whether you allow a _partial completion_ of the survey, 
 
 Decide whether you want to enable email _Notifications_ related to the survey. 
-If you select “_yes_”, then type in the email addresses of the users who will receive these notifications in the appropriate boxes, the first box for when the survey **starts**, and the second one for each time the survey is **filled** by a participant.Write one email address per line, no separators are accepted.
+If you select _YES_, then type in the email addresses of the users who will receive these notifications in the appropriate boxes, the first box for when the survey **starts**, and the second one for each time the survey is **filled** by a participant.Write one email address per line, no separators are accepted.
 
-When you are finished, click on “Save”.
+When you are finished, click on _Save_.
 
 ![](/assets/survey_create_2.png)
 
