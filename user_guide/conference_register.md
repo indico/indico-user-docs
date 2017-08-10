@@ -16,7 +16,7 @@ Fill out the form, e.g selecting your preferred options for _Accomodation_, the 
 
 Click on _Apply_ once you’re finished. You may need to wait for event manager's approval, if the moderation option is enabled. 
 
-![](/assets/Register 1.png)
+![](/assets/Register_1.png)
 
 Once the event manager has approved your Application, you will be able to place the payment.
 
