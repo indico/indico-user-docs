@@ -19,7 +19,7 @@ You may choose the _Location_ of your event. If you are offered a  meeting rooms
 
 
 After having chosen the location of your lecture, you will have to select your _Speakers_.
-These may be existing users, so you find them by typing their name. Click on search, and if the user exists, you can select his/her name and add it.
+These may be existing users, so you find them by typing their name. Click on _Search_, and if the user exists, you can select his/her name and add it.
 Otherwise, you can manually insert users you want to include, by typing in their name and email address. **The email is mandatory**.
 
 By default, all speakers are marked as _Submitters_, which
