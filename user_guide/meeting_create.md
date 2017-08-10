@@ -2,7 +2,7 @@
 
 First of all, make sure that you are in the Indico page and that you are logged in.
 Click on the tab _Create event_, and click on _Create meeting_.
-Click on _Choose Category_ to select the category that you want. You can type in the one that you are looking for and click on “select” once you have found it.
+Click on _Choose Category_ to select the category that you want. You can type in the one that you are looking for and click on _Select_ once you have found it.
 
 Type in the _Title_ for your meeting and choose the start and the end date and duration (timeframe and timezone) of your event. 
 
