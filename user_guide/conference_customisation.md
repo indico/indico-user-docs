@@ -41,8 +41,8 @@ block. Then you can drag and drop the block to change their order and you can cl
 # NEED PICTURE HERE 4
 
 To add another block to your Menus you can click on _Add an entry_, then either on _Add link_, or _Add page_.
-For example, you can add a page entitled “accommodation” where you will show some photos of hotels, where participants of the conference can stay, and so on.
-You can also add a spacer that will separate two blocks.
+For example, you can add a page entitled “Accommodation” where you will show some photos of hotels, where participants of the conference can stay, and so on.
+You can also select the option _Add spacer_ that will separate two blocks.
 
 # NEED PICTURE HERE 5
 
