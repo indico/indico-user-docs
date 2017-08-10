@@ -14,7 +14,7 @@ As event manager, enter the event management area  and click on _Registration_ o
 
 To change this, simply click on _Enable payments_, and _Confirm_.
 At this point, a button called _Payments_ will appear on the left banner. Click on this button to see several payment options. Click on one of the payments options available to enable it, e.g. choose the _Bank transfer_ option, in which case you will have to select _Enable_, and insert the IBAN code of the bank account where the payment should be deposited.
-you can do the same for other options such as PayPal, using the PayPal ID you needed for the Conference payment.
+You can do the same for other options such as PayPal, using the PayPal ID you needed for the Conference payment.
 
 ![](/assets/Conference_Reg_Config_ 2.png)
 
@@ -22,11 +22,11 @@ you can do the same for other options such as PayPal, using the PayPal ID you ne
 
 From the _Registration_ page of the event management area, click on the _Create form_ button.
 
-Give a _Name_ to your registration form. The most important of the options available is the _Moderation workflow_ option. If, as a Conference event manager, you select the option _Moderated_, this means that the manager has to approve any user registration first.
+Give a _Name_ to your registration form. The most important of the options available is the _Moderated_ workflow option. If, as a Conference event manager, you select the option _Moderated_, this means that the manager has to approve any user registration first.
 
 ![](/assets/Conference_Reg_Config_3.png)
 
-Be careful about the _Registration modification allowed_ option, because of the electronic payment features. It is wise to allow modifications only **until** the payment is done or simply select _Never_. This is because change of such _Settings_ after payment may entail change of the total due amount!
+Be careful about the Registration _Modification allowed_ option, because of the electronic payment features. It is wise to allow modifications only **until** the payment is done or simply select _Never_. This is because change of such _Settings_ after payment may entail change of the total due amount!
 
 In _Price options_, select the currency and enter the fee.
 
@@ -47,7 +47,7 @@ Go to _Configuration_ on the left banner, and select a few dates available.
 Then go to _Edit accomodations_ on the left banner.
 The default option is _No accomodation_, but you can change that by clicking on _Add new accomodation_ to add some, including the room price and places' limit. Enter the necessary data and click on _Add_.
 
-You can add various new fields, suitable for your event, by clicking on the _+_ signs of the sections defined. The sections are drag and drop!
+You can add various new fields, suitable for your event, by clicking on the "+" signs of the sections defined. The sections are drag and drop!
 
 When done with this configuration, click on _Back_ at the bottom of the page on the right.
 
