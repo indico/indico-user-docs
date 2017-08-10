@@ -12,7 +12,7 @@ From the event display view, as an event manager with a Reviewer role, click on 
 
 Click on the Abstract’s name.
 
-On the Reviewing page, as a Reviewer, you may leave feedback on the Abstract in the _Review option_. The _Judge option_ means to effectively _Accept_ of _Reject_ an Abstract, based on the various reviews.
+On the Reviewing page, as a Reviewer, you may leave feedback on the Abstract in the _Review option_. The _Judge option_ means to effectively _Accept_ or _Reject_ an Abstract, based on the various reviews.
 
 To leave a comment, as a Reviewer, scroll down the page and click on _Review_ on the right.
 
