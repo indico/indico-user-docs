@@ -1,5 +1,15 @@
 site_name: Learning Indico
 theme: material
+extra:
+    palette:
+        primary: blue
+        accent: light blue
+repo_name: 'indico/indico-docs'
+repo_url: 'https://github.com/indico/indico-docs'
+markdown_extensions:
+    - admonition
+extra_css:
+    - stylesheets/extra.css
 pages:
     - Introduction: index.md
     - Categories:
