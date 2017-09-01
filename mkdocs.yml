@@ -45,11 +45,14 @@ pages:
         - Viewing your Bookings: room_booking/viewing_bookings.md
         - Blocking Rooms: room_booking/blocking.md
         - Summary of Feature Set: room_booking/features.md
+        - Indico and Gesloc: cern/gesloc.md
         - Glossary: room_booking/glossary.md
     - Event Surveys:
         - Introduction: surveys/about.md
         - Setting up a Survey: surveys/setup.md
         - Opening/Closing a Survey: surveys/opening.md
     - Other features:
+        - Vidyo Integration: cern/vidyo.md
+        - Webcast/Recording Requests: cern/webcast_recording.md
         - Reminders: reminders.md
         - Importing into Calendaring tools: calendar_import.md
