@@ -1,7 +1,7 @@
 header.md-header .md-flex__cell  {
     vertical-align: middle;
 }
-header.md-header .md-flex__cell a.md-header-nav__button {
+header.md-header .md-flex__cell a.md-header-nav__button .md-icon {
     display: flex;
 }
 
