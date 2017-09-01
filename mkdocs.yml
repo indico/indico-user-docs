@@ -4,8 +4,8 @@ extra:
     palette:
         primary: blue
         accent: light blue
-repo_name: 'indico/indico-docs'
-repo_url: 'https://github.com/indico/indico-docs'
+repo_name: 'indico/indico-user-docs'
+repo_url: 'https://github.com/indico/indico-user-docs'
 markdown_extensions:
     - admonition
 extra_css:
