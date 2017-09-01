@@ -58,6 +58,8 @@ rsync -rt --delete --exclude=".git" "${SOURCE_DIR}/" "${TARGET_DIR}/"
 
 cd $TARGET_DIR
 
+echo 'learn.getindico.io' > CNAME
+
 ## Add content
 git add -A
 
