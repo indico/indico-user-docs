@@ -1,0 +1,30 @@
+sudo: false
+
+language: python
+
+python:
+  - 3.5
+
+git:
+  depth: 10
+
+branches:
+  only:
+    - master
+
+install:
+  - pip install -r requirements.txt
+
+env:
+  global:
+    - SOURCE_DIR="site"
+    - BUILD_BRANCH="master"
+    - DEPLOY_BRANCH="gh-pages"
+    - USER_EMAIL="indico-team@cern.ch"
+    - USER_NAME="Indico Team"
+
+script:
+  - mkdocs build -c
+
+after_success:
+  - ./.travis/publish.sh
