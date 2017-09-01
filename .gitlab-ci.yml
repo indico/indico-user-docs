@@ -1,0 +1,27 @@
+
+stages:
+  - compile
+  - deploy
+
+
+compilation:
+  stage: compile
+  image: python:alpine
+  before_script:
+    - pip install -r requirements.txt
+  script:
+    - mkdocs build -c
+    - mv site public
+  artifacts:
+    paths:
+      - public
+    expire_in: 1 hour
+
+deployment:
+  stage: deploy
+  only:
+    - cern
+  image:
+    gitlab-registry.cern.ch/ci-tools/ci-web-deployer:latest
+  script:
+    - deploy-eos
