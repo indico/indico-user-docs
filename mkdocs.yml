@@ -57,3 +57,4 @@ pages:
         - Reminders: reminders.md
         - Importing into Calendaring tools: calendar_import.md
         - Sharepoint: cern/sharepoint.md
+        - Access to the CERN site: cern/cern_access.md
