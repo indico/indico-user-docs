@@ -58,7 +58,7 @@ ones. After that you can proceed and click on _Send request_. You will receive a
 minutes.
 
 !!! warning
-    You need to be a member of CERN personnel to request authorization.
+    You need to be a member of the CERN personnel to request authorization.
 
 ![](/assets/cern_access_request_access.png)
 
