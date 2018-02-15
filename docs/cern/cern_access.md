@@ -41,16 +41,10 @@ relevant.
 
 ## Configuring the ticketing system
 
-You will have to enable the ticketing system for every registration form whose participants you want to grant access to
-the CERN site in order to configure the ticketing options.
-It can be enabled in the management page under _Registration_ in the _Organization_ section 🡒 _Manage_
-(desired registration form) 🡒 _Configure_ in the _Tickets_ section. There, you should enable the feature and choose
-whether:
-
-- The ticket will be sent to the participants by email (once the registration is confirmed).
-- They can download it from the event page and/or the registration summary page.
-
-You should then select the ticket template that was previously designed.
+By default, Indico will select a one-sided access badge as the template to be printed. However, you can easily configure
+it to use the one you've designed above. In the management page, under _Registration_, in the _Organization_ section, click
+_Manage_ (next to the desired registration form). Then, click _Configure_ within the _Tickets_ section. There, you will see
+the "Ticket template" field.
 
 ![](/assets/cern_access_configure_tickets.png)
 
@@ -58,7 +52,7 @@ You should then select the ticket template that was previously designed.
 
 Once you have configured the ticket template and the notification options it will be time to request authorization to be
 able to print your access badges.
-To do so, in the management page under _Logistics_ in the _Services_ section 🡒 _CERN Visitor Badges_, you
+To do so, in the management page under _Logistics_ in the _Services_ section → _CERN Visitor Badges_, you
 should _Include_ the desired registration forms and optionally select the start and end dates to override the event's
 ones. After that you can proceed and click on _Send request_. You will receive a confirmation email within a few
 minutes.
