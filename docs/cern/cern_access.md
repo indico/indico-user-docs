@@ -15,46 +15,19 @@ entrance, by the conference organizers.
     to provide the CERN Printshop in time with a PDF containing all badges and to distribute the badges to the
     participants before they enter the CERN site.
 
-## Access badge layout
+## Step-by-step instructions
 
-Access badges for conference participants can either be single-sided (in which case you can directly use the pre-defined
-_Official CERN Visitor Badge_ template) or double-sided (with one side containing the access-related information, and
-the other the event-related data). In the latter case, you will need to create a dedicated badge template yourself.
-For that purpose, you should go to the management page under _Posters/Badges_. Here it is possible to create a new badge
-from scratch or duplicate an existing one from the _Inherited templates_ section and use it as basis for your access
-badge. It will appear in the _Custom templates_ section.
-
-![](/assets/cern_access_design_badge.png)
-
-You can then edit the newly created template to fit your needs:
-
-- On the back side, select the pre-defined _Official CERN Visitor Badge_ template: this will fill the back side with a
-normal CERN visitor badge containing a QR code that will be scanned at the entrance.
-- The front side can be fully customized and you can choose to include the conference logo or any other fields you find
-relevant.
-
-![](/assets/cern_access_badge_front_back.png)
-
-!!! note
-    The size of the access badge template must be A6 portrait.
-
-
-## Configuring the ticketing system
-
-By default, Indico will select a one-sided access badge as the template to be printed. However, you can easily configure
-it to use the one you've designed above. In the management page, under _Registration_, in the _Organization_ section, click
-_Manage_ (next to the desired registration form). Then, click _Configure_ within the _Tickets_ section. There, you will see
-the "Ticket template" field.
-
-![](/assets/cern_access_configure_tickets.png)
+- Create your Indico event
+- [Create a registration form](../conferences/registration_config/)
+- Let users register, register them yourself, or import a participants list
+- [Activate the site access module](#requesting-authorization)
+- Optionally [setup your own badge template](#access-badge-layout)
+- [Grant access to individual participants](#granting-access-to-participants)
+- Optionally [print the badges yourself](#printing-badges)
 
 ## Requesting authorization
 
-Once you have configured the ticket template and the notification options it will be time to request authorization to be
-able to print your access badges.
-To do so, in the management page under _Logistics_ in the _Services_ section → _CERN Visitor Badges_, you
-should _Include_ the desired registration forms and optionally select the start and end dates to override the event's
-ones. After that you can proceed and click on _Send request_. You will receive a confirmation email within a few
+In order to use the site access features, you need to request authorization by going to the management page under _Logistics_ in the _Services_ section → _CERN Visitor Badges_, you should _Include_ the desired registration forms and optionally select the start and end dates to override the dates of the event. After that you can proceed and click on _Send request_. You will receive a confirmation email within a few
 minutes.
 
 !!! warning
@@ -77,7 +50,7 @@ The status of the request can be checked and it is also possible to edit and wit
 
 ## Granting access to participants
 
-The next step will be to request a badge for each participant who needs one, under _Registration_ in the _Organization_
+The next step will be to request a badge for each participant who needs one, under _Registration_ (or _Participants_ for meetings and lectures) in the _Organization_
 section 🡒 _Registrations_ (desired registration form).
 On the list of registrations you need to select the desired participants, click on the dropdown button
 _CERN Access control_ and select _Grant access_. Note that you can also revoke participants' access by choosing
@@ -123,7 +96,7 @@ on the left of each row.
 
 !!! info
     - Yellow icon means that the participant needs to provide additional data, that is, to fill the
-    [aforementioned personal information form](#provide-additional-data).
+    [aforementioned personal information form](#providing-additional-data).
     - Green icon means that access to CERN has been granted to this participant. Event managers can retrieve the
     registration code of a participant by clicking on it.
     - Grey icon means that the manager of the event has not granted access to this participant.
@@ -135,10 +108,54 @@ on the left of each row.
     make sure that the information provided is accurate and to guarantee the express consent of the person.
 
 As manager of the event it is also possible to enter the personal information on behalf of the participants, by clicking
-on the yellow icon. This will open a dialog containing the [form previously mentioned](#provide-additional-data).
+on the yellow icon. This will open a dialog containing the [form previously mentioned](#providing-additional-data).
 
 ![](/assets/cern_access_on_behalf_participant.png)
 
 !!! warning
     Please note that you can only perform this action on behalf of the participants that have been selected to have
     access beforehand, meaning those that have the yellow icon.
+
+## Access badge layout
+
+Access badges for conference participants are single-sided by default (they use the pre-defined
+_Official CERN Visitor Badge_ template), but they can also be double-sided (with one side containing the access-related information, and
+the other the event-related data). In the latter case, you will need to create a dedicated badge template yourself.
+For that purpose, you should go to the management page under _Posters/Badges_. Here it is possible to create a new badge
+from scratch or duplicate an existing one from the _Inherited templates_ section and use it as basis for your access
+badge. It will appear in the _Custom templates_ section.
+
+![](/assets/cern_access_design_badge.png)
+
+You can then edit the newly created template to fit your needs:
+
+- On the back side, select the pre-defined _Official CERN Visitor Badge_ template: this will fill the back side with a
+normal CERN visitor badge containing a QR code that will be scanned at the entrance.
+- The front side can be fully customized and you can choose to include the conference logo or any other fields you find
+relevant.
+
+![](/assets/cern_access_badge_front_back.png)
+
+!!! note
+    The size of the access badge template must be A6 portrait.
+
+
+## Configuring the ticketing system
+
+By default, Indico will select a one-sided access badge as the template to be printed. However, you can easily configure
+it to use the one you've designed above. In the management page, under _Registration_, in the _Organization_ section, click
+_Manage_ (next to the desired registration form). Then, click _Configure_ within the _Tickets_ section. There, you will see
+the "Ticket template" field.
+
+![](/assets/cern_access_configure_tickets.png)
+
+## Printing badges
+
+By default, participants will receive their access badges directly by email, but you may want to print their access badges yourself and distribute them at the CERN reception. 
+To generate the PDF which will allow you to print these badges, you should go to the list of participants, select the participants for whom you want to print the access badges, then select _Print Tickets_ from the _Actions_ dropdown menu.
+
+!!! warning
+    You can print access badges only for participants who have filled in their security data. Selecting others will raise an error
+
+!!! note
+    The CERN printshop can print badges on A6 cardboard paper for you. For this, you need to provide them with an A4 PDF (4 A6 badges per page). You can generate this PDF through Indico by specifying 0 for all margins in the _Print Tickets_ form, _A4_ as _Page Size_ and _Portrait_ as _Page orientation_
