@@ -3,7 +3,7 @@
 It is now mandatory for everyone at the CERN site to wear a valid access badge at all times.
 
 If you are organizing an event which includes non-CERN participants you will have to use Indico's registration workflow
-to collect their personal data and produce access badges that will allow them to enter the CERN site.
+to __collect their personal data__ and __produce access badges__ that will allow them to enter the CERN site.
 These badges can be either printed:
 
 - At home by the participants and subsequently placed in a plastic cover attached to a lanyard (_Print at home_).
@@ -27,8 +27,21 @@ entrance, by the conference organizers.
 
 ## Requesting authorization
 
-In order to use the site access features, you need to request authorization by going to the management page under _Logistics_ in the _Services_ section → _CERN Visitor Badges_, you should _Include_ the desired registration forms and optionally select the start and end dates to override the dates of the event. After that you can proceed and click on _Send request_. You will receive a confirmation email within a few
-minutes.
+In order to use the site access features, you need to request authorization by going to the management page under
+_Logistics_ in the _Services_ section → _CERN Visitor Badges_.
+There are different options you should consider for your event:
+
+- _Registration forms_ - select the registration forms for which you want to generate visitor badges
+- _Show during user registration_ - this option lets you customize the personal data collection process:
+    - _Yes_ - during registration users can select that they need the access to the CERN site and provide their personal data,
+     if they don't and you request access for them, they will be asked to do it in another step
+    - _Yes (required)_ - require all users to provide their data while registering (useful when all participants require a visitor badge)
+    - _No_ - don't ask users for personal data during registration, request the information in another step only after
+     requesting access for them
+- _Start/end date override_ - by default the access is given from the beginning until the end of the event,
+ but you can also specify when you want to let your event participants access the CERN site
+
+After that you can proceed and click on _Send request_. You will receive a confirmation email within a few minutes.
 
 !!! warning
     You need to be a member of the CERN personnel to request authorization.
@@ -48,6 +61,13 @@ The status of the request can be checked and it is also possible to edit and wit
 
 ![](/assets/cern_access_check_status.png)
 
+## Registration
+
+If you decide to let the users ask for access to the CERN site when registering, the registration form will
+have additional section where the users can indicate they want to get the access and provide their data
+
+![](/assets/cern_access_regform.png)
+
 ## Granting access to participants
 
 The next step will be to request a badge for each participant who needs one, under _Registration_ (or _Participants_ for meetings and lectures) in the _Organization_
@@ -58,11 +78,20 @@ _Revoke access_.
 
 ![](/assets/cern_access_grant_revoke.png)
 
+## Additional data request email
+
+In order for the participants to get access to the CERN site, they have to provide additional data. When you choose to
+grant access to the participants (_Grant access_ button) you will be prompted with a dialog. It displays the default text
+of the email that will be sent to all participants that haven't provided their additional data yet. You can modify
+the sender, the subject and the contents of the email and save it as a default for the event.
+
+![](/assets/cern_access_email.png)
+
 ## Providing additional data
 
-In order for the participants to get access to the CERN site, they have to provide additonal data.
 The participants that have been previously selected to have access will receive an email asking for personal
-information needed to fulfill CERN's Security Policy.
+information needed to fulfill CERN's Security Policy. The participants that have already filled in personal data during
+registration, will be granted access at this point.
 
 !!! info "Important information"
     Any data submitted using this form will be accessible only to CERN's Site Surveillance Service and preserved for a
@@ -97,6 +126,8 @@ on the left of each row.
 !!! info
     - Yellow icon means that the participant needs to provide additional data, that is, to fill the
     [aforementioned personal information form](#providing-additional-data).
+    - Blue icon means that participant has requested access to CERN and provided additional data,
+     but the manager has not granted the access to this participant yet.
     - Green icon means that access to CERN has been granted to this participant. Event managers can retrieve the
     registration code of a participant by clicking on it.
     - Grey icon means that the manager of the event has not granted access to this participant.
