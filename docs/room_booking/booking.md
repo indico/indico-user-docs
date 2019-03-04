@@ -1,31 +1,60 @@
-The booking process consists essentially of three steps:
+# Book a Room
 
-* Specifying the search criteria
-* Selecting an available period
-* Confirming the reservation
+As a first step click on the button *Book a Room* in the horizontal menu. In the booking area you have to specify the kind of booking, date range and time range in which you want to search for bookings. You can also search by building number or room name if you want  to find a specific room in a specific location.
 
-In the first step you can specify the rooms, date range and time range in which you want to search for bookings. The sections and images shown so far explained how you can select a candidate room to book.
+If you want to book the room for only one day, simply click on *Single booking* and on the date you want by choosing the correct month and day. You will also have to choose the time interval you want to book it for.
 
-You can use some filters if you want your room to contain certain equipment, such as videoconference, Webcast, Projector, or whether it is a public room.
-For example, let’s look for rooms that have Videoconference, and a projector. Please observe the pronounced blue camera and projector images on the top row of the image below. Now only the rooms that have this equipment will appear from which you can try to select one.
+If instead you want to book a room for several consecutive days, weeks, or months, click on *Daily* or *Recurring booking*
 
-![](../assets/indico_rooms_filtered.png)
+![](../assets/room_booking/booking_area.png)
 
-If you have permission to book the room you selected, you should be able to see, further down in the same page, the _Booking Time & date_ area, that we showed earlier, with a calendar, where you can easily choose the date(s) you want.
+If you have already used Indico Room Booking and have selected favourite rooms, your booking area will look like this picture. If you want to book only a room from your favourites check the box *search only my favourites*. To know how to add a favourite read the section below.
 
-If you want to book the room for only one day, simply click on the date you want by choosing the correct month and day.
-You will also have to choose the time interval you want to book it for.
+![](../assets/room_booking/booking_area_favourite.png)
 
-If instead you want to book a room for several consecutive days, weeks, or months, click on _Daily_, _Weekly_, or _Monthly_ near _Frequency_. Hit _Continue_.
 
-On the next page you will see a preview of the room availability for your date\(s\) you specified in your criteria. It looks exactly like the image we showed earlier in the _Kinds of rooms_ section.
 
-The green bars inform you on timeslots for which you can book this room, and other bars of other colours will show you when other users have already booked the same room.
 
-If you are trying to book the room for multiple occurences and some of them are impossible, because the room is taken, you can still click on a green bar and _Skip conflicting days_ to proceed with your booking for the rest of the desired period.
+Then you will be directed in a page with all the Rooms available according to your request.
 
-Select whether you want to use the room for yourself of if you are booking the room for someone else, and write down the reason for this booking. If you've skipped conflicting days, tick _I understand_ for the slots that cannot be booked.
 
-Finally, if the room is equipped with videoconferencing, select whether you plan to use this equipment or not.
+![](../assets/room_booking/room_search.png)
 
-Click on _Create \(pre-\)booking_, once you are finished.
+
+You can use some filters if you want your room to contain certain equipment, such as videoconference, Webcast or a Projector.
+
+To *pre-book a room, book a room, view room details* or *add a room to your favourites* put your mouse over the picture of a room and make your choice.
+
+If you select **pre-book a room** you will see this window:
+
+![](../assets/room_booking/pre_booking.png)
+
+
+There, you may find information about the room such as capacity and size of the room. To finalise the pre-booking, you have to fill in the *Usage* section mentioning the person for whom you are making the pre-booking and giving the reasons why you pre-book this room.
+
+If you select **book a room** you will see this window:
+
+![](../assets/room_booking/booking.png)
+
+There, you may find information about the room such as capacity and size of the room. To finalise the booking, you have to fill in the *Usage* section mentioning the person for whom you are making the booking and giving the reasons why you book this room.
+
+
+If you select **room details** you will see one of these windows:
+
+![](../assets/room_booking/room_details_pre_booking.png)
+
+![](../assets/room_booking/room_details_booking.png)
+
+
+
+
+In this window, you may find information such as size,   capacity and phone number in the room. If you click on the button *book it*, you will be directed to the *book a room* or *pre-book a room* window. To know how to finalise a pre-bookig or booking, read the previous paragraphs.
+
+If you select **add to favourites** the room will be placed in your favourites' list. For your next booking, you could find all your favourite rooms by selecting this option in the filters' menu or ticking the box *search only my favourites* in the booking area of the first page.
+
+![](../assets/room_booking/favourite.png)
+
+---
+
+
+
