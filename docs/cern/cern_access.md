@@ -46,7 +46,7 @@ After that you can proceed and click on _Send request_. You will receive a confi
 !!! warning
     You need to be a member of the CERN personnel to request authorization.
 
-![](/assets/cern_access_request_access.png)
+![](../assets/cern_access_request_access.png)
 
 !!! warning
     Authorization in itself is not enough to provide the participants with a valid access badge. You will need to grant
@@ -59,14 +59,14 @@ After that you can proceed and click on _Send request_. You will receive a confi
 
 The status of the request can be checked and it is also possible to edit and withdraw it.
 
-![](/assets/cern_access_check_status.png)
+![](../assets/cern_access_check_status.png)
 
 ## Registration
 
 If you decide to let the users ask for access to the CERN site when registering, the registration form will
 have additional section where the users can indicate they want to get the access and provide their data
 
-![](/assets/cern_access_regform.png)
+![](../assets/cern_access_regform.png)
 
 ## Granting access to participants
 
@@ -76,7 +76,7 @@ On the list of registrations you need to select the desired participants, click 
 _CERN Access control_ and select _Grant access_. Note that you can also revoke participants' access by choosing
 _Revoke access_.
 
-![](/assets/cern_access_grant_revoke.png)
+![](../assets/cern_access_grant_revoke.png)
 
 ## Additional data request email
 
@@ -85,7 +85,7 @@ grant access to the participants (_Grant access_ button) you will be prompted wi
 of the email that will be sent to all participants that haven't provided their additional data yet. You can modify
 the sender, the subject and the contents of the email and save it as a default for the event.
 
-![](/assets/cern_access_email.png)
+![](../assets/cern_access_email.png)
 
 ## Providing additional data
 
@@ -97,12 +97,12 @@ registration, will be granted access at this point.
     Any data submitted using this form will be accessible only to CERN's Site Surveillance Service and preserved for a
     maximum of one year, after which it will be deleted from Indico.
 
-![](/assets/cern_access_provide_personal_info.png)
+![](../assets/cern_access_provide_personal_info.png)
 
 Once the participants have completed and sent the form, they will be redirected to a confirmation page where they can
 get the access ticket and the registration code.
 
-![](/assets/cern_access_access_granted.png)
+![](../assets/cern_access_access_granted.png)
 
 !!! note
     Additionally, a confirmation email containing the access ticket and the registration code will be sent to them.
@@ -121,7 +121,7 @@ registation code they received.
 On the list of registrations you can also see the current authorization status of each participant by checking the icon
 on the left of each row.
 
-![](/assets/cern_access_list_of_registrations.png)
+![](../assets/cern_access_list_of_registrations.png)
 
 !!! info
     - Yellow icon means that the participant needs to provide additional data, that is, to fill the
@@ -141,7 +141,7 @@ on the left of each row.
 As manager of the event it is also possible to enter the personal information on behalf of the participants, by clicking
 on the yellow icon. This will open a dialog containing the [form previously mentioned](#providing-additional-data).
 
-![](/assets/cern_access_on_behalf_participant.png)
+![](../assets/cern_access_on_behalf_participant.png)
 
 !!! warning
     Please note that you can only perform this action on behalf of the participants that have been selected to have
@@ -156,7 +156,7 @@ For that purpose, you should go to the management page under _Posters/Badges_. H
 from scratch or duplicate an existing one from the _Inherited templates_ section and use it as basis for your access
 badge. It will appear in the _Custom templates_ section.
 
-![](/assets/cern_access_design_badge.png)
+![](../assets/cern_access_design_badge.png)
 
 You can then edit the newly created template to fit your needs:
 
@@ -165,7 +165,7 @@ normal CERN visitor badge containing a QR code that will be scanned at the entra
 - The front side can be fully customized and you can choose to include the conference logo or any other fields you find
 relevant.
 
-![](/assets/cern_access_badge_front_back.png)
+![](../assets/cern_access_badge_front_back.png)
 
 !!! note
     The size of the access badge template must be A6 portrait.
@@ -178,7 +178,7 @@ it to use the one you've designed above. In the management page, under _Registra
 _Manage_ (next to the desired registration form). Then, click _Configure_ within the _Tickets_ section. There, you will see
 the "Ticket template" field.
 
-![](/assets/cern_access_configure_tickets.png)
+![](../assets/cern_access_configure_tickets.png)
 
 ## Printing badges
 

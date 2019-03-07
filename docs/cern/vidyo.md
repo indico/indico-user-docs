@@ -9,11 +9,11 @@ Here is the process in more detail:
 
 On the management page of your Indico event click on _Videoconference_ under the tab _Services_ on the left banner.
 
-![](/assets/vidyo_find.png)
+![](../assets/vidyo_find.png)
 
 Here you can _create_ a new Vidyo room or _Add_ an existing one to your event.
 
-![](/assets/vidyo_create_or_add.png)
+![](../assets/vidyo_create_or_add.png)
 
 
 ## Add existing Vidyo room
@@ -41,11 +41,11 @@ If you want the participants who will join the room to be muted by default, make
 
 Click on _Save_.
 
-![](/assets/vidyo_create.png)
+![](../assets/vidyo_create.png)
 
 Check your videoconference status, see how you can _Edit_ your room, _Detach_ it from the event or _Join_ the room.
 
-![](/assets/vidyo_join.png)
+![](../assets/vidyo_join.png)
 
 Click on _Join_ and you will be directed to a Vidyo page.
 
@@ -64,18 +64,18 @@ It is a good idea to mute your microphone when you don’t speak to avoid backgr
 
 Finally, you can click on the gear icon for some Vidyo configuration options, for example concerning your audio source.
 
-![](/assets/vidyo_options.png)
+![](../assets/vidyo_options.png)
 
 ## For Linux users
 
 After clicking on _Join_, a selector will appear. 
 
-![](/assets/vidyo_linux.png)
+![](../assets/vidyo_linux.png)
 
 You can choose to use the standard vidyo desktop app or the [CERN WebRTC](https://vidyowebrtc.web.cern.ch/) (Real Time Communication) client.
 If you select the latter, the Vidyo Room URL will be already present. Just click on _Join the room_.
 
-![](/assets/vidyo_webrtc.png)
+![](../assets/vidyo_webrtc.png)
 
 All the icons explained earlier are available to you, via this interface, as well.
 

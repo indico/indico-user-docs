@@ -18,4 +18,4 @@ https://indico.cern.ch/export.xsl
 
 The example result:
 
-![](/assets/sharepoint_result.png)
+![](../assets/sharepoint_result.png)
