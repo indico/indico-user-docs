@@ -182,7 +182,7 @@ the "Ticket template" field.
 
 ## Printing badges
 
-By default, participants will receive their access badges directly by email, but you may want to print their access badges yourself and distribute them at the CERN reception. 
+By default, participants will receive their access badges directly by email, but you may want to print their access badges yourself and distribute them at the CERN reception.
 To generate the PDF which will allow you to print these badges, you should go to the list of participants, select the participants for whom you want to print the access badges, then select _Print Tickets_ from the _Actions_ dropdown menu.
 
 !!! warning
