@@ -6,7 +6,7 @@ From the event management view, click on _Reminders_ on the left banner under _O
 
 Click on _Add reminder_.
 
-Here you can decide **when** you want to send your reminder, a few hours or days from the start of your event, if you want your reminder to be sent at a fixed date and time, or if you want to send it immediately, 
+Here you can decide **when** you want to send your reminder, a few hours or days from the start of your event, if you want your reminder to be sent at a fixed date and time, or if you want to send it immediately,
 
 You can check the box _Participants_ if you defined your event such that candidate participants were prompted to register. The reminder will be sent to everybody who will participate to the event.
 
