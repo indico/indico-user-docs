@@ -10,7 +10,7 @@ The _General_ section offers several options, e.g. the possibility to _Enable se
 
 The _Header style_ section offers a box for you to select the colours for your text, and for the background of your Indico pages.
 
-![](/assets/Customize_1.png)
+![](../assets/Customize_1.png)
 
 The _Announcement_ section enables you to write an announcement text to be displayed below the _Title_.
 
@@ -21,8 +21,8 @@ Alternatively, you may upload a css file with your code, so you will be able to 
 
 Finally, you can upload a **logo** for your event.
 
-![](/assets/Customize_2.png)
+![](../assets/Customize_2.png)
 
 To do so, click on _Choose from your computer_ or drag and drop the file in the designated area.
 
-![](/assets/Customize_3.png)
+![](../assets/Customize_3.png)

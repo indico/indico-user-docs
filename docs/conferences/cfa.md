@@ -25,7 +25,7 @@ To customise the email notification templates to send to the users who submit th
 
 Choose a _Title_ for your ruleset, and select the email template that you want, for example “Submit”. Then you will have to select a rule, for example “submit”, like your email template. click on _Add new rule_ and select _Submitted_. Click on _Save_.
 
-![](/assets/conference_abstract_def.png)
+![](../assets/conference_abstract_def.png)
 
 You can add new rulesets by clicking on _Add new one_, for example for when a abstract is _Accepted_ or _Rejected_.
 
@@ -43,29 +43,29 @@ etc.
 
 If you want to limit the abstract submission to a selected few, you can add a limited number of users in _Authorized submitters_.
 
-![](/assets/conference_abstract_submit_config.png)
+![](../assets/conference_abstract_submit_config.png)
 
 Scroll down for the instructions box, if you wish to insert some additional advice to submitters. Click on _Save_.
 
 The _Fields and types_ raw contains options, where you (as conference manager) will have to define and add the type of the contributions you allow, such as _Oral_ or _Poster_, for example.
 Click on _Contribution types_, _New contribution type_ and create a few.
 
-![](/assets/conference_abstract_type.png)
+![](../assets/conference_abstract_type.png)
 
 From the same  _Fields and types_ raw click on the _Abstract fields_ box, to add new fields tailored to your event, such as a question, or simple text. To do this, click on _Add new field_, and then on _Single choice_ if you allow only one of the available options. Enter the question and select how your want your question to be displayed, for example with radio buttons, displayed vertically. Click on _Save_ and close the window.
 
-![](/assets/conference_abstract_custom.png)
+![](../assets/conference_abstract_custom.png)
 
 ### Configure Abstract Reviewing options
 
 Always on the "Call for Abstracts" management page a raw on _Reviewing_ options allows you to define the questions used in the abstract reviewing process.
 
-![](/assets/conference_review_def.png)
+![](../assets/conference_review_def.png)
 
 Click on _Roles_. In this page, you can add users as _Reviewers_ and _Conveners_. Reviewers provide an assessment of the abstract with their review, and they can consult only their own reviews.
 Conveners can read all reviews in their tracks and, like the event managers, can act as _Judges_, who can effectively accept or reject an abstract based on the feedback left by the Reviewers.
 
-![](/assets/conference_reviewers.png)
+![](../assets/conference_reviewers.png)
 
 The idea is that you can have a team of specialists for specific tracks, such as “Online Computing”, in the example above.
 You may _Add_ Reviewers or Conveners for a selected track (or for “all tracks” at the top). You will be offered the possibility to _Search_ for existing users and add them.
@@ -78,7 +78,7 @@ Below you have certain options such as allowing conveners to accept or reject an
 
 Under _Review questions_, type in your questions, click at the disk icon on your right to save your question and click on _Add_ if you want to add a new question, for example “what is the quality of the content?"
 
-![](/assets/conference_review_instructions.png)
+![](../assets/conference_review_instructions.png)
 
 Finally, write in some instructions for the Reviewers and for the Judges, who need to ultimately accept or reject an abstract based on the review.
 
@@ -92,7 +92,7 @@ To configure the book of abstracts, click on _Settings_ from the relevant raw of
 
 Write any additional text that will be included on the document, and select the sorting criteria for the abstracts’ appearance in the book.  Click on _Save_.
 
-![](/assets/conference_abstracts_book_list.png)
+![](../assets/conference_abstracts_book_list.png)
 
 ### The List of Abstracts
 

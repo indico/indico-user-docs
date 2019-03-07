@@ -9,7 +9,7 @@ In the first step you can specify the rooms, date range and time range in which 
 You can use some filters if you want your room to contain certain equipment, such as videoconference, Webcast, Projector, or whether it is a public room.
 For example, let’s look for rooms that have Videoconference, and a projector. Please observe the pronounced blue camera and projector images on the top row of the image below. Now only the rooms that have this equipment will appear from which you can try to select one.
 
-![](/assets/indico_rooms_filtered.png)
+![](../assets/indico_rooms_filtered.png)
 
 If you have permission to book the room you selected, you should be able to see, further down in the same page, the _Booking Time & date_ area, that we showed earlier, with a calendar, where you can easily choose the date(s) you want.
 

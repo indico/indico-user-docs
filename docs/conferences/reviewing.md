@@ -14,13 +14,13 @@ On the Reviewing page, as a Reviewer, you may leave feedback on the Abstract in 
 
 To leave a comment, as a Reviewer, scroll down the page and click on _Review_ on the right.
 
-![](/assets/Conference_Abstract_Review_1.png)
+![](../assets/Conference_Abstract_Review_1.png)
 
 Give a _Rating_ in number for each question, defined in advance by the event manager.
 If you select to _Accept_ an Abstract, you may choose its _Type_, for example as a _Poster_ and leave review comments, if you want,
 Click on _Submit review_.
 
-![](/assets/Conference_Abstract_Review_2.png)
+![](../assets/Conference_Abstract_Review_2.png)
 
 Remember that the Conveners defined by the event manager(s) have privileged access to all reviews in their tracks.
 
@@ -37,7 +37,7 @@ Finally, you can write some additional comments in the comment box, and decide i
 
 Click on _Judge_ to confirm.
 
-![](/assets/Conference_Abstract_Review_3.png)
+![](../assets/Conference_Abstract_Review_3.png)
 
 ## Abstract management
 
@@ -48,8 +48,8 @@ As an event manager, you will see the list of all Abstracts and their status. Th
 
 If you click on the boxes of several Abstracts and you have the privileges, you may judge several of them in one go.
 
-![](/assets/Conference_Abstract_Review_4.png)
+![](../assets/Conference_Abstract_Review_4.png)
 
 More options are offered on the same line, for example to export the selected abstracts in various document formats (pdf, excel, etc.).
 
-![](/assets/Conference_Abstract_Review_5.png)
+![](../assets/Conference_Abstract_Review_5.png)

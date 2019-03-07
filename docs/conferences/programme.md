@@ -12,7 +12,7 @@ For example, a first track called “Online computing”, a second track called 
 
 Click on _Add track_, and select the title of your track, as well as a brief description.
 
-![](/assets/conference_track.png)
+![](../assets/conference_track.png)
 
 Click on _Save_ to add your first track and repeat the process for all your tracks.
 

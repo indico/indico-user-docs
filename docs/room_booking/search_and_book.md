@@ -4,7 +4,7 @@ Let’s now look at how to search for an available room based on more specific c
 
 You can also search for a room based on more specific criteria. For this, click on _Search rooms_ under _Search_.
 
-![](/assets/indico_room_search_all.png)
+![](../assets/indico_room_search_all.png)
 
 Write in some room details, such as the name of the person responsible for the room, if you know it, \(e.g. IT secretariat\) or some equipment that you need the room to include. Otherwise leave it blank.
 Choose the availability, for example _Available_, and decide the time period you want.

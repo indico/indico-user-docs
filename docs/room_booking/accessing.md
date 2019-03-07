@@ -3,7 +3,7 @@
 
 Just click on _Room Booking_ in the Indico home page, in the top dark bar. 
 
-![](/assets/main_room.png)
+![](../assets/main_room.png)
 
 
 
@@ -22,7 +22,7 @@ The default name is built in the format: "building-floor-room \(location\)". If 
 
 Examples: "304-1-001 \(CERN\)", "4-3-004 - TH Discussion Room \(CERN\)"
 
-![](/assets/room_names_filters.png)
+![](../assets/room_names_filters.png)
 
 ### Three Kinds of Rooms
 
@@ -41,7 +41,7 @@ In the image below you can see examples of these three types of rooms:
 * _513-1-024_ is public but requires confirmation, i.e. you can pre-book it, if it is free at the time you selected and once you receive the moderator's approval, the booking will be confirmed.
 * _513-R-070_ is private, i.e. if you try to book it, you get the message: _You don't have rights to book this room_
 
-![](/assets/kinds_of_rooms.png)
+![](../assets/kinds_of_rooms.png)
 
 
 ### Booking rooms for single or multiple occurrence events
@@ -50,6 +50,6 @@ You may reserve a room more than _Once_, namely on a _Daily_, _Weekly_ or _Month
 
 See, on the image below, once you've selected your room and declared you want to book it _Weekly_, how all Mondays appear darker than the other days on the calendar.
 
-![](/assets/book_frequency.png)
+![](../assets/book_frequency.png)
 
 ---

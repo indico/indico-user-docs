@@ -14,6 +14,6 @@ Click on the tab _Create event_, and click on _Create conference_.
 The initial steps are similar across Indico event creation. Please read the **Meeting** section of this documentation, if needed.
 The general data you'll enter when creating your conference will constitute the _Overview_.
 
-![](/assets/conference_overview.png)
+![](../assets/conference_overview.png)
 
 Click on _Switch to display view_ to see what you've done.

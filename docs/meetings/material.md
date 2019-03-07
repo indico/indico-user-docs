@@ -9,4 +9,4 @@ Once you’re finished, click on _Upload_ and close your window.
 
 See an example of a meeting with material directly attached to the event as well as included in _Folders_.
 
-![](/assets/with-folders-material-meeting.png)
+![](../assets/with-folders-material-meeting.png)

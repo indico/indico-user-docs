@@ -1,6 +1,6 @@
 You can re-allocate a sub-category or event by selecting the one you wish to move using the tick box and clicking on the horizontal arrows on your right,that show text *Move the selected category* when you point there with the mouse. You will then have to answer **where** you would like to reallocate this sub-category/event.
 
-![](/assets/category_move.png)
+![](../assets/category_move.png)
 
 To delete a sub-category and anything it contains or an event, select it and click on the bin. Categories cannot be deleted if they are not empty.
 
@@ -8,7 +8,7 @@ To delete a sub-category and anything it contains or an event, select it and cli
 
 From the Management Area you can protect your category in terms of who can view it, who is its manager and who can create events in the category.
 
-![](/assets/category_protection_top.png)
+![](../assets/category_protection_top.png)
 
 *Manager(s)* can be added to a category to allow access to the Management Area for modification. Category managers are either those listed in the category protection view or Indico administrators. The creator of a category will be able to modify it without being listed.
 
@@ -25,7 +25,7 @@ Important note for the _Inheriting_ protection mode: Changing the parent's prote
 
 
 *Event creation settings*: You can restrict who is able to add events to the category. If you do so, you will need to add users or groups to the list in order to allow them to add events.
-![](/assets/category_event_creation_settings.png)
+![](../assets/category_event_creation_settings.png)
 
 
 ------------------------------------------------------------------------
