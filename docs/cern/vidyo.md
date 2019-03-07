@@ -49,14 +49,14 @@ Check your videoconference status, see how you can _Edit_ your room, _Detach_ it
 
 Click on _Join_ and you will be directed to a Vidyo page.
 
-Make sure you have VidyoDesktop **installed** before doing this. To do this, go to https://vidyoportal.cern.ch and download the client. 
+Make sure you have VidyoDesktop **installed** before doing this. To do this, go to https://vidyoportal.cern.ch and download the client.
 
 As a user, enter your name and click on _Connect_. A Vidyo window will appear.
 
 In the Vidyo window, if you hover over the screen, you can see a banner with a few options. The most useful ones are:
 
-- “Show participants” (useful for your event’s minutes). 
-- “Group chats” (a very useful area to exchange web links and make comments about the Vidyo performance itself, for example if you can’t hear what’s being said). 
+- “Show participants” (useful for your event’s minutes).
+- “Group chats” (a very useful area to exchange web links and make comments about the Vidyo performance itself, for example if you can’t hear what’s being said).
 - “Screen share” (useful for interactive discussions and for navigating through slides).
 
 In this banner you can also disable video and/or mute the audio.
@@ -68,7 +68,7 @@ Finally, you can click on the gear icon for some Vidyo configuration options, fo
 
 ## For Linux users
 
-After clicking on _Join_, a selector will appear. 
+After clicking on _Join_, a selector will appear.
 
 ![](../assets/vidyo_linux.png)
 

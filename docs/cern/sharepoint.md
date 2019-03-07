@@ -1,6 +1,6 @@
 # Creating Sharepoint web part
 
-If you maintain a Sharepoint website, it is very easy to create a web part 
+If you maintain a Sharepoint website, it is very easy to create a web part
 inside it exposing the forthcoming events from an Indico category.
 First off, you need to create an _XML web part_. After that, you should
 add a link, like the one below, to the _XML link_ part.
