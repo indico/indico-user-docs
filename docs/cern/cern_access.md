@@ -71,7 +71,7 @@ have additional section where the users can indicate they want to get the access
 ## Granting access to participants
 
 The next step will be to request a badge for each participant who needs one, under _Registration_ (or _Participants_ for meetings and lectures) in the _Organization_
-section 🡒 _Registrations_ (desired registration form).
+section &rarr; _Registrations_ (desired registration form).
 On the list of registrations you need to select the desired participants, click on the dropdown button
 _CERN Access control_ and select _Grant access_. Note that you can also revoke participants' access by choosing
 _Revoke access_.
