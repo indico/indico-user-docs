@@ -4,7 +4,7 @@
 
 A Category is a means of grouping your events or other Categories together. In Indico, *Home* is the top level category from where you start.
 
-![](/assets/home_with_categories.png)
+![](../assets/home_with_categories.png)
 
 Inside a category you can:
 
@@ -19,7 +19,7 @@ You cannot have a category that contains both sub-categories and events. You wil
 
 These features are accessible through the category management menu (you must be logged in and with management rights in the category in order to see it), that you can find to the right of your own category title. After clicking on the pencil to manage the category you will be accessing its Management area.
 
-![](/assets/category_edit_button.png)
+![](../assets/category_edit_button.png)
 
 
 ------------------------------------------------------------------------

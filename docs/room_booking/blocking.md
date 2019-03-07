@@ -11,7 +11,7 @@ To create such a blocking, go to _Block rooms_ in the Room Booking side menu and
 * Unless you want to be the only one to be able to book the blocked rooms, you can add other users or groups to the _Allowed users/groups_ list.
 * Submit the blocking after confirming that the chosen period is correct. Once you have created the blocking, the dates cannot be changed.
 
-![](/assets/room_block.png)
+![](../assets/room_block.png)
 
 When trying to book a blocked room, users in the _Allowed users/groups_ list will see that the room is blocked and the reason why but will be able to create bookings anyway. You as the creator of the blocking will always be able to override your blocking, so you don't have to add yourself to the list. The same applies to the owners of blocked rooms. They will see the blocking and a warning that the room has been blocked, but they are able to override the blocking.
 

@@ -6,7 +6,7 @@ In more detail:
 
 Acting as an Abstract **Submitter** click on _Submit new abstract_.
 
-![](/assets/conference_abstract_submit.png)
+![](../assets/conference_abstract_submit.png)
 
 Enter a _Title_ and the content of your abstract.
 
@@ -16,7 +16,7 @@ Choose the _Track_ your abstract belongs to and answer the questions present the
 
 Click on _Submit_.
 
-![](/assets/conference_abstract_submit_details.png)
+![](../assets/conference_abstract_submit_details.png)
 
 If the notification options in the Call for Abstracts have been enabled, you, as the abstract submitter, should receive an email  on successful abstract submission.
 By clicking on the Abstract name, the Submitter can see if Reviewers (normally more than one) left a positive or negative review, and if the Abstract has been accepted by a Judge.

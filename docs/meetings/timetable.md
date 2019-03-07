@@ -16,18 +16,18 @@ Type in the name and description of your session and choose the duration, for ex
 
 Once you are finished, click on _Save_.
 
-![](/assets/session-meeting.png)
+![](../assets/session-meeting.png)
 
 ### Adding a Session block
 
 Now, you will be asked to define your first _Block_.
 Type in the title of your first block, in our case “morning”, and then the start time and duration, 1 hour, starting from 11am, for example.
 
-![](/assets/add-session-block-meeting.png)
+![](../assets/add-session-block-meeting.png)
 
 Click on _Save_ to create your first block. This is your first **block** inside your first **session**.
 
-![](/assets/block-in-session.png)
+![](../assets/block-in-session.png)
 
 Now we want to create another block, inside the same session.
 To do this, click on _Add new_, and then _Session block_.
@@ -48,7 +48,7 @@ On the window, click on _Go to session block timetable_.
 
 Here, you can add a contribution, by simply clicking on _Add new_, and then on _Contribution_.
 
-![](/assets/contribution-meeting.png)
+![](../assets/contribution-meeting.png)
 
 Type in the name and description of your contribution, as well as a start time. The duration will be the one you selected before.
 
@@ -56,8 +56,8 @@ Once you’re finished, click on _Save_. This will add a contribution in the giv
 
 You can also add a contribution outside your sessions and blocks, by simply clicking on _Add new_, then on _Contribution_, and repeat the process.
 
-![](/assets/add-contribution-meeting.png)
+![](../assets/add-contribution-meeting.png)
 
 Click on _Switch to display view_ to look at your Session, your Blocks inside the session, and the Contribution in the first block.
 
-![](/assets/result-timetable-meeting.png)
+![](../assets/result-timetable-meeting.png)

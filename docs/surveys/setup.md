@@ -6,7 +6,7 @@ Click on _Create Survey_ to start the Survey definition.
 
 Choose a _Title_ for your survey and fill the introduction box with some text you want to be shown as a description.
 
-![](/assets/survey_create_1.png)
+![](../assets/survey_create_1.png)
 
 Decide whether you allow _Anonymous submissions_ or not,
 if you want to put a _limit_ on the number of _submissions_ accepted,
@@ -18,7 +18,7 @@ If you select _YES_, then type in the email addresses of the users who will rece
 
 When you are finished, click on _Save_.
 
-![](/assets/survey_create_2.png)
+![](../assets/survey_create_2.png)
 
 ## Create the questionnaire
 
@@ -38,7 +38,7 @@ Type in the _Title_ of your section and a Description explaining what you are as
 Click on _Save_ and the section will be displayed.
 
 
-![](/assets/survey_questionnaire_1.png)
+![](../assets/survey_questionnaire_1.png)
 
 
 Time to add some items to your section.
@@ -48,11 +48,11 @@ Otherwise you can add one of the actual questions that the survey participant wi
 
 In the _Add text item_ pop-up write your prompting text in the box. Click on _Save_ in order to show the text item in your section.
 
-![](/assets/survey_questionnaire_2.png)
+![](../assets/survey_questionnaire_2.png)
 
 Click on the tab _Add question_ and select the question modality that suits your needs, e.g. _Single choice_ question, as per this figure:
 
-![](/assets/survey_questionnaire_3.png)
+![](../assets/survey_questionnaire_3.png)
 
 This means that the user will be able to select only **one** from the available options.
 
@@ -63,10 +63,10 @@ If you choose radio buttons, indicate whether you want them displayed _Verticall
 
 Type in the Options that you want your participant to choose and click on _Save_ once you are finished. The figure below shows the above options selected:
 
-![](/assets/survey_questionnaire_4.png)
+![](../assets/survey_questionnaire_4.png)
 
 Now that you have created your _Section_, you can change the order of presentation of your question and item. To do this, you can drag your question or item by using the grey rectangle that will appear on the left.
 
 You can do the same with your entire section, by dragging it using the grey rectangle at the top.
 
-![](/assets/survey_sections.png)
+![](../assets/survey_sections.png)

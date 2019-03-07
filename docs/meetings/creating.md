@@ -10,7 +10,7 @@ Select your _Protection mode_. By default, this is set to _Inheriting_, meaning 
 
 Once you are finished, click on _Create Event_.
 
-![](/assets/create-meeting.png)
+![](../assets/create-meeting.png)
 
 You are now offered a page, where you see the parametres defined of your meeting, which you can change by clicking on the pencil on your right. You are advised to add a _Description_. Click on _Save_ to confirm.
 
@@ -20,7 +20,7 @@ Otherwise or in addition, you can manually insert users you want to include, by 
 
 Once you have chosen your Chairpersons, click on _Save_. The chairpersons appear, by default, as _Submitters_.
 
-![](/assets/define-meeting.png)
+![](../assets/define-meeting.png)
 
 Click on _Switch to display view_ and check if all the details of your meeting are correct.
 
