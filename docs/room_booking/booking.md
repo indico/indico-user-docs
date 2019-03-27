@@ -25,6 +25,9 @@ You can use some filters if you want your room to contain certain equipment, suc
 
 To find out more about a room, put your mouse over its picture. A series of action icons will show up: *(pre-)book*, *view details* and *add to favourites*.
 
+![](../assets/room_booking/room-close-up.png)
+
+
 If you select **book a room** you will see this window:
 
 ![](../assets/room_booking/booking.png)
