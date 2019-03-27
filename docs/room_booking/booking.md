@@ -2,7 +2,7 @@
 
 As a first step click on the button *Book a Room* in the horizontal menu. In the booking area you have to specify the kind of booking, date range and time range in which you want to search for bookings. You can also search by building number or room name if you want  to find a specific room in a specific location.
 
-If you want to book the room for only one day, simply click on *Single booking* and on the date you want by choosing the correct month and day. You will also have to choose the time interval you want to book it for.
+If you want to book the room for only one day, simply click on *Single booking* and on the date you want by choosing the correct month and day. You will also have to choose the  you want to book it for.
 
 If instead you want to book a room for several consecutive days, weeks, or months, click on *Daily* or *Recurring booking*
 
@@ -23,7 +23,7 @@ Then you will be directed in a page with all the Rooms available according to yo
 
 You can use some filters if you want your room to contain certain equipment, such as videoconference, Webcast or a Projector.
 
-To *pre-book a room, book a room, view room details* or *add a room to your favourites* put your mouse over the picture of a room and make your choice.
+To find out more about a room, put your mouse over its picture. A series of action icons will show up: *(pre-)book*, *view details* and *add to favourites*.
 
 If you select **book a room** you will see this window:
 
