@@ -25,13 +25,6 @@ You can use some filters if you want your room to contain certain equipment, suc
 
 To *pre-book a room, book a room, view room details* or *add a room to your favourites* put your mouse over the picture of a room and make your choice.
 
-If you select **pre-book a room** you will see this window:
-
-![](../assets/room_booking/pre_booking.png)
-
-
-There, you may find information about the room such as capacity and size of the room. To finalise the pre-booking, you have to fill in the *Usage* section mentioning the person for whom you are making the pre-booking and giving the reasons why you pre-book this room.
-
 If you select **book a room** you will see this window:
 
 ![](../assets/room_booking/booking.png)
@@ -39,13 +32,23 @@ If you select **book a room** you will see this window:
 There, you may find information about the room such as capacity and size of the room. To finalise the booking, you have to fill in the *Usage* section mentioning the person for whom you are making the booking and giving the reasons why you book this room.
 
 
+
+## How to pre-book a room
+
+Some rooms require owner's approval. Therefore they can only be pre-booked. If you select **pre-book a room** you will see this window:
+
+![](../assets/room_booking/pre_booking.png)
+
+
+There, you may find information about the room such as capacity and size of the room. To finalise the pre-booking, you have to fill in the *Usage* section mentioning the person for whom you are making the pre-booking and giving the reasons why you pre-book this room.
+
+## How to see room details
+
 If you select **room details** you will see one of these windows:
 
 ![](../assets/room_booking/room_details_pre_booking.png)
 
 ![](../assets/room_booking/room_details_booking.png)
-
-
 
 
 In this window, you may find information such as size,   capacity and phone number in the room. If you click on the button *book it*, you will be directed to the *book a room* or *pre-book a room* window. To know how to finalise a pre-bookig or booking, read the previous paragraphs.
