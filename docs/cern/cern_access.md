@@ -18,7 +18,7 @@ entrance, by the conference organizers.
 ## Step-by-step instructions
 
 - Create your Indico event
-- [Create a registration form](../conferences/registration_config/)
+- [Create a registration form](../conferences/registration_config.md)
 - Let users register, register them yourself, or import a participants list
 - [Activate the site access module](#requesting-authorization)
 - Optionally [setup your own badge template](#access-badge-layout)
