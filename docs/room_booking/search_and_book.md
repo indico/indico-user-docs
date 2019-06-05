@@ -1,41 +1,57 @@
-## Search and book a room
+
+
+# Searching and Booking
 
 Let’s now look at how to search for an available room based on more specific criteria.
+For this, click on *List of Rooms* in the horizontal menu.
 
-You can also search for a room based on more specific criteria. For this, click on _Search rooms_ under _Search_.
+![List of rooms](../assets/room_booking/list_of_rooms.png)
 
-![](../assets/indico_room_search_all.png)
+At the top of the page, there are some criteria you can select to filter the rooms:
 
-Write in some room details, such as the name of the person responsible for the room, if you know it, \(e.g. IT secretariat\) or some equipment that you need the room to include. Otherwise leave it blank.
-Choose the availability, for example _Available_, and decide the time period you want.
+![Filters](../assets/room_booking/list_of_rooms_filters.png)
 
-Choose the number of seats you want the room to have, and then select the criteria that you want from the extensive list, for example let’s suppose we want _Video conference: Vidyo_
 
-Simply click _Search_ once you’re finished and the next page will show you a list of the rooms that match your criteria.
+Choose the building you want and the number of seats you want the room to have. Then select the criteria that you want from the extensive list of equipment. Every time you select a criteria do not forget to click on *apply* or your criteria will not be taken into consideration.
 
-Click on _View_ for more details about the room, or click on _Create booking_ or _Create pre-booking_ (if the room requires confirmation) and you will be directed to the page that allows you to book the room, just like we have seen before.
+If you want to see only the rooms you are authorised to book or your favourite click on *Show only* and select your criteria.
 
-A _Check conflicts_ button is also available on this view, as there might be existing bookings done by others during the period you defined.
 
-If your booking conflicts with others, you have two options:
+Once you have finished, the next page will show you the list of rooms that match your criteria.
 
-* In general, it is better to resolve conflicts manually: by changing dates, hours or maybe trying another room.
-* The alternative is to automatically book everything except conflicting days. This may be useful if you do long-term, recurring booking, for example with a _Weekly_ or _Monthly_ frequency. Imagine everything looks perfect, except for several weeks when the room is not available. In this case check the _Skip conflicting dates_ option to book everything except problematic dates.
+![Favourites](../assets/room_booking/favourite.png)
 
-Another type of search you can do is searching the bookings instead of the room based on certain criteria.
-To do this, click on _Search bookings_ on the left banner.
+Place your mouse over the picture of the room which interests you and click on *see details* for more details about the room.
 
-This allows you to look at the bookings other users have made. Narrow down your search to a specific room and/or timespan, to find something suitable to your needs with least tries.
 
-If you want to look at all the bookings for a specific date for **all** the rooms, simply click on _Calendar_ from the same left banner.
+![Room Details](../assets/room_booking/list_of_room_room_detail.png)
 
-If your form is correctly filled, the system will ensure your new booking does not conflict with others. When no conflicts are found, you will be shown the confirmation page which lists the details of your booking.
 
-Click on _My bookings_ from the menu. Your new booking now appears on the list.
 
-Notes:
-* Some rooms require confirmation. These rooms are usually coded in orange. In this case, you cannot directly book them. You can only pre-book such rooms. Pre-booking works exactly the same way as booking. The only difference is that you must wait for acceptance from the room manager.
-* You can always modify your booking \(or pre-booking\). It will again be checked for conflicts.
-* You can always browse your own bookings and pre-bookings using the menu options _My bookings_ and _My pre-bookings_.
+
+There you can also Start booking or pre-booking (if the room requires confirmation) and you will be directed to the page that allows you to book the room. Complete just like we have seen before.
+
+![Pre-booking](../assets/room_booking/list_of_room_pre_booking.png)
+
+
+
+
+## Booking conflicts
+
+After your search, if you choose a room which is already booked you will see a window with an error message and you will not be able to make your booking. To solve this problem, you have two options:
+
+1. Go to the previous page and choose another room according to your criteria.
+2. Change the date or/and hours for your booking.
+
+![Room Booking Conflict](../assets/room_booking/list_of_rooms_room_detail_pre_booking_room_conflict.png)
+
+If you are making a daily booking and the room you choose is not available for one or more days you will see a warning message:
+
+![Booking Conflicts for multiple occurences](../assets/room_booking/pre_book_room_conflict.png)
+
+
+If you decide to book this room anyway you will be directed to the pre-booking/booking page. You will see another warning message telling you the number of your occurences which are in conflict with existing bookings. To finalise your pre-booking/booking you will have to check the box **"I understand, please skip any days with conflicting occurences"**. It means that you will have to find another room for the days in conflict.
+
+![Accept Booking Conflicts](../assets/room_booking/pre_booking_conflicting_occurences.png)
 
 ---
