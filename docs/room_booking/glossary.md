@@ -1,4 +1,3 @@
-
 ## Glossary
 
 _Room_: meeting or conference room. Please note that the software is not suitable for managing other rooms, like offices, corridors, etc.
@@ -7,7 +6,7 @@ _Location_: physical location of rooms. Room custom attributes and possible equi
 
 _Booking_: final reservation of a room. While considered final, it still may be rejected in case of emergency.
 
-_PRE-booking_: unconfirmed reservation of a room. PRE-booking is subject to acceptance or rejection.
+_PRE-booking_: unconfirmed reservation of a room. PRE-booking is subject to acceptance or rejection by the room's owner.
 
 _Room responsible/manager_: the person who accepts/rejects bookings. Each room has exactly one person responsible. A person may be responsible for any number of rooms.
 

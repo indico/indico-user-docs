@@ -1,12 +1,14 @@
-
-
 # Indico Room Booking
 
-This chapter describes the Indico module for booking a room for an event.
+This chapter describes Indico's **Room Booking Module**.
 
-Indico users can book a room for their conference, meeting or lecture. Bookings can also be standalone, they do not have to be bound to any event. Room managers can monitor and moderate all bookings. Indico administrators can create rooms and manage their data.
+Indico users can **book a room** for their conference, meeting or lecture. Bookings can also be **standalone**, they do not have to be bound to any event.
+Room managers can **monitor** and **moderate** all bookings. Indico administrators can **create rooms** and **manage** their data.
 
-This document is a tutorial, navigating through the pages of the room booking modules. It shows you how to assign a room to a particular event or simply to book a room on its own, without attaching it to an event. The booking can then be managed from the administration area.
+This section is a **tutorial** and will go through the features of the room booking module. It will show you how to:
 
+  * 🔍 **search** for available rooms and **book** or **pre-book** them (as a regular user)
+  * ✅ **accept** or ❌**reject** pre-bookings (as a room moderator)
+  * 🔒 **block** a series of rooms for a given period (as a room owner)
 
-
+---
