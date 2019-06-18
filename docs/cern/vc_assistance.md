@@ -17,7 +17,7 @@ In order to be able to request videoconference assistance for an event the follo
 - The event must have a videoconference (Vidyo) room attached.
 
 When creating an event from scratch, its location can be set in the dialog that is displayed. For an event that has been
-already created it can be updated in the _Settings_ page of event the management area.
+already created it can be updated in the _Settings_ page in the event management area.
 
 To create a videoconference room you should go to the _Videoconference_ page under _Services_ and create a Vidyo room.
 
