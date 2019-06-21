@@ -12,3 +12,14 @@ This section is a **tutorial** and will go through the features of the room book
   * 🔒 **block** a series of rooms for a given period (as a room owner)
 
 ---
+
+## Video
+
+Alternatively, we have a less detailed yet easier to follow **walkthrough video** you can watch:
+
+<iframe width="576"
+        height="360"
+        frameborder="0"
+        src="https://cds.cern.ch/video/2678298?showTitle=true"
+        allowfullscreen>
+</iframe>
