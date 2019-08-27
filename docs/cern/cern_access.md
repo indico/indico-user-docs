@@ -1,10 +1,26 @@
 # Providing access to the CERN site
 
-It is now mandatory for everyone at the CERN site to wear a valid access badge at all times.
+If you plan to have non-CERN participants at your event, you will have to provide them with **valid access badges**,
+in line with the Organization's [badge-wearing policy](https://smb-dep.web.cern.ch/en/Security/News/Badge_wearing).
 
-If you are organizing an event which includes non-CERN participants you will have to use Indico's registration workflow
-to __collect their personal data__ and __produce access badges__ that will allow them to enter the CERN site.
-These badges can be either printed:
+For security reasons, the Organization also requires any external participants to submit a few additional personal
+data items, which will be processed according to the Organization's data privacy policies:
+
+ * Birth Date
+ * Nationality
+ * Place of Birth
+ * License Plate (if coming by car)
+
+!!! question "*Can I collect and upload this data myself?*"
+    **No.** Indico implements a workflow that **privileges user privacy** above everything else. This process
+    was purposefully designed to avoid any "middlemen" in data processing. As convenient as such a "bulk upload"
+    solution might seem, it would also increase the likelihood of data leaks and disrespect of CERN's Privacy
+    Policies. Moreover, the current solution is **just as practical** (if not even more so).
+
+    Please note that any data collected in this context will be **directly stored in Indico** and **never displayed to the event managers**. It will only be consulted by the Indico Service Manager at the request of the site surveillance service.
+
+You will use Indico's registration workflow to **collect this personal data** and **produce access badges** that will
+allow them to enter the CERN site. These badges can be either printed:
 
 - At home by the participants and subsequently placed in a plastic cover attached to a lanyard (_Print at home_).
 - By the [CERN Printshop](https://cern.service-now.com/service-portal/article.do?n=KB0005333) and handed to them at CERN site
@@ -17,18 +33,24 @@ entrance, by the conference organizers.
 
 ## Step-by-step instructions
 
-- Create your Indico event
-- [Create a registration form](../conferences/registration_config.md)
-- Let users register, register them yourself, or import a participants list
-- [Activate the site access module](#requesting-authorization)
-- Optionally [setup your own badge template](#access-badge-layout)
-- [Grant access to individual participants](#granting-access-to-participants)
-- Optionally [print the badges yourself](#printing-badges)
+The "CERN Visitor Badges" feature can be activated at any time, which means that you **can** activate it in an event that **already has participants**. The diagram below summarizes the workflows for a new event (blue) or an existing one with participants (red):
 
-## Requesting authorization
+![Badge request workflows](../assets/access_workflow.png)
 
-In order to use the site access features, you need to request authorization by going to the management page under
-_Logistics_ in the _Services_ section → _CERN Visitor Badges_.
+In general, you will have to go through the following steps, not necessarily in this order:
+
+- Creating your Indico event
+- [Creating a registration form](../conferences/registration_config.md)
+- Letting users register, registering them yourself, or importing a participants list
+- [Activating the site access module](#activating-the-visitor-badge-module)
+- Optionally [setting up your own badge template](#access-badge-layout)
+- [Granting access to individual participants](#granting-access-to-participants)
+- Optionally [printing the badges yourself](#printing-badges)
+
+## Activating the Visitor Badge Modle
+
+In order to use the site access features, you need to activate them by going to the management page, under _Logistics_
+in the _Services_ section → _CERN Visitor Badges_.
 There are different options you should consider for your event:
 
 - _Registration forms_ - select the registration forms for which you want to generate visitor badges
@@ -135,6 +157,8 @@ on the left of each row.
 ## Providing information on behalf of the participant
 
 !!! danger "Attention"
+    This should be used **strictly in exceptional cases** (e.g. for a last minute participant). Participants should
+    **always** be invited to fill in themselves their personal information otherwise.
     If you choose to fill the personal information form on behalf of a participant, then it is your responsibility to
     make sure that the information provided is accurate and to guarantee the express consent of the person.
 
