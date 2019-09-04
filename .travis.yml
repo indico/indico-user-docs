@@ -25,6 +25,13 @@ env:
 
 script:
   - mkdocs build -c
+  - echo 'learn.getindico.io' > ./site/CNAME
 
-after_success:
-  - ./.travis/publish.sh
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  keep_history: true
+  local_dir: ./site
+  on:
+    branch: master
