@@ -6,9 +6,9 @@ _Location_: physical location of rooms. Room custom attributes and possible equi
 
 _Booking_: final reservation of a room. While considered final, it still may be rejected in case of emergency.
 
-_PRE-booking_: unconfirmed reservation of a room. PRE-booking is subject to acceptance or rejection by the room's owner.
+_Pre-booking_: unconfirmed reservation of a room. Pre-bookings are subject to acceptance or rejection by the room's owner.
 
-_Room responsible/manager_: the person who accepts/rejects bookings. Each room has exactly one person responsible. A person may be responsible for any number of rooms.
+_Room manager_: a person who has full management access to the room.
 
 _Room blocking_: a restriction created by a room manager which prevents users from booking the rooms listed in the blocking unless they have explicit permission to override the permission or own the rooms.
 
