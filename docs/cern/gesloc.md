@@ -62,3 +62,8 @@ As an owner or manager of a room, you will receive e-mail notifications about it
 receive them through the *Room notifications* option in your [Indico profile](https://indico.cern.ch/user/preferences/).
 
 ![](../assets/room_booking/email_notifications.png)
+
+Furthermore, if you still would like to mute notifications for given rooms while receiving all the others, you can use
+the **room blacklist** option.
+
+![](../assets/room_booking/email_blacklist.png)
