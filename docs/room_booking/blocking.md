@@ -2,16 +2,26 @@
 
 ## Block a room
 
-As a room manager you may create room blockings which prevent regular users from booking certain rooms. This feature can be used for special events during which only a few people should be allowed to create bookings for some rooms. If you are not a manager, you ca also block rooms. However, those blockings have to be approved by the owners of those rooms.
+!!! warning "Before you get started"
+    If you wish to **keep a room from being booked** (*because e.g. the room is closed or under construction*), then
+    you should use the **Non-bookable periods** option in the **Room Details** dialog (only available to room managers).
 
-To create such a blocking, go to List of Rooms in the Room Booking horizontal menu and follow these steps:
+**Room Blockings** prevent regular users from booking certain rooms while allowing a restricted list of users to do so.
+This feature can be used for special events which require a given room at 100% and need some kind of "room delegation"
+mechanism. You can block any rooms you manage, but if you are not a manager, **you can still block rooms**.
+However, those blockings have to be **approved** by the owners of those rooms.
 
-* Choose the period during which the rooms should be blocked by clicking the start and end date on the calendars.
-* Enter a reason for the blocking - it will be displayed to users trying to book one of the blocked rooms.
-* Add some rooms to the Rooms list. Those will be affected by the blocking.
-* Unless you want to be the only one to be able to book the blocked rooms, you can add other users or groups to the Allowed users/groups list.
-* Submit the blocking after confirming that the chosen period is correct. Once you have created the blocking, the dates cannot be changed.
+To create such a blocking, go to **List of Rooms** in the Room Booking horizontal menu and follow these steps:
 
+* Click **Actions** and then **Block Rooms**;
+* Select the rooms you wish to block;
+* Click the "checkmark" icon at the top right;
+* Choose the period during which the rooms should be blocked by selecting the start/end date under **Period**;
+* Enter a reason for the blocking - it will be displayed to users trying to book one of the blocked rooms;
+* You may add additional rooms to the room list if needed;
+* Unless you want to be the only one to be able to book the blocked rooms, you can add other users or groups to the
+**Authorized users/groups** list;
+* Click "Block selected spaces". Please note that, once you have created the blocking, the dates cannot be changed.
 
 ![Blocking](../assets/room_booking/blocking_rooms.png)
 
