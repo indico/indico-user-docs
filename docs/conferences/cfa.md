@@ -4,7 +4,7 @@ This short video shows you how to define the Call for Abstracts in Indico and op
 
 See here these steps in detail:
 
-As an event **manager** click on _Call for Abstracts_ on the left banner, under _Organization_.
+As an event **manager** click on _Call for Abstracts_ on the left banner, under _Workflows_.
 
 Click on _Enable module_ and you will be directed to your "Call for Abstracts" page.
 
