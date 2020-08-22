@@ -41,7 +41,7 @@ Click on _Judge_ to confirm.
 
 ## Abstract management
 
-From the event management page, click on _Call for Abstracts_ on the left banner, under _Organization_.
+From the event management page, click on _Call for Abstracts_ on the left banner, under _Workflows_.
 Click on _Manage_ on the right of the _List of abstracts_.
 
 As an event manager, you will see the list of all Abstracts and their status. The options at the top offer customisation possibilities, where you can decide the display criteria of this list. As the Conference event manager you may, with your privileges, undo all Judges’ decisions about Abstract acceptance.
