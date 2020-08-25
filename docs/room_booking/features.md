@@ -1,4 +1,6 @@
-### General
+# Summary of Feature Set
+
+## General
 
 General features are:
 
@@ -14,7 +16,7 @@ General features are:
   * Bookings are automatically accepted.
 
 
-### User
+## User
 
 Options available to regular users:
 
@@ -26,7 +28,7 @@ Options available to regular users:
 
 
 
-### Room Manager
+## Room Manager
 
 In addition to what a user has access to, a room manager can:
 
@@ -36,7 +38,7 @@ In addition to what a user has access to, a room manager can:
 * Accept blocking requests \(for his room\(s\)\)
 
 
-### Indico Administrator
+## Indico Administrator
 
 In addition to what a room manager has access to, an Indico Administrator can:
 
@@ -49,7 +51,7 @@ In addition to what a room manager has access to, an Indico Administrator can:
 * Manage meeting rooms \(add/modify/remove\)
 
 
-### Constraints
+## Constraints
 
 The room must have its manager. It is not possible to define multiple managers for a single room \(you can work around this by creating an Indico account shared by several people\).
 

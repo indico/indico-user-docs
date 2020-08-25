@@ -1,3 +1,5 @@
+# Having an Overview
+
 In the display page of the categories, click on the **eye**, on the  right, to see the various useful options offered like:
 - _Today's_
 - _Week's events_,

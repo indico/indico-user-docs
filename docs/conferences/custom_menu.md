@@ -1,3 +1,5 @@
+# Customizing the Conference Menu
+
 You can customise the appearance of your indico menus, by clicking on _Menu_, under the tab _Customisation_, while on management mode.
 
 Select _Yes_ on the right so that you can start customising the menus on your pages.

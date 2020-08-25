@@ -1,3 +1,5 @@
+# Creating a Category
+
 You can create a new category by clicking on *New category*.
 
 ![](../assets/category_creation.png)
