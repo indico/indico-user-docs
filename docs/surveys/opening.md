@@ -1,3 +1,5 @@
+# Opening/Closing a Survey
+
 **As a manager**, once you’ve finished creating the sections of the questionnaire, you are ready to open it!
 Click on _Surveys_ to the left.
 Now, click on _Manage_, you will be able to decide when the survey can be submitted and when it will be open.

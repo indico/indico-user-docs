@@ -1,3 +1,5 @@
+# Setting up a Survey
+
 First you will have to login in to Indico and create an **event** that matches your needs (meeting or lecture or conference). To learn how to do this, please see the relevant sections in this documentation.
 
 On your event management page, accessible by clicking on the **pencil** on the top of the event display page, select _Surveys_, which is under _Organization_ on the left banner.

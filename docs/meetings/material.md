@@ -1,3 +1,5 @@
+# Adding Material to a Meeting
+
 Click on the pencil at the top right of your screen, and click on _Material Editor_.
 
 In this window, you can _Upload files_, _Add links_, or create a new **folder** in which you will include your files.

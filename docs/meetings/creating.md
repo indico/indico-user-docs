@@ -1,3 +1,5 @@
+# Creating a Meeting
+
 First of all, make sure that you are in the Indico page and that you are logged in.
 Click on the tab _Create event_, and click on _Create meeting_.
 Click on _Choose Category_ to select the category that you want. You can type in the one that you are looking for and click on _Select_ once you have found it.
