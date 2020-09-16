@@ -36,7 +36,7 @@ Click on _List_ **(4)** to open the list of submission and assign each of them t
 
 
 ### As a submitter
-##### If Paper Peer Reviewing has been activated
+#### If Paper Peer Reviewing has been activated
 
 Once the paper is accepted, from the display view, as a submitter, click on the _Paper Peer Reviewing_ sectionof the page and click on _Submit for editing_:
 
@@ -53,7 +53,7 @@ Select the new file and then click on _Submit new revision_
 
 If you want to upload slides and/or poster(s) for editing in addition, follow the process in the next section.
 
-##### If Paper Peer Review has not been activated
+#### If Paper Peer Review has not been activated
 
 From the event display view, as a submitter, click on _My Contributions_ under _My Conference_.
 See the list of your contributions and click on the contribution for which you want to upload material.
@@ -90,4 +90,3 @@ The graph shows that you can do Peer Reviewing or Editing or both, in which case
 The Editing module is intended to enhance and extend the complex process of change management in a certain material, we recommend its usage for larger events where reviewing is a critical step. If both of them are enabled, the base philosophy is that Peer Reviewing concerns about the content and scientific correctness of the paper, whereas Editing intends to focus on the material layout, review comments or even editor suggestions.
 
 ![](../assets/editing/editing_workflow_chart.png)
-
