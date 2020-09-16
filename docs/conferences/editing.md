@@ -1,3 +1,5 @@
+# Editing
+
 This short video explains the editing process in Indico:
 
 <iframe width="576" height="360" frameborder="0" src="https://cds.cern.ch/video/2728257?showTitle=true" allowfullscreen></iframe>
