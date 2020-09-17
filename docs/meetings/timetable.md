@@ -1,3 +1,5 @@
+# Making a Timetable
+
 Click on the pencil at the top of your page to _switch to the management area_ of your event.
 
 Then, click on _Timetable_ on your left, under _Settings_.

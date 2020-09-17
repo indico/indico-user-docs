@@ -1,5 +1,3 @@
-
-
 # Viewing your Bookings and all the bookings
 
 ## Your Bookings

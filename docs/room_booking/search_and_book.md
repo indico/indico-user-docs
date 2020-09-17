@@ -1,5 +1,3 @@
-
-
 # Searching and Booking
 
 Let’s now look at how to search for an available room based on more specific criteria.

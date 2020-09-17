@@ -1,4 +1,4 @@
-## Glossary
+# Glossary
 
 _Room_: meeting or conference room. Please note that the software is not suitable for managing other rooms, like offices, corridors, etc.
 
