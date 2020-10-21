@@ -78,7 +78,7 @@ Now click on _Settings_, at the right of _Roles_ to define, as event manager, a 
 
 Below you have certain options such as allowing conveners to accept or reject an abstract, allowing comments in your review page, and allow contributors in the comments.
 
-Under _Review questions_, type in your questions, click at the disk icon on your right to save your question and click on _Add_ if you want to add a new question, for example “what is the quality of the content?"
+Under _Review questions_, type in your questions, click the disk icon on your right to save your question and click on _Add_ if you want to add a new question, for example “What is the quality of the content?"
 
 ![](../assets/conference_review_instructions.png)
 
