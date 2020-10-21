@@ -17,7 +17,7 @@ Once you are finished, click on _Create Event_.
 You are now offered a page, where you see the parametres defined of your meeting, which you can change by clicking on the pencil on your right. You are advised to add a _Description_. Click on _Save_ to confirm.
 
 Add chairpersons by clicking on the pencil on the right under _Chairpersons_.
-You can add existing users, by clicking on _Search_ and typing their name. If the person exists, you can select and add it.
+You can add existing users, by clicking on _Search_ and typing their name. If the person exists, you can select and add them.
 Otherwise or in addition, you can manually insert users you want to include, by typing in their name and email address. The email is **mandatory**.
 
 Once you have chosen your Chairpersons, click on _Save_. The chairpersons appear, by default, as _Submitters_.
