@@ -17,28 +17,30 @@ nav:
         - Creating a Category: categories/creating.md
         - Having an Overview: categories/overview.md
         - Managing a Category: categories/managing.md
-    - Lectures:
-        - Introduction: lectures/about.md
-        - Creating a Lecture: lectures/creating.md
-        - Adding Material to a Lecture: lectures/material.md
-    - Meetings:
-        - Introduction: meetings/about.md
-        - Creating a Meeting: meetings/creating.md
-        - Making a Timetable: meetings/timetable.md
-        - Adding minutes to a Meeting: meetings/minutes.md
-        - Adding material to a Meeting: meetings/material.md
-    - Conferences:
-        - Introduction: conferences/about.md
-        - Defining the Programme: conferences/programme.md
-        - Call for Abstracts: conferences/cfa.md
-        - Submitting an Abstract: conferences/submitting.md
-        - Reviewing Abstracts: conferences/reviewing.md
-        - Configuring the Registration Process: conferences/registration_config.md
-        - Registering at a Conference: conferences/registration.md
-        - Customizing the Conference Menu: conferences/custom_menu.md
-        - Customizing the Conference Page Layout: conferences/custom_layout.md
-        - Editing: conferences/editing.md
-        - Paper Peer Reviewing: conferences/peer_reviewing.md
+    - Event Management:
+        - Introduction to Events: events.md
+        - Lectures:
+            - Introduction: lectures/about.md
+            - Creating a Lecture: lectures/creating.md
+            - Adding Material to a Lecture: lectures/material.md
+        - Meetings:
+            - Introduction: meetings/about.md
+            - Creating a Meeting: meetings/creating.md
+            - Making a Timetable: meetings/timetable.md
+            - Adding minutes to a Meeting: meetings/minutes.md
+            - Adding material to a Meeting: meetings/material.md
+        - Conferences:
+            - Introduction: conferences/about.md
+            - Defining the Programme: conferences/programme.md
+            - Call for Abstracts: conferences/cfa.md
+            - Submitting an Abstract: conferences/submitting.md
+            - Reviewing Abstracts: conferences/reviewing.md
+            - Configuring the Registration Process: conferences/registration_config.md
+            - Registering at a Conference: conferences/registration.md
+            - Customizing the Conference Menu: conferences/custom_menu.md
+            - Customizing the Conference Page Layout: conferences/custom_layout.md
+            - Editing: conferences/editing.md
+            - Paper Peer Reviewing: conferences/peer_reviewing.md
     - Room Booking:
         - Introduction: room_booking/about.md
         - Accessing the Module: room_booking/accessing.md
