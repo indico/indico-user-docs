@@ -1,6 +1,6 @@
 # Managing a Category
 
-You can move sub-categories or events by selecting them using the checkoxes and clicking on the horizontal arrows on your right. You are then prompted to choose the new location of the events/sub-categories.
+You can move sub-categories or events by selecting them using the checkboxes and clicking on the horizontal arrows on your right. You are then prompted to choose the new location of the events/sub-categories.
 
 ![](../assets/category_move.png)
 
