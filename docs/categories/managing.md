@@ -1,6 +1,6 @@
 # Managing a Category
 
-You can re-allocate a sub-category or event by selecting the one you wish to move using the tick box and clicking on the horizontal arrows on your right,that show text *Move the selected category* when you point there with the mouse. You will then have to answer **where** you would like to reallocate this sub-category/event.
+You can move sub-categories or events by selecting them using the checkboxes and clicking on the horizontal arrows on your right. You are then prompted to choose the new location of the events/sub-categories.
 
 ![](../assets/category_move.png)
 
@@ -19,7 +19,7 @@ From the Management Area you can protect your category in terms of who can view 
 - *Inheriting*: The protection mode of the parent category (see breadcrumbs under the page top banner) applies, or
 - *Protected*: Only those users in the *Access control list* or administrators can access the category.
 
-When a Category has _Inheriting_ or _Protected_ mode, the manager(s) can put a text of contact information to be shows to non-authorised viewers, so users with no access will know who to contact in order to request access.
+When a Category has _Inheriting_ or _Protected_ mode, the manager(s) can define contact information to be shown to non-authorised viewers, so users with no access will know who to contact in order to request access.
 
 Important note for the _Inheriting_ protection mode: Changing the parent's protection will change the protection of its sub-categories.
 
