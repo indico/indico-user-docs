@@ -1,5 +1,8 @@
 # Create or Join a Vidyo room via Indico
 
+!!! warning
+    Vidyo will soon be phased out. Please use [Zoom](../../plugins/zoom) instead
+
 Vidyo allows users to make point-to-point calls or multipoint videoconference meetings from their desktop machines, tablets and smartphones, H323/SIP equipped meeting rooms and from traditional phone lines. This short video shows the process of creating or joining a Vidyo room via Indico.
 
 <iframe width="576" height="360" frameborder="0" src="https://cds.cern.ch/video/2276119?showTitle=true" allowfullscreen></iframe>
@@ -78,8 +81,3 @@ If you select the latter, the Vidyo Room URL will be already present. Just click
 ![](../assets/vidyo_webrtc.png)
 
 All the icons explained earlier are available to you, via this interface, as well.
-
-
-
-
-
