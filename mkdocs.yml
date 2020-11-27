@@ -57,3 +57,5 @@ nav:
     - Other features:
         - Reminders: reminders.md
         - Importing into Calendaring tools: calendar_import.md
+    - Plugins:
+        - Zoom: plugins/zoom.md
