@@ -1,8 +1,6 @@
 # Zoom Integration
 
-!!! warning
-    This feature is only available in servers where the
-    [Zoom Plugin](https://github.com/indico/indico-plugins/tree/master/vc_zoom) is installed.
+Zoom is the platform for CERN's videoconference service. It allows users to make point-to-point calls or multipoint videoconference meetings from their desktop machines, tablets and smartphones, H323/SIP equipped meeting rooms and from traditional phone lines.
 
 Indico allows meeting organisers to create a Zoom meeting and manage it directly from the management area of their
 event. Once created, the connection information of the Zoom meeting is displayed to the participants of the meeting,
@@ -68,3 +66,7 @@ it with a single click:
 
 Click on **Join** and you will be directed to a Zoom meeting page. You will then have the choice to join using the
 desktop Zoom client or its web-based version.
+
+!!! info
+    See the [dedicated Zoom@CERN web pages](https://videoconference.web.cern.ch) in order to get more information about
+    the Zoom service and how to use it.
