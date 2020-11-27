@@ -13,7 +13,7 @@ On the management page of your Indico event click on _Videoconference_ under the
 
 ![](../assets/zoom/videoconf_menu.png)
 
-Here you can _create_ a new Zoom meeting or _Add_ an existing one to your event.
+Here you can **create** a new Zoom meeting or **add** an existing one to your event.
 
 ![](../assets/zoom/videoconf_list.png)
 
@@ -28,7 +28,7 @@ will be suggested. **Select** the one you need and click on **Save**.
 
 Going back to the _Event display view_ you will see that the meeting is now attached to your event.
 
-You have the possibility to set a Zoom meeting only for a *part* of your event, by linking it to specific
+You have the possibility to assign a Zoom meeting only to a *part* of your event, by linking it to specific
 contributions or sessions only.
 
 ### Creating a new Zoom meeting
@@ -45,7 +45,7 @@ The other fields may be left as they are, but you may be interested in tuning so
   the meeting.
 
 !!! warning
-    Please remember that in Zoom the same host cannot start several meetings in parallel !
+    Please remember that in Zoom the same host cannot start several meetings in parallel!
 
 * You may also assign a **Passcode** to your meeting, if you wish. Only people who have the passcode will be able
   to join your meeting. You can decide whether the passcode should be displayed **in the clear** on the Indico page
