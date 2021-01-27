@@ -1,6 +1,8 @@
 # Zoom Integration
 
-Zoom is the platform for CERN's videoconference service. It allows users to make point-to-point calls or multipoint videoconference meetings from their desktop machines, tablets and smartphones, H323/SIP equipped meeting rooms and from traditional phone lines.
+Zoom is the platform for CERN's videoconference service. It allows users to make point-to-point calls or multipoint
+videoconference meetings from their desktop machines, tablets and smartphones, H323/SIP equipped meeting rooms and
+from traditional phone lines.
 
 Indico allows meeting organisers to create a Zoom meeting and manage it directly from the management area of their
 event. Once created, the connection information of the Zoom meeting is displayed to the participants of the meeting,
@@ -24,7 +26,7 @@ Simply click on one option then select the Zoom videoconference service.
 ### Adding an existing Zoom meeting
 
 If you just need to **Add an existing room**, start typing the name of the meeting. A list of existing Zoom meetings
-will be suggested. **Select** the one you need and click on **Save**. Please note only Zoom meetings created from 
+will be suggested. **Select** the one you need and click on **Save**. Please note only Zoom meetings created from
 this Indico server will be suggested.
 
 Going back to the _Event display view_ you will see that the meeting is now attached to your event.
@@ -70,7 +72,7 @@ desktop Zoom client or its web-based version.
 
 ### Adding oneself as alternative host
 
-If you are a manager of an Indico event and are entitled to use the Zoom service, you will have the option to add 
+If you are a manager of an Indico event and are entitled to use the Zoom service, you will have the option to add
 yourself as alternative host to any Zoom meeting linked with that Indico event.
 
 ![](../assets/zoom/videoconf_alternative_host.png)
