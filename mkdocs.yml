@@ -59,3 +59,4 @@ nav:
         - Importing into Calendaring tools: calendar_import.md
     - Plugins:
         - Zoom: plugins/zoom.md
+    - FAQ: faq.md
