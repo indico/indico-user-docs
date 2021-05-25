@@ -42,19 +42,19 @@ Indico.
 The following room attributes are **always** synchronized with CERN Locations and thus are **not meant to be updated in
 Indico**:
 
- * **Name** (incl. **Building**, **Floor** and **Number** as well as the **"familiar" name**);
- * **Site**;
- * **Owner**;
+ * **Name** (incl. **Building**, **Floor** and **Number** as well as the **"familiar" name**)
+ * **Site**
+ * **Owner**
  * **"Where is the key?"**
- * **Capacity**;
- * **Surface area**;
- * **Telephone**;
- * **Division**;
- * **Comments**;
- * **Geographical Coordinates**.
+ * **Capacity**
+ * **Surface area**
+ * **Telephone**
+ * **Division**
+ * **Geographical Coordinates**
 
 !!! warning
-    Indico will not allow you to add/remove any users/groups with management rights over the room either.
+    Indico will not allow you to add/remove any individual users with management rights over the room either. Those will
+    be set from what is defined in *AIS roles*, as mentioned above.
 
 ## E-mail notifications
 
