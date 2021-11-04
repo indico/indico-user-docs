@@ -20,6 +20,7 @@ nav:
             - Introduction: categories/managing.md
             - Protection: categories/protection.md
             - Moderation: categories/moderation.md
+            - Logging: categories/logging.md
     - Event Management:
         - Introduction to Events: events.md
         - Lectures:
