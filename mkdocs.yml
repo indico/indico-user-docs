@@ -16,7 +16,11 @@ nav:
         - Introduction: categories/about.md
         - Creating a Category: categories/creating.md
         - Having an Overview: categories/overview.md
-        - Managing a Category: categories/managing.md
+        - Managing a Category:
+            - Introduction: categories/managing.md
+            - Protection: categories/protection.md
+            - Moderation: categories/moderation.md
+            - Logging: categories/logging.md
     - Event Management:
         - Introduction to Events: events.md
         - Lectures:
