@@ -1,0 +1,25 @@
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
+  MKDOCS_VERSION: '1.2.3'
+  MATERIAL_VERSION: '8.1.8'
+
+stages:
+  - pages
+
+pages:
+  image: python:3.9-alpine
+  stage: pages
+  script:
+    - apk add --no-cache git
+    - pip install --upgrade pip setuptools wheel
+    - pip install mkdocs==${MKDOCS_VERSION} mkdocs-material==${MATERIAL_VERSION}
+    - if [[ -f requirements.txt ]]; then pip install -r requirements.txt; fi;
+    - mkdocs build -d public
+    - if [[ -f _redirects ]]; then cp _redirects public; fi;
+  artifacts:
+    paths:
+    - public
+    expire_in: 1 hour
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "cern"'
+      when: always

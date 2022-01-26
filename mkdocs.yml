@@ -1,5 +1,7 @@
 site_name: Learning Indico
+site_url: https://indico.docs.cern.ch
 theme: material
+use_directory_urls: true
 extra:
     palette:
         primary: blue
