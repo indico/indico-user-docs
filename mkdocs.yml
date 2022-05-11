@@ -41,6 +41,7 @@ nav:
             - Customizing the Conference Page Layout: conferences/custom_layout.md
             - Editing: conferences/editing.md
             - Paper Peer Reviewing: conferences/peer_reviewing.md
+        - Privacy: privacy.md
     - Room Booking:
         - Introduction: room_booking/about.md
         - Accessing the Module: room_booking/accessing.md
