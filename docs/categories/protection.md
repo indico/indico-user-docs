@@ -5,6 +5,7 @@ From the Management Area you can protect your category in terms of who can view 
 ![](../assets/category_protection.png)
 
 Users and groups can be added to a category to allow access to the Management Area for modification. Category managers are those listed with the *Manage* permission, Indico administrators, and the category creator.
+Besides users and groups, it is also possible to add custom roles as described in [Using custom roles](../custom_roles.md).
 
 ![](../assets/category_protection_edit_permissions.png)
 

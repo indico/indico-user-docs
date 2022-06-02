@@ -75,6 +75,7 @@ nav:
     - Other features:
         - Reminders: reminders.md
         - Importing into Calendaring tools: calendar_import.md
+        - Using custom roles: custom_roles.md
     - Plugins:
         - Zoom: plugins/zoom.md
     - FAQ: faq.md
