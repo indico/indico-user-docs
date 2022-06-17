@@ -1,9 +1,23 @@
 site_name: Learning Indico
-theme: material
-extra:
+theme:
+    name: material
     palette:
-        primary: blue
-        accent: light blue
+        # Palette toggle for light mode
+        - media: '(prefers-color-scheme: light)'
+          scheme: default
+          primary: blue
+          accent: blue
+          toggle:
+              icon: material/brightness-7
+              name: Switch to dark mode
+        # Palette toggle for dark mode
+        - media: '(prefers-color-scheme: dark)'
+          scheme: slate
+          primary: blue
+          accent: blue
+          toggle:
+              icon: material/brightness-4
+              name: Switch to light mode
 repo_name: 'indico/indico-user-docs'
 repo_url: 'https://github.com/indico/indico-user-docs'
 markdown_extensions:
