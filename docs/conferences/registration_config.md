@@ -36,18 +36,20 @@ Click on _Configure_ on the right of the _Registration form_ row.
 
 ![](../assets/Conference_Reg_Config_4.png)
 
-A form is offered to you by default, you can add sections to it, by clicking on _Add new_ at the top and then _Section_, e.g. select the label _Accommodation_ and click on _Add_. Then click on the _+_ sign, in your section and select the _Accomodation_ option.
+A form is offered to you by default and you can add sections to it by clicking on _Add section_. This opens a new dialog in which you can select the section title, description and whether the section is _manager-only_ i.e. whether it should be visible only to event managers.
+
+To add a field to your new section click on the _+_ sign on the right of the section title.
+Here, you are given an option to select from multiple field types. In this example, we will choose the _Accommodation_ field, however feel free to explore all the different field types that Indico offers.
+
 
 ![](../assets/Conference_Reg_Config_5.png)
 
-on caption, write “Accommodation”.
+After selecting the _Accommodation_ field, you are presented with a settings dialog.
+Here, you can select the possible arrival and departure dates. Under _Choices_, you can see the accommodation options, the default being _No accommodation_.
 
-Go to _Configuration_ on the left banner, and select a few dates available.
+To add a new accommodation option, click on _Add new_ under the list of accommodations and fill in the information including the room price and the number of places available.
 
-Then go to _Edit accomodations_ on the left banner.
-The default option is _No accomodation_, but you can change that by clicking on _Add new accomodation_ to add some, including the room price and places' limit. Enter the necessary data and click on _Add_.
-
-You can add various new fields, suitable for your event, by clicking on the "+" signs of the sections defined. The sections are drag and drop!
+Both the sections and fields support drag and drop if you wish to change the order. The drag handle is on the left of the section and field titles.
 
 When done with this configuration, click on _Back_ at the bottom of the page on the right.
 
