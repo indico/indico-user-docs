@@ -47,7 +47,7 @@ In general, you will have to go through the following steps, not necessarily in 
 - [Granting access to individual participants](#granting-access-to-participants)
 - Optionally [printing the badges yourself](#printing-badges)
 
-## Activating the Visitor Badge Modle
+## Activating the Visitor Badge Module
 
 In order to use the site access features, you need to activate them by going to the management page, under _Logistics_
 in the _Services_ section → _CERN Visitor Badges_.
