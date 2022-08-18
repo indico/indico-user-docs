@@ -21,7 +21,7 @@ This site aims at providing solutions for the most common use cases in the usage
 it aspires to be easy to understand and to follow. The contents are presented in a way that we hope will allow you to
 solve increasingly complex tasks.
 
-Some of the contents are accompanied by video tutorials which you can follow and will normally explain the same thing
+Some content is accompanied by video tutorials which you can follow and will normally explain the same thing
 in an even more visual way.
 
 ## Useful links
