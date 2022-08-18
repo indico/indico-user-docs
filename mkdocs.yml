@@ -80,5 +80,4 @@ nav:
         - Using custom roles: custom_roles.md
     - Plugins:
         - Zoom: plugins/zoom.md
-        - CAPTCHA: plugins/captcha.md
     - FAQ: faq.md
