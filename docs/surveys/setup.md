@@ -1,6 +1,6 @@
 # Setting up a Survey
 
-First you will have to login in to Indico and create an **event** that matches your needs (meeting or lecture or conference). To learn how to do this, please see the relevant sections in this documentation.
+First, you will have to login in to Indico and create an **event** that matches your needs (meeting or lecture or conference). To learn how to do this, please see the relevant sections in this documentation.
 
 On your event management page, accessible by clicking on the **pencil** on the top of the event display page, select _Surveys_, which is under _Organization_ on the left banner.
 
@@ -16,7 +16,7 @@ if you want to make the survey _public_ or reserved for a selected few,
 and whether you allow a _partial completion_ of the survey,
 
 Decide whether you want to enable email _Notifications_ related to the survey.
-If you select _YES_, then type in the email addresses of the users who will receive these notifications in the appropriate boxes, the first box for when the survey **starts**, and the second one for each time the survey is **filled** by a participant.Write one email address per line, no separators are accepted.
+If you select _YES_, then type in the email addresses of the users who will receive these notifications in the appropriate boxes, the first box for when the survey **starts**, and the second one for each time the survey is **filled** by a participant. Write one email address per line, no separators are accepted.
 
 When you are finished, click on _Save_.
 
@@ -45,8 +45,8 @@ Click on _Save_ and the section will be displayed.
 
 Time to add some items to your section.
 
-You can click on _Add text item_ if your want to include an item that only contains your informative text.
-Otherwise you can add one of the actual questions that the survey participant will have to answer.
+You can click on _Add text item_ if you want to include an item that only contains your informative text.
+Otherwise, you can add one of the actual questions that the survey participant will have to answer.
 
 In the _Add text item_ pop-up write your prompting text in the box. Click on _Save_ in order to show the text item in your section.
 

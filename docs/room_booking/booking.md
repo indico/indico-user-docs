@@ -2,20 +2,20 @@
 
 As a first step click on the button *Book a Room* in the horizontal menu. In the booking area you have to specify the kind of booking, date range and time range in which you want to search for bookings. You can also search by building number or room name if you want  to find a specific room in a specific location.
 
-If you want to book the room for only one day, simply click on *Single booking* and on the date you want by choosing the correct month and day. You will also have to choose the  you want to book it for.
+If you want to book the room for only one day, simply click on *Single booking* and on the date you want by choosing the correct month and day. You will also have to choose the duration you want to book it for.
 
 If instead you want to book a room for several consecutive days, weeks, or months, click on *Daily* or *Recurring booking*
 
 ![](../assets/room_booking/booking_area.png)
 
-If you have already used Indico Room Booking and have selected favourite rooms, your booking area will look like this picture. If you want to book only a room from your favourites check the box *search only my favourites*. To know how to add a favourite read the section below.
+If you have already used Indico Room Booking and have selected favourite rooms, your booking area will look like this picture. If you want to book only a room from your favourites, check the box *search only my favourites*. To know how to add a favourite read the section below.
 
 ![](../assets/room_booking/booking_area_favourite.png)
 
 
 
 
-Then you will be directed in a page with all the Rooms available according to your request.
+Then you will be directed to a page with all the rooms available according to your request.
 
 
 ![](../assets/room_booking/room_search.png)
@@ -54,7 +54,7 @@ If you select **room details** you will see one of these windows:
 ![](../assets/room_booking/room_details_booking.png)
 
 
-In this window, you may find information such as size,   capacity and phone number in the room. If you click on the button *book it*, you will be directed to the *book a room* or *pre-book a room* window. To know how to finalise a pre-bookig or booking, read the previous paragraphs.
+In this window, you may find information such as size,   capacity and phone number in the room. If you click on the button *book it*, you will be directed to the *book a room* or *pre-book a room* window. To know how to finalise a pre-booking or booking, read the previous paragraphs.
 
 If you select **add to favourites** the room will be placed in your favourites' list. For your next booking, you could find all your favourite rooms by selecting this option in the filters' menu or ticking the box *search only my favourites* in the booking area of the first page.
 

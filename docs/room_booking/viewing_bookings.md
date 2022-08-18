@@ -4,7 +4,7 @@
 
 ![My bookings](../assets/room_booking/my_bookings_3.png)
 
-You can view the bookings or pre-bookings that you made by going under the My bookings section of the Room Booking side menu.
+You can view the bookings or pre-bookings that you made by going under the *My bookings* section of the Room Booking side menu.
 
 ## All the bookings
 
@@ -25,6 +25,6 @@ If you want to see only the rooms you are authorised to book or your favourite c
 
 Once you have finished, the next page will show you the list of rooms that match your criteria.
 
-This option can help you to do a last minute room booking or to solve a booking conflict. You can see easily the name of the colleagues who booked the rooms and send him an email to try to find a solution for the conflict if you really need this room and no one else can correspond to your criteria.
+This option can help you to do a last minute room booking or to solve a booking conflict. You can see easily the name of the colleagues who booked the rooms and email them to try to find a solution for the conflict if you really need this room and no one else can correspond to your criteria.
 
 ---

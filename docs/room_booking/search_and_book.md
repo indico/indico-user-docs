@@ -27,7 +27,7 @@ Place your mouse over the picture of the room which interests you and click on *
 
 
 
-There you can also Start booking or pre-booking (if the room requires confirmation) and you will be directed to the page that allows you to book the room. Complete just like we have seen before.
+There you can also start booking or pre-booking (if the room requires confirmation) and you will be directed to the page that allows you to book the room. Complete just like we have seen before.
 
 ![Pre-booking](../assets/room_booking/list_of_room_pre_booking.png)
 
@@ -45,10 +45,10 @@ After your search, if you choose a room which is already booked you will see a w
 
 If you are making a daily booking and the room you choose is not available for one or more days you will see a warning message:
 
-![Booking Conflicts for multiple occurences](../assets/room_booking/pre_book_room_conflict.png)
+![Booking Conflicts for multiple occurrences](../assets/room_booking/pre_book_room_conflict.png)
 
 
-If you decide to book this room anyway you will be directed to the pre-booking/booking page. You will see another warning message telling you the number of your occurences which are in conflict with existing bookings. To finalise your pre-booking/booking you will have to check the box **"I understand, please skip any days with conflicting occurences"**. It means that you will have to find another room for the days in conflict.
+If you decide to book this room anyway, you will be directed to the pre-booking/booking page. You will see another warning message telling you the number of your occurrences which are in conflict with existing bookings. To finalise your pre-booking/booking you will have to check the box **"I understand, please skip any days with conflicting occurrences"**. It means that you will have to find another room for the days in conflict.
 
 ![Accept Booking Conflicts](../assets/room_booking/pre_booking_conflicting_occurences.png)
 
