@@ -78,5 +78,5 @@ yourself as alternative host to any Zoom meeting linked with that Indico event.
 ![](../assets/plugins/zoom/videoconf_alternative_host.png)
 
 !!! info
-    See the [dedicated Zoom@CERN web pages](https://videoconference.web.cern.ch) in order to get more information about
+    See the [dedicated Zoom@CERN web pages](https://videoconference.docs.cern.ch) in order to get more information about
     the Zoom service and how to use it.
