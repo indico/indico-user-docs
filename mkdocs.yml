@@ -61,7 +61,9 @@ nav:
             - Customizing the Conference Page Layout: conferences/custom_layout.md
             - Editing: conferences/editing.md
             - Paper Peer Reviewing: conferences/peer_reviewing.md
+            - Programme Codes: conferences/programme_codes.md
         - Privacy: privacy.md
+        - Event Series: event_series.md
     - Room Booking:
         - Introduction: room_booking/about.md
         - Accessing the Module: room_booking/accessing.md

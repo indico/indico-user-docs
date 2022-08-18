@@ -9,9 +9,9 @@ Click on _Choose Category_ to select the category that you want. You can type in
 
 ![](../assets/lecture_category_select.png)
 
-Then, type in the _Title_ for your lecture and choose the _Date_ of your event. By clicking on _Add occurrence_ you can add more dates of the same lecture series. Do the same for the hour of the day and the duration of your event.
+Then, type in the _Title_ for your lecture and choose the _Date_ of your event. By clicking on _Add occurrence_ you can add more dates of the same lecture series. Do the same for the hour of the day and the duration of your event. You can learn more about event series [here](../event_series.md).
 
-![](../assets/lecture_occurence.png)
+![](../assets/lecture_occurrence.png)
 
 Adjust, if needed, the timezone to reflect the region your lecture takes place.
 You may choose the _Location_ of your event. If you are offered a  meeting rooms’ list to choose from, please **remember** that room reservation has to be done separately.
