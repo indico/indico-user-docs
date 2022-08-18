@@ -6,7 +6,7 @@ Indico makes it possible to link multiple events together in an _Event series_. 
 
 ### Creating an event series
 
-Lecture series can be created directly by adding an [_occurence_](../lectures/creating) in the creation dialog, but it is possible to create an event series from **any** events.
+Lecture series can be created directly by adding an [_occurrence_](../lectures/creating) in the creation dialog, but it is possible to create an event series from **any** events.
 
 To create a series from existing events, select one of the events and navigate to the management area. From the event actions in the top right corner, choose _Create series_.
 

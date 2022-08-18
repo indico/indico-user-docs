@@ -50,6 +50,6 @@ If you are making a daily booking and the room you choose is not available for o
 
 If you decide to book this room anyway, you will be directed to the pre-booking/booking page. You will see another warning message telling you the number of your occurrences which are in conflict with existing bookings. To finalise your pre-booking/booking you will have to check the box **"I understand, please skip any days with conflicting occurrences"**. It means that you will have to find another room for the days in conflict.
 
-![Accept Booking Conflicts](../assets/room_booking/pre_booking_conflicting_occurences.png)
+![Accept Booking Conflicts](../assets/room_booking/pre_booking_conflicting_occurrences.png)
 
 ---
