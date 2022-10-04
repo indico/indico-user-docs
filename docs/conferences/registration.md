@@ -12,7 +12,7 @@ As a user, candidate Conference participant, you can place a Registration or an 
 
 On the event overview page, click on _Apply now_.
 
-Fill out the form, e.g selecting your preferred options for _Accomodation_, the _Arrival_ and the _Departure date_.
+Fill out the form, e.g selecting your preferred options for _Accommodation_, the _Arrival_ and the _Departure date_.
 
 Click on _Apply_ once you’re finished. You may need to wait for event manager's approval, if the moderation option is enabled.
 
