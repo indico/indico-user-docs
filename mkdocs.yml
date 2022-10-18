@@ -57,8 +57,10 @@ nav:
             - Registering at a Conference: conferences/registration.md
             - Customizing the Conference Menu: conferences/custom_menu.md
             - Customizing the Conference Page Layout: conferences/custom_layout.md
-            - Editing: conferences/editing.md
-            - Paper Peer Reviewing: conferences/peer_reviewing.md
+            - Paper reviewing:
+                - Introduction: conferences/papers/introduction.md
+                - Paper Peer Reviewing: conferences/papers/peer_reviewing.md
+                - Editing: conferences/papers/editing.md
             - Programme Codes: conferences/programme_codes.md
         - Privacy: privacy.md
         - Event Series: event_series.md
