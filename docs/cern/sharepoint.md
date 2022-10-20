@@ -8,7 +8,7 @@ add a link, like the one below, to the _XML link_ part.
 ```
 https://indico.cern.ch/export/categ/5883.xml?from=today&to=tomorrow
 ```
-(for more, see [HTTP Export API](https://docs.getindico.io/en/latest/http_api/))
+(for more, see [HTTP Export API](https://docs.getindico.io/en/latest/http-api/))
 
 After that, simply add the link below in the _XSL link_:
 
