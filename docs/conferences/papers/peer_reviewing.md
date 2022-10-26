@@ -63,9 +63,8 @@ process is enabled.
 
 ![](../../assets/papers/peer_reviewing/reviewing_processes.png)
 
-In addition, it is possible to set a reviewing deadline for both content and layout reviewing. If a deadline is a set, an information box will appear in the reviewing area
-informing reviewers about the deadline. The deadline can also be enforced, which in on top of displaying the deadline will also prevent reviewers from adding
-reviewers after the specified deadline.
+In addition, it is possible to set a reviewing deadline for both content and layout reviewing. If a deadline is set, an information box will appear in the reviewing area
+informing reviewers about the deadline. The deadline can also be enforced, which will also prevent reviewing after the specified date.
 
 To set a reviewing deadline, click on the _Deadline_ button next to the reviewing process for which you want to set the deadline:
 
@@ -77,7 +76,7 @@ This is what reviewers see when the deadline is set:
 
 Reviewers can also be presented with custom questions when leaving a review on a paper.
 This can be useful when extra information besides accepting/rejecting a paper is needed from a reviewer.
-There are three types of questions that can be used:
+There are the three types of questions that can be used:
 
 - A rating
 - A yes/no question
@@ -116,8 +115,8 @@ papers after the deadline.
 The reviewing settings let you configure an announcement, set the scale for rating questions (explained in previous sections) and manage email notifications.
 The announcement can be used to display a message on the peer reviewing page for reviewers to see.
 
-Email notifications let you configure who and under which circumstances
-should receive an email. For example, you might want to email a judge when a paper is reviewed. The most common notifications are turned on by default, but you can fine tune them as you need. We will cover how to designate reviewers and judges and how to assign them to papers in the following sections.
+Email notifications lets you configure who and under which circumstances
+should receive an email — for example, whether you want a judge to be notified when a paper is reviewed. The most common notifications are turned on by default, but you can fine tune them as you need. We will cover how to designate reviewers and judges and how to assign them to papers in the following sections.
 
 To open the reviewing settings, click on the _Settings_ button next to _Reviewing settings_.
 
@@ -127,16 +126,16 @@ To open the reviewing settings, click on the _Settings_ button next to _Reviewin
     The content and layout reviewer columns in the email notification settings are only visible if the corresponding process is enabled.
 
 Here is a screenshot of what an announcement may look like.
-The announcement editor supports basic styles (via Markdown) and you can also embed images using a link.
+The announcement editor supports basic styles via Markdown. You can also embed images using a link.
 
 ![](../../assets/papers/peer_reviewing/announcement.png)
 
 #### Setting up reviewing teams
 
-Before you can assign papers to reviewers and judges, it is necessary to set up the reviewing teams.
-This essentially designates who has the right to review and/or judge a paper.
+Before you can assign papers to reviewers and judges, it is necessary to set up reviewing teams.
+These designate who has the right to review and/or judge a paper.
 
-To start, click on the _Teams_ button next to _Reviewing teams_.
+To get started, click on the _Teams_ button next to _Reviewing teams_.
 
 ![](../../assets/papers/peer_reviewing/teams.png)
 

@@ -111,7 +111,7 @@ Once done, click on _Submit_ to create a new file type. If you need to edit the 
 
 In case you have complex submission requirements based on file types, you can benefit from setting up reviewing conditions. An example where reviewing conditions are useful would be a conference requiring authors to submit either a PDF or a Word document with a CSV file attached. Since you want the authors to be able to choose between PDF and Word, you cannot make either of the file types required. However, you still want that at least one of them submitted. Reviewing conditions allow you to easily express complex conditions such as this one.
 
-Note that these conditions will not outright prevent authors from uploading incomplete submissions, but the timeline of the editable will display a warning when the reviewing conditions are not met.
+Note that these conditions will not outright prevent authors from uploading incomplete submissions, but rather the timeline of the editable will display a warning until the reviewing conditions are met.
 
 To add a new condition, click on _Configure_ next to _Ready for review conditions_ in the management page of your chosen editable type.
 
@@ -139,7 +139,7 @@ If the conditions are not met, authors and editors alike will see a warning on t
 
 #### Setting up the editing team
 
-The Editing module lets you set up the editing team which is similar to the reviewing teams in the Peer Reviewing module.
+The Editing module lets you set up an editing team. This feature is similar to the reviewing teams in the Peer Reviewing module.
 Only users added to the editing team can view the list of editables and review them.
 Unlike the Peer Reviewing module, there is no separation between reviewers and judges - editors have the role of both.
 
