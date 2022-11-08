@@ -73,7 +73,7 @@ Indico allows you to automatically delete registration data after a set amount o
 A retention period can be set registration-wide which then applies to the whole registration form. Once this period expires, 
 all registrations are automatically deleted along with any data, including the participant list.
 
-In conjuction, it is also possible to set a retention period for individual registration fields. This granularity is useful in case some fields need to be kept while others can be deleted. Once the retention period expires, only the data of the field where the retention period was set is deleted.
+In conjunction, it is also possible to set a retention period for individual registration fields. This granularity is useful in case some fields need to be kept while others can be deleted. Once the retention period expires, only the data of the field where the retention period was set is deleted.
 
 The retention period is counted relative to the end date of the event.
 
