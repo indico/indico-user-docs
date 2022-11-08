@@ -7,7 +7,7 @@ In this part, we will cover how to create and manage sessions from the organizer
 
 ### Creating a session type
 
-Before creating a session, we will first create a session type. Session types can be used to better organize your sessions. To create a new session type, navigate to the management area of an event and select _Sessions_ under _Organization_.
+Before creating a session, we will first create a session type. Session types can help you better organize your sessions but they are not required unless you want to use poster sessions (see the [timetable page](./timetable.md) for more details). To create a new session type, navigate to the management area of an event and select _Sessions_ under _Organization_.
 
 ![](../assets/conferences/sessions/sessions_management.png)
 
@@ -19,7 +19,7 @@ In the new dialogue, click on _New session type_ and select a name.
 
 ![](../assets/conferences/sessions/add_session_type.png)
 
-If you toggle _Poster_, any session with this session type will become a poster session. When creating a timetable for a poster session, all contributions in a session block are automatically scheduled in parallel with the same start time and duration.
+If you toggle _Poster_, any session with this session type will become a poster session. When creating a timetable for a poster session, all contributions in a session block are automatically scheduled in parallel with the same start time and duration. See the [timetable page](./timetable.md) to learn more about session blocks and poster sessions.
 
 ### Creating a session
 
@@ -43,11 +43,11 @@ From the list, you can quickly change the session type. To remove a session type
 
 ![](../assets/conferences/sessions/set_session_type.png)
 
-You can see the scheduled session blocks in each session in the column _Blocks_. To upload material to the session, click on the link in the column named _Material_. This will bring up a dialogue window where you can upload files to the session.
+You can see the scheduled session blocks in each session in the column _Blocks_. To upload material to the session, click on the link in the column named _Material_. This will bring up a dialogue window where you can upload files to the session. Note that this adds the files to the whole session, not to a session block.
 
 ![](../assets/conferences/sessions/blocks_material.png)
 
-The uploaded files will be visible in the event timetable in the corresponding session. The files are available in the session details under _Presentation materials_. 
+The uploaded files will be visible in the event timetable in every session block belonging to that session. The files are also available in the session details under _Presentation materials_.
 
 ![](../assets/conferences/sessions/material.png)
 
