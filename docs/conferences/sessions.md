@@ -7,7 +7,9 @@ In this part, we will cover how to create and manage sessions from the organizer
 
 ### Creating a session type
 
-Before creating a session, we will first create a session type. Session types can help you better organize your sessions but they are not required unless you want to use poster sessions (see the [timetable page](./timetable.md) for more details). To create a new session type, navigate to the management area of an event and select _Sessions_ under _Organization_.
+Before creating a session, we will first create a session type. Session types can help you better organize your sessions but they are not required unless you want to use poster sessions (see the [timetable page](./timetable.md) for more details).
+
+To create a new session type, navigate to the management area of an event and select _Sessions_ under _Organisation_.
 
 ![](../assets/conferences/sessions/sessions_management.png)
 
@@ -23,12 +25,12 @@ If you toggle _Poster_, any session with this session type will become a poster 
 
 ### Creating a session
 
-To create a session, navigate to the management area of an event and select _Sessions_ under _Organization_. This page shows the list of all your sessions. To create a new session, click on _Add new session_ in the top menu.
+To create a session, navigate to the management area of an event and select _Sessions_ under _Organisation_. This page shows the list of all your sessions. To create a new session, click on _Add new session_ in the top menu.
 
 ![](../assets/conferences/sessions/create_session.png)
 
 In the dialogue window, fill in the title and optionally the remaining fields. You can select the session type from the dropdown in the _Type_ field. These are the session types we created previously. The _Default contribution duration_ field controls the default duration of contributions you schedule in this session.
-You may also choose a default location for session blocks in this session. The available locations come from the [room booking module](../room_booking/about.md). If you don't select any location, the location of the event is used as a default instead. Once you have filled in the dialogue, click on _Save_ to create the session.
+You may also choose a default location for session blocks in this session. The available locations come from the [Room booking module](../room_booking/about.md). If you don't select any location, the location of the event is used as a default instead. Once you have filled in the dialogue, click on _Save_ to create the session.
 
 ![](../assets/conferences/sessions/create_session_2.png)
 
@@ -85,3 +87,5 @@ Session coordinators are a role which comes with extra rights. They can manage t
 On the other hand, session conveners are more similar to contribution speakers in that they do not gain any extra rights over the session. Session conveners are merely the people displayed in the timetable in the top right of each session block:
 
 ![](../assets/conferences/sessions/conveners.png)
+
+See the [timetable page](./timetable.md) to learn how to assign conveners to session blocks.
