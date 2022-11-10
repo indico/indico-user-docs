@@ -14,7 +14,7 @@ To schedule a contribution, first navigate to _Timetable_ in the management area
 
 ![](../assets/meetings/timetable/timetable_open.png)
 
-To create a new contribution, click on _Add new_ and select _Contribution_ from the dropdown menu.
+To create a new contribution, click on _Add new_ in the top right corner and select _Contribution_ from the dropdown menu.
 
 ![](../assets/meetings/timetable/contribution_select.png)
 
@@ -28,5 +28,5 @@ If you want to allow the speakers to [add minutes](./minutes.md) or [upload file
 
 When you are done filling in the data, click _Save_ to schedule the contribution. Once created, you can drag the contribution up down in the timetable to change its start time.
 
-You can repeat this step to create a contribution for every discussion item in your meeting.
+You can repeat this step to create a contribution for every discussion item in your meeting. To learn more about the timetable, you can continue reading [here](../conferences/timetable.md).
 

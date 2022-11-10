@@ -19,7 +19,7 @@ An example of a meeting timetable might look like this:
 
 ![](../assets/meetings/timetable/finished_timetable.png)
 
-This timetable only uses contributions and breaks. Many meetings are relatively simple and don't require the use of session blocks which are normally used in conferences, however it is still possible to use them nonetheless.
+This timetable only uses contributions. Many meetings are relatively simple and don't require the use of breaks or session blocks which are normally used in conferences, however it is still possible to use them nonetheless.
 
 An example conference timetable might look like this:
 
@@ -31,27 +31,27 @@ Using the detailed view:
 
 In this timetable, there is one top-level contribution (Welcome speech) and two sessions (Talks & Workshops). The _Talks_ session has two scheduled session blocks, morning and afternoon, with several contributions in each block. There is also a break between the two blocks. The Workshops session has only one scheduled session block with several contributions in it.
 
-Note that despite the event having two sessions, the timetable only contains sessions blocks as sessions cannot be scheduled directly. Even if a session has only session block like the _Workshops_ session in the example, a session blocks needs to be created regardless.
+Note that despite the event having two sessions, the timetable only contains sessions blocks as sessions cannot be scheduled directly. Even if a session has only one session block like the _Workshops_ session in the example above, a session block needs to be created regardless.
 
-Besides contributions, there exist also subcontributions which can be created inside a contribution. However, these are simply part of its parent contribution and cannot be individually scheduled. 
+Besides contributions, there exist also subcontributions which can be created inside a contribution. However, these are simply part of its parent contribution and cannot be individually scheduled in the timetable. 
 
 ### Creating a timetable
 
 In this section, we will show how to create an event timetable using session blocks, contributions and breaks.
 
-Note that contributions have a slightly different behaviour in meetings and conferences. In a meeting, a contribution is an entry in the timetable representing a talk or a discussion item and it has no other purpose outside the timetable. In conferences, contributions are much more versatile and besides the timetable, they are also used for the Call for abstracts and the Peer reviewing and Editing modules.
+Note that contributions have a slightly different behaviour in meetings and conferences. In a meeting, a contribution is an entry in the timetable representing a talk or a discussion item and it has no other purpose outside the timetable. In conferences, contributions are much more versatile and besides the timetable, they are also used for the [Call for abstracts](./cfa.md) and the [Peer reviewing](./papers/introduction.md) and [Editing](./papers/introduction.md) modules.
 
 #### Contributions
 
-We will start with the simplest case, which is simply adding contributions to the timetable without using any session blocks. To schedule a contribution, first navigate to _Timetable_ in the management area of your event.
+We will start with the simplest case, which is adding contributions to the timetable without using any session blocks.
 
-This opens the top-level view of the timetable. If your event lasts multiple days, you will see at the top tabs with multiple days. Switching between them will show you the programme for the given day.
+To schedule a contribution, first navigate to _Timetable_ in the management area of your event. This opens the top-level view of the timetable. If your event lasts multiple days, you will see at the top several tabs, each representing one day of the timetable. Switching between them will show you the programme for the given day.
 
 ![](../assets/conferences/timetable/timetable_days.png)
 
 The days you will see here depend on the start and end date of your event.
 
-To add a contribution, select a day and click on _Add new_ in the top right and then select _Contribution_ from the dropdown menu.
+To add a contribution, select a day and click on _Add new_ in the top right corner of the timetable and then select _Contribution_ from the dropdown menu.
 
 ![](../assets/conferences/timetable/add_contrib.png)
 
@@ -63,11 +63,11 @@ If you cannot find the contribution you want to schedule in the list, make sure 
 
 ![](../assets/conferences/timetable/no_session.png)
 
-The timetable also allows creating and scheduling a contribution at the same time. To do so, click again on _Add new_ and select _Contribution_ from the dropdown. Click on _Create a new one_ at the top of the dialogue.
+The timetable also allows creating and scheduling a contribution at the same time. To do so, click again on _Add new_ and select _Contribution_ from the dropdown. Then, click on _Create a new one_ at the top of the dialogue.
 
 ![](../assets/conferences/timetable/create_contrib.png)
 
-A new dialogue window will open where you must fill at least the title, start time and the duration of the contribution. In the _People_ field, you may add speakers, authors and co-authors. If you add speakers, they will be displayed under the contribution in the timetable.
+A new dialogue window will open where you must fill at least the title, start time and the duration of the contribution. In the _People_ field, you may add speakers, authors and co-authors. If you add speakers, they will be displayed under the contribution in the timetable. If you are creating a meeting timetable only speakers will be available here.
 
 ![](../assets/conferences/timetable/create_contrib_dialog.png)
 
@@ -76,11 +76,13 @@ When finished, click _Save_ and the contribution will be automatically scheduled
 !!! note
     If you have no contributions that can be scheduled, or you are creating a meeting timetable, the form to create a new contribution will open directly after clicking on _Add new_ -> _Contribution_.
 
-If you wish to change the start time of a contribution, you can simply drag it up or down in the timetable. To change the duration of a contribution, click and drag the bottom edge of the contribution. Alternatively, you can use the up and down buttons, which become visible when you hover over any item in the timetable:
+If you wish to change the start time of a contribution, you can simply drag it up or down in the timetable. Alternatively, you can use the up and down buttons, which become visible when you hover over any item in the timetable:
 
 ![](../assets/conferences/timetable/move_up_down.png)
 
-Clicking on a contribution in the timetable brings up a window showing some basic information about and lets you manage its settings. You can set the starting time and duration by clicking on the contribution and then clicking on the time:
+To change the duration of a contribution, click and drag the bottom edge of the contribution.
+
+Clicking on a contribution in the timetable brings up a window showing some basic information about it and lets you manage its settings. You can also set the starting time and duration by clicking on the contribution and then clicking on the time:
 
 ![](../assets/conferences/timetable/adjust_start_duration.png)
 
@@ -114,11 +116,11 @@ To add a new session block, click on _Add new_ and select _Session block_ from t
 
 ![](../assets/conferences/timetable/session_block.png)
 
-Under _Add another block to_, you can select the parent session. Clicking on _Create new session_ will first create a completely new session and then a new session block inside it.
+Under _Add another block to_, you can select the parent session. Clicking on _Create new session_ will first create a completely new session and then a new session block inside it. You can also create sessions from the _Sessions_ tab - see more details [here](./sessions.md).
 
-After selecting a session, a session block dialogue will open. Fill in the start time and duration and optionally the remaining fields. The session block title is optional. If you leave it empty, the session block will display the session title only. In the _Location_ field, you can select a location from the room booking module, if applicable.
+After selecting a session, a session block dialogue will open. Fill in the start time and duration and optionally the remaining fields. The session block title is optional. If you leave it empty, the session block will display the session title only. In the _Location_ field, you can select a location from the [Room booking module](../room_booking/about.md), if applicable.
 
-Finally, you can also add _Conveners_ to the session block. These are distinct from session coordinators, as explained [here](./sessions.md). Session conveners have no extra rights, similar to contribution speakers. Session conveners are displayed in the top right of the session block.
+Finally, you can also add _Conveners_ to the session block. These are distinct from session coordinators, as explained [here](./sessions.md). Session conveners have no extra rights, similar to contribution speakers. Session conveners are displayed in the top right corner of their session block.
 
 ![](../assets/conferences/timetable/block_dialog.png)
 
@@ -137,11 +139,11 @@ It is also possible to manage the session settings and protection directly from 
 !!! note
     A session block cannot span multiple days. If your session takes place over several days, create one session block for each day.
 
-Session blocks are by default created empty. In order to schedule a contribution or a break in the session block, we must first navigate to the session block timetable. To do so, click on a session block and select _Go to session block timetable_.
+Session blocks are by default created empty. In order to schedule a contribution or a break in a session block, first navigate to the session block timetable. To do so, click on a session block and select _Go to session block timetable_.
 
 ![](../assets/conferences/timetable/block_timetable.png)
 
-This opens a new page which shows session block timetable. The name of the block you are currently viewing is displayed in the top right. You can always get back to the full timetable by clicking on _Up to timetable_.
+This opens a new page which shows the session block timetable. The name of the block you are currently viewing is displayed in the top right. You can always get back to the full timetable by clicking on _Up to timetable_.
 
 ![](../assets/conferences/timetable/up_to_timetable.png)
 
@@ -159,9 +161,9 @@ To delete a session block, click on a session block and then click on the bin ic
 
 ##### Poster sessions
 
-Scheduling works differently if a session block belongs to a poster session (more details on poster sessions [here](./sessions.md)). If that is the case, any contributions inside the block are treated as posters and are scheduled in parallel, with the start and end time being the same as the parent session block. In addition, it is not possible to add a break inside a poster session.
+Scheduling works differently if a session block belongs to a poster session (more details on how to create poster sessions [here](./sessions.md)). If that is the case, contributions inside the block are treated as posters and are automatically scheduled in parallel, with the start and end time being the same as the parent session block. In addition, it is not possible to add a break inside a poster session.
 
-To schedule a contribution in a poster session, click on _Add poster_ in the top right and select the contributions you want to schedule:
+To schedule a contribution in a session block belonging to a poster session, click on _Add poster_ in the top right and select the contributions you want to schedule:
 
 ![](../assets/conferences/timetable/add_poster.png)
 
@@ -181,7 +183,7 @@ You can always edit these details later by clicking on the break, which opens a 
 
 ![](../assets/conferences/timetable/edit_break.png)
 
-To change the start time, a break can be dragged up and down just like a contribution. A duration can be adjusted by dragging the bottom edge of the break. Just like contributions, breaks can also be moved to different days or into session blocks, either by clicking on the _Move_ icon or by dragging the break over a session block.
+To change the start time, a break can be dragged up and down just like contributions and session blocks. A duration can be adjusted by dragging the bottom edge of the break. Like contributions, breaks can also be moved to different days or into session blocks, either by clicking on the _Move_ icon or by dragging the break over a session block.
 
 To delete a break, click on the bin icon and confirm by clicking _OK_.
 
@@ -200,7 +202,7 @@ To start, select either the top-level timetable or a session block timetable and
 ![](../assets/conferences/timetable/reschedule.png)
 ![](../assets/conferences/timetable/reschedule_dialog.png)
 
-Here, you can either adjust the starting time or the duration. If you choose to adjust the starting time, the first entry in the timetable will be moved so that its start time is the same as the start time of the event. In the case of a session block, the entry will be moved to start when the session block starts. All other entries will be 'stacked' after the first entry to completely fill the gaps between the entries.
+You can either adjust the starting time or the duration. If you choose to adjust the starting time, the first entry in the timetable will be moved so that its start time is the same as the start time of the event. In the case of a session block, the entry will be moved to start when the session block starts. All other entries will be 'stacked' after the first entry to completely fill the gaps between the entries.
 
 This is an example session block timetable before adjusting the start time:
 
@@ -211,7 +213,7 @@ And this is the final result. Notice that the start time was moved from 16:00 to
 ![](../assets/conferences/timetable/after_reschedule_start_time.png)
 
 The second rescheduling option, which adjusts the duration of all entries, fills the empty gap between each pair of entries by extending their duration but keeping the start time unchanged.
-If we use the previous example and adjust the durations, we will get his end result:
+If we use the previous example and adjust the durations, we will get this end result:
 
 ![](../assets/conferences/timetable/after_reschedule_duration.png)
 
@@ -244,7 +246,7 @@ You can also fit to content all session blocks in a specific day by clicking on 
 
 ### Making the timetable public (conferences only)
 
-By default, event contributions are in 'Draft mode'. This means that that regular users cannot see the list of contributions, the timetable, the book of abstracts and the author and speaker list. The draft mode exists to prevent participants from seeing the timetable while it's being created.
+By default, event contributions are in 'Draft mode'. This means that regular users cannot see the list of contributions, the timetable, the book of abstracts and the author and speaker list. The draft mode exists to prevent participants from seeing the timetable while it's being created.
 
 When you want to make the timetable public, you can turn off the draft mode. To do so, navigate to the _Contributions_ page and toggle _Draft_ in the top right corner.
 
