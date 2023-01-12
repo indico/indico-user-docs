@@ -27,3 +27,11 @@ To modify an existing series, simply open the dialog again, make your changes an
 Event cloning is aware of your event series and will automatically add cloned events to the event series. It is also possible to set an _Event title pattern_ in the settings page which will be used to generate the event title of the cloned event. The title needs to use a placeholder `{n}` which will be substituted for the position of the event in the series. For example, if the title pattern is `Monthly meeting {n}` the title will become _Monthly meeting 3_ if the cloned event is the third event in the series (cloned events are added to the end of a series).
 
 ![](assets/event_series/title-pattern.png)
+
+### Exporting a series to a calendar
+
+Indico already allows you to synchronize events and categories with external calendar applications.
+If you instead wish to synchronize all events in an event series, first navigate to any event in the event series you want to synchronize.
+In the top left, click on _Export_ and in the popup enable _Export all events in this event series_ under _Export options_. Now both the URL and the downloaded ical file will include all events in the series. If you use the URL, new events added to the series will be automatically added to you calendar.
+
+![](assets/event_series/ical-export.png)
