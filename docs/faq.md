@@ -19,6 +19,8 @@ the institute you now work for.
 Likewise, if you have two jobs, one at University X and another at Company Y and are listed as speaking on behalf of
 Company Y at a conference, you won't want that information to be overridden once you change your main affiliation.
 
+You can read more about how Indico manages user information [here](./conferences/people.md).
+
 
 ## I'd like to use Indico in my institution. Do I have to pay? How do I get an account?
 
