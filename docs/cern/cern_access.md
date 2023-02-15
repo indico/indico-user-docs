@@ -1,7 +1,7 @@
 # Providing access to the CERN site
 
 If you plan to have non-CERN participants at your event, you will have to provide them with **valid access badges**,
-in line with the Organization's [badge-wearing policy](https://smb-dep.web.cern.ch/en/Security/News/Badge_wearing).
+in line with the Organization's [badge-wearing policy](https://home.cern/news/official-news/cern/visible-wearing-badge-instructions-0).
 
 For security reasons, the Organization also requires any external participants to submit a few additional personal
 data items, which will be processed according to the Organization's data privacy policies:
