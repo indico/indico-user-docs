@@ -3,6 +3,8 @@
 If you plan to have non-CERN participants at your event, you will have to provide them with **valid access badges**,
 in line with the Organization's [badge-wearing policy](https://home.cern/news/official-news/cern/visible-wearing-badge-instructions-0).
 
+You can learn more about the rules regarding visitor cards [in the admin e-guide](https://admin-eguide.web.cern.ch/en/procedure/visitors-cards-access-cern-visitors-and-conference-participants).
+
 For security reasons, the Organization also requires any external participants to submit a few additional personal
 data items, which will be processed according to the Organization's data privacy policies:
 
@@ -23,12 +25,12 @@ You will use Indico's registration workflow to **collect this personal data** an
 allow them to enter the CERN site. These badges can be either printed:
 
 - At home by the participants and subsequently placed in a plastic cover attached to a lanyard (_Print at home_).
-- By the [CERN Printshop](https://cern.service-now.com/service-portal/article.do?n=KB0005333) and handed to them at CERN site
+- By the [CERN Printshop](https://cern.service-now.com/service-portal?id=kb_article&n=KB0005333) and handed to them at CERN site
 entrance, by the conference organizers.
 
 !!! danger "Attention"
     Please note that if you choose to print all access badges yourself (second option), it will be your responsibility
-    to provide the CERN Printshop in time with a PDF containing all badges (see [instructions here](https://cern.service-now.com/service-portal/article.do?n=KB0005333)) and to distribute the badges to the
+    to provide the CERN Printshop in time with a PDF containing all badges (see [instructions here](https://cern.service-now.com/service-portal?id=kb_article&n=KB0005333)) and to distribute the badges to the
     participants before they enter the CERN site.
 
 ## Step-by-step instructions
@@ -213,4 +215,4 @@ To generate the PDF which will allow you to print these badges, you should go to
     You can print access badges only for participants who have filled in their security data. Selecting others will raise an error
 
 !!! note
-    The [CERN printshop](https://cern.service-now.com/service-portal/article.do?n=KB0005333) can print badges on A6 cardboard paper for you. For this, you need to provide them with an A4 PDF (4 A6 badges per page). You can generate this PDF through Indico by specifying 0 for all margins in the _Print Tickets_ form, _A4_ as _Page Size_ and _Portrait_ as _Page orientation_
+    The [CERN printshop](https://cern.service-now.com/service-portal?id=kb_article&n=KB0005333) can print badges on A6 cardboard paper for you. For this, you need to provide them with an A4 PDF (4 A6 badges per page). You can generate this PDF through Indico by specifying 0 for all margins in the _Print Tickets_ form, _A4_ as _Page Size_ and _Portrait_ as _Page orientation_
