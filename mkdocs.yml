@@ -2,6 +2,11 @@ site_name: Learning Indico
 theme:
     name: material
     font: false
+    features:
+        - content.code.copy
+        - content.action.edit
+        - content.action.view
+        - navigation.footer
     palette:
         # Palette toggle for light mode
         - media: '(prefers-color-scheme: light)'
