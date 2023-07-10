@@ -26,8 +26,9 @@ theme:
               icon: material/brightness-4
               name: Switch to light mode
 use_directory_urls: true
-repo_name: 'indico/indico-user-docs-cern'
-repo_url: 'https://gitlab.cern.ch/indico/indico-user-docs-cern'
+repo_name: 'indico/indico-user-docs'
+repo_url: 'https://github.com/indico/indico-user-docs/tree/cern'
+edit_uri: 'https://github.com/indico/indico-user-docs/edit/cern/docs/'
 markdown_extensions:
     - admonition
 extra_css:
