@@ -1,0 +1,17 @@
+header.md-header .md-flex__cell  {
+    vertical-align: middle;
+}
+header.md-header .md-flex__cell a.md-header-nav__button .md-icon {
+    display: flex;
+}
+
+.md-icon--home:before {
+    width: 100px;
+    height: 25px;
+    display: inline-block;
+    content: ' ';
+    background-image: url('../assets/logo_small.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    vertical-align: middle
+}
