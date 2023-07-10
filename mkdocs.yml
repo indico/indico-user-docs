@@ -2,6 +2,12 @@ site_name: Learning Indico
 site_url: https://indico.docs.cern.ch
 theme:
     name: material
+    font: false
+    features:
+        - content.code.copy
+        - content.action.edit
+        - content.action.view
+        - navigation.footer
     palette:
         # Palette toggle for light mode
         - media: '(prefers-color-scheme: light)'
@@ -25,6 +31,7 @@ repo_url: 'https://gitlab.cern.ch/indico/indico-user-docs-cern'
 markdown_extensions:
     - admonition
 extra_css:
+    - stylesheets/fonts.css
     - stylesheets/extra.css
 nav:
     - Introduction: index.md
