@@ -1,6 +1,7 @@
 site_name: Learning Indico
 theme:
     name: material
+    font: false
     palette:
         # Palette toggle for light mode
         - media: '(prefers-color-scheme: light)'
@@ -23,6 +24,7 @@ repo_url: 'https://github.com/indico/indico-user-docs'
 markdown_extensions:
     - admonition
 extra_css:
+    - stylesheets/fonts.css
     - stylesheets/extra.css
 nav:
     - Introduction: index.md
