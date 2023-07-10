@@ -1,7 +1,7 @@
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
-  MKDOCS_VERSION: '1.3.0'
-  MATERIAL_VERSION: '8.3.6'
+  MKDOCS_VERSION: '1.4.3'
+  MATERIAL_VERSION: '9.1.8'
 
 stages:
   - pages
