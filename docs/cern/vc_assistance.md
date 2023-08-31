@@ -14,12 +14,12 @@ equipment in the physical meeting room.
 In order to be able to request videoconference assistance for an event the following is required:
 
 - The event must have as location a room with videoconference capabilities.
-- The event must have a videoconference (Vidyo) room attached.
+- The event must have a videoconference (Zoom) meeting attached.
 
 When creating an event from scratch, its location can be set in the dialog that is displayed. For an event that has been
 already created it can be updated in the _Settings_ page in the event management area.
 
-To create a videoconference room you should go to the _Videoconference_ page under _Services_ and create a Vidyo room.
+To create a videoconference room you should go to the _Videoconference_ page under _Services_ and create a Zoom meeting.
 
 ![](../assets/vc_assistance/vc_rooms.png)
 
