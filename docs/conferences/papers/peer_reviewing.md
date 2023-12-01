@@ -260,7 +260,7 @@ If the organizer added extra reviewing questions you may be required to answer t
 
 ![](../../assets/papers/peer_reviewing/propose_action.png)
 
-You can edit your review later as long as there is no judgement yet. This can be done by clicking the edit icon on your review.
+You can edit your review later as long as there is no judgment yet. This can be done by clicking the edit icon on your review.
 
 ![](../../assets/papers/peer_reviewing/edit_review.png)
 

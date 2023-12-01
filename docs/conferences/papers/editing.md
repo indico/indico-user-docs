@@ -307,8 +307,8 @@ Once the editor has reviewed the files, they can judge the editable. There are f
 
 - Accept - The editable is accepted as-is, no further changes are possible unless the review is reset by the editor. The status of the editable is _Accepted_.
 - Reject - The editable is rejected. No further changes possible unless reset. The status of the editable is _Rejected_.
+- Request approval - An editor can upload a corrected version themselves. The changes must then be approved by the original author. The status of the editable is _Needs submitter confirmation_.
 - Request changes - The author will have an option to submit a corrected version, which will need to be reviewed. The status of the editable is _Needs submitter changes_.
-- Make changes - An editor can upload a corrected version themselves. The changes must then be approved by the original author. The status of the editable is _Needs submitter confirmation_.
 
 !!! note
     It is always possible to reset a judgment by clicking on the revert icon:
