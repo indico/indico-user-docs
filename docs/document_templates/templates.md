@@ -2,6 +2,9 @@
 
 Indico lets you define templates for various types of documents, including receipts, certificates, and more. These templates allow you to specify the layout, content, and placeholders for dynamic data using HTML with Jinja2 templates.
 
+!!! info "Custom templates on indico.cern.ch"
+    For security reasons, end users (e.g. event organizers) cannot create their own templates. If the default templates are not sufficient, please [contact us](mailto:indico-support@cern.ch) with details on what kind of template you need. We may be able to create a custom one for you or make the generic one more flexible to cover your usecase.
+
 ## Configuration
 
 Creating document templates requires knowledge of HTML and CSS and for security reasons is restricted to Indico admins. However, additional trusted users may be granted rights to create and edit templates
