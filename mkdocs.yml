@@ -74,6 +74,10 @@ nav:
             - People management: conferences/people.md
         - Privacy: privacy.md
         - Event Series: event_series.md
+        - Document Generation:
+            - Introduction: document_templates/about.md
+            - Creating a Template: document_templates/templates.md
+            - Generating a Document: document_templates/generating.md
     - Room Booking:
         - Introduction: room_booking/about.md
         - Accessing the Module: room_booking/accessing.md
