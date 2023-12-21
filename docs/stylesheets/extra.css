@@ -15,3 +15,7 @@ header.md-header .md-flex__cell a.md-header-nav__button .md-icon {
     background-repeat: no-repeat;
     vertical-align: middle
 }
+
+.md-typeset td code {
+    word-break: normal;
+}
