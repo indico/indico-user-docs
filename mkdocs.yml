@@ -1,7 +1,9 @@
 site_name: Learning Indico
+plugins:
+    - privacy
+    - search
 theme:
     name: material
-    font: false
     features:
         - content.code.copy
         - content.action.edit
@@ -29,7 +31,6 @@ repo_url: 'https://github.com/indico/indico-user-docs'
 markdown_extensions:
     - admonition
 extra_css:
-    - stylesheets/fonts.css
     - stylesheets/extra.css
 nav:
     - Introduction: index.md
