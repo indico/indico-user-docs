@@ -1,8 +1,10 @@
 site_name: Learning Indico
 site_url: https://indico.docs.cern.ch
+plugins:
+    - privacy
+    - search
 theme:
     name: material
-    font: false
     features:
         - content.code.copy
         - content.action.edit
@@ -32,7 +34,6 @@ edit_uri: 'https://github.com/indico/indico-user-docs/edit/cern/docs/'
 markdown_extensions:
     - admonition
 extra_css:
-    - stylesheets/fonts.css
     - stylesheets/extra.css
 nav:
     - Introduction: index.md
