@@ -1,0 +1,2629 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../introduction/">
+      
+      
+        <link rel="next" href="../editing/">
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.4">
+    
+    
+      
+        <title>Paper Peer Reviewing - Learning Indico</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.8608ea7d.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        
+        <link rel="stylesheet" href="../../../assets/external/fonts.googleapis.com/css.49ea35f2.css">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#paper-peer-reviewing" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="Learning Indico" class="md-header__button md-logo" aria-label="Learning Indico" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Learning Indico
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Paper Peer Reviewing
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="blue"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="blue" data-md-color-accent="blue"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/indico/indico-user-docs" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    indico/indico-user-docs
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Learning Indico" class="md-nav__button md-logo" aria-label="Learning Indico" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Learning Indico
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/indico/indico-user-docs" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    indico/indico-user-docs
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Categories
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Categories
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../categories/about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../categories/creating/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Creating a Category
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../categories/overview/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Having an Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Managing a Category
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            Managing a Category
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../categories/managing/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../categories/protection/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Protection
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../categories/moderation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Moderation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../categories/logging/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Logging
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Event Management
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Event Management
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../events/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction to Events
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Lectures
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            Lectures
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../lectures/about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../lectures/creating/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Creating a Lecture
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../lectures/material/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Adding Material to a Lecture
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Meetings
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            Meetings
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../meetings/about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../meetings/creating/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Creating a Meeting
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../meetings/timetable/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Making a Timetable
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../meetings/minutes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Adding minutes to a Meeting
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../meetings/material/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Adding material to a Meeting
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_4" id="__nav_3_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Conferences
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_4">
+            <span class="md-nav__icon md-icon"></span>
+            Conferences
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../programme/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Defining the Programme
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cfa/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Call for Abstracts
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../submitting/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Submitting an Abstract
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reviewing/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reviewing Abstracts
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sessions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Session management
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../timetable/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Making a Timetable
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../registration_config/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Configuring the Registration Process
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../registration/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Registering at a Conference
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../custom_menu/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Customizing the Conference Menu
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../custom_layout/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Customizing the Conference Page Layout
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4_12" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_4_12" id="__nav_3_4_12_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Paper reviewing
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_4_12_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_4_12">
+            <span class="md-nav__icon md-icon"></span>
+            Paper reviewing
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../introduction/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Paper Peer Reviewing
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Paper Peer Reviewing
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introduction
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#setting-up-peer-reviewing-as-a-conference-managerorganizer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Setting up peer reviewing as a conference manager/organizer
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Setting up peer reviewing as a conference manager/organizer">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#enabling-the-module" class="md-nav__link">
+    <span class="md-ellipsis">
+      Enabling the module
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uploading-a-paper-template" class="md-nav__link">
+    <span class="md-ellipsis">
+      Uploading a paper template
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setting-up-content-layout-reviewing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Setting up content &amp; layout reviewing
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setting-up-paper-judging" class="md-nav__link">
+    <span class="md-ellipsis">
+      Setting up paper judging
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reviewing-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reviewing settings
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setting-up-reviewing-teams" class="md-nav__link">
+    <span class="md-ellipsis">
+      Setting up reviewing teams
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#enabling-call-for-papers" class="md-nav__link">
+    <span class="md-ellipsis">
+      Enabling call for papers
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#paper-assignment" class="md-nav__link">
+    <span class="md-ellipsis">
+      Paper assignment
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#permissions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Permissions
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#peer-reviewing-as-a-paper-author" class="md-nav__link">
+    <span class="md-ellipsis">
+      Peer reviewing as a paper author
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#peer-reviewing-as-a-reviewer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Peer reviewing as a reviewer
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#peer-reviewing-as-a-judge" class="md-nav__link">
+    <span class="md-ellipsis">
+      Peer reviewing as a judge
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../editing/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Editing
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../programme_codes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Programme Codes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../people/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    People management
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../privacy/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Privacy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../event_series/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Event Series
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_7" id="__nav_3_7_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Document Generation
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_7">
+            <span class="md-nav__icon md-icon"></span>
+            Document Generation
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../document_templates/about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../document_templates/templates/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Creating a Template
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../document_templates/generating/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Generating a Document
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Room Booking
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Room Booking
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../room_booking/about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../room_booking/accessing/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Accessing the Module
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../room_booking/booking/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Booking a Room
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../room_booking/search_and_book/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Searching and Booking
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../room_booking/viewing_bookings/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Viewing your Bookings
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../room_booking/blocking/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Blocking Rooms
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../room_booking/features/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Summary of Feature Set
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../room_booking/glossary/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Glossary
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Event Surveys
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Event Surveys
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../surveys/about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../surveys/setup/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Setting up a Survey
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../surveys/opening/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Opening/Closing a Survey
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Other features
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Other features
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../reminders/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reminders
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../calendar_import/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Importing into Calendaring tools
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../custom_roles/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Using custom roles
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Plugins
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Plugins
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../plugins/zoom/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Zoom
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../faq/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    FAQ
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introduction
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#setting-up-peer-reviewing-as-a-conference-managerorganizer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Setting up peer reviewing as a conference manager/organizer
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Setting up peer reviewing as a conference manager/organizer">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#enabling-the-module" class="md-nav__link">
+    <span class="md-ellipsis">
+      Enabling the module
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uploading-a-paper-template" class="md-nav__link">
+    <span class="md-ellipsis">
+      Uploading a paper template
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setting-up-content-layout-reviewing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Setting up content &amp; layout reviewing
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setting-up-paper-judging" class="md-nav__link">
+    <span class="md-ellipsis">
+      Setting up paper judging
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reviewing-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reviewing settings
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setting-up-reviewing-teams" class="md-nav__link">
+    <span class="md-ellipsis">
+      Setting up reviewing teams
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#enabling-call-for-papers" class="md-nav__link">
+    <span class="md-ellipsis">
+      Enabling call for papers
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#paper-assignment" class="md-nav__link">
+    <span class="md-ellipsis">
+      Paper assignment
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#permissions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Permissions
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#peer-reviewing-as-a-paper-author" class="md-nav__link">
+    <span class="md-ellipsis">
+      Peer reviewing as a paper author
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#peer-reviewing-as-a-reviewer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Peer reviewing as a reviewer
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#peer-reviewing-as-a-judge" class="md-nav__link">
+    <span class="md-ellipsis">
+      Peer reviewing as a judge
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+    <a href="https://github.com/indico/indico-user-docs/edit/master/docs/conferences/papers/peer_reviewing.md" title="Edit this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+    
+      
+    
+    <a href="https://github.com/indico/indico-user-docs/raw/master/docs/conferences/papers/peer_reviewing.md" title="View source of this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c.56 0 1 .44 1 1s-.44 1-1 1-1-.44-1-1 .44-1 1-1m0-3c-2.73 0-5.06 1.66-6 4 .94 2.34 3.27 4 6 4s5.06-1.66 6-4c-.94-2.34-3.27-4-6-4m0 6.5a2.5 2.5 0 0 1-2.5-2.5 2.5 2.5 0 0 1 2.5-2.5 2.5 2.5 0 0 1 2.5 2.5 2.5 2.5 0 0 1-2.5 2.5M9.27 20H6V4h7v5h5v4.07c.7.08 1.36.25 2 .49V8l-6-6H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h4.5a8.2 8.2 0 0 1-1.23-2"/></svg>
+    </a>
+  
+
+
+<h1 id="paper-peer-reviewing">Paper Peer Reviewing</h1>
+<h3 id="introduction">Introduction</h3>
+<p>This short video explains the Peer Review process and the reviewer's and judge's role in Indico:</p>
+<iframe width="576" height="360" frameborder="0" src="https://cds.cern.ch/video/2728255?showTitle=true" allowfullscreen></iframe>
+
+<p>The Peer Reviewing module allows you to</p>
+<ul>
+<li>submit papers for accepted <a href="../../cfa/">abstracts</a>,</li>
+<li>set up reviewing and judging teams and assign them to papers,</li>
+<li>review and judge papers and</li>
+<li>publish accepted papers.</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If you're not sure which module to use, check the <a href="../introduction/">introduction</a> for a higher level description of the Peer Reviewing and Editing modules.</p>
+</div>
+<p>Here is a flowchart showing an overview of the peer reviewing workflow:</p>
+<p><img alt="" src="../../../assets/papers/peer_reviewing/review_diagram.png" /></p>
+<p>The following sections explain how to use the Peer Reviewing module from the point of view of organizers, authors, paper reviewers and judges.</p>
+<h3 id="setting-up-peer-reviewing-as-a-conference-managerorganizer">Setting up peer reviewing as a conference manager/organizer</h3>
+<h4 id="enabling-the-module">Enabling the module</h4>
+<p>In order to start using the Peer Reviewing module, you need to first enable it.
+From the event management page, click on the <em>Peer Reviewing</em> tab in the left menu, under <em>Workflows</em>.
+Finally, Click <em>Enable module</em> to enable the Peer Reviewing module.</p>
+<p><img alt="" src="../../../assets/papers/peer_reviewing/reviewing_enable_module.png" /></p>
+<p>The module can be disabled at any time from the <em>Features</em> tab under <em>Advanced options</em>.</p>
+<p><img alt="" src="../../../assets/papers/peer_reviewing/reviewing_disable_module.png" /></p>
+<p>Once the module is enabled, you will see new tabs appear in the conference's menu when switching
+to the display area.</p>
+<p><img alt="" src="../../../assets/papers/peer_reviewing/enabled_display_area.png" /></p>
+<h4 id="uploading-a-paper-template">Uploading a paper template</h4>
+<p>If your conference requires papers to have a specific style or layout, you can help paper authors by uploading a paper template.
+Authors will then be able to download this template from the <em>Paper Peer Reviewing</em> tab of the conference.</p>
+<p>To upload a template, select the <em>Peer Reviewing</em> tab in the management area. Then, click on <em>Manage</em> next to <em>Paper templates</em>.
+Here, you can upload your template, give it a name and optionally a description. You can also upload more than one template if you wish.</p>
+<p><img alt="" src="../../../assets/papers/peer_reviewing/template_manage.png" /></p>
+<p>The template becomes visible in the display area of the conference:</p>
+<p><img alt="" src="../../../assets/papers/peer_reviewing/template_uploaded.png" /></p>
+<h4 id="setting-up-content-layout-reviewing">Setting up content &amp; layout reviewing</h4>
+<p>The peer reviewing module allows reviewers to review the content and the layout of a paper separately.
+You can enable one or both of these processes from the <em>Paper Peer Reviewing</em> tab. By default, only the content reviewing
+process is enabled.</p>
+<p><img alt="" src="../../../assets/papers/peer_reviewing/reviewing_processes.png" /></p>
+<p>In addition, it is possible to set a reviewing deadline for both content and layout reviewing. If a deadline is set, an information box will appear in the reviewing area
+informing reviewers about the deadline. The deadline can also be enforced, which will also prevent reviewing after the specified date.</p>
+<p>To set a reviewing deadline, click on the <em>Deadline</em> button next to the reviewing process for which you want to set the deadline:</p>
+<p><img alt="" src="../../../assets/papers/peer_reviewing/reviewing_deadline_set.png" /></p>
+<p>This is what reviewers see when the deadline is set:</p>
+<p><img alt="" src="../../../assets/papers/peer_reviewing/reviewing_deadline_display.png" /></p>
+<p>Reviewers can also be presented with custom questions when leaving a review on a paper.
+This can be useful when extra information besides accepting/rejecting a paper is needed from a reviewer.
+There are the three types of questions that can be used:</p>
+<ul>
+<li>A rating</li>
+<li>A yes/no question</li>
+<li>A free text</li>
+</ul>
+<p>Each question has a name, description and additional settings depending on the question type. Each question can also be configured as required
+meaning, the reviewer is required to answer the question before leaving a review.</p>
+<p>You can add reviewing questions by clicking the <em>Questions</em> button next to the corresponding reviewing process.</p>
+<p><img alt="" src="../../../assets/papers/peer_reviewing/questions.png" /></p>
+<p>This is what the various questions look like from a reviewer's point of view:</p>
+<p><img alt="" src="../../../assets/papers/peer_reviewing/questions_display.png" /></p>
+<p>The scale of the rating questions (the minimum and maximum value) is the same for every question and can be configured in the reviewing settings:</p>
+<p><img alt="" src="../../../assets/papers/peer_reviewing/rating_scale.png" />
+<img alt="" src="../../../assets/papers/peer_reviewing/rating_scale_set.png" /></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Changing the minimum and maximum value of the ratings will scale all the existing answers proportionally.</p>
+</div>
+<h4 id="setting-up-paper-judging">Setting up paper judging</h4>
+<p>The only setting available specifically for judges is the judging deadline, which works the same way as the reviewing deadlines explained previously.
+Once the deadline is set, an information box will appear in the judging area of the conference. If the deadline is enforced, judges won't be able to judge
+papers after the deadline.</p>
+<p><img alt="" src="../../../assets/papers/peer_reviewing/judge_deadline_set.png" />
+<img alt="" src="../../../assets/papers/peer_reviewing/judge_deadline_display.png" /></p>
+<h4 id="reviewing-settings">Reviewing settings</h4>
+<p>The reviewing settings let you configure an announcement, set the scale for rating questions (explained in previous sections) and manage email notifications.
+The announcement can be used to display a message on the peer reviewing page for reviewers to see.</p>
+<p>Email notifications lets you configure who and under which circumstances
+should receive an email — for example, whether you want a judge to be notified when a paper is reviewed. The most common notifications are turned on by default, but you can fine tune them as you need. We will cover how to designate reviewers and judges and how to assign them to papers in the following sections.</p>
+<p>To open the reviewing settings, click on the <em>Settings</em> button next to <em>Reviewing settings</em>.</p>
+<p><img alt="" src="../../../assets/papers/peer_reviewing/settings.png" /></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The content and layout reviewer columns in the email notification settings are only visible if the corresponding process is enabled.</p>
+</div>
+<p>Here is a screenshot of what an announcement may look like.
+The announcement editor supports basic styles via Markdown. You can also embed images using a link.</p>
+<p><img alt="" src="../../../assets/papers/peer_reviewing/announcement.png" /></p>
+<h4 id="setting-up-reviewing-teams">Setting up reviewing teams</h4>
+<p>Before you can assign papers to reviewers and judges, it is necessary to set up reviewing teams.
+These designate who has the right to review and/or judge a paper.</p>
+<p>To get started, click on the <em>Teams</em> button next to <em>Reviewing teams</em>.</p>
+<p><img alt="" src="../../../assets/papers/peer_reviewing/teams.png" /></p>
+<p>From the dialog window, you can add paper managers, judges and content and layout reviewers. Paper managers have rights to manage the settings of the Peer Reviewing module.
+You can also manage paper managers from the <em>Protection</em> tab of the event by adding the <em>Paper manager</em> permission.</p>
+<p><img alt="" src="../../../assets/papers/peer_reviewing/teams_setup.png" />
+<img alt="" src="../../../assets/papers/peer_reviewing/paper_manager.png" /></p>
+<p>Once the teams are set up, you may also wish to add <em>competences</em> to your reviewers and judges.
+Competences are keywords you can add that describe the person's area of expertise.
+These keywords can aid paper managers in matching the right reviewer and/or judge to a paper.</p>
+<p>You can manage competences by clicking on the <em>Competences</em> button next to <em>Reviewing teams</em>.</p>
+<p><img alt="" src="../../../assets/papers/peer_reviewing/competences.png" />
+<img alt="" src="../../../assets/papers/peer_reviewing/competences_add.png" /></p>
+<p>The reviewing teams are also a handy to way to contact your reviewers and judges via email.
+Simply click on the <em>Contact</em> button and select the intended recipients.</p>
+<p><img alt="" src="../../../assets/papers/peer_reviewing/contact.png" /></p>
+<p>Clicking on <em>Send emails</em> will open a dialog window where you can write your email.</p>
+<h4 id="enabling-call-for-papers">Enabling call for papers</h4>
+<p>If you've followed the documentation up to this point, you should now be ready to open the call for papers.
+That is, allow authors to submit papers for a review.</p>
+<p>To open the call for papers, you can either click <em>Start now</em> which will open the call immediately or you can click on <em>Schedule</em>
+and select the start and end date of the call instead.</p>
+<p><img alt="" src="../../../assets/papers/peer_reviewing/cfp_open.png" /></p>
+<p>Once the call for papers is open, you will also have the option to close or reschedule it from the same place.</p>
+<h4 id="paper-assignment">Paper assignment</h4>
+<p>With the call for papers open and papers being submitted, it is the paper manager's job to assign reviewers and judges to the submitted papers.
+Reviewers and judges can only work on papers that have been explicitly assigned to them.</p>
+<p>To open the paper assignment page, click on <em>Assign papers</em> next to <em>Paper assignment</em>.</p>
+<p><img alt="" src="../../../assets/papers/peer_reviewing/assign.png" />
+<img alt="" src="../../../assets/papers/peer_reviewing/list_of_papers.png" /></p>
+<p>This page serves as an overview of all the papers that have been submitted and their state. To assign a person to a paper, first select the paper and click on
+<em>Assign</em> in the top menu. Select the desired role from the dropdown menu and from the opened dialog select the people to should be assigned this role. Here, you will also see the competences of each
+person specified previously.</p>
+<p><img alt="" src="../../../assets/papers/peer_reviewing/assign_judges.png" /></p>
+<p>It is also possible to assign people to multiple papers at once. To do that, simply select several papers and follow the same procedure.</p>
+<p>To remove a person from a paper,
+select the paper and click <em>Unassign</em> in the top menu and select the role to remove from the dropdown menu. In the newly opened dialog select the person to remove and confirm your selection by clicking <em>Unassign</em>.</p>
+<p><img alt="" src="../../../assets/papers/peer_reviewing/unassign_judges.png" /></p>
+<h4 id="permissions">Permissions</h4>
+<p>The peer reviewing module establishes new roles that Indico users may have. Here, we provide a list of what permissions are required in order to perform
+the most common actions related to the Peer Reviewing module.</p>
+<table>
+<thead>
+<tr>
+<th>Action</th>
+<th>Permissions required</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Submit a paper</td>
+<td>Abstract or contribution submitters</td>
+</tr>
+<tr>
+<td>Review a paper</td>
+<td>Paper reviewers and event managers (reviewers must be assigned)</td>
+</tr>
+<tr>
+<td>Judge a paper</td>
+<td>Paper judges and event managers (judges must be assigned)</td>
+</tr>
+<tr>
+<td>Assign papers and manage settings</td>
+<td>Paper and event managers</td>
+</tr>
+</tbody>
+</table>
+<h3 id="peer-reviewing-as-a-paper-author">Peer reviewing as a paper author</h3>
+<p>In a typical conference workflow, the first thing to do before uploading a paper is to submit an abstract. Once the abstract is accepted by the organizers, a new contribution is automatically created. You can see all your contributions on the <em>My contributions</em> page.</p>
+<p><img alt="" src="../../../assets/papers/peer_reviewing/contributions.png" /></p>
+<p>Once the abstract has been accepted, you will be able to submit a paper, provided the call for papers is open. You can submit a paper from the <em>Paper Peer reviewing</em> page by clicking on <em>Submit paper</em>. If you have multiple contributions for which you can submit a paper, you will be asked to choose one.</p>
+<p><img alt="" src="../../../assets/papers/peer_reviewing/submit.png" />
+<img alt="" src="../../../assets/papers/peer_reviewing/submit_select.png" /></p>
+<p>You can also submit a paper directly from the contribution page.</p>
+<p><img alt="" src="../../../assets/papers/peer_reviewing/submit_from_contrib.png" /></p>
+<p>Once you have submitted your paper, you will be able to track its progress from the <em>Paper Peer reviewing</em> page under <em>My papers</em>.</p>
+<p><img alt="" src="../../../assets/papers/peer_reviewing/my_papers.png" /></p>
+<p>At this point, reviewers may leave reviews on your paper with suggestions and propose to accept, reject or correct your paper. As the author, you will be notified of all activity concerning you via email. A paper judge may also request corrections to your paper, in which case you will be able to upload a new version of your paper.</p>
+<p><img alt="" src="../../../assets/papers/peer_reviewing/review.png" /></p>
+<p>Once the paper is accepted, it will be published in the corresponding contribution.</p>
+<p><img alt="" src="../../../assets/papers/peer_reviewing/accepted_papers.png" /></p>
+<h3 id="peer-reviewing-as-a-reviewer">Peer reviewing as a reviewer</h3>
+<p>As a reviewer, your job is to review the submitted papers and to propose an action - to <em>accept</em>, <em>reject</em> or <em>correct</em> the paper. Paper judges will take your feedback into account when deciding what to do.</p>
+<p>You can only review papers that have been assigned to you specifically.
+You can see the papers in the <em>Reviewing area</em> of the event under <em>Papers to review</em>. The papers that you have already reviewed will appear under <em>Reviewed papers</em>.</p>
+<p><img alt="" src="../../../assets/papers/peer_reviewing/papers_to_review.png" /></p>
+<p>You may be requested to leave a content review, a layout review, or both. The exact definition of these will depend on the specific event and the organizers, but in general, a content review is concerned with the text and its correctness and completeness while a layout review judges the style and appearance of the paper and whether it complies with the guidelines of the given conference.</p>
+<p>To review a paper, first select one paper from the list of papers to open the paper timeline. At the top of timeline page, 
+you can download the latest version of the submitted paper. Once you have read the paper and are ready to add a review, click on <em>Review</em>.</p>
+<p><img alt="" src="../../../assets/papers/peer_reviewing/make_a_review.png" /></p>
+<p>If you have been requested to review both the content and layout, you will see a dropdown where you have to choose which type of review you want to add.</p>
+<p><img alt="" src="../../../assets/papers/peer_reviewing/choose_review_type.png" /></p>
+<p>Once selected, you need to choose a proposed action - to <em>accept</em> or <em>reject</em> the paper or to <em>request corrections</em>.
+If the organizer added extra reviewing questions you may be required to answer them in order to add a review.</p>
+<p><img alt="" src="../../../assets/papers/peer_reviewing/propose_action.png" /></p>
+<p>You can edit your review later as long as there is no judgment yet. This can be done by clicking the edit icon on your review.</p>
+<p><img alt="" src="../../../assets/papers/peer_reviewing/edit_review.png" /></p>
+<p>You may also comment on a paper without leaving a review. You can set the comment visibility so that it is only visible to, e.g. judges. This is useful for discussing sensitive topics without the author seeing.</p>
+<p><img alt="" src="../../../assets/papers/peer_reviewing/comment.png" /></p>
+<p>If a judge requests corrections, reviewers will be able to review the corrected paper.</p>
+<h3 id="peer-reviewing-as-a-judge">Peer reviewing as a judge</h3>
+<p>The workflow of a paper judge is largely similar to that of a reviewer. Judges can only judge papers assigned to them by paper managers.
+The list of papers that you can judge is available in the <em>Judging area</em>.</p>
+<p><img alt="" src="../../../assets/papers/peer_reviewing/judging_area.png" /></p>
+<p>Paper judges have the final say when it comes to accepting a paper. They can either accept or reject a paper or request corrections. If corrections are requested,
+the author of the paper will be able to submit a new version which needs to be judged again.
+Note that a paper can only be judged by one judge.</p>
+<p>Before adding a judgment, make sure that reviewers have had the chance to review the paper. You can see the assigned content and layout reviewers in the <em>Judging area</em>.</p>
+<p>Judgments can be reset by clicking on the <em>Reset judgment</em> icon in the judgment box:</p>
+<p><img alt="" src="../../../assets/papers/peer_reviewing/reset_judgment.png" /></p>
+<p>As a judge, you can also leave comments on a paper before adding a judgment.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Both reviewing and judging might have a set deadline, after which it is not possible to review or judge papers. If a deadline is set, you will see it in the Reviewing and Judging areas.
+<img alt="" src="../../../assets/papers/peer_reviewing/reviewing_deadline_display.png" /></p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../introduction/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Introduction">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Introduction
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../editing/" class="md-footer__link md-footer__link--next" aria-label="Next: Editing">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Editing
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["content.code.copy", "content.action.edit", "content.action.view", "navigation.footer"], "search": "../../../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.f1b6f286.min.js"></script>
+      
+        <script src="../../../assets/external/unpkg.com/mermaid@11/dist/mermaid.min.js"></script>
+      
+    
+  </body>
+</html>

@@ -1,0 +1,2478 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../sessions/">
+      
+      
+        <link rel="next" href="../registration_config/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.4">
+    
+    
+      
+        <title>Making a Timetable - Learning Indico</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.8608ea7d.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        
+        <link rel="stylesheet" href="../../assets/external/fonts.googleapis.com/css.49ea35f2.css">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#anatomy-of-a-timetable" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Learning Indico" class="md-header__button md-logo" aria-label="Learning Indico" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Learning Indico
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Making a Timetable
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="blue"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="blue" data-md-color-accent="blue"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/indico/indico-user-docs" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    indico/indico-user-docs
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Learning Indico" class="md-nav__button md-logo" aria-label="Learning Indico" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Learning Indico
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/indico/indico-user-docs" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    indico/indico-user-docs
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Categories
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Categories
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../categories/about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../categories/creating/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Creating a Category
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../categories/overview/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Having an Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Managing a Category
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            Managing a Category
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../categories/managing/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../categories/protection/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Protection
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../categories/moderation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Moderation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../categories/logging/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Logging
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Event Management
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Event Management
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../events/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction to Events
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Lectures
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            Lectures
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lectures/about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lectures/creating/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Creating a Lecture
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lectures/material/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Adding Material to a Lecture
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Meetings
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            Meetings
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../meetings/about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../meetings/creating/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Creating a Meeting
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../meetings/timetable/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Making a Timetable
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../meetings/minutes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Adding minutes to a Meeting
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../meetings/material/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Adding material to a Meeting
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_4" id="__nav_3_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Conferences
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_4">
+            <span class="md-nav__icon md-icon"></span>
+            Conferences
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../programme/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Defining the Programme
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cfa/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Call for Abstracts
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../submitting/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Submitting an Abstract
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reviewing/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reviewing Abstracts
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sessions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Session management
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Making a Timetable
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Making a Timetable
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#anatomy-of-a-timetable" class="md-nav__link">
+    <span class="md-ellipsis">
+      Anatomy of a timetable
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#creating-a-timetable" class="md-nav__link">
+    <span class="md-ellipsis">
+      Creating a timetable
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Creating a timetable">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#contributions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Contributions
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#session-blocks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Session blocks
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Session blocks">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#poster-sessions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Poster sessions
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#breaks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Breaks
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reschedule" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reschedule
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fit-to-content" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fit to content
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#making-the-timetable-public-conferences-only" class="md-nav__link">
+    <span class="md-ellipsis">
+      Making the timetable public (conferences only)
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../registration_config/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Configuring the Registration Process
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../registration/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Registering at a Conference
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../custom_menu/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Customizing the Conference Menu
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../custom_layout/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Customizing the Conference Page Layout
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4_12" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_4_12" id="__nav_3_4_12_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Paper reviewing
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_4_12_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4_12">
+            <span class="md-nav__icon md-icon"></span>
+            Paper reviewing
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../papers/introduction/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../papers/peer_reviewing/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Paper Peer Reviewing
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../papers/editing/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Editing
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../programme_codes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Programme Codes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../people/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    People management
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../privacy/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Privacy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../event_series/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Event Series
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_7" id="__nav_3_7_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Document Generation
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_7">
+            <span class="md-nav__icon md-icon"></span>
+            Document Generation
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../document_templates/about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../document_templates/templates/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Creating a Template
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../document_templates/generating/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Generating a Document
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Room Booking
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Room Booking
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../room_booking/about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../room_booking/accessing/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Accessing the Module
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../room_booking/booking/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Booking a Room
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../room_booking/search_and_book/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Searching and Booking
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../room_booking/viewing_bookings/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Viewing your Bookings
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../room_booking/blocking/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Blocking Rooms
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../room_booking/features/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Summary of Feature Set
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../room_booking/glossary/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Glossary
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Event Surveys
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Event Surveys
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../surveys/about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../surveys/setup/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Setting up a Survey
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../surveys/opening/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Opening/Closing a Survey
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Other features
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Other features
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reminders/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reminders
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../calendar_import/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Importing into Calendaring tools
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../custom_roles/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Using custom roles
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Plugins
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Plugins
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../plugins/zoom/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Zoom
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    FAQ
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#anatomy-of-a-timetable" class="md-nav__link">
+    <span class="md-ellipsis">
+      Anatomy of a timetable
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#creating-a-timetable" class="md-nav__link">
+    <span class="md-ellipsis">
+      Creating a timetable
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Creating a timetable">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#contributions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Contributions
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#session-blocks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Session blocks
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Session blocks">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#poster-sessions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Poster sessions
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#breaks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Breaks
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reschedule" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reschedule
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fit-to-content" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fit to content
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#making-the-timetable-public-conferences-only" class="md-nav__link">
+    <span class="md-ellipsis">
+      Making the timetable public (conferences only)
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+    <a href="https://github.com/indico/indico-user-docs/edit/master/docs/conferences/timetable.md" title="Edit this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+    
+      
+    
+    <a href="https://github.com/indico/indico-user-docs/raw/master/docs/conferences/timetable.md" title="View source of this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c.56 0 1 .44 1 1s-.44 1-1 1-1-.44-1-1 .44-1 1-1m0-3c-2.73 0-5.06 1.66-6 4 .94 2.34 3.27 4 6 4s5.06-1.66 6-4c-.94-2.34-3.27-4-6-4m0 6.5a2.5 2.5 0 0 1-2.5-2.5 2.5 2.5 0 0 1 2.5-2.5 2.5 2.5 0 0 1 2.5 2.5 2.5 2.5 0 0 1-2.5 2.5M9.27 20H6V4h7v5h5v4.07c.7.08 1.36.25 2 .49V8l-6-6H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h4.5a8.2 8.2 0 0 1-1.23-2"/></svg>
+    </a>
+  
+
+
+  <h1>Making a Timetable</h1>
+
+<p>In this page, we'll show how to create a timetable for a conference. This page covers all the available timetable features and settings. If you are creating a timetable for a meeting instead, you might want to see <a href="../../meetings/timetable/">this page</a> first, which covers the basics.</p>
+<p>Even though most of the focus of this explanation is on conferences, most of what we show can be applied to meetings as well. We point out the few places where the behaviour is different.</p>
+<h3 id="anatomy-of-a-timetable">Anatomy of a timetable</h3>
+<p>Regardless of whether you are organizing a meeting or a conference, a timetable is made up of four basic elements:</p>
+<ul>
+<li>Sessions</li>
+<li>Session blocks</li>
+<li>Contributions</li>
+<li>Breaks</li>
+</ul>
+<p>Sessions group together related contributions (talks/presentations). These contributions are organized into session blocks. A session block is an 'instance' of a session with a defined start and end. For example, a session could be split into a morning and afternoon block. Note that sessions cannot be directly scheduled in a timetable, only session blocks can. A more thorough explanation of sessions can be found <a href="../sessions/">here</a>.</p>
+<p>The use of breaks is to signal a pause in the programme, such as a lunch or a coffee break.</p>
+<p>An example of a meeting timetable might look like this:</p>
+<p><img alt="" src="../../assets/meetings/timetable/finished_timetable.png" /></p>
+<p>This timetable only uses contributions. Many meetings are relatively simple and don't require the use of breaks or session blocks which are normally used in conferences, however it is still possible to use them nonetheless.</p>
+<p>An example conference timetable might look like this:</p>
+<p><img alt="" src="../../assets/conferences/timetable/finished_timetable.png" /></p>
+<p>Using the detailed view:</p>
+<p><img alt="" src="../../assets/conferences/timetable/finished_timetable_detailed.png" /></p>
+<p>In this timetable, there is one top-level contribution (Welcome speech) and two sessions (Talks &amp; Workshops). The <em>Talks</em> session has two scheduled session blocks, morning and afternoon, with several contributions in each block. There is also a break between the two blocks. The Workshops session has only one scheduled session block with several contributions in it.</p>
+<p>Note that despite the event having two sessions, the timetable only contains sessions blocks as sessions cannot be scheduled directly. Even if a session has only one session block like the <em>Workshops</em> session in the example above, a session block needs to be created regardless.</p>
+<p>Besides contributions, there exist also subcontributions which can be created inside a contribution. However, these are simply part of its parent contribution and cannot be individually scheduled in the timetable. </p>
+<h3 id="creating-a-timetable">Creating a timetable</h3>
+<p>In this section, we will show how to create an event timetable using session blocks, contributions and breaks.</p>
+<p>Note that contributions have a slightly different behaviour in meetings and conferences. In a meeting, a contribution is an entry in the timetable representing a talk or a discussion item and it has no other purpose outside the timetable. In conferences, contributions are much more versatile and besides the timetable, they are also used for the <a href="../cfa/">Call for abstracts</a> and the <a href="../papers/introduction/">Peer reviewing</a> and <a href="../papers/introduction/">Editing</a> modules.</p>
+<h4 id="contributions">Contributions</h4>
+<p>We will start with the simplest case, which is adding contributions to the timetable without using any session blocks.</p>
+<p>To schedule a contribution, first navigate to <em>Timetable</em> in the management area of your event. This opens the top-level view of the timetable. If your event lasts multiple days, you will see at the top several tabs, each representing one day of the timetable. Switching between them will show you the programme for the given day.</p>
+<p><img alt="" src="../../assets/conferences/timetable/timetable_days.png" /></p>
+<p>The days you will see here depend on the start and end date of your event.</p>
+<p>To add a contribution, select a day and click on <em>Add new</em> in the top right corner of the timetable and then select <em>Contribution</em> from the dropdown menu.</p>
+<p><img alt="" src="../../assets/conferences/timetable/add_contrib.png" /></p>
+<p>From the list of available contributions, select the contributions you want to schedule. It is also possible to select multiple contributions which will be scheduled one after another. Confirm your selection by clicking on <em>Add selected</em>.</p>
+<p><img alt="" src="../../assets/conferences/timetable/add_contrib_select.png" /></p>
+<p>If you cannot find the contribution you want to schedule in the list, make sure the contribution is not assigned to a session. If a contribution is assigned to a session, it can only be scheduled within that session. Only contributions with no session assignment can be scheduled at the top level. To check if your contribution has a session assigned, go to the <em>Contributions page</em> and make sure that in the column <em>Session</em> it says <em>No session</em>.</p>
+<p><img alt="" src="../../assets/conferences/timetable/no_session.png" /></p>
+<p>The timetable also allows creating and scheduling a contribution at the same time. To do so, click again on <em>Add new</em> and select <em>Contribution</em> from the dropdown. Then, click on <em>Create a new one</em> at the top of the dialogue.</p>
+<p><img alt="" src="../../assets/conferences/timetable/create_contrib.png" /></p>
+<p>A new dialogue window will open where you must fill at least the title, start time and the duration of the contribution. In the <em>People</em> field, you may add speakers, authors and co-authors. If you add speakers, they will be displayed under the contribution in the timetable. If you are creating a meeting timetable only speakers will be available here.</p>
+<p><img alt="" src="../../assets/conferences/timetable/create_contrib_dialog.png" /></p>
+<p>When finished, click <em>Save</em> and the contribution will be automatically scheduled for the time you selected.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If you have no contributions that can be scheduled, or you are creating a meeting timetable, the form to create a new contribution will open directly after clicking on <em>Add new</em> -&gt; <em>Contribution</em>.</p>
+</div>
+<p>If you wish to change the start time of a contribution, you can simply drag it up or down in the timetable. Alternatively, you can use the up and down buttons, which become visible when you hover over any item in the timetable:</p>
+<p><img alt="" src="../../assets/conferences/timetable/move_up_down.png" /></p>
+<p>To change the duration of a contribution, click and drag the bottom edge of the contribution.</p>
+<p>Clicking on a contribution in the timetable brings up a window showing some basic information about it and lets you manage its settings. You can also set the starting time and duration by clicking on the contribution and then clicking on the time:</p>
+<p><img alt="" src="../../assets/conferences/timetable/adjust_start_duration.png" /></p>
+<p>You can also quickly edit the contribution settings and protection:</p>
+<p><img alt="" src="../../assets/conferences/timetable/quick_edit.png" /></p>
+<p>To move a contribution to a different day, click on the icon with the two arrows (<em>Move contribution</em>):</p>
+<p><img alt="" src="../../assets/conferences/timetable/move.png" /></p>
+<p>In the new dialogue you can select a different day for the contribution. If your timetable already has session blocks, you can also move the contribution inside one of them. This action will automatically assign the contribution to the session.</p>
+<p><img alt="" src="../../assets/conferences/timetable/move_dialog.png" /></p>
+<p>If you simply want to move a contribution from the top level into a session block, you can also drag the contribution over the session block, which will automatically place it inside the block.</p>
+<p>Note that, there is a difference between meetings and conferences when it comes to removing contributions from the timetable. In a conference, a contribution can be safely unscheduled while keeping its data intact. In a meeting, when a contribution is removed from a timetable, it is also deleted.</p>
+<p>To remove a contribution from a timetable, click on the bin icon (<em>Unschedule contribution</em> for conferences or <em>Delete contribution</em> for meetings) and confirm by clicking <em>OK</em>.</p>
+<p><img alt="" src="../../assets/conferences/timetable/unschedule.png" /></p>
+<h4 id="session-blocks">Session blocks</h4>
+<p>A session block represents an instance or a part of a session with a defined start and end. A session can have one or more session blocks. This allows you to split a session into multiple parts if needed. For example, a session could have a morning and afternoon portion. For another example, a session spanning multiple days could have one session block on each day.</p>
+<p>What separates session blocks from contributions is the fact that session blocks have their own timetables. This allows contributions and breaks to be scheduled not only at the top level, but also inside session blocks.</p>
+<p>To add a new session block, click on <em>Add new</em> and select <em>Session block</em> from the dropdown.</p>
+<p><img alt="" src="../../assets/conferences/timetable/session_block.png" /></p>
+<p>Under <em>Add another block to</em>, you can select the parent session. Clicking on <em>Create new session</em> will first create a completely new session and then a new session block inside it. You can also create sessions from the <em>Sessions</em> tab - see more details <a href="../sessions/">here</a>.</p>
+<p>After selecting a session, a session block dialogue will open. Fill in the start time and duration and optionally the remaining fields. The session block title is optional. If you leave it empty, the session block will display the session title only. In the <em>Location</em> field, you can select a location from the <a href="../../room_booking/about/">Room booking module</a>, if applicable.</p>
+<p>Finally, you can also add <em>Conveners</em> to the session block. These are distinct from session coordinators, as explained <a href="../sessions/">here</a>. Session conveners have no extra rights, similar to contribution speakers. Session conveners are displayed in the top right corner of their session block.</p>
+<p><img alt="" src="../../assets/conferences/timetable/block_dialog.png" /></p>
+<p>Once you have filled in all the data, click <em>Save</em> to create and schedule the session block. To edit the data later, simply click on the session block in the timetable and then click on the pencil icon in the session block section.</p>
+<p><img alt="" src="../../assets/conferences/timetable/block_edit.png" /></p>
+<p>Just like contributions, you can click and drag the session block up or down to change the start time. Duration is adjusted by clicking and dragging the bottom edge. The start time and duration can also be changed by clicking on the block and then clicking on the time:</p>
+<p><img alt="" src="../../assets/conferences/timetable/block_change_time.png" /></p>
+<p>It is also possible to manage the session settings and protection directly from the timetable by clicking on a session block:</p>
+<p><img alt="" src="../../assets/conferences/timetable/block_edit_session.png" /></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>A session block cannot span multiple days. If your session takes place over several days, create one session block for each day.</p>
+</div>
+<p>Session blocks are by default created empty. In order to schedule a contribution or a break in a session block, first navigate to the session block timetable. To do so, click on a session block and select <em>Go to session block timetable</em>.</p>
+<p><img alt="" src="../../assets/conferences/timetable/block_timetable.png" /></p>
+<p>This opens a new page which shows the session block timetable. The name of the block you are currently viewing is displayed in the top right. You can always get back to the full timetable by clicking on <em>Up to timetable</em>.</p>
+<p><img alt="" src="../../assets/conferences/timetable/up_to_timetable.png" /></p>
+<p>Inside a session block, you can schedule a contribution or a break. We cover breaks in the following section. To add a new contribution, click on <em>Add new</em> and select <em>Contribution</em>. Note that you can only schedule contributions which are assigned to the same session as the session block you are currently in. If you want to schedule a contribution which belongs to a different session, first go to the <em>Contributions</em> page and find the contribution in question. Next, change its <em>Session</em> to be the same as the one of the session block where you want to schedule it.</p>
+<p><img alt="" src="../../assets/conferences/timetable/change_session.png" /></p>
+<p>The procedure to schedule a contribution in a session block is the same as adding a contribution add the top level of the timetable, as explained in the <a href="#contributions">previous section</a>. We explain how to add breaks in the <a href="#breaks">following section</a>.</p>
+<p>A session block cannot be moved to a different day, nor can there be a session block nested inside another session block. If you wish to move a session block to a different day, the only way is to delete it on one day and recreate it on another day. Note that deleting a session block will automatically unschedule (for conferences) or delete (for meetings) all contributions inside. It will also delete all breaks inside it.</p>
+<p>To delete a session block, click on a session block and then click on the bin icon:</p>
+<p><img alt="" src="../../assets/conferences/timetable/block_delete.png" /></p>
+<h5 id="poster-sessions">Poster sessions</h5>
+<p>Scheduling works differently if a session block belongs to a poster session (more details on how to create poster sessions <a href="../sessions/">here</a>). If that is the case, contributions inside the block are treated as posters and are automatically scheduled in parallel, with the start and end time being the same as the parent session block. In addition, it is not possible to add a break inside a poster session.</p>
+<p>To schedule a contribution in a session block belonging to a poster session, click on <em>Add poster</em> in the top right and select the contributions you want to schedule:</p>
+<p><img alt="" src="../../assets/conferences/timetable/add_poster.png" /></p>
+<p>Notice also that the timetable looks different - instead of showing the start and end times for each contribution, it simply shows a list. </p>
+<h4 id="breaks">Breaks</h4>
+<p>Breaks serve as a pause between other scheduled items in your programme such as a lunch break. A break can be scheduled either at the top level of the timetable or inside a session block. To add a top-level break, click on <em>Add new</em> and select <em>Break</em>:</p>
+<p><img alt="" src="../../assets/conferences/timetable/break.png" /></p>
+<p>Fill in the title, start and end time and optionally the description, location and colour. Confirm by clicking on <em>Save</em> which will schedule the break.</p>
+<p><img alt="" src="../../assets/conferences/timetable/add_break.png" /></p>
+<p>You can always edit these details later by clicking on the break, which opens a dialogue window.</p>
+<p><img alt="" src="../../assets/conferences/timetable/edit_break.png" /></p>
+<p>To change the start time, a break can be dragged up and down just like contributions and session blocks. A duration can be adjusted by dragging the bottom edge of the break. Like contributions, breaks can also be moved to different days or into session blocks, either by clicking on the <em>Move</em> icon or by dragging the break over a session block.</p>
+<p>To delete a break, click on the bin icon and confirm by clicking <em>OK</em>.</p>
+<p>To create a break inside a session block, first open the session block timetable by clicking on a session block and selecting <em>Go to session block timetable</em>.</p>
+<p><img alt="" src="../../assets/conferences/timetable/block_timetable.png" /></p>
+<p>Then, you can follow the same steps as for the top level break described above.</p>
+<h4 id="reschedule">Reschedule</h4>
+<p>If you find that you need to adjust the starting time or the duration of all entries in a specific day or a session block, you can use the <em>Reschedule</em> functionality. This will adjust all the entries automatically, rather than having to adjust each entry manually.</p>
+<p>To start, select either the top-level timetable or a session block timetable and click on <em>Reschedule</em> in the top right.</p>
+<p><img alt="" src="../../assets/conferences/timetable/reschedule.png" />
+<img alt="" src="../../assets/conferences/timetable/reschedule_dialog.png" /></p>
+<p>You can either adjust the starting time or the duration. If you choose to adjust the starting time, the first entry in the timetable will be moved so that its start time is the same as the start time of the event. In the case of a session block, the entry will be moved to start when the session block starts. All other entries will be 'stacked' after the first entry to completely fill the gaps between the entries.</p>
+<p>This is an example session block timetable before adjusting the start time:</p>
+<p><img alt="" src="../../assets/conferences/timetable/before_reschedule_start_time.png" /></p>
+<p>And this is the final result. Notice that the start time was moved from 16:00 to 15:20 (the session block start time) and the gaps between entries were removed. The duration of the entries is unchanged.</p>
+<p><img alt="" src="../../assets/conferences/timetable/after_reschedule_start_time.png" /></p>
+<p>The second rescheduling option, which adjusts the duration of all entries, fills the empty gap between each pair of entries by extending their duration but keeping the start time unchanged.
+If we use the previous example and adjust the durations, we will get this end result:</p>
+<p><img alt="" src="../../assets/conferences/timetable/after_reschedule_duration.png" /></p>
+<p>Notice that the duration of the last contribution did not change since it is the last entry in the timetable and thus there is no 'gap' to fill.</p>
+<p>With both of the options explained above, a 'time gap' can be specified. This will leave a gap between each pair of entries instead of filling it completely.</p>
+<p><img alt="" src="../../assets/conferences/timetable/reschedule_gap.png" /></p>
+<p>If we take the same example again and adjust the starting time with a time gap of 10 minutes, we will get this:</p>
+<p><img alt="" src="../../assets/conferences/timetable/after_reschedule_gap.png" /></p>
+<p>All events have been moved to an earlier time while leaving a gap of 10 minutes between them.</p>
+<h4 id="fit-to-content">Fit to content</h4>
+<p>If the duration of a session block is larger than the total duration of its contents, it is possible to automatically shrink it so that it covers the entries exactly. This involves setting the start time of the block to the start time of its first entry and setting the end time of the block to the end time of its last entry. This operation does not move the individual entries inside the session block.</p>
+<p>To fit a session block to its content, click on <em>Fit to content</em> in the top right of the session block timetable:</p>
+<p><img alt="" src="../../assets/conferences/timetable/fit_to_content.png" /></p>
+<p>You can also fit to content all session blocks in a specific day by clicking on <em>Reschedule</em> in the top-level timetable and ticking <em>Fit all the sessions to their content</em>.</p>
+<p><img alt="" src="../../assets/conferences/timetable/fit_to_content_reschedule.png" /></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Note that <em>Fit to content</em> is only necessary when you want to shrink a session block. A session block will always grow automatically to accommodate its contents. In fact, it is not possible to set the duration of a session block to be less than the duration of its contents.</p>
+</div>
+<h3 id="making-the-timetable-public-conferences-only">Making the timetable public (conferences only)</h3>
+<p>By default, event contributions are in 'Draft mode'. This means that regular users cannot see the list of contributions, the timetable, the book of abstracts and the author and speaker list. The draft mode exists to prevent participants from seeing the timetable while it's being created.</p>
+<p>When you want to make the timetable public, you can turn off the draft mode. To do so, navigate to the <em>Contributions</em> page and toggle <em>Draft</em> in the top right corner.</p>
+<p><img alt="" src="../../assets/conferences/timetable/draft.png" /></p>
+<p>You can also do the same from the <em>Settings</em> or <em>Timetable</em> page by clicking on <em>Publish contributions</em> inside the warning.</p>
+<p><img alt="" src="../../assets/conferences/timetable/draft_warning.png" /></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../sessions/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Session management">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Session management
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../registration_config/" class="md-footer__link md-footer__link--next" aria-label="Next: Configuring the Registration Process">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Configuring the Registration Process
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.copy", "content.action.edit", "content.action.view", "navigation.footer"], "search": "../../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.f1b6f286.min.js"></script>
+      
+        <script src="../../assets/external/unpkg.com/mermaid@11/dist/mermaid.min.js"></script>
+      
+    
+  </body>
+</html>

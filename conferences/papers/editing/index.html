@@ -1,0 +1,2686 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../peer_reviewing/">
+      
+      
+        <link rel="next" href="../../programme_codes/">
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.4">
+    
+    
+      
+        <title>Editing - Learning Indico</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.8608ea7d.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        
+        <link rel="stylesheet" href="../../../assets/external/fonts.googleapis.com/css.49ea35f2.css">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#editing" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="Learning Indico" class="md-header__button md-logo" aria-label="Learning Indico" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Learning Indico
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Editing
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="blue"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="blue" data-md-color-accent="blue"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/indico/indico-user-docs" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    indico/indico-user-docs
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Learning Indico" class="md-nav__button md-logo" aria-label="Learning Indico" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Learning Indico
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/indico/indico-user-docs" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    indico/indico-user-docs
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Categories
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Categories
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../categories/about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../categories/creating/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Creating a Category
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../categories/overview/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Having an Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Managing a Category
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            Managing a Category
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../categories/managing/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../categories/protection/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Protection
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../categories/moderation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Moderation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../categories/logging/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Logging
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Event Management
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Event Management
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../events/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction to Events
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Lectures
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            Lectures
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../lectures/about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../lectures/creating/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Creating a Lecture
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../lectures/material/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Adding Material to a Lecture
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Meetings
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            Meetings
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../meetings/about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../meetings/creating/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Creating a Meeting
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../meetings/timetable/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Making a Timetable
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../meetings/minutes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Adding minutes to a Meeting
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../meetings/material/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Adding material to a Meeting
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_4" id="__nav_3_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Conferences
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_4">
+            <span class="md-nav__icon md-icon"></span>
+            Conferences
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../programme/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Defining the Programme
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cfa/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Call for Abstracts
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../submitting/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Submitting an Abstract
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reviewing/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reviewing Abstracts
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sessions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Session management
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../timetable/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Making a Timetable
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../registration_config/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Configuring the Registration Process
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../registration/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Registering at a Conference
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../custom_menu/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Customizing the Conference Menu
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../custom_layout/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Customizing the Conference Page Layout
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4_12" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_4_12" id="__nav_3_4_12_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Paper reviewing
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_4_12_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_4_12">
+            <span class="md-nav__icon md-icon"></span>
+            Paper reviewing
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../introduction/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../peer_reviewing/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Paper Peer Reviewing
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Editing
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Editing
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introduction
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#configuring-the-editing-module-as-a-managerorganizer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configuring the Editing module as a manager/organizer
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Configuring the Editing module as a manager/organizer">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#enabling-the-module" class="md-nav__link">
+    <span class="md-ellipsis">
+      Enabling the module
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#granting-access-to-the-editing-module" class="md-nav__link">
+    <span class="md-ellipsis">
+      Granting access to the Editing module
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#configuring-editable-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configuring editable types
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#managing-file-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      Managing file types
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setting-up-ready-for-review-conditions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Setting up 'Ready for review' conditions
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setting-up-the-editing-team" class="md-nav__link">
+    <span class="md-ellipsis">
+      Setting up the editing team
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#opening-submission-editing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Opening submission &amp; editing
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#assigning-editables" class="md-nav__link">
+    <span class="md-ellipsis">
+      Assigning editables
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#permissions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Permissions
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#editing-as-an-author" class="md-nav__link">
+    <span class="md-ellipsis">
+      Editing as an author
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Editing as an author">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#if-the-peer-reviewing-module-is-enabled" class="md-nav__link">
+    <span class="md-ellipsis">
+      If the Peer Reviewing module is enabled
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#editing-as-an-editor" class="md-nav__link">
+    <span class="md-ellipsis">
+      Editing as an editor
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Editing as an editor">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#self-assigning-editables" class="md-nav__link">
+    <span class="md-ellipsis">
+      Self-assigning editables
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../programme_codes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Programme Codes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../people/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    People management
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../privacy/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Privacy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../event_series/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Event Series
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_7" id="__nav_3_7_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Document Generation
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_7">
+            <span class="md-nav__icon md-icon"></span>
+            Document Generation
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../document_templates/about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../document_templates/templates/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Creating a Template
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../document_templates/generating/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Generating a Document
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Room Booking
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Room Booking
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../room_booking/about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../room_booking/accessing/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Accessing the Module
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../room_booking/booking/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Booking a Room
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../room_booking/search_and_book/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Searching and Booking
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../room_booking/viewing_bookings/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Viewing your Bookings
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../room_booking/blocking/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Blocking Rooms
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../room_booking/features/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Summary of Feature Set
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../room_booking/glossary/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Glossary
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Event Surveys
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Event Surveys
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../surveys/about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../surveys/setup/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Setting up a Survey
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../surveys/opening/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Opening/Closing a Survey
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Other features
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Other features
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../reminders/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reminders
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../calendar_import/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Importing into Calendaring tools
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../custom_roles/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Using custom roles
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Plugins
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Plugins
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../plugins/zoom/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Zoom
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../faq/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    FAQ
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introduction
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#configuring-the-editing-module-as-a-managerorganizer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configuring the Editing module as a manager/organizer
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Configuring the Editing module as a manager/organizer">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#enabling-the-module" class="md-nav__link">
+    <span class="md-ellipsis">
+      Enabling the module
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#granting-access-to-the-editing-module" class="md-nav__link">
+    <span class="md-ellipsis">
+      Granting access to the Editing module
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#configuring-editable-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configuring editable types
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#managing-file-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      Managing file types
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setting-up-ready-for-review-conditions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Setting up 'Ready for review' conditions
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setting-up-the-editing-team" class="md-nav__link">
+    <span class="md-ellipsis">
+      Setting up the editing team
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#opening-submission-editing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Opening submission &amp; editing
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#assigning-editables" class="md-nav__link">
+    <span class="md-ellipsis">
+      Assigning editables
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#permissions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Permissions
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#editing-as-an-author" class="md-nav__link">
+    <span class="md-ellipsis">
+      Editing as an author
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Editing as an author">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#if-the-peer-reviewing-module-is-enabled" class="md-nav__link">
+    <span class="md-ellipsis">
+      If the Peer Reviewing module is enabled
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#editing-as-an-editor" class="md-nav__link">
+    <span class="md-ellipsis">
+      Editing as an editor
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Editing as an editor">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#self-assigning-editables" class="md-nav__link">
+    <span class="md-ellipsis">
+      Self-assigning editables
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+    <a href="https://github.com/indico/indico-user-docs/edit/master/docs/conferences/papers/editing.md" title="Edit this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+    
+      
+    
+    <a href="https://github.com/indico/indico-user-docs/raw/master/docs/conferences/papers/rawing.md" title="View source of this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c.56 0 1 .44 1 1s-.44 1-1 1-1-.44-1-1 .44-1 1-1m0-3c-2.73 0-5.06 1.66-6 4 .94 2.34 3.27 4 6 4s5.06-1.66 6-4c-.94-2.34-3.27-4-6-4m0 6.5a2.5 2.5 0 0 1-2.5-2.5 2.5 2.5 0 0 1 2.5-2.5 2.5 2.5 0 0 1 2.5 2.5 2.5 2.5 0 0 1-2.5 2.5M9.27 20H6V4h7v5h5v4.07c.7.08 1.36.25 2 .49V8l-6-6H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h4.5a8.2 8.2 0 0 1-1.23-2"/></svg>
+    </a>
+  
+
+
+<h1 id="editing">Editing</h1>
+<h3 id="introduction">Introduction</h3>
+<p>This short video explains the Editing process in Indico:</p>
+<iframe width="576" height="360" frameborder="0" src="https://cds.cern.ch/video/2728257?showTitle=true" allowfullscreen></iframe>
+
+<p>Just like the Peer Reviewing module, the Editing module provides a paper workflow whereby authors submit papers which are subsequently reviewed and/or corrected.
+Specifically, the module allows you to</p>
+<ul>
+<li>submit papers, posters and slides for a review,</li>
+<li>set up an editing team and assign editors to editables,</li>
+<li>review and judge editables and</li>
+<li>publish accepted materials.</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If you're not sure which module to use, check the <a href="../introduction/">introduction</a> for a higher level description of the Peer Reviewing and Editing modules.</p>
+</div>
+<p>Here is a flowchart showing an overview of the editing workflow:</p>
+<p><img alt="" src="../../../assets/papers/editing/editing_diagram.png" /></p>
+<p>The following sections explain how to use the Editing module from the point of view of organizers, authors and paper reviewers.</p>
+<h3 id="configuring-the-editing-module-as-a-managerorganizer">Configuring the Editing module as a manager/organizer</h3>
+<h4 id="enabling-the-module">Enabling the module</h4>
+<p>In order to start using the Editing module, you need to first enable it.
+From the event management page, click on the <em>Editing</em> tab in the left menu, under <em>Workflows</em>.
+Click <em>Enable module</em> to enable the Editing module.</p>
+<p><img alt="" src="../../../assets/papers/editing/enable.png" /></p>
+<p>The module can be disabled at any time from the <em>Features</em> tab under <em>Advanced options</em>.</p>
+<p><img alt="" src="../../../assets/papers/editing/disable.png" /></p>
+<p>Once the module is enabled, you will see new tabs appear in the conference's menu when switching
+to the display area.</p>
+<p><img alt="" src="../../../assets/papers/editing/editing_enabled.png" /></p>
+<h4 id="granting-access-to-the-editing-module">Granting access to the Editing module</h4>
+<p>By default, event managers can access the management area of the Editing module.
+In addition, anyone with the <em>Editing manager</em> permission can also manage the module.
+This permission can be set on the <em>Protection</em> page of the event.</p>
+<p><img alt="" src="../../../assets/papers/editing/editing_manager.png" /></p>
+<h4 id="configuring-editable-types">Configuring editable types</h4>
+<p>As previously alluded to, unlike the Peer Reviewing module, the Editing module allows you to submit not just papers but also slides and posters.
+These are referred to as editable types and you can configure which ones are enabled. Authors will not be able to submit a material for that particular type unless it is enabled.
+By the default, only the <em>paper</em> editable type is enabled.</p>
+<p>To enable more editable types, first navigate to the <em>Editing</em> page in the management area. Then, click on <em>Toggle editables types</em>:</p>
+<p><img alt="" src="../../../assets/papers/editing/editable_types.png" /></p>
+<p>Now you can toggle the individual editable types:</p>
+<p><img alt="" src="../../../assets/papers/editing/editable_types_toggle.png" /></p>
+<p>Once finished, click <em>Save</em> to save the changes.</p>
+<p>Note that the settings for each editable type are separate. You can open them by clicking on <em>Manage</em> next to the editable type you want to edit:</p>
+<p><img alt="" src="../../../assets/papers/editing/editable_types_settings.png" /></p>
+<p>You will see this settings page:</p>
+<p><img alt="" src="../../../assets/papers/editing/editable_types_settings_view.png" /></p>
+<p>The subtitle tells you what editable type you are currently editing. In this case, we are editing settings for papers.</p>
+<p>In the following sections, we explain the various settings found on this page. </p>
+<h4 id="managing-file-types">Managing file types</h4>
+<p>From the same settings menu above, you can manage allowed file types by clicking on <em>Configure</em> next to <em>File types</em>:</p>
+<p><img alt="" src="../../../assets/papers/editing/file_types.png" /></p>
+<p>By default, PDF is added as the default file type.</p>
+<p><img alt="" src="../../../assets/papers/editing/pdf.png" /></p>
+<p>This means that by default, authors can only submit PDF files for this editable type. If you want to allow other file types, such as a CSV file with additional data, click on <em>Add new a file type</em> at the bottom of the page.</p>
+<p><img alt="" src="../../../assets/papers/editing/add_file_type.png" /></p>
+<p>This opens a dialog window with several options:</p>
+<p><img alt="" src="../../../assets/papers/editing/create_file_type.png" /></p>
+<p>The <em>Filename template</em> is an optional file name pattern. You can use this to make sure that the submitted file names conform to the specified pattern. For example, all CSV files ending
+with '_data' and all PDF files ending with '_paper'. You can also optionally specify allowed file extensions, e.g. '.csv' for CSV files and '.pdf' for PDF files. At the bottom of the dialog, there are a few more options you can toggle.</p>
+<ul>
+<li>File required - whether this file is required when submitting the given editable (paper, poster or slides).</li>
+<li>Multiple files - allows uploading multiple files for the same editable type, such as multiple PDF files.</li>
+<li>Publishable - controls whether the files of this type should be published in the corresponding contribution. This is useful in case some files should only be visible to the editors.</li>
+</ul>
+<p>Once done, click on <em>Submit</em> to create a new file type. If you need to edit the file type later, you can do so by clicking on the edit icon next to it. Deleting a file type is possible as long as no file of that type has been uploaded and the file is not referenced in reviewing conditions (explained in the following section).</p>
+<p><img alt="" src="../../../assets/papers/editing/edit_file_type.png" /></p>
+<h4 id="setting-up-ready-for-review-conditions">Setting up 'Ready for review' conditions</h4>
+<p>In case you have complex submission requirements based on file types, you can benefit from setting up reviewing conditions. An example where reviewing conditions are useful would be a conference requiring authors to submit either a PDF or a Word document with a CSV file attached. Since you want the authors to be able to choose between PDF and Word, you cannot make either of the file types required. However, you still want that at least one of them submitted. Reviewing conditions allow you to easily express complex conditions such as this one.</p>
+<p>Note that these conditions will not outright prevent authors from uploading incomplete submissions, but rather the timeline of the editable will display a warning until the reviewing conditions are met.</p>
+<p>To add a new condition, click on <em>Configure</em> next to <em>Ready for review conditions</em> in the management page of your chosen editable type.</p>
+<p><img alt="" src="../../../assets/papers/editing/review_condition_btn.png" /></p>
+<p>On the next page, click on <em>Create new file type condition</em>.</p>
+<p><img alt="" src="../../../assets/papers/editing/review_condition.png" /></p>
+<p>Use the dropdown to select the file types you have defined previously. If you select more than one file type, the chosen combination of file types will be required.
+For example, if you select PDF and CSV, authors will be required to upload at least one file of each type.</p>
+<p>When you've selected your first condition, click on the tick icon to confirm:</p>
+<p><img alt="" src="../../../assets/papers/editing/review_condition_create.png" /></p>
+<p>To finish our example, we will add a second condition for a Word document and a CSV file. The final state should look like this:</p>
+<p><img alt="" src="../../../assets/papers/editing/review_condition_final.png" /></p>
+<p>These example conditions mean that authors must submit a CSV file together with either a PDF or a Word document.
+If the conditions are not met, authors and editors alike will see a warning on the timeline of the editable:</p>
+<p><img alt="" src="../../../assets/papers/editing/unmet_conditions.png" /></p>
+<h4 id="setting-up-the-editing-team">Setting up the editing team</h4>
+<p>The Editing module lets you set up an editing team. This feature is similar to the reviewing teams in the Peer Reviewing module.
+Only users added to the editing team can view the list of editables and review them.
+Unlike the Peer Reviewing module, there is no separation between reviewers and judges - editors have the role of both.</p>
+<p>The editing team is separate for each editable type, meaning that for example the paper editing team is different from the editing team for posters or slides.</p>
+<p>To add an editor to the editing team, click on <em>Manage team</em> next to <em>Editing team</em>:</p>
+<p><img alt="" src="../../../assets/papers/editing/team.png" /></p>
+<p>Here, add your users and click <em>Submit</em>. You can use the same procedure to remove editors as well.</p>
+<p><img alt="" src="../../../assets/papers/editing/team_add.png" /></p>
+<p>Having set up the editing team, you can now easily contact all editors via email should you need to. Click on <em>Contact</em>,
+select the recipients and click on <em>Send emails</em> which will open a dialog window where you can type the email.</p>
+<p><img alt="" src="../../../assets/papers/editing/team_contact.png" /></p>
+<p>The Editing module also lets you keep the editors private.
+This means that authors will not be able to see the identity of the editors reviewing and commenting on their submissions.</p>
+<p>Editors are visible by default. To hide them, toggle <em>Keep editing team members anonymous</em> next to <em>Editing team</em>:</p>
+<p><img alt="" src="../../../assets/papers/editing/team_anonymous.png" /></p>
+<h4 id="opening-submission-editing">Opening submission &amp; editing</h4>
+<p>Once you are done configuring the Editing module, you can open submissions and editing. This will allow authors to submit editables and reviewers to review them.
+Each editable type (papers, slides and posters) can be opened and closed independently. Both submissions and reviewing can be opened from the management page of the editable type by clicking on <em>Start now</em>:</p>
+<p><img alt="" src="../../../assets/papers/editing/submissions.png" /></p>
+<p>To close submissions or reviewing, simply click on <em>Close now</em>.</p>
+<h4 id="assigning-editables">Assigning editables</h4>
+<p>Editors may only review editables that have been assigned to them by editing managers. To assign editors to papers, click on <em>List</em> in the <em>Editor assignment</em> section of your chosen editable type.</p>
+<p><img alt="" src="../../../assets/papers/editing/assign.png" /></p>
+<p>Here, you will see the list of all contributions. Contributions where an editable of the current type (visible in the page subtitle) has been submitted will be active, with the status saying <em>Ready for review</em>.</p>
+<p><img alt="" src="../../../assets/papers/editing/editable_list.png" /></p>
+<p>The <em>EDITOR</em> column shows the currently assigned editor.</p>
+<p>To assign an editor to an editable, select a contribution and click on <em>Assign</em> in the top menu. You can also assign an editable to yourself by clicking on <em>Assign to myself</em>. To unassign a paper, select a contribution and click <em>Unassign</em>. Note that unassigning an editor will not remove their review from the editable.</p>
+<p>This list of editables can also be used to quickly download materials from multiple editables using <em>Download files</em>. By selecting multiple contributions, you can download all of their files in one zip archive.</p>
+<p>To simplify the assignment process, you can use the filtering options in the top menu. It is possible to filter by the assigned editor, contribution keywords, program code and the status of the editable. Searching by a string or an ID is supported as well.</p>
+<p><img alt="" src="../../../assets/papers/editing/editable_list_filter.png" /></p>
+<p>The possible statuses of an editable are:</p>
+<ul>
+<li>Not submitted</li>
+<li>Read for review</li>
+<li>Accepted</li>
+<li>Rejected</li>
+<li>Needs submitter changes</li>
+<li>Needs submitter confirmation</li>
+</ul>
+<p>When no editable has been submitted yet, the status is <em>Not submitted</em>. After submission, an editable becomes <em>Ready for review</em>. At this point, an editor can be assigned and the reviewing process starts.
+If an editable is accepted or rejected, the Editing process is finished. Accepted editables are automatically published in the contribution. The exact files which are published depend on whether the file type was set as <em>publishable</em> in the file type settings.</p>
+<p>If an editor judges a paper as <em>Needs submitter changes</em>, the author will be able to submit a new version for further review.
+An editor can also submit a new version themselves - the status becomes <em>Needs submitter approval</em> as the original author must approve the new version.
+Once approved, the editable is automatically accepted. If the author rejects the changes, they will be able to submit a new version themselves instead.</p>
+<p>Normally, only editing managers can assign papers to editors, however there is an option to allow editors to self-assign papers. The option can be found on the management
+page for the given editable type in the <em>Editor assignment</em> section - <em>Allow editors to self-assign editables</em>.</p>
+<p><img alt="" src="../../../assets/papers/editing/self_assign.png" /></p>
+<h4 id="permissions">Permissions</h4>
+<p>The Editing module establishes new roles that Indico users may have. Here, we provide a list of what permissions are required in order to perform
+the most common actions related to the Editing module.</p>
+<table>
+<thead>
+<tr>
+<th>Action</th>
+<th>Permissions required</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Submit a an editable</td>
+<td>Abstract or contribution submitters</td>
+</tr>
+<tr>
+<td>Access the editable list</td>
+<td>Editors, editing managers and event managers</td>
+</tr>
+<tr>
+<td>Judge/review an editable</td>
+<td>Editors, editing managers and event managers (must be assigned)</td>
+</tr>
+<tr>
+<td>Assign editables and manage settings</td>
+<td>Editing managers and event managers</td>
+</tr>
+</tbody>
+</table>
+<h3 id="editing-as-an-author">Editing as an author</h3>
+<p>Authors can submit materials (papers, slides and posters) from the contribution page by selecting the editable type and uploading the relevant files.
+To submit an editable, first click on <em>My contributions</em> in the sidebar under <em>My conference</em>.</p>
+<p><img alt="" src="../../../assets/papers/editing/my_contribs.png" /></p>
+<p>Here, click on the contribution for which you want to submit material and scroll down to the <em>Editing section</em>. If the section is not visible, then most likely submissions have not been opened yet. With the submissions open, you should have an option to submit:</p>
+<p><img alt="" src="../../../assets/papers/editing/submit_editable.png" /></p>
+<p>If multiple editable types have been enabled, you must first select the type of material you wish to submit from the dropdown:</p>
+<p><img alt="" src="../../../assets/papers/editing/submit_multiple.png" /></p>
+<p>In the dialog window that opens, upload all the required files and confirm by clicking <em>Submit</em>.
+If multiple file types are allowed, the dialog will display one box for each. The required file extensions are written in the top left corner of each box under the name of the file type. If a file of a specific type is required, there will be a red asterisk icon in the top right corner of the box.</p>
+<p><img alt="" src="../../../assets/papers/editing/upload_files.png" /></p>
+<p>Once submitted, you can track progress of your submission from the contribution page by clicking on <em>Go to timeline</em>.</p>
+<p><img alt="" src="../../../assets/papers/editing/go_to_timeline.png" /></p>
+<p>The timeline is where you will find all updates regarding your submission in chronological order.
+As an author, you can add comments to your submission and upload additional files.</p>
+<p><img alt="" src="../../../assets/papers/editing/timeline.png" /></p>
+<p>If you see a warning about unmet reviewing conditions, it means that, depending on the files you have already submitted,
+extra files may be required as defined by the conference organizers, and you might be asked to provide them.</p>
+<p><img alt="" src="../../../assets/papers/editing/review_conditions_warning.png" /></p>
+<p>At this point, an editor will be assigned to your submission. They can either comment on the submission or leave a review.
+A review comes with a proposed action. An editor might either accept or reject your submission. They can also ask for corrections, in which case the author
+should upload a new, corrected version. Lastly, an editor can also submit a corrected version themselves. The author can then either accept the new version, which will automatically mark the submission as accepted, or reject it. If the editor's version is rejected, the author can submit a new version themselves.</p>
+<p><img alt="" src="../../../assets/papers/editing/needs_confirmation.png" /></p>
+<h4 id="if-the-peer-reviewing-module-is-enabled">If the Peer Reviewing module is enabled</h4>
+<p>If the Peer Reviewing module is enabled, you can also submit a paper from the peer reviewing timeline once the paper has been accepted in the Peer Reviewing module.
+To submit the paper in the Editing module, click on <em>Submit for editing</em> and select the files you want to submit.</p>
+<p><img alt="" src="../../../assets/papers/editing/submit_for_editing.png" /></p>
+<h3 id="editing-as-an-editor">Editing as an editor</h3>
+<p>Editors can find all papers to review in the <em>Editing</em> section of the conference.
+You will see different subsections (Papers, Slides, Posters) depending on whether you are a member of an editing team for that particular editable type.</p>
+<p><img alt="" src="../../../assets/papers/editing/editing_tab.png" /></p>
+<p>Clicking on one of the links will take you to the list of editables for the chosen type:</p>
+<p><img alt="" src="../../../assets/papers/editing/editable_list_editor.png" /></p>
+<p>You can always see which editable type you are working with based on the title in the top left of the page. It will say either <em>Paper Editing</em>, <em>Slides Editing</em> or <em>Poster Editing</em>.</p>
+<p>The left sidebar contains links to other related modules - Peer Reviewing and Call for Abstracts, provided they have been enabled for the conference. Clicking on <em>Display</em> will take you back to the conference page.</p>
+<p>On the right, you will see a list of all contributions. Contributions that already have an editable submitted will be active. Clicking on the contribution name will bring you to the editable timeline. As an editor, you can leave comments on any editable, but you can only review editables that have been assigned to you by the editing managers. Each editable only has one editor assigned to it. The editor is listed in the <em>EDITOR</em> column of the editable list. Each editable also has a status (column <em>STATUS</em>) indicating the state of the editable. Contributions without an editable have the status <em>Not submitted</em> while contributions with an editable submitted are <em>Ready for review</em>.</p>
+<p><img alt="" src="../../../assets/papers/editing/editable_list_example.png" /></p>
+<p>To quickly find out which editables are assigned to you, you can use the filter functionality. Click on <em>Filter</em> in the top right, click on <em>Editor</em> and select your name from the list.
+Instead of filtering, you can also search contributions by name or by an ID as well.</p>
+<p><img alt="" src="../../../assets/papers/editing/editable_list_filter_editor.png" /></p>
+<p>Once you have a found an editable assigned to you, click on the name to open the editable timeline:</p>
+<p><img alt="" src="../../../assets/papers/editing/editor_judge.png" /></p>
+<p>In the timeline, you can download the uploaded files by clicking on <em>Download zip</em>. It is also possible to download the files individually by clicking on the file names.
+Once the editor has reviewed the files, they can judge the editable. There are four actions an editor can propose:</p>
+<ul>
+<li>Accept - The editable is accepted as-is, no further changes are possible unless the review is reset by the editor. The status of the editable is <em>Accepted</em>.</li>
+<li>Reject - The editable is rejected. No further changes possible unless reset. The status of the editable is <em>Rejected</em>.</li>
+<li>Request approval - An editor can upload a corrected version themselves. The changes must then be approved by the original author. The status of the editable is <em>Needs submitter confirmation</em>.</li>
+<li>Request changes - The author will have an option to submit a corrected version, which will need to be reviewed. The status of the editable is <em>Needs submitter changes</em>.</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>It is always possible to reset a judgment by clicking on the revert icon:
+<img alt="" src="../../../assets/papers/editing/reset_judgment.png" /></p>
+</div>
+<h4 id="self-assigning-editables">Self-assigning editables</h4>
+<p>If an editing manager has enabled the option to self-assign editables, there will be a button above the list of editables saying either <em>Get next paper</em>, <em>Get next slides</em> or <em>Get next poster</em> depending on which editable type you are currently viewing. Clicking on the button brings up a dialog window with the list of editables. You can use this list to search and assign editables to yourself.</p>
+<p><img alt="" src="../../../assets/papers/editing/get_next_slides.png" />
+<img alt="" src="../../../assets/papers/editing/assign_self.png" /></p>
+<p>It is also possible to assign and unassign yourself from an editable in the editable timeline by clicking either <em>Assign myself</em> or <em>Unassign</em>:</p>
+<p><img alt="" src="../../../assets/papers/editing/assign_self_timeline.png" /></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../peer_reviewing/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Paper Peer Reviewing">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Paper Peer Reviewing
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../../programme_codes/" class="md-footer__link md-footer__link--next" aria-label="Next: Programme Codes">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Programme Codes
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["content.code.copy", "content.action.edit", "content.action.view", "navigation.footer"], "search": "../../../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.f1b6f286.min.js"></script>
+      
+        <script src="../../../assets/external/unpkg.com/mermaid@11/dist/mermaid.min.js"></script>
+      
+    
+  </body>
+</html>
