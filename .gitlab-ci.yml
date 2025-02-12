@@ -1,13 +1,13 @@
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
-  MKDOCS_VERSION: '1.4.3'
-  MATERIAL_VERSION: '9.1.8'
+  MKDOCS_VERSION: '1.6.1'
+  MATERIAL_VERSION: '9.6.4'
 
 stages:
   - pages
 
 pages:
-  image: python:3.9-alpine
+  image: registry.cern.ch/docker.io/library/python:3.12-alpine
   stage: pages
   script:
     - apk add --no-cache git
@@ -18,7 +18,7 @@ pages:
     - if [[ -f _redirects ]]; then cp _redirects public; fi;
   artifacts:
     paths:
-    - public
+      - public
     expire_in: 1 hour
   rules:
     - if: '$CI_COMMIT_BRANCH == "cern"'
