@@ -211,6 +211,8 @@ the "Ticket template" field.
 By default, participants will receive their access badges directly by email, but you may want to print their access badges yourself and distribute them at the CERN reception.
 To generate the PDF which will allow you to print these badges, you should go to the list of participants, select the participants for whom you want to print the access badges, then select _Print Tickets_ from the _Actions_ dropdown menu.
 
+Alternatively, the service desk can print the Indico access cards for you. To do so, please [submit your request](https://cern.service-now.com/service-portal?id=sc_cat_item&name=print-indico-cards) at least **24 hours in advance**. Make sure to read the instructions carefully regarding the required file format.
+
 !!! warning
     You can print access badges only for participants who have filled in their security data. Selecting others will raise an error
 
