@@ -1,17 +1,16 @@
 # Indico Documentation
 
-This documentation can be consulted at [learn.getindico.io](https://learn.getindico.io). It is generated from
-Markdown files using [MkDocs](http://www.mkdocs.org/) and
-[Material for MkDocs](http://squidfunk.github.io/mkdocs-material/).
+This documentation can be consulted at [learn.getindico.io](https://learn.getindico.io).
+It is generated from Markdown files using [Zensical](https://zensical.org) (formerly mkdocs).
 
 ## Basic Usage
 
 ```sh
-$ pip install -r requirements.txt
+$ uv sync --locked
 
 # if you want to run it locally
-$ mkdocs serve
+$ uv run zensical serve
 
 # in order to generate HTML files
-$ mkdocs build
+$ uv run zensical build
 ```

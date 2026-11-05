@@ -4,6 +4,7 @@ plugins:
     - search
 theme:
     name: material
+    variant: classic
     features:
         - content.code.copy
         - content.action.edit
