@@ -1,24 +1,18 @@
-variables:
-  GIT_SUBMODULE_STRATEGY: recursive
-  MKDOCS_VERSION: '1.6.1'
-  MATERIAL_VERSION: '9.6.4'
-
 stages:
   - pages
 
 pages:
-  image: registry.cern.ch/docker.io/library/python:3.12-alpine
+  image: registry.cern.ch/docker.io/library/python:3.15-alpine
   stage: pages
   script:
-    - apk add --no-cache git
-    - pip install --upgrade pip setuptools wheel
-    - pip install mkdocs==${MKDOCS_VERSION} mkdocs-material==${MATERIAL_VERSION}
-    - if [[ -f requirements.txt ]]; then pip install -r requirements.txt; fi;
-    - mkdocs build -d public
-    - if [[ -f _redirects ]]; then cp _redirects public; fi;
+    - apk add --no-cache uv
+    - uv sync --locked
+    - uv run zensical build
+  pages:
+    publish: site
   artifacts:
     paths:
-      - public
+      - site
     expire_in: 1 hour
   rules:
     - if: '$CI_COMMIT_BRANCH == "cern"'
